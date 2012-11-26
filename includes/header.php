@@ -81,7 +81,17 @@ function blocks_header($page){
    	
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
-   	$('.menu_1 a').before('');
+   	$('.menu_1 a').prepend('<i class="foundicon-heart"></i>');
+   	
+   	$('.menu_2 a').prepend('<i class="foundicon-website"></i>');
+   	
+   	$('.menu_3 a').prepend('<i class="foundicon-mic"></i>');
+   	
+   	$('.menu_4 a').prepend('<i class="foundicon-smiley"></i>');
+   	
+   	$('.menu_5 a').prepend('<i class="foundicon-phone"></i>');
+   	
+   	
 	
 	  $('ul#quotes').quote_rotator();
 	
