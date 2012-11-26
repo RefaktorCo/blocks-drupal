@@ -12,7 +12,6 @@ header {
 	position: fixed;
   left: 0;
   right: 0;
-  padding: 20px 0px;
 }
 
 .top-bar{
@@ -32,6 +31,20 @@ header {
   margin-left: 14px;
 }
 
+.top-bar ul > li:not(.name) {
+	 -moz-transition: all 0.2s ease-in-out;
+   -webkit-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;	
+}
+
+.top-bar ul ul > li:not(.name) {
+	 -moz-transition: none;
+   -webkit-transition: none;
+   -o-transition: none;
+   transition: none;	
+}
+
 .top-bar ul > li a:not(.button) {
   font-family: 'Vegur-light', Helvetica;
   font-weight: 200;
@@ -44,6 +57,18 @@ header {
    -webkit-transition: none;
    -o-transition: none;
    transition: none;	
+}
+
+.top-bar ul > li.has-dropdown .dropdown {
+  padding: 0px;
+}
+
+.top-bar ul > li.has-dropdown .dropdown li {
+  padding-bottom: 0px;
+}
+
+.top-bar ul > li.has-dropdown .dropdown li:last-child { 
+  padding-bottom: 0px; 
 }
 
 .dropdown i {
@@ -98,7 +123,7 @@ body {
   font-size: 13px;
   color: #555;
   background-color:  #fdfdfd;
-  background-image: url('../images/backgrounds/gplaypattern.png');
+ 
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   padding: 0px;
@@ -215,8 +240,7 @@ hr {
 
 #main_title_text {
   color: #ececec; 
- 
-  padding-left: 8px; 
+  padding: 16px;
   font-size: 26px; 	
 }
 
