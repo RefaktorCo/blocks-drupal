@@ -27,7 +27,7 @@ function blocks_header($page){
               <div class="ten columns">
             <!-- begin menu -->
              <nav class="top-bar">
-              <ul>
+              <ul class="left">
               <li class="name">
                         <h1>
                           <a href="#">
@@ -68,16 +68,19 @@ function blocks_header($page){
 	
 	  $().UItoTop({ easingType: 'easeOutQuart' });
 	 
-      $('input[type="submit"]').addClass('btn');
-      
+    $('input[type="submit"]').addClass('btn');
+       
+   	$('.has-dropdown ul').addClass('dropdown');
    	 
-   	 $('.has-dropdown ul').addClass('dropdown');
+   	$('.top-bar ul').removeClass('menu');
    	 
-   	 $('.top-bar ul').removeClass('menu');
-   	 
-   	  $('.top-bar ul').addClass('placeholder');
+   	$('.top-bar ul').addClass('right');
    	  
-   	  $('.menu_1 a').before('');
+   	$('.top-bar ul.left').removeClass('right');
+   	
+   	$('.top-bar ul.right ul').removeClass('right');
+   	  
+   	$('.menu_1 a').before('');
 	
 	  $('ul#quotes').quote_rotator();
 	
