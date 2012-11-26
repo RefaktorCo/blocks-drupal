@@ -79,6 +79,8 @@ function blocks_header($page){
    	$('.top-bar ul.left').removeClass('right');
    	
    	$('.top-bar ul.right ul').removeClass('right');
+   	
+   	$('.dropdown ').append('<li class="divider"></li><li class="title back js-generated"><a href="#">Back to menu</a>');
    	  
    	$('.menu_1 a').before('');
 	
