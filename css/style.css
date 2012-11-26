@@ -1,3 +1,7 @@
+.row {
+	width: 1080px;
+}
+
 @font-face {
 	font-family: Vegur-Light;
 	src: url("../css/fonts/Vegur-Light.otf") format("opentype");
@@ -8,18 +12,23 @@ header {
 	position: fixed;
   left: 0;
   right: 0;
+  padding: 20px 0px;
 }
 
 .top-bar{
 	margin: 20px 0px;
 }
 
+.top-bar i {
+	margin-right: 10px;
+}
+
 .top-bar ul > li.toggle-topbar {
-  top: 50px;
+  top: 20px;
 }
 
 .top-bar ul > li {
-  padding: 10px;
+ 
   margin-left: 14px;
 }
 
@@ -27,9 +36,26 @@ header {
   font-family: 'Vegur-light', Helvetica;
   font-weight: 200;
   font-size: 25px;
+  padding: 5px 15px 55px 15px;
   -webkit-font-smoothing: antialiased;
-     font-smoothing: antialiased;
-      text-shadow: 0 1px 1px rgba(255,255,255,.3);
+  font-smoothing: antialiased;
+  text-shadow: 0 1px 1px rgba(255,255,255,.3);
+   -moz-transition: none;
+   -webkit-transition: none;
+   -o-transition: none;
+   transition: none;	
+}
+
+.dropdown i {
+	display: none;
+}
+
+.dropdown li {
+	margin-left: 0px !important;
+}
+
+.top-bar ul > li.has-dropdown a {
+  padding-right: 33.75px;
 }
 
 .top-bar ul > li.has-dropdown.moved .back.title h5 a {
@@ -40,27 +66,27 @@ header {
 	background: transparent;
 }
 
-.menu_1 {
+.menu_1, li.menu_1 .dropdown, li.menu_1 .dropdown li {
 	background: #db8916;
 }
 
-.menu_2 {
-	background: #5f419b;
+.menu_2, li.menu_2 .dropdown, li.menu_2 .dropdown li {
+	background: #5f419b !important;
 }
 
-.menu_3 {
+.menu_3, li.menu_3 .dropdown, li.menu_3 .dropdown li {
 	background: #64adb5;
 }
 
-.menu_4 {
+.menu_4, li.menu_4 .dropdown, li.menu_4 .dropdown li {
 	background: #c95d3b;
 }
 
-.menu_5 {
+.menu_5, li.menu_5 .dropdown, li.menu_5 .dropdown li {
 	background: #8fad30;
 }
 
-.menu_6 {
+.menu_6, li.menu_6 .dropdown, li.menu_6 .dropdown li {
 	background: #044c8f;
 }
 
