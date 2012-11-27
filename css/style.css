@@ -1,4 +1,16 @@
 
+.test-hover:hover, .click-hover {
+	opacity: .5;
+	
+}
+
+.test-hover {
+	-moz-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;	
+}
+
 /*Blog Front View*/
 .region-front-page h2 {margin: 5px 0px -12px 30px; font-size: 18px;}
 .blog_front_image {border: 4px solid #d9d9d9;}

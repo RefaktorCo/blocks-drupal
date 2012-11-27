@@ -104,6 +104,10 @@ function blocks_header($page){
 		  }
 		 
 		});
+		
+		$(".test-hover").click(function() {
+			$(".test-hover").addClass(".click-hover");
+    });
    
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
