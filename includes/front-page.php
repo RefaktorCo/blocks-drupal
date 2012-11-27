@@ -209,16 +209,21 @@ function blocks_front_page($page){
     </div>
     <div class="row">
       <div class="three columns">
-        <img class="test-hover" src="<?php echo $root;?>/images/portfolio_1.jpg">
+        <div class=" view view-first ">
+        <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+         <div class="mask">
+           test
+         </div>
+        </div>
       </div>
       <div class="three columns">
-        <img class="test-hover" src="<?php echo $root;?>/images/portfolio_2.jpg">
+        <img src="<?php echo $root;?>/images/portfolio_2.jpg">
       </div>
       <div class="three columns">
-        <img class="test-hover" src="<?php echo $root;?>/images/portfolio_3.jpg">
+        <img src="<?php echo $root;?>/images/portfolio_3.jpg">
       </div>
       <div class="three columns">
-        <img class="test-hover" src="<?php echo $root;?>/images/portfolio_4.jpg">
+        <img src="<?php echo $root;?>/images/portfolio_4.jpg">
       </div>
     </div>  
   </div>     
