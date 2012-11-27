@@ -1,15 +1,6 @@
 
 
-<div class="six columns">
-  <div class="blog_tile live-tile red">
-    <div>
-    <?php print render($content['field_image']); ?><
-    </div>
-    <div>
-	  <a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
-	  </div>
-	</div>
-</div>
+
 
 <div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns">
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>

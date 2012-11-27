@@ -208,7 +208,18 @@ function blocks_front_page($page){
       </div>
     </div>
     <div class="row">
-    <?php print render($page['front_blog']); ?> 
+      <div class="three columns">
+        <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+      </div>
+      <div class="three columns">
+        <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+      </div>
+      <div class="three columns">
+        <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+      </div>
+      <div class="three columns">
+        <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+      </div>
     </div>  
   </div>     
   <!-- end main wrap -->     
@@ -217,7 +228,7 @@ function blocks_front_page($page){
   
 
 
-  
+  <?php print render($page['front_blog']); ?> 
     <div id="myModal" class="reveal-modal large">
   <h2>Awesome. I have it.</h2>
   <p class="lead">Your couch.  It is mine.</p>
