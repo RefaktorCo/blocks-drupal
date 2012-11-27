@@ -212,7 +212,7 @@ function blocks_front_page($page){
         <div class=" expand expand-first ">
         <img src="<?php echo $root;?>/images/portfolio_1.jpg">
          <div class="mask">
-           test
+           <a href="#" class="button" data-reveal-id="portfolio_modal1" style="top: 3%;"><i class="foundicon-search"></i></a>
          </div>
         </div>
       </div>
@@ -234,6 +234,14 @@ function blocks_front_page($page){
 
 
   <?php print render($page['front_blog']); ?> 
+  
+  
+  <div id="portfolio_modal1" class="reveal-modal large">
+   <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+  
+  <a class="close-reveal-modal">&#215;</a>
+  </div>
+  
     <div id="myModal" class="reveal-modal large">
   <h2>Awesome. I have it.</h2>
   <p class="lead">Your couch.  It is mine.</p>
