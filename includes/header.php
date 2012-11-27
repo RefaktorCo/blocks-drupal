@@ -123,10 +123,10 @@ function blocks_header($page){
    	
    	$().UItoTop({ easingType: 'easeOutQuart' });
    	
-   	$(".live-tile").not(".exclude").liveTile();
-   	
+   	/* $(".live-tile").not(".exclude").liveTile();
+   	   	
    	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
-   	
+   
    	var isPeeking = false;
    	$("#tile1").hover(function() {
     if (!isPeeking) {
@@ -144,9 +144,8 @@ function blocks_header($page){
         $(this).data("LiveTile", tileData).liveTile('play');
         isPeeking = false;
     }
-});
-   	
-   	
+}); */
+
 	
 	  $('ul#quotes').quote_rotator();
 	
