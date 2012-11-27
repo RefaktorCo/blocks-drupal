@@ -117,6 +117,8 @@ function blocks_header($page){
    	
    	$('.menu_5 a').prepend('<i class="foundicon-phone"></i>');
    	
+   	$().UItoTop({ easingType: 'easeOutQuart' });
+   	
    	$(".live-tile").not(".exclude").liveTile();
    	
    	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
