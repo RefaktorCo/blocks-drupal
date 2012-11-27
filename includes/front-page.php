@@ -142,15 +142,14 @@ function blocks_front_page($page){
 				
 				
 				    <div class="twelve columns">     
-				       <div class="live-tile red" data-mode="flip" data-initdelay="500" style="height:390px;">   
+				       <div id="tile3" class="live-tile red" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="foundicon-heart"></i>
 				            <p>Title goes here</p>
 				        </div>
-				        <div class="tile_contents">
-				            <i class="foundicon-website"></i>
-				            <p>Other title</p>
+				        <div class="tile_contents" style="background: pink;">
+				            <p style="padding-top:55%; color: black;">Using data-mode stack adds a nice effect</p>
 				        </div>
 				       </div>
 				    </div>
