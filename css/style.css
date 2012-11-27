@@ -5,8 +5,7 @@
 #main_wrap {
 	max-width: 1120px;
   margin: auto;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+ 
   background: #fdfdfd;
 }
 
@@ -155,7 +154,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   color: #555;
-  background-color:  black;
+  background-color:  #fdfdfd;
  
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
