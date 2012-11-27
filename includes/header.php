@@ -121,10 +121,10 @@ function blocks_header($page){
    	
    	$(".live-tile").not(".exclude").liveTile();
    	
-   	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
+   	var $tiles = $(".blog_tile").liveTile({ repeatCount: 0, delay: 0 });
    	
    	var isPeeking = false;
-   	$("#tile1").hover(function() {
+   	$(".blog_tile").hover(function() {
     if (!isPeeking) {
         var tileData = $(this).data("LiveTile");
         tileData.isReversed = false;

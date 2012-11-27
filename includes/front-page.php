@@ -147,7 +147,7 @@ function blocks_front_page($page){
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal">Click to open</a></p>
+				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
 				        </div>
 				       </div>
 				    </div>
@@ -208,16 +208,13 @@ function blocks_front_page($page){
       </div>
     </div>
     <div class="row">
-      <div class="twelve columns">
-           <?php print render($page['front_blog']); ?> 
-          
-      </div>
+    <?php print render($page['front_blog']); ?> 
     </div>  
   </div>     
   <!-- end main wrap -->     
 
   
- 
+  
 
 
   
