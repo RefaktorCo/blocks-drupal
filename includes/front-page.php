@@ -209,14 +209,17 @@ function blocks_front_page($page){
     </div>
     <div class="row">
       <div class="twelve columns">
-        
+           <?php print render($page['front_blog']); ?> 
           
       </div>
     </div>  
   </div>     
   <!-- end main wrap -->     
+
   
-  <?php print render($page['front_blog']); ?> 
+ 
+
+
   
     <div id="myModal" class="reveal-modal large">
   <h2>Awesome. I have it.</h2>

@@ -1,6 +1,6 @@
 <a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
 
-<div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns">
+<div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns" style="top: -200px !important;">
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 
@@ -28,20 +28,11 @@
       hide($content['field_tags']);
       hide($content['field_image']);
       
-      // Save the output of render($content['body']) to variable to get a string, shorten with substr (number off because of empty space saved).
-      $teaser = render($content['body']);
+     print render($content);
      
     ?>
     
-    <![if !IE]>
-    <?php  echo substr($teaser, 0, 170)."...";?>
-    <![endif]>
-    <!--[if gte IE 9]>
-    <?php  echo substr($teaser, 0, 170)."...";?>
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <?php print render($content['body']); ?> 
-    <![endif]--> 
+  
 
   </div>
   <div class="clearfix"></div>
