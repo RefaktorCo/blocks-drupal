@@ -30,6 +30,8 @@ regions[sidebar_second] = Second Sidebar
 
 regions[slider]         = Slider Full Width
 
+regions[front_blog]      = Front Page Blog
+
 regions[panel_1]        = Panel 1
 regions[panel_2]        = Panel 2
 regions[panel_3]        = Panel 3

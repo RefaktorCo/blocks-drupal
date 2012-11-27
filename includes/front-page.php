@@ -147,7 +147,7 @@ function blocks_front_page($page){
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;">Using data-mode stack adds a nice effect</p>
+				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal">Click to open</a></p>
 				        </div>
 				       </div>
 				    </div>
@@ -209,7 +209,7 @@ function blocks_front_page($page){
     </div>
     <div class="row">
       <div class="twelve columns">
-      <a href="#" class="button" data-reveal-id="myModal">Click Me For A Modal</a>
+        <?php print render($page['front_blog']); ?>
           
       </div>
     </div>  
