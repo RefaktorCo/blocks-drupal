@@ -7,7 +7,6 @@ function blocks_header($page){
       <div class="row">  
       	<div class="twelve columns"> 
           <div id="nav">
-           
             <!-- begin menu -->
              <nav class="top-bar">
               <ul class="left">
@@ -47,7 +46,7 @@ function blocks_header($page){
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
 	
-	  $().UItoTop({ easingType: 'easeOutQuart' });
+	 
 	 
     $('input[type="submit"]').addClass('btn');
        
@@ -56,9 +55,56 @@ function blocks_header($page){
    	$('.top-bar ul').removeClass('menu');
    	 
    	$('.top-bar ul').addClass('left');
-   	  
-   
    	
+   	$(document).ready(function() {
+		  function filterPath(string) {
+		  return string
+		    .replace(/^\//,'')
+		    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+		    .replace(/\/$/,'');
+		  }
+		  var locationPath = filterPath(location.pathname);
+		  var scrollElem = scrollableElement('html', 'body');
+		 
+		  $('a[href*=#]').each(function() {
+		    var thisPath = filterPath(this.pathname) || locationPath;
+		    if (  locationPath == thisPath
+		    && (location.hostname == this.hostname || !this.hostname)
+		    && this.hash.replace(/#/,'') ) {
+		      var $target = $(this.hash), target = this.hash;
+		      if (target) {
+		        var targetOffset = $target.offset().top;
+		        $(this).click(function(event) {
+		          event.preventDefault();
+		          $(scrollElem).animate({scrollTop: targetOffset}, 900, function() {
+		            location.hash = target;
+		          });
+		        });
+		      }
+		    }
+		  });
+		 
+		  // use the first element that is "scrollable"
+		  function scrollableElement(els) {
+		    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+		      var el = arguments[i],
+		          $scrollElement = $(el);
+		      if ($scrollElement.scrollTop()> 0) {
+		        return el;
+		      } else {
+		        $scrollElement.scrollTop(1);
+		        var isScrollable = $scrollElement.scrollTop()> 0;
+		        $scrollElement.scrollTop(0);
+		        if (isScrollable) {
+		          return el;
+		        }
+		      }
+		    }
+		    return [];
+		  }
+		 
+		});
+   
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
    	$('.menu_1 a').prepend('<i class="foundicon-heart"></i>');
@@ -73,10 +119,10 @@ function blocks_header($page){
    	
    	$(".live-tile").not(".exclude").liveTile();
    	
-   	var $tiles = $("#tile3").liveTile({ repeatCount: 0, delay: 0 });
+   	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
    	
    	var isPeeking = false;
-   	$("#tile3").hover(function() {
+   	$("#tile1").hover(function() {
     if (!isPeeking) {
         var tileData = $(this).data("LiveTile");
         tileData.isReversed = false;

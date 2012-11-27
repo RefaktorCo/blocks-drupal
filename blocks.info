@@ -22,6 +22,7 @@ scripts[] = js/mobile-menu.js
 scripts[] = js/dynamik.js
 scripts[] = js/jquery.ui.totop.js
 scripts[] = js/easing.js
+scripts[] = js/smoothscroll.js
 
 regions[content]        = Content
 regions[sidebar_first]  = First Sidebar

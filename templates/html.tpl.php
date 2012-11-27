@@ -13,12 +13,15 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 <?php blocks_user_css(); ?>
+
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
+
+
 
 </body>
 </html>

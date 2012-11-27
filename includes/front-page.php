@@ -142,7 +142,7 @@ function blocks_front_page($page){
 				
 				
 				    <div class="twelve columns">     
-				       <div id="tile3" class="live-tile red" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
+				       <div id="tile1" class="live-tile red" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="foundicon-heart"></i>
@@ -398,6 +398,8 @@ function blocks_front_page($page){
               <div class="section_title"><span class="section_title_text"><?php echo theme_get_setting('clients_title'); ?></span></div>
             </div>
            </div>
+           
+          
         
           <div id="clients" class="row" >
             <?php if(!$page['clients']) {?>
