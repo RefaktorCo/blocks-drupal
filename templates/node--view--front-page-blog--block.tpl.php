@@ -1,4 +1,6 @@
-<div class="blog_front three columns">
+<a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
+
+<div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns">
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 
@@ -49,4 +51,5 @@
 <?php if (!$page): ?>
   </article> <!-- /.node -->
 <?php endif; ?>
+<a class="close-reveal-modal">&#215;</a>
 </div>
