@@ -13,6 +13,7 @@ header {
   left: 0;
   right: 0;
   padding-bottom: 15px;
+  z-index: 9000;
 }
 
 .top-bar{
@@ -123,6 +124,21 @@ header {
 .top-bar > ul .name h1 a {
   font-size: 22px !important;
 }
+
+.live-tile {
+	text-align: center;
+	margin: 0px !important;
+}
+
+.tile_contents {
+	padding: 25px;
+}
+
+.live-tile i {
+	font-size: 100px;
+}
+
+
 
 /* Body and Content */
 body {
