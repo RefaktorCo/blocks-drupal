@@ -5,13 +5,14 @@ engine = phptemplate
 
 stylesheets[all][] = /css/sliders/elastic-image.css
 stylesheets[all][] = /css/sliders/nivo.css
-stylesheets[all][] = css/ie.css
+stylesheets[all][] = /css/ie.css
+stylesheets[all][] = /css/metro.css
 stylesheets[all][] = /foundation/foundation_icons_general/stylesheets/general_foundicons.css
 scripts[] = js/jquery.js
 scripts[] = foundation/javascripts/foundation.min.js
 scripts[] = foundation/javascripts/app.js
-scripts[] = js/superfish.js
-scripts[] = js/hoverIntent.js
+scripts[] = js/MetroJs.js
+scripts[] = js/jquery.isotope.js
 scripts[] = js/jquery.eislideshow.js
 scripts[] = js/jquery.nivo.slider.js
 scripts[] = js/jquery.quote_rotator.js

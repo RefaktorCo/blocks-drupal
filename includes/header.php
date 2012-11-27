@@ -8,30 +8,15 @@ function blocks_header($page){
       	<div class="twelve columns"> 
           <div id="nav">
             <div class="row">
-              <div class="two columns">
-          
-	          <?php if (theme_get_setting('branding_type') == 'logo'): ?>
-	          <div id="main_title">
-	            <a href="<?php print base_path();?>"><img src="<?php print file_create_url(theme_get_setting('bg_path')); ?>" /></a>
-	          </div>
-	          <?php endif; ?>
-          
-	          <?php if (theme_get_setting('branding_type') == 'text'): ?>
-	            <a href="<?php print base_path();?>">
-	            <div id="main_title">
-	              <h1 id="main_title_text"><?php print variable_get('site_name'); ?></h1>
-	            </div>
-	            </a>
-	          <?php endif; ?>
-              </div>
-              <div class="ten columns">
+      
+              <div class="twelve columns">
             <!-- begin menu -->
              <nav class="top-bar">
               <ul class="left">
               <li class="name">
 	              <h1>
 	                <a href="#">
-	                  Top Bar Title
+	                  Blocks - Drupal 7
 	                </a>
 	              </h1>
 	            </li>
@@ -73,11 +58,9 @@ function blocks_header($page){
    	 
    	$('.top-bar ul').removeClass('menu');
    	 
-   	$('.top-bar ul').addClass('right');
+   	$('.top-bar ul').addClass('left');
    	  
-   	$('.top-bar ul.left').removeClass('right');
-   	
-   	$('.top-bar ul.right ul').removeClass('right');
+   
    	
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
@@ -90,6 +73,8 @@ function blocks_header($page){
    	$('.menu_4 a').prepend('<i class="foundicon-smiley"></i>');
    	
    	$('.menu_5 a').prepend('<i class="foundicon-phone"></i>');
+   	
+   	$(".live-tile").not(".exclude").liveTile();
    	
    	
 	

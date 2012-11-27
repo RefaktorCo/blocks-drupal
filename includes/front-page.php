@@ -121,6 +121,8 @@ function blocks_elastic_image_slider($page){
 								slideshow_interval	: 3000,
 								titlesFactor		: 0
 						  });
+						  
+						  
 	          });
 	        </script>
 <?php }
@@ -130,19 +132,40 @@ function blocks_front_page($page){
 ?>
 
 <!-- main span12 -->
-        <div class="span12">
-          
-          <?php if (theme_get_setting('enable_highlight') == '1') { ?>
-          <div class="row">
-            <div class="span12">
-              <div id="page_heading">
-              <h2 class="page_heading_text"><?php echo theme_get_setting('highlight_text'); ?></h2>
-              </div>
-            </div>
-          </div> 
-          <?php } ?>
- 
-          <?php 
+  <div class="row" >
+    <div class="twelve columns" style="margin-top: 150px;">
+      <div class="row">      
+        <h1>Flip Mode Simple</h1>
+<div class="tiles red">
+    <div class="live-tile" data-mode="flip" data-initdelay="500">        
+        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
+        <div>
+            <a class="full" href="#">front</a>
+            <span class="tile-title">front title</span>
+        </div>
+        <div>
+            <p>this tile flips vertically. Using the 'data-initdelay' attribute will adjust the time it takes for the inital flip to occur</p>
+            <span class="tile-title">back title</span>
+        </div>
+    </div>
+    <div class="live-tile blue" data-direction="horizontal" data-mode="flip">     
+        <div>front
+              <span class="tile-title">front title</span>
+        </div>
+        <div>
+            <p>this tile flips horizontally
+               <span class="tile-title">back title</span>
+            </p>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+  </div>     
+         
+         
+         
+             <?php 
             
             if (theme_get_setting('enable_slider') == '1' && theme_get_setting('slider_type') == 'default' ) {
           	  blocks_elastic_image_slider($page); 

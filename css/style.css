@@ -12,6 +12,7 @@ header {
 	position: fixed;
   left: 0;
   right: 0;
+  padding-bottom: 15px;
 }
 
 .top-bar{
@@ -96,7 +97,7 @@ header {
 }
 
 .menu_2, li.menu_2 .dropdown, li.menu_2 .dropdown li {
-	background: #5f419b !important;
+	background: #5f419b;
 }
 
 .menu_3, li.menu_3 .dropdown, li.menu_3 .dropdown li {
@@ -115,7 +116,13 @@ header {
 	background: #044c8f;
 }
 
-.name {display: none;}
+.name {
+	background: #469408 !important;
+}
+
+.top-bar > ul .name h1 a {
+  font-size: 22px !important;
+}
 
 /* Body and Content */
 body {
@@ -1431,7 +1438,9 @@ span.accordion-head-image {
 }
 
 @media screen and (max-width: 768px) { 
-  .container {padding: 0px 20px;}
+
+  body {background: pink;}
+
   
   #vert_nav {
 	position: relative;  
