@@ -11,7 +11,7 @@
   padding-top: 15%;
 }
 
-.view {
+.expand {
   float: left;
   overflow: hidden;
   position: relative;
@@ -23,7 +23,7 @@
   margin-bottom: 20px;
 }
 
-.view .mask,.view .content {
+.expand .mask,.expand .content {
   height: 100%;
   position: absolute;
   overflow: hidden;
@@ -31,12 +31,12 @@
   left: 0;
 }
 
-.view img {
+.expand img {
   display: block;
   position: relative;
 }
 
-.view h2 {
+.expand h2 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -47,7 +47,7 @@
   margin: 20px 0 0 0;
 }
 
-.view p {
+.expand p {
   font-family: Georgia, serif;
   font-style: italic;
   font-size: 12px;
@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-.view a.info {
+.expand a.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
@@ -70,13 +70,13 @@
   margin-top: 10px;
 }
 
-.view a.info: hover {
+.expand a.info: hover {
   -webkit-box-shadow: 0 0 5px #000;
   -moz-box-shadow: 0 0 5px #000;
   box-shadow: 0 0 5px #000;
 }
 
-.view-first img {
+.expand-first img {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -84,7 +84,7 @@
   transition: all 0.2s linear;
 }
 
-.view-first .mask {
+.expand-first .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -99,7 +99,7 @@
 
 
 
-.view-first h2 {
+.expand-first h2 {
   -webkit-transform: translateY(-100px);
   -moz-transform: translateY(-100px);
   -o-transform: translateY(-100px);
@@ -115,7 +115,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.view-first p {
+.expand-first p {
   -webkit-transform: translateY(100px);
   -moz-transform: translateY(100px);
   -o-transform: translateY(100px);
@@ -131,10 +131,10 @@
   transition: all 0.2s linear;
 }
 
-.view-first:hover img {
+.expand-first:hover img {
  
 }
-.view-first a.info {
+.expand-first a.info {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -145,13 +145,13 @@
   transition: all 0.2s ease-in-out;
   margin-left: 5px;
 }
-.view-first:hover .mask {
+.expand-first:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
 
-.view-first:hover h2, .view-first:hover p, .view-first:hover a.info {
+.expand-first:hover h2, .expand-first:hover p, .expand-first:hover a.info {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
@@ -162,7 +162,7 @@
   transform: translateY(0px);
 }
 
-.view-first:hover p {
+.expand-first:hover p {
   -webkit-transition-delay: 0.1s;
   -moz-transition-delay: 0.1s;
   -o-transition-delay: 0.1s;
@@ -170,7 +170,7 @@
   transition-delay: 0.1s;
 }
 
-.view-first:hover a.info {
+.expand-first:hover a.info {
   -webkit-transition-delay: 0.2s;
   -moz-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
@@ -631,7 +631,7 @@ thead th {
   padding-top: 10%;	
 }
 
-.view_portfolio_image .field-label, .portfolio_tags .field-label {
+.expand_portfolio_image .field-label, .portfolio_tags .field-label {
 	display: none;
 }
 
@@ -657,7 +657,7 @@ thead th {
 	display: none;
 }
 
-.view-popular-tags .item-list ul {
+.expand-popular-tags .item-list ul {
   margin: -5px 0px 20px 0px;
 
 }

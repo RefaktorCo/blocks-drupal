@@ -208,8 +208,8 @@ function blocks_front_page($page){
       </div>
     </div>
     <div class="row">
-      <div class="three columns">
-        <div class=" view view-first ">
+      <div id="test" class="three columns">
+        <div class=" expand expand-first ">
         <img src="<?php echo $root;?>/images/portfolio_1.jpg">
          <div class="mask">
            test

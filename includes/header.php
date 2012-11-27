@@ -56,7 +56,7 @@ function blocks_header($page){
    	 
    	$('.top-bar ul').addClass('left');
    	
-   	$(document).ready(function() {
+   	jQuery(document).ready(function ($) {
 		  function filterPath(string) {
 		  return string
 		    .replace(/^\//,'')
@@ -122,6 +122,10 @@ function blocks_header($page){
    	$('.menu_5 a').prepend('<i class="foundicon-phone"></i>');
    	
    	$().UItoTop({ easingType: 'easeOutQuart' });
+   	
+   	$("#test").click(function() {
+			$("#test").addClass(".expand-first-hover");
+    });
    	
    	/* $(".live-tile").not(".exclude").liveTile();
    	   	
