@@ -132,10 +132,11 @@ function blocks_front_page($page){
 ?>
 
 <!-- main span12 -->
+ <div id="main_wrap">
   <div class="row" >
     <div class="twelve columns" style="margin-top: 150px;">
       <div class="row">      
-        <h1>Flip Mode Simple</h1>
+        
 				
 				
 				    <div class="three columns">     
@@ -411,6 +412,7 @@ function blocks_front_page($page){
         </div>
       </div>       
     </div>
+    
     <!-- end main body container -->  
 <?php }
 ?>

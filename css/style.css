@@ -2,6 +2,14 @@
 	width: 1080px;
 }
 
+#main_wrap {
+	max-width: 1120px;
+  margin: auto;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  background: #fdfdfd;
+}
+
 @font-face {
 	font-family: Vegur-Light;
 	src: url("../css/fonts/Vegur-Light.otf") format("opentype");
@@ -30,7 +38,7 @@ header {
 
 .top-bar ul > li {
  
-  margin-left: 14px;
+  margin-right: 14px;
 }
 
 .top-bar ul > li:not(.name) {
@@ -147,7 +155,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   color: #555;
-  background-color:  #fdfdfd;
+  background-color:  black;
  
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;

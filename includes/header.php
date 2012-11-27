@@ -7,9 +7,7 @@ function blocks_header($page){
       <div class="row">  
       	<div class="twelve columns"> 
           <div id="nav">
-            <div class="row">
-      
-              <div class="twelve columns">
+           
             <!-- begin menu -->
              <nav class="top-bar">
               <ul class="left">
@@ -43,8 +41,7 @@ function blocks_header($page){
           </div> 
         </div>
         <!-- end main span2 -->  
-      </div>
-    </div>
+   
   </header> 
           
 <script type="text/javascript">
