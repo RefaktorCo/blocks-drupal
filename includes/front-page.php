@@ -132,15 +132,17 @@ function blocks_front_page($page){
 ?>
 
 <!-- main span12 -->
+
  <div id="main_wrap">
   <div class="row" >
-    <div class="twelve columns" style="margin-top: 150px;">
+   <div style="margin-top: 150px;"></div>
+    <div id="about" class="six columns">
       <div class="row">      
         
 				
 				
-				    <div class="three columns">     
-				       <div class="live-tile red" data-mode="flip" data-initdelay="500">   
+				    <div class="twelve columns">     
+				       <div class="live-tile red" data-mode="flip" data-initdelay="500" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="foundicon-heart"></i>
@@ -153,21 +155,13 @@ function blocks_front_page($page){
 				       </div>
 				    </div>
 				    
-				     <div class="three columns">     
-				       <div class="live-tile blue" data-direction="horizontal" data-mode="flip" data-initdelay="700">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
-				            <i class="foundicon-idea"></i>
-				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents">
-				            <i class="foundicon-mic"></i>
-				            <p>Other title</p>
-				        </div>
-				       </div>
-				    </div>
-				    
-				     <div class="three columns">     
+      </div>
+    </div>    
+    
+    <div id="about" class="six columns">
+      <div class="row">    
+				     				    
+				     <div class="twelve columns">     
 				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
@@ -181,7 +175,7 @@ function blocks_front_page($page){
 				       </div>
 				    </div>
 				    
-				      <div class="three columns">     
+				      <div class="six columns">     
 				       <div class="live-tile orange" data-direction="horizontal" data-mode="flip" data-initdelay="400">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
@@ -194,6 +188,25 @@ function blocks_front_page($page){
 				        </div>
 				       </div>
 				    </div>
+				    
+				     <div class="six columns">     
+				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
+				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
+				        <div class="tile_contents">
+				            <i class="foundicon-smiley"></i>
+				            <p>Title goes here</p>
+				        </div>
+				        <div class="tile_contents">
+				            <i class="foundicon-phone"></i>
+				            <p>Other title</p>
+				        </div>
+				       </div>
+				    </div>
+				    
+				     
+				    
+      </div>
+    </div>  
 			
       </div>
     </div>
