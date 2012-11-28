@@ -1,9 +1,32 @@
 .projects_carousel {
-	 margin-left: -10px !important;
+	 margin-left: -20px !important;
+}
+.carousel_item_wrapper {
+	background: #f8f8f8;
+	border-bottom: 1px solid #e8e8e8;
+	text-align: center;
+	position: relative;
+}
+
+.carousel_item_content {
+	opacity: .4;
+}
+
+.carousel_item_wrapper .carousel_item_hover {
+	display: block;
+	background: #08C;
+	color: #fff;
+	opacity: .8;
+	height: 100%;
+	top: 0%;
+	position: absolute;
 }
 
 .carousel_navigation {
-	margin-left: 10px;
+	margin-left: 20px;
+	font-size:25px;
+	float: right;
+
 }
 
 #recent_projects {
@@ -13,8 +36,9 @@
 #recent_projects li {
 	width: 250px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 20px;
 	list-style: none;
+	cursor: pointer !important;
 	
 }
 
@@ -190,7 +214,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 13px;
   color: #555;
-  background-color:  #fdfdfd;
+  background-color:  #fff;
  
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;

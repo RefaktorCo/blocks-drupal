@@ -219,10 +219,24 @@ function blocks_front_page($page){
         <ul id="recent_projects">
         
           <li>
-           
-		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
             
-          </li>    
+            <div class="carousel_item_hover">
+              <p>Testing hover</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p></p>
+            </div>
+          </div>  
+          </li>  
+            
           
           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
