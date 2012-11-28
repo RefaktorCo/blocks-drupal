@@ -127,7 +127,7 @@ function blocks_header($page){
 			$("#test").addClass(".expand-first-hover");
     });
    	
-   	/* $(".live-tile").not(".exclude").liveTile();
+   	 $(".live-tile").not(".exclude").liveTile();
    	   	
    	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
    
@@ -148,7 +148,7 @@ function blocks_header($page){
         $(this).data("LiveTile", tileData).liveTile('play');
         isPeeking = false;
     }
-}); */
+}); 
 
 	
 	  $('ul#quotes').quote_rotator();
