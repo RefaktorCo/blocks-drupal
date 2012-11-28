@@ -143,6 +143,7 @@ function blocks_front_page($page){
    <div class="row">
        <div class="twelve columns">
          <h3>Live Tiles Playground</h3>
+         <hr>
        </div>
      </div> 
        
@@ -221,6 +222,7 @@ function blocks_front_page($page){
      <div class="row">
        <div class="twelve columns">
          <h3>Carousel Playground</h3>
+         <hr>
        </div>
      </div> 
     
@@ -406,6 +408,7 @@ function blocks_front_page($page){
   <div class="row">
        <div class="twelve columns">
          <h3>Isotope Playground</h3>
+         <hr>
        </div>
      </div>   
     

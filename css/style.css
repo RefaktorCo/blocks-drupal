@@ -120,7 +120,7 @@
 .top-bar ul > li a:not(.button) {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 22px;
   padding: 5px 15px 55px 15px;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -376,13 +376,12 @@ body {
 	max-width: 1120px;
 	margin: 0 auto;
 	background-color: white;
-
-
 }
 
 header {
 	background: #222;
-	position: fixed;
+	background-image: url('../images/backgrounds/dark_mosaic.png');
+
   left: 0;
   right: 0;
   padding-bottom: 15px;
@@ -827,7 +826,7 @@ article hr {
 /* Footer */
 #footer {
   background-color: #333; 
-  background-image: url('../images/backgrounds/office.png');
+  background-image: url('../images/backgrounds/dark_mosaic.png');
  
   color: #797979; font-size: 12px; 
   padding: 30px 0px;
