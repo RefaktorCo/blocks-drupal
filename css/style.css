@@ -1,18 +1,26 @@
-#recent_projects {
+.projects_carousel {
+	 margin-left: -10px !important;
+}
 
+.carousel_navigation {
+	margin-left: 10px;
+}
+
+#recent_projects {
+  
 }
 
 #recent_projects li {
 	width: 250px;
 	float: left;
-	margin-right: 27px;
+	margin-left: 10px;
 	list-style: none;
 	
 }
 
 .caroufredsel_wrapper {
-  overflow: auto;
   min-height: 250px;
+ 
 }
 
 
