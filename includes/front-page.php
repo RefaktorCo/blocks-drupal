@@ -206,10 +206,13 @@ function blocks_front_page($page){
 		    </div>  
 			
       </div>
-    </div>
+  
     
      <div class="row">
       <div id="test" class="twelve columns">
+       <a id="prev" class="prev" href="#">&lt;</a>
+				<a id="next" class="next" href="#">&gt;</a>
+
         <ul id="recent_projects">
         
           <li>
@@ -240,9 +243,7 @@ function blocks_front_page($page){
           
         
         </ul>
-        <a id="prev" class="prev" href="#">&lt;</a>
-				<a id="next" class="next" href="#">&gt;</a>
-      </div>
+             </div>
     </div>
 
        
