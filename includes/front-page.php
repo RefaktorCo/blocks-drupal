@@ -229,35 +229,153 @@ function blocks_front_page($page){
 	              </div>
               </div>
             
-            <div class="carousel_item_hover">
-              <p>Testing hover</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              <p><a href="<?php echo $root;?>/images/portfolio_1.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
-            </div>
-          </div>  
-          </li>  
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_1.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
             
+          </li>  
           
           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_2.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_3.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_3.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_4.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_4.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_1.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_1.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_2.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_2.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_3.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_3.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
-           <li>
-		          <img src="<?php echo $root;?>/images/portfolio_4.jpg" >
+          
+          <li>
+            <div class="carousel_item_wrapper"> 
+              <div class="carousel_item_content">
+	              <div class="carousel_item_image">
+			            <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+	              </div>
+	              <div class="carousel_item_description">
+	                <h3>Test</h3>
+	              </div>
+              </div>
+            
+	            <div class="carousel_item_hover">
+	              <p>Testing hover</p>
+	              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+	              <p><a href="<?php echo $root;?>/images/portfolio_4.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	            </div>
+            </div>  
+            
           </li>  
           
          

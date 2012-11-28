@@ -130,7 +130,7 @@ function blocks_header($page){
 		 
 		});
 		
-		$("..carousel_item_wrapper .carousel_item_hover").click(function() {
+		$(".carousel_item_wrapper .carousel_item_hover").click(function() {
 			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
     });
     
