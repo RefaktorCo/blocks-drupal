@@ -1,3 +1,5 @@
+
+
 .projects_carousel {
 	 margin-left: -20px !important;
 }
@@ -82,19 +84,7 @@
   background: #fdfdfd;
 }
 
-@font-face {
-	font-family: Vegur-Light;
-	src: url("../css/fonts/Vegur-Light.otf") format("opentype");
-}
 
-header {
-	background: #222;
-	position: fixed;
-  left: 0;
-  right: 0;
-  padding-bottom: 15px;
-  z-index: 9000;
-}
 
 .top-bar{
 	margin: 20px 0px;
@@ -162,7 +152,7 @@ header {
 }
 
 .top-bar ul > li.has-dropdown a {
-  padding-right: 33.75px;
+  padding-right: 34px;
 }
 
 .top-bar ul > li.has-dropdown.moved .back.title h5 a {
@@ -375,12 +365,32 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 13px;
   color: #555;
-  background-color:  #fff;
+  background-color:  #ececec;
  
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   padding: 0px;
 }
+
+#main_wrapper {
+	max-width: 1120px;
+	margin: 0 auto;
+	background-color: white;
+
+
+}
+
+header {
+	background: #222;
+	position: fixed;
+  left: 0;
+  right: 0;
+  padding-bottom: 15px;
+  z-index: 9000;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
 
 a {
    -moz-transition: all 0.2s ease-in-out;
@@ -818,7 +828,7 @@ article hr {
 #footer {
   background-color: #333; 
   background-image: url('../images/backgrounds/office.png');
-  box-shadow:  0px 6px 13px 6px black; 
+ 
   color: #797979; font-size: 12px; 
   padding: 30px 0px;
 }

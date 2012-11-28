@@ -563,12 +563,11 @@ function blocks_front_page($page){
 
 
       </div>
-       </div>
-      </div>
-
     </div>
-  </div>  
+    </div>
   </div>
+  
+ 
   <!-- end main wrap -->     
 
   
