@@ -10,7 +10,7 @@ function blocks_footer($page){
         <?php if (theme_get_setting('enable_primary_footer') == '1') { ?>
         <div class="row">
         
-          <div class="span3">
+          <div class="three columns">
             <?php if(!$page['footer_1']) {?>
             <div class="footer_icons">
               <ul>
@@ -27,19 +27,19 @@ function blocks_footer($page){
           <?php } else { print render($page['footer_1']); }?>   
           </div> 
       
-          <div class="span2">
+          <div class="two columns">
             <?php if(!$page['footer_2']) {?>
             <span> <i class="icon-envelope icon-white"></i>&nbsp;&nbsp;info@lorem-inc.com</span>
             <?php } else { print render($page['footer_2']); }?>  
           </div>
           
-          <div class="span2">
+          <div class="two columns">
             <?php if(!$page['footer_3']) {?>
             <span> <i class="icon-briefcase icon-white"></i>&nbsp;&nbsp;1-888-888-8888</span>
             <?php } else { print render($page['footer_3']); }?>  
           </div>
           
-          <div class="span5">
+          <div class="five columns">
             <?php if(!$page['footer_4']) {?>
             <ul id="footer_menu">
               <li> <a href="<?php print base_path();?>">Home</a></li>
@@ -52,7 +52,7 @@ function blocks_footer($page){
         
         <?php if (theme_get_setting('enable_secondary_footer') == '1') { ?>
         <div class="row">
-          <div class="span12"> 
+          <div class="twelve columns"> 
             <?php if(!$page['footer_full']) {?>    
             <hr>
             <h6 class="after_footer"><?php echo theme_get_setting('secondary_footer_text'); ?></h6>

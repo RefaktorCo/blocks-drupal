@@ -208,88 +208,46 @@ function blocks_front_page($page){
       </div>
     </div>
     
-    <div class="row">
-      <div id="test">
+     <div class="row">
+      <div id="test" class="twelve columns">
         <ul id="recent_projects">
         
           <li>
-		        <div class=" expand expand-first ">
 		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
           </li>    
           
           <li>
-		        <div class=" expand expand-first ">
 		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
-          
-          <li>
-		        <div class=" expand expand-first ">
+          </li>  
+           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-		          <div class="mask">
-		            Lightbox link goes here		          
-		          </div>
-		        </div>
-          </li>    
+          </li>  
+          
         
         </ul>
+        <a id="prev" class="prev" href="#">&lt;</a>
+				<a id="next" class="next" href="#">&gt;</a>
       </div>
     </div>
-    
-  </div>  
-  </div>     
+
+       
+  
+   
   <!-- end main wrap -->     
 
   

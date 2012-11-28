@@ -54,11 +54,11 @@ function blocks_header($page){
     infinite : false,
     auto: false,
     next : {
-      button : "#car_next",
+      button : "#next",
       key	: "right"
     },
     prev : {
-      button : "#car_prev",
+      button : "#prev",
       key	: "left"
     },
     swipe: {

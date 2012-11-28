@@ -1,3 +1,17 @@
+#recent_projects img {
+	width: 250px;
+}
+
+#recent_projects li {
+	width: 250px;
+	display: inline;
+	margin-right: 14px;
+}
+
+.caroufredsel_wrapper {
+	height: 250px !important;
+}
+
 /*Portfolio*/
 #portfolio {
   padding-bottom: 10px;
