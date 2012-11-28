@@ -421,7 +421,7 @@ function blocks_front_page($page){
 	      </ul>
       </section>
     
-      <div id="isotope_test">
+      <div id="isotope_test" style="clear: both; float: none;">
     
        
     <div class="two columns switch cat_1" data-category="cat_1">

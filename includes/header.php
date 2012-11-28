@@ -46,17 +46,15 @@ function blocks_header($page){
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
   
+  
+   $(window).load(function(){
    var $container = $('#isotope_test');
 
       $container.isotope({
         itemSelector : '.switch'
       });
       
-      $container.imagesLoaded( function(){
-        $container.isotope({
-			    // options...
-			  });
-			});
+      
       
       
       var $optionSets = $('#options .option-set'),
@@ -89,6 +87,7 @@ function blocks_header($page){
         
         return false;
       });
+    });  
 
   
   $('#recent_projects').carouFredSel({
