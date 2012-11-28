@@ -133,7 +133,7 @@ function blocks_front_page($page){
 
 <!-- main span12 -->
 
- <div id="main_wrap">
+
    <div class="row" >
      <div style="margin-top: 150px;"></div>
        <div id="about" class="six columns">
@@ -209,41 +209,52 @@ function blocks_front_page($page){
   
     
      <div class="row">
-      <div id="test" class="twelve columns">
-       <a id="prev" class="prev" href="#">&lt;</a>
-				<a id="next" class="next" href="#">&gt;</a>
-
+      <div class="twelve columns">
+        <div class="projects_carousel">
+          <div class="carousel_navigation">
+		        <a id="prev" class="prev" href="#">&lt;</a>
+						<a id="next" class="next" href="#">&gt;</a>
+          </div>
+          
         <ul id="recent_projects">
         
           <li>
+           
 		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+            
           </li>    
           
           <li>
 		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_3.jpg" >
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_4.jpg" >
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_1.jpg" >
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_2.jpg" >
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_3.jpg" >
           </li>  
            <li>
-		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+		          <img src="<?php echo $root;?>/images/portfolio_4.jpg" >
           </li>  
           
+         
         
         </ul>
+      
+        
              </div>
+             
+      </div>
+      </div>
     </div>
 
        

@@ -13,7 +13,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 <?php blocks_user_css(); ?>
-
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>

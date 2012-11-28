@@ -13,7 +13,7 @@ function blocks_header($page){
               <li class="name">
 	              <h1>
 	                <a href="#">
-	                  Blocks - Drupal 7
+	                  Blocks 
 	                </a>
 	              </h1>
 	            </li>
@@ -133,6 +133,8 @@ function blocks_header($page){
 		$(".test-hover").click(function() {
 			$(".test-hover").addClass(".click-hover");
     });
+    
+    $('#recent_projects').after('<div style="clear:both;"></div>');
    
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
