@@ -424,10 +424,10 @@ function blocks_front_page($page){
       <div id="isotope_test" style="clear: both; float: none;">
     
        
-    <div class="two columns switch cat_1" data-category="cat_1">
+    <div class="three columns switch cat_1" data-category="cat_1">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
           
         </div>
         <div class="portfolio_text">
@@ -436,10 +436,10 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_1" data-category="cat_1 cat_2">
+    <div class="three columns switch cat_1" data-category="cat_1 cat_2">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
         </div>
         <div class="portfolio_text">
         Portfolio 2
@@ -447,10 +447,10 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_2" data-category="cat_2">
+    <div class="three columns switch cat_2" data-category="cat_2">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
         </div>
         <div class="portfolio_text">
         Portfolio 3
@@ -458,7 +458,7 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_3" data-category="cat_3 cat_2">
+    <div class="three columns switch cat_3" data-category="cat_3 cat_2">
       <div class="portfolio_item">
         <div class="portfolio_image">
           <img src="<?php echo $root;?>/images/portfolio_4.jpg">
@@ -469,7 +469,7 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_1" data-category="cat_1 cat_3">
+    <div class="three columns switch cat_1" data-category="cat_1 cat_3">
       <div class="portfolio_item">
         <div class="portfolio_image">
           <img src="<?php echo $root;?>/images/portfolio_4.jpg">
@@ -480,10 +480,10 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_1" data-category="cat_1">
+    <div class="three columns switch cat_1" data-category="cat_1">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
         </div>
         <div class="portfolio_text">
         Portfolio 6
@@ -491,10 +491,10 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_2" data-category="cat_2 cat_1">
+    <div class="three columns switch cat_2" data-category="cat_2 cat_1">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
         </div>
         <div class="portfolio_text">
         Portfolio 7
@@ -502,10 +502,10 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_3" data-category="cat_3">
+    <div class="three columns switch cat_3" data-category="cat_3">
       <div class="portfolio_item">
         <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
         </div>
         <div class="portfolio_text">
         Portfolio 8
@@ -513,7 +513,40 @@ function blocks_front_page($page){
       </div>  
     </div>
     
-    <div class="two columns switch cat_3" data-category="cat_3">
+    <div class="three columns switch cat_3" data-category="cat_3">
+      <div class="portfolio_item">
+        <div class="portfolio_image">
+          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+        </div>
+        <div class="portfolio_text">
+        Portfolio 8
+        </div>
+      </div>  
+    </div>
+    
+       <div class="three columns switch cat_3" data-category="cat_3">
+      <div class="portfolio_item">
+        <div class="portfolio_image">
+          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+        </div>
+        <div class="portfolio_text">
+        Portfolio 8
+        </div>
+      </div>  
+    </div>
+
+   <div class="three columns switch cat_3" data-category="cat_3">
+      <div class="portfolio_item">
+        <div class="portfolio_image">
+          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+        </div>
+        <div class="portfolio_text">
+        Portfolio 8
+        </div>
+      </div>  
+    </div>
+
+   <div class="three columns switch cat_3" data-category="cat_3">
       <div class="portfolio_item">
         <div class="portfolio_image">
           <img src="<?php echo $root;?>/images/portfolio_4.jpg">
@@ -524,104 +557,10 @@ function blocks_front_page($page){
       </div>  
     </div>
 
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
 
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
 
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
 
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
 
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
-
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
-
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
-
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
-
-<div class="two columns switch cat_3" data-category="cat_3">
-      <div class="portfolio_item">
-        <div class="portfolio_image">
-          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-        </div>
-        <div class="portfolio_text">
-        Portfolio 8
-        </div>
-      </div>  
-    </div>
 
       </div>
        </div>
