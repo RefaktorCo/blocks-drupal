@@ -45,9 +45,34 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
+  
+  $('#recent_projects').carouFredSel({
+    width: '100%',
+    responsive: true,
+    
+    circular : false,
+    infinite : false,
+    auto: false,
+    next : {
+      button : "#car_next",
+      key	: "right"
+    },
+    prev : {
+      button : "#car_prev",
+      key	: "left"
+    },
+    swipe: {
+      onMouse: true,
+      onTouch: true
+    },
+    items: {
+      visible: {
+        min: 1,
+        max: 4
+      }
+    }
+  });
 	
-	 
-	 
     $('input[type="submit"]').addClass('btn');
        
    	$('.has-dropdown ul').addClass('dropdown');
@@ -149,12 +174,7 @@ function blocks_header($page){
         isPeeking = false;
     }
 }); 
-
-	
-	  $('ul#quotes').quote_rotator();
-	
-	 
-	  
+		
 	  $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
 	 
 	  jQuery("ul.accordion li").each(function(){

@@ -207,25 +207,88 @@ function blocks_front_page($page){
 			
       </div>
     </div>
+    
     <div class="row">
-      <div id="test" class="three columns">
-        <div class=" expand expand-first ">
-        <img src="<?php echo $root;?>/images/portfolio_1.jpg">
-         <div class="mask">
-           <a href="#" class="button" data-reveal-id="portfolio_modal1" style="top: 3%;"><i class="foundicon-search"></i></a>
-         </div>
-        </div>
+      <div id="test">
+        <ul id="recent_projects">
+        
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_1.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_2.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_3.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+          
+          <li>
+		        <div class=" expand expand-first ">
+		          <img src="<?php echo $root;?>/images/portfolio_4.jpg">
+		          <div class="mask">
+		            Lightbox link goes here		          
+		          </div>
+		        </div>
+          </li>    
+        
+        </ul>
       </div>
-      <div class="three columns">
-        <img src="<?php echo $root;?>/images/portfolio_2.jpg">
-      </div>
-      <div class="three columns">
-        <img src="<?php echo $root;?>/images/portfolio_3.jpg">
-      </div>
-      <div class="three columns">
-        <img src="<?php echo $root;?>/images/portfolio_4.jpg">
-      </div>
-    </div>  
+    </div>
+    
+  </div>  
   </div>     
   <!-- end main wrap -->     
 
@@ -236,12 +299,7 @@ function blocks_front_page($page){
   <?php print render($page['front_blog']); ?> 
   
   
-  <div id="portfolio_modal1" class="reveal-modal large">
-   <img src="<?php echo $root;?>/images/portfolio_1.jpg">
-  
-  <a class="close-reveal-modal">&#215;</a>
-  </div>
-  
+    
     <div id="myModal" class="reveal-modal large">
   <h2>Awesome. I have it.</h2>
   <p class="lead">Your couch.  It is mine.</p>
