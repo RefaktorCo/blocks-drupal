@@ -130,8 +130,8 @@ function blocks_header($page){
 		 
 		});
 		
-		$(".test-hover").click(function() {
-			$(".test-hover").addClass(".click-hover");
+		$("..carousel_item_wrapper .carousel_item_hover").click(function() {
+			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
     });
     
     $('#recent_projects').after('<div style="clear:both;"></div>');

@@ -9,17 +9,30 @@
 }
 
 .carousel_item_content {
-	opacity: .4;
+	opacity: 1;
+}
+
+.carousel_item_content:hover, .carousel_item_content_click {
+	opacity: 4;
 }
 
 .carousel_item_wrapper .carousel_item_hover {
 	display: block;
-	background: #08C;
+	background: #5f419b;
 	color: #fff;
-	opacity: .8;
+	opacity: 0;
 	height: 100%;
 	top: 0%;
 	position: absolute;
+	padding:15px;
+	 -moz-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+
+.carousel_item_wrapper .carousel_item_hover:hover, .carousel_item_wrapper .carousel_item_hover_click {
+  opacity: .9;
 }
 
 .carousel_navigation {
