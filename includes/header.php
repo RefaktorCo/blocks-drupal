@@ -114,7 +114,7 @@ function blocks_header($page){
       width: 247,
       visible: {
         min: 1,
-        max: 4
+        max: 3
       }
     }
   });
