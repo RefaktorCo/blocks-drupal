@@ -254,6 +254,7 @@ function blocks_front_page($page){
           <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#">&lt;</a>
 						<a id="next" class="next" href="#">&gt;</a>
+						
           </div>
           
         <ul id="recent_projects">

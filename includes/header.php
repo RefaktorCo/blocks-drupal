@@ -46,17 +46,7 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
-  
-  
- 
-		
-       
-		
-		
-
-
-  
-  
+    
    $(window).load(function(){
    var $container = $('#isotope_test');
 
@@ -64,9 +54,7 @@ function blocks_header($page){
         itemSelector : '.switch'
       });
       
-      
-      
-      
+
       var $optionSets = $('#options .option-set'),
           $optionLinks = $optionSets.find('a');
 
@@ -104,6 +92,8 @@ function blocks_header($page){
     width: '100%',
     responsive: true,
     
+    
+    
     circular : false,
     infinite : false,
     auto: false,
@@ -120,12 +110,30 @@ function blocks_header($page){
       onTouch: true
     },
     items: {
+      height: 165,
+      width: 247,
       visible: {
         min: 1,
         max: 4
       }
     }
   });
+  
+  		
+        $('#banner').oneByOne({
+			className: 'oneByOne1',	             
+			/* Please provide the width and height in the responsive 
+			version, for the slider will keep the ratio when resize 
+			depends on these size. */
+			width: 1080,
+			height: 420,
+			easeType: 'random',
+			slideShow: true,
+			responsive: true,
+			minWidth: 480,
+			autoHideButton: true
+		});  
+		
 	
     $('input[type="submit"]').addClass('btn');
        
@@ -135,54 +143,7 @@ function blocks_header($page){
    	 
    	$('.top-bar ul').addClass('left');
    	
-   	jQuery(document).ready(function ($) {
-		  function filterPath(string) {
-		  return string
-		    .replace(/^\//,'')
-		    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-		    .replace(/\/$/,'');
-		  }
-		  var locationPath = filterPath(location.pathname);
-		  var scrollElem = scrollableElement('html', 'body');
-		 
-		  $('a[href*=#]').each(function() {
-		    var thisPath = filterPath(this.pathname) || locationPath;
-		    if (  locationPath == thisPath
-		    && (location.hostname == this.hostname || !this.hostname)
-		    && this.hash.replace(/#/,'') ) {
-		      var $target = $(this.hash), target = this.hash;
-		      if (target) {
-		        var targetOffset = $target.offset().top;
-		        $(this).click(function(event) {
-		          event.preventDefault();
-		          $(scrollElem).animate({scrollTop: targetOffset}, 900, function() {
-		            location.hash = target;
-		          });
-		        });
-		      }
-		    }
-		  });
-		 
-		  // use the first element that is "scrollable"
-		  function scrollableElement(els) {
-		    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-		      var el = arguments[i],
-		          $scrollElement = $(el);
-		      if ($scrollElement.scrollTop()> 0) {
-		        return el;
-		      } else {
-		        $scrollElement.scrollTop(1);
-		        var isScrollable = $scrollElement.scrollTop()> 0;
-		        $scrollElement.scrollTop(0);
-		        if (isScrollable) {
-		          return el;
-		        }
-		      }
-		    }
-		    return [];
-		  }
-		 
-		});
+  
 		
 		$(".carousel_item_wrapper .carousel_item_hover").click(function() {
 			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
