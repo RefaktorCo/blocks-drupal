@@ -8,7 +8,7 @@
   <body>
   <div id="maintenance" class="container"><!-- Begin main container -->
     <div class="row">
-      <div class="span12">
+      <div class="twelve columns">
         <div class="maintenance_logo">
         <?php if (theme_get_setting('branding_type') == 'logo'): ?>
           <a href="<?php print base_path();?>"><img src="<?php print file_create_url(theme_get_setting('bg_path')); ?>" /></a>

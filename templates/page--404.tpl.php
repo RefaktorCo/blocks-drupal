@@ -1,9 +1,6 @@
-  <div class="container">
-    <div class="row">
-        <div class="span12">
-        
-          <div class="row">
-            <div class="span12">
+
+           <div class="row">
+            <div class="twelve columns">
               <div id="page_heading">
               <h2 class="page_heading_text"><?php print $title; ?></h2>
               <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
@@ -12,7 +9,7 @@
           </div> 
           
           <div class="row">
-            <div id ="main_content_wrap" class="span12">
+            <div id ="main_content_wrap" class="twelve columns">
               <div id="main_content">
 	              <div class="error_wrap">
 		              <div class="error_img">
@@ -34,6 +31,6 @@
 		      </div>
         </div>    
       </div>
-    </div>  
+ 
   
 <?php blocks_footer($page);?>

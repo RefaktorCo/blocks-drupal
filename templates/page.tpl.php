@@ -1,8 +1,8 @@
 <?php blocks_header($page);?>
-        <div class="span10">
+  
         
           <div class="row">
-            <div class="span10">
+            <div class="twelve columns">
               <div id="page_heading">
               <h2 class="page_heading_text"><?php print $title; ?></h2>
               <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
@@ -11,7 +11,7 @@
           </div> 
           
           <div class="row">
-            <div id ="main_content_wrap" class="<?php if (theme_get_setting('page_layout') == 'sidebar_right') { echo "span6"; } else { echo "span10"; } ?>">
+            <div id ="main_content_wrap" class="<?php if (theme_get_setting('page_layout') == 'sidebar_right') { echo "eight columns"; } else { echo "twelve columns"; } ?>">
               <div id="main_content">
 	              <?php print render($title_prefix); ?>
 	              <?php print render($title_suffix); ?>
@@ -34,7 +34,7 @@
         
 		        <?php if (theme_get_setting('page_layout') == 'sidebar_right'): ?>
 		        
-		          <div class="span4">
+		          <div class="four columns">
 		            <div id="sidebar_wrap">
 		          	<?php if ($page['sidebar_first']): ?>
 		          	<aside id="sidebar-first" role="complementary" class="sidebar clearfix">
@@ -50,8 +50,7 @@
 		        </div>
 		        <?php endif; ?>
 		      </div>
-        </div>    
-      </div>
-    </div>  
+      
+
   
 <?php blocks_footer($page);?>

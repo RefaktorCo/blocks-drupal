@@ -3,10 +3,10 @@
 blocks_header($page);
 
 ?>
-        <div class="span10">
+      
         
           <div class="row">
-            <div class="span10">
+            <div class="twelve columns">
               <div id="page_heading">
               <h2 class="page_heading_text"><?php print $title; ?></h2>
               <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
@@ -15,7 +15,7 @@ blocks_header($page);
           </div> 
           
           <div class="row">
-            <div id ="portfolio_content_wrap" class="span10">
+            <div id ="portfolio_content_wrap" class="twelve columns">
               <div class="row">
               <div id="portfolio_main_content">
 	              <?php print render($title_prefix); ?>
@@ -28,7 +28,7 @@ blocks_header($page);
           </div>
         </div>    
       </div>
-    </div>  
+ 
     
   <?php 
 

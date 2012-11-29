@@ -1,5 +1,5 @@
 <?php blocks_header($page);?>
-        <div class="twelve columns">
+   
         
           <div class="row">
             <div class="twelve columns">
@@ -39,7 +39,7 @@
 		        <?php endif; ?>
 		      </div>
         </div>    
-      </div>
-    </div>  
+     
+
   
 <?php blocks_footer($page);?>

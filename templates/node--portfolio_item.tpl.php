@@ -4,11 +4,11 @@ $share_url = $base_url.'/node/'.$node->nid;
 ?>
 
   <div class="row">
-  <div class="span6">
+  <div class="eight columns">
     <div class="portfolio_image"><?php print render($content['field_portfolio_image']); ?></div>
   </div>
   
-  <div class="span4">  
+  <div class="four columns">  
 	  <?php if (!$page): ?>
 	  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 		<?php endif; ?>
