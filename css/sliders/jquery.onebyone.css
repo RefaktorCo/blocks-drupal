@@ -50,7 +50,7 @@
    	-webkit-animation-duration: .6s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
+	-webkit-animation-fill-mode: none, backwards;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: 0s;
 	-moz-animation-timing-function: ease;
@@ -69,7 +69,7 @@
    	-webkit-animation-duration: .6s;
 	-webkit-animation-delay: .2s;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
+	-webkit-animation-fill-mode: none, backwards;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .2s;
 	-moz-animation-timing-function: ease;
@@ -88,7 +88,7 @@
    	-webkit-animation-duration: .6s;
 	-webkit-animation-delay: .4s;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
+	-webkit-animation-fill-mode: none, backwards;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .4s;
 	-moz-animation-timing-function: ease;
@@ -107,7 +107,7 @@
    	-webkit-animation-duration: .6s;
 	-webkit-animation-delay: .6s;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
+	-webkit-animation-fill-mode: none, backwards;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .6s;
 	-moz-animation-timing-function: ease;
@@ -126,7 +126,7 @@
    	-webkit-animation-duration: .6s;
 	-webkit-animation-delay: .8s;
 	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
+	-webkit-animation-fill-mode: none, backwards;
 	-moz-animation-duration: .6s;
 	-moz-animation-delay: .8s;
 	-moz-animation-timing-function: ease;
