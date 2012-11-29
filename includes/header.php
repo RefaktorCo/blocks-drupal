@@ -43,6 +43,44 @@ function blocks_header($page){
         <!-- end main span2 -->  
    
   </header> 
+  
+  <script type="text/javascript" language="javascript">
+			$(function() {
+
+				 $('#recent_projects').carouFredSel({
+    width: '100%',
+    responsive: true,
+    
+    
+    
+    circular : false,
+    infinite : false,
+    auto: false,
+    next : {
+      button : "#next",
+      key	: "right"
+    },
+    prev : {
+      button : "#prev",
+      key	: "left"
+    },
+    swipe: {
+      onMouse: true,
+      onTouch: true
+    },
+    items: {
+      height: 165,
+      width: 247,
+      visible: {
+        min: 1,
+        max: 4
+      }
+    }
+  });
+
+			});
+		</script>
+
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
@@ -88,37 +126,7 @@ function blocks_header($page){
     });  
 
   
-  $('#recent_projects').carouFredSel({
-    width: '100%',
-    responsive: true,
-    
-    
-    
-    circular : false,
-    infinite : false,
-    auto: false,
-    next : {
-      button : "#next",
-      key	: "right"
-    },
-    prev : {
-      button : "#prev",
-      key	: "left"
-    },
-    swipe: {
-      onMouse: true,
-      onTouch: true
-    },
-    items: {
-      height: 165,
-      width: 247,
-      visible: {
-        min: 1,
-        max: 4
-      }
-    }
-  });
-  
+   
   		
         $('#banner').oneByOne({
 			className: 'oneByOne1',	             
