@@ -48,6 +48,15 @@ function blocks_header($page){
   jQuery(document).ready(function ($) {
   
   
+ 
+		
+       
+		
+		
+
+
+  
+  
    $(window).load(function(){
    var $container = $('#isotope_test');
 
@@ -178,6 +187,7 @@ function blocks_header($page){
 		$(".carousel_item_wrapper .carousel_item_hover").click(function() {
 			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
     });
+    
     
     $('#recent_projects').after('<div style="clear:both;"></div>');
    

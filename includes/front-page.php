@@ -133,14 +133,36 @@ function blocks_front_page($page){
 
 <!-- main span12 -->
 
-
-   <div class="row" >
-     <div style="margin-top: 150px;"></div>
-   </div> 
-   
+<div class="row">
+       <div class="twelve columns">
+         <h3>Slider</h3>
+         <hr>
+       </div>
+     </div> 
   
    
    <div class="row">
+     <div class="twelve columns">
+     <div id="banner">  				
+			<div class="oneByOne_item">                                 	
+				<img src="<?php echo $root;?>/images/example1/mouse.jpg"  class="bigImage" data-animate="bounceIn"></img>
+				<span class="slide2Txt1" data-animate="fadeInLeftBig">You can test it on a iPad</span>								
+				<span class="slide2Txt2" data-animate="fadeInRightBig">This text is hidden on small screen</span>											
+				<span class="slide2Txt3" data-animate="fadeInLeftBig">Fixed animation this slide</span>														
+			</div>	
+			<div class="oneByOne_item">                                 	
+				<img src="<?php echo $root;?>/images/example1/bigimage.jpg"  class="bigImage" ></img>
+				<span class="slide5Txt1">Support Big Image</span>								
+				<span class="slide5Txt2">Unlimited Text block</span>											
+				<span class="slide5Txt2">Random animation this slide</span>				
+			</div>			
+		</div>    
+     </div>
+   </div>  
+   
+  
+   
+   <div id="about" class="row">
        <div class="twelve columns">
          <h3>Live Tiles Playground</h3>
          <hr>
@@ -148,7 +170,7 @@ function blocks_front_page($page){
      </div> 
        
      <div class="row">   
-       <div id="about" class="six columns">
+       <div  class="six columns">
          <div class="row">      
        
 				    <div class="twelve columns">     
