@@ -1,3 +1,38 @@
+
+
+
+#top_header {
+	background: #222;
+	background-image: url('../images/backgrounds/dark_mosaic.png');
+}
+
+.header_icons {
+	margin: 5px 0px;
+	text-align: right;
+}
+
+.header_icons .left {
+	text-align: left;
+}
+
+.header_icons li {
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+	font-size: 20px;
+	color: white;
+			 -moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+
+}
+
+.header_icons li i:hover {
+	color: #64ADB5;
+}
+
+
 .projects_carousel {
 	 margin-left: -20px !important;
 }
@@ -37,6 +72,7 @@
 
 .carousel_navigation {
 	margin-left: 20px;
+	margin-top: 20px;
 	font-size:25px;
 	float: right;
 
@@ -377,8 +413,7 @@ body {
 }
 
 header {
-	background: #222;
-	background-image: url('../images/backgrounds/dark_mosaic.png');
+	
 
   left: 0;
   right: 0;

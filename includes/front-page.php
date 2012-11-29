@@ -133,12 +133,6 @@ function blocks_front_page($page){
 
 <!-- main span12 -->
 
-<div class="row">
-       <div class="twelve columns">
-         <h3>Slider</h3>
-         <hr>
-       </div>
-     </div> 
   
    
    <div class="row">
@@ -177,7 +171,7 @@ function blocks_front_page($page){
 				       <div id="tile1" class="live-tile red" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
-				            <i class="foundicon-heart"></i>
+				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents" style="background: pink;">
@@ -196,11 +190,11 @@ function blocks_front_page($page){
 				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
-				            <i class="foundicon-smiley"></i>
+				            <i class="general foundicon-smiley"></i>
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents">
-				            <i class="foundicon-phone"></i>
+				            <i class="general foundicon-phone"></i>
 				            <p>Other title</p>
 				        </div>
 				       </div>
@@ -210,11 +204,11 @@ function blocks_front_page($page){
 				       <div class="live-tile orange" data-direction="horizontal" data-mode="flip" data-initdelay="400">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
-				            <i class="foundicon-photo"></i>
+				            <i class="general foundicon-photo"></i>
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents">
-				            <i class="foundicon-flag"></i>
+				            <i class="general foundicon-flag"></i>
 				            <p>Other title</p>
 				        </div>
 				       </div>
@@ -224,11 +218,11 @@ function blocks_front_page($page){
 				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
-				            <i class="foundicon-smiley"></i>
+				            <i class="general foundicon-smiley"></i>
 				            <p>Title goes here</p>
 				        </div>
 				        <div class="tile_contents">
-				            <i class="foundicon-phone"></i>
+				            <i class="general foundicon-phone"></i>
 				            <p>Other title</p>
 				        </div>
 				       </div>
@@ -243,19 +237,24 @@ function blocks_front_page($page){
   
      <div class="row">
        <div class="twelve columns">
-         <h3>Carousel Playground</h3>
-         <hr>
+        
+         <h3 style="float: left;">Carousel Playground</h3>
+       
+         <div class="carousel_navigation">
+		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
+					  <a id="next" class="next" href="#" style="line-height: 12px"><i class="general foundicon-right-arrow"></i></a>
+						
+          </div>
+           <hr>
+       </div>  
+        
        </div>
-     </div> 
+     
     
      <div class="row">
       <div class="twelve columns">
         <div class="projects_carousel">
-          <div class="carousel_navigation">
-		        <a id="prev" class="prev" href="#">&lt;</a>
-						<a id="next" class="next" href="#">&gt;</a>
-						
-          </div>
+          
           
         <ul id="recent_projects">
         
@@ -427,6 +426,14 @@ function blocks_front_page($page){
        </div>      
       </div>
     </div>
+    
+    
+    <div class="row">
+       <div class="twelve columns">
+         <h3>Recent Posts</h3>
+         <hr>
+       </div>
+     </div>    
     
   <div class="row">
        <div class="twelve columns">

@@ -5,6 +5,29 @@ function blocks_header($page){
 <div id="main_wrapper">
   <header>
     <div class="container">
+       
+      <div id="top_header" > 
+      <div class="row">
+        <div class="six columns">
+          <ul class="header_icons left">
+            <li><i class="general foundicon-settings"></i> Login</li>
+            <li><i class="general foundicon-mail"></i> Contact</li>
+          </ul>
+        </div>
+        <div class="six columns">
+          <ul class="header_icons">
+            <li><i class="social foundicon-facebook"></i></li>
+            <li><i class="social foundicon-twitter"></i></li>
+            <li><i class="social foundicon-linkedin"></i></li>
+            <li><i class="social foundicon-vimeo"></i></li>
+            <li><i class="social foundicon-pinterest"></i></li>
+            <li><i class="social foundicon-google-plus"></i></li>
+            <li><i class="social foundicon-rss"></i></li>
+          </ul>  
+        </div>
+      </div> 
+      </div> 
+      
       <div class="row">  
       	<div class="twelve columns"> 
           <div id="nav">
@@ -36,7 +59,9 @@ function blocks_header($page){
               </section>
              </nav>
 				      </div> 
+				         <hr>
 				    </div> 
+				 
             <!-- end menu -->   
           </div> 
         </div>
@@ -153,15 +178,15 @@ function blocks_header($page){
    
    	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
-   	$('.menu_1 a').prepend('<i class="foundicon-heart"></i>');
+   	$('.menu_1 a').prepend('<i class="general foundicon-heart"></i>');
    	
-   	$('.menu_2 a').prepend('<i class="foundicon-website"></i>');
+   	$('.menu_2 a').prepend('<i class="general foundicon-website"></i>');
    	
-   	$('.menu_3 a').prepend('<i class="foundicon-mic"></i>');
+   	$('.menu_3 a').prepend('<i class="general foundicon-mic"></i>');
    	
-   	$('.menu_4 a').prepend('<i class="foundicon-smiley"></i>');
+   	$('.menu_4 a').prepend('<i class="general foundicon-smiley"></i>');
    	
-   	$('.menu_5 a').prepend('<i class="foundicon-phone"></i>');
+   	$('.menu_5 a').prepend('<i class="general foundicon-phone"></i>');
    	
    	$().UItoTop({ easingType: 'easeOutQuart' });
    	
