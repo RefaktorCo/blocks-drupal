@@ -110,11 +110,10 @@ function blocks_header($page){
       onTouch: true
     },
     items: {
-      height: 165,
-      width: 247,
+      
       visible: {
         min: 1,
-        max: 3
+        max: 4
       }
     }
   });
