@@ -134,26 +134,35 @@ function blocks_front_page($page){
 <!-- main span12 -->
 
   
-   
+   <div id="slider_wrapper"> 
    <div class="row">
      <div class="twelve columns">
      <div id="banner">  				
-			<div class="oneByOne_item">                                 	
-				<img src="<?php echo $root;?>/images/slider_1.jpg"  class="bigImage" data-animate="bounceIn"></img>
-				<span class="slide2Txt1" data-animate="fadeInLeftBig">You can test it on a iPad</span>								
-				<span class="slide2Txt2" data-animate="fadeInRightBig">This text is hidden on small screen</span>											
-				<span class="slide2Txt3" data-animate="fadeInLeftBig">Fixed animation this slide</span>														
-			</div>	
-			<div class="oneByOne_item">                                 	
-				<img src="<?php echo $root;?>/images/slider_2.jpg"  class="bigImage" ></img>
-				<span class="slide5Txt1">Support Big Image</span>								
-				<span class="slide5Txt2">Unlimited Text block</span>											
-				<span class="slide5Txt2">Random animation this slide</span>				
-			</div>			
+			<div class="oneByOne_item">
+			<img src="<?php echo $root;?>/images/example1/item1/wordpress-256x256.png" class="wp1_3" alt=""></img>			            
+			<img src="<?php echo $root;?>/images/example1/item1/wordpress-128x128.png" class="wp1_2" alt=""></img>			    
+			<img src="<?php echo $root;?>/images/example1/item1/wordpress-64x64.png" class="wp1_1" alt=""></img>  			
+			<span class="txt1"><a href="http://themeforest.net/user/sike">I'm Drupal</a></span>
+			<span class="txt2">Above is a hyperlink ;)</span>												
+		</div>
+		<div class="oneByOne_item">                                 	
+			<img src="<?php echo $root;?>/images/slider_1.jpg" class="bigImage" data-animate="bounceIn"></img>
+			<span class="slide2Txt1" data-animate="bounceIn">Hover to pause</span>								
+			<span class="slide2Txt2" data-animate="rollIn">I'm a rollIn animation</span>											
+			<span class="slide2Txt3">Now you can customize each element's animation</span>														
+		</div>	
+		
+		<div class="oneByOne_item">
+			<span class="wp1">Touch Screen</span>			
+			<span class="wp2">Please Wipe Left or Right</span>															
+			<img src="<?php echo $root;?>/images/example1/item2/wordpress-64x64.png" class="wp1" data-animate="lightSpeedIn" alt=""></img>
+			<img src="<?php echo $root;?>/images/example1/item2/wordpress-128x128.png" class="wp2" data-animate="lightSpeedIn" alt=""></img>			
+			<img src="<?php echo $root;?>/images/example1/item2/wordpress-256x256.png" class="wp3" data-animate="lightSpeedIn" alt=""></img>
+		</div>                 		
 		</div>    
      </div>
    </div>  
-   
+  </div> 
   
    
    <div id="about" class="row">
@@ -168,7 +177,7 @@ function blocks_front_page($page){
          <div class="row">      
        
 				    <div class="twelve columns">     
-				       <div id="tile1" class="live-tile red" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
+				       <div id="tile1" class="live-tile blue" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
@@ -187,7 +196,7 @@ function blocks_front_page($page){
       <div class="row">    
 				     				    
 				     <div class="twelve columns">     
-				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
+				       <div class="live-tile red" data-mode="flip" data-initdelay="300">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-smiley"></i>
@@ -434,6 +443,10 @@ function blocks_front_page($page){
          <hr>
        </div>
      </div>    
+     
+     <div class="row">
+         <?php print render($page['front_blog']); ?> 
+     </div>
     
   <div class="row">
        <div class="twelve columns">
@@ -607,7 +620,7 @@ function blocks_front_page($page){
   
 
 
-  <?php print render($page['front_blog']); ?> 
+
   
   
     

@@ -59,7 +59,7 @@ function blocks_header($page){
               </section>
              </nav>
 				      </div> 
-				         <hr>
+				        
 				    </div> 
 				 
             <!-- end menu -->   
@@ -155,6 +155,7 @@ function blocks_header($page){
 			slideShow: true,
 			responsive: true,
 			minWidth: 480,
+			pauseByHover: true, 
 			autoHideButton: true
 		});  
 		
