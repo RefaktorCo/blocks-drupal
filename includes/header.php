@@ -71,6 +71,16 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
+  
+  
+  $(".blog_post").live({
+		mouseenter : function(){
+			$(this).children("div.post_info").stop().animate({right: "50%"}, 300 );
+		},
+		mouseleave : function(){
+			$(this).children("div.post_info").stop().animate({right: "0%"}, 300 );
+		}
+	});
     
    $(window).load(function(){
    var $container = $('#isotope_test');
