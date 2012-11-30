@@ -14,12 +14,15 @@
 	 -moz-transition: all 0.4s ease-in-out;
    -webkit-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out;">
-      <a href="<?php print $node_url; ?>"><h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2></a>
+   transition: all 0.4s ease-in-out; font-size: 20px;">
+     <h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2>
+    <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
+    <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
+    
       </div>
     </div>
-    <div class="tile_contents" style="background: pink; opacity: .7;">
-    <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
+    <div class="tile_contents" style="">
+    <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>
     </div>
   </div>  
 </div>

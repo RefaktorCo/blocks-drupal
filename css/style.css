@@ -240,8 +240,12 @@
 	padding: 25px;
 }
 
+.tile_contents a:link {
+	text-decoration: none !important;
+}
+
 .live-tile i {
-	font-size: 100px;
+	font-size: 20px;
 }
 
 /* SLIMBOX */
