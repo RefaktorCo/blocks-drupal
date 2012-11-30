@@ -1,4 +1,4 @@
-
+<div class="three columns"> <a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></div>
 
 
 

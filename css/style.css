@@ -428,6 +428,10 @@ header {
 	background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/tiny_grid.png);
 }
 
+#test_wrap {
+	padding: 0 15px;
+}
+
 
 a {
    -moz-transition: all 0.2s ease-in-out;
