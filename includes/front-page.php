@@ -177,7 +177,7 @@ function blocks_front_page($page){
          <div class="row">      
        
 				    <div class="twelve columns">     
-				       <div id="tile1" class="live-tile blue" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
+				       <div class="tile1 live-tile blue" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>

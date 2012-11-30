@@ -1,4 +1,13 @@
-<div class="three columns"> <a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></div>
+<div class="six columns">
+  <div class="tile1 live-tile blue" data-mode="slide" data-stops="0" data-stack="true">
+    <div >
+    <?php print render($content['field_image']); ?>
+    </div>
+    <div class="tile_contents" style="background: pink; opacity: .7;">
+    <p style="padding-top:20%; color: black;"><a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
+    </div>
+  </div>  
+</div>
 
 
 
