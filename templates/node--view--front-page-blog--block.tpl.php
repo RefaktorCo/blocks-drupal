@@ -1,10 +1,25 @@
 <div class="six columns">
-  <div class="tile1 live-tile blue" data-mode="slide" data-stops="0" data-stack="true">
-    <div >
+  <div class="tile1 live-tile blue" data-mode="slide"  data-direction="horizontal" data-stops="0" data-stack="true">
+    <div>
     <?php print render($content['field_image']); ?>
+      <div style="display: block;
+	background: #5f419b;
+	color: #fff;
+	
+	height: 100%;
+	width: 50%;
+	top: 0%;
+	position: absolute;
+	padding:15px;
+	 -moz-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;">
+      <a href="<?php print $node_url; ?>"><h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2></a>
+      </div>
     </div>
     <div class="tile_contents" style="background: pink; opacity: .7;">
-    <p style="padding-top:20%; color: black;"><a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
+    <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" class="button" data-reveal-id="myModal_<?php print $node->nid; ?>">Click to open</a></p>
     </div>
   </div>  
 </div>
