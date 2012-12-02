@@ -1,5 +1,5 @@
 .recent_posts_wrap {
-	height: 250px;
+	height: 100%;
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 30px;
@@ -8,17 +8,18 @@
 .recent_post_photo {
   
   float: left;
-  height: 250px;
+  height: 100%;
   width: 100%;
 }
 
 .recent_post_info {
 	background-color: #DB8916;
-	height: 250px;
+	height: 100%;
 	width: 50%;
 	position: relative;
 	z-index: 1;
 	color: white;
+	top: 0;
 }
 
 .recent_post_info_text {
@@ -29,7 +30,7 @@
 
 .recent_post_links {
 	background-color: #5F419B;
-	height: 250px;
+	height: 100%;
 	width: 50%;
 	float: left;
 	position: absolute;
