@@ -445,9 +445,7 @@ function blocks_front_page($page){
      </div>    
      
      <div class="row">
-       <div id="test_wrap">
-         <?php print render($page['front_blog']); ?>     
-       </div>
+       <?php print render($page['front_blog']); ?>     
      </div>
     
   <div class="row">

@@ -4,9 +4,11 @@
       <?php print render($content['field_image']); ?>
     </div>  
     <div class="recent_post_info">  
-      <h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2>
-      <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
-      <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
+      <div class="recent_post_info_text">
+        <h2><?php print $title; ?></h2>
+        <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
+        <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
+      </div>
     </div>
     <div class="recent_post_links">
     <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>

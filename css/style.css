@@ -2,31 +2,49 @@
 	height: 250px;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 30px;
 }
 
 .recent_post_photo {
-  background-color: green;
+  
   float: left;
   height: 250px;
   width: 100%;
 }
 
 .recent_post_info {
-	background-color: blue;
+	background-color: #DB8916;
 	height: 250px;
 	width: 50%;
 	position: relative;
 	z-index: 1;
+	color: white;
+}
+
+.recent_post_info_text {
+	position: absolute;
+	font-size: 24px;
+	color: white;
 }
 
 .recent_post_links {
-	background-color: orange;
+	background-color: #5F419B;
 	height: 250px;
 	width: 50%;
 	float: left;
 	position: absolute;
 	left: 0;
 	top: 0;
+	color: white;
+	padding-top: 20%;
+	
+	
+}
+
+.recent_post_links a {
+	color: white;
+	font-size: 24px;
+	margin: 5px;
 }
 
 
