@@ -81,6 +81,8 @@ function blocks_header($page){
 			$(this).children("div.recent_post_info").stop().animate({left: "0%"}, 300 );
 		}
 	});
+	
+	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
    $(window).load(function(){
    var $container = $('#isotope_test');
