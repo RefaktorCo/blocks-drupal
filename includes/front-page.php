@@ -445,7 +445,8 @@ function blocks_front_page($page){
      </div>    
      
      <div class="row">
-      <div class="six columns recent_posts_wrap">
+      <div class="six columns"> 
+      <div class="recent_posts_wrap">
         <div class="recent_post_photo">
           Photo here
         </div>
@@ -455,7 +456,7 @@ function blocks_front_page($page){
         <div class="recent_post_links">
           Links here
         </div>
-      
+      </div>
       </div>
      </div>
     

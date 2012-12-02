@@ -73,12 +73,12 @@ function blocks_header($page){
   jQuery(document).ready(function ($) {
   
   
-  $("#blog_tiles").live({
+  $(".recent_posts_wrap").live({
 		mouseenter : function(){
-			$(this).children(".blog_info").stop().animate({left: "50%"}, 300 );
+			$(this).children("div.recent_post_info").stop().animate({left: "50%"}, 300 );
 		},
 		mouseleave : function(){
-			$(this).children(".blog_info").stop().animate({left: "0%"}, 300 );
+			$(this).children("div.recent_post_info").stop().animate({left: "0%"}, 300 );
 		}
 	});
     

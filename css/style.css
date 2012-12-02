@@ -16,14 +16,17 @@
 	height: 250px;
 	width: 50%;
 	position: relative;
+	z-index: 1;
 }
 
 .recent_post_links {
 	background-color: orange;
 	height: 250px;
 	width: 50%;
-	float: right;
+	float: left;
 	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 
