@@ -1,6 +1,7 @@
 .recent_posts_wrap {
 	height: 100%;
-	overflow: hidden;
+	width: 100%;
+	overflow: auto;
 	position: relative;
 	margin-bottom: 30px;
 }
