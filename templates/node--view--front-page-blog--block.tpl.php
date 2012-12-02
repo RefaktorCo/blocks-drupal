@@ -1,27 +1,14 @@
 <div class="six columns">
-  <div id="blog_tiles">
-    <div>
-    <?php print render($content['field_image']); ?>
-      <div class="blog_info" style="display: block;
-	background: #5f419b;
-	color: #fff;
-	
-	height: 100%;
-	width: 50%;
-	top: 0%;
-	position: absolute;
-	padding:15px;
-	 -moz-transition: all 0.4s ease-in-out;
-   -webkit-transition: all 0.4s ease-in-out;
-   -o-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out; font-size: 20px;">
-     <h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2>
-    <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
-    <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
-    
-      </div>
+  <div class="recent_posts_wrap">
+    <div class="recent_post_photo">
+      <?php print render($content['field_image']); ?>
+    </div>  
+    <div class="recent_post_info">  
+      <h2 style="text-decoration: none; color: white;"><?php print $title; ?></h2>
+      <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
+      <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
     </div>
-    <div class="tile_contents ">
+    <div class="recent_post_links">
     <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>
     </div>
   </div>  
