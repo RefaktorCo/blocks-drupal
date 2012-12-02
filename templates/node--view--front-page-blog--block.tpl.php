@@ -1,8 +1,8 @@
 <div class="six columns">
-  <div class="tile1 live-tile blue" data-mode="slide"  data-direction="horizontal" data-stops="0" data-stack="true">
+  <div id="blog_tiles">
     <div>
     <?php print render($content['field_image']); ?>
-      <div style="display: block;
+      <div class="blog_info" style="display: block;
 	background: #5f419b;
 	color: #fff;
 	
@@ -21,7 +21,7 @@
     
       </div>
     </div>
-    <div class="tile_contents">
+    <div class="tile_contents ">
     <p style="padding-top:-20%; padding-left: 50%; color: black;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>
     </div>
   </div>  

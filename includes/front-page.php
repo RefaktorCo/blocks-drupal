@@ -445,10 +445,18 @@ function blocks_front_page($page){
      </div>    
      
      <div class="row">
-       <div class="test_wrap">
+      <div class="six columns recent_posts_wrap">
+        <div class="recent_post_photo">
+          Photo here
+        </div>
+        <div class="recent_post_info">
+          Info here
+        </div>
+        <div class="recent_post_links">
+          Links here
+        </div>
       
-         <?php print render($page['front_blog']); ?> 
-       </div>
+      </div>
      </div>
     
   <div class="row">

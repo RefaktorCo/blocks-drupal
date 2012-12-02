@@ -1,4 +1,30 @@
+.recent_posts_wrap {
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+}
 
+.recent_post_photo {
+  background-color: green;
+  float: left;
+  height: 250px;
+  width: 100%;
+}
+
+.recent_post_info {
+	background-color: blue;
+	height: 250px;
+	width: 50%;
+	position: relative;
+}
+
+.recent_post_links {
+	background-color: orange;
+	height: 250px;
+	width: 50%;
+	float: right;
+	position: absolute;
+}
 
 
 #top_header {

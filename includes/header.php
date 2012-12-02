@@ -73,12 +73,12 @@ function blocks_header($page){
   jQuery(document).ready(function ($) {
   
   
-  $(".blog_post").live({
+  $("#blog_tiles").live({
 		mouseenter : function(){
-			$(this).children("div.post_info").stop().animate({right: "50%"}, 300 );
+			$(this).children(".blog_info").stop().animate({left: "50%"}, 300 );
 		},
 		mouseleave : function(){
-			$(this).children("div.post_info").stop().animate({right: "0%"}, 300 );
+			$(this).children(".blog_info").stop().animate({left: "0%"}, 300 );
 		}
 	});
     
@@ -207,10 +207,10 @@ function blocks_header($page){
    	
    	 $(".live-tile").not(".exclude").liveTile();
    	   	
-   	var $tiles = $(".tile1").liveTile({ repeatCount: 0, delay: 0 });
+   	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
    
    	var isPeeking = false;
-   	$(".tile1").hover(function() {
+   	$("#tile1").hover(function() {
     if (!isPeeking) {
         var tileData = $(this).data("LiveTile");
         tileData.isReversed = false;
