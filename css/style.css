@@ -499,7 +499,7 @@ header {
 }
 
 #slider_wrapper_after {
-	  background-color: rgba(27, 161, 226, 0.2);
+	  background-color: rgba(143, 173, 48, 0.3);
 	 
 		padding:20px 0px;
 }
@@ -535,6 +535,18 @@ hr {
   border-top: none;
   border-bottom: none;
   clear:both;
+}
+
+.hr_beside {
+	 background: url('../images/hr.png') repeat-x 0 50%; 
+	 margin: 10px 0px;
+}
+
+.heading_title {
+	background: white;
+  padding: 10px 10px 10px 0px;
+  display: table;
+  font-size: 30px;
 }
 
 #page_content {

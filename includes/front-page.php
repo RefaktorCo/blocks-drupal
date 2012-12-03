@@ -170,8 +170,10 @@ function blocks_front_page($page){
    
    <div id="about" class="row">
        <div class="twelve columns">
-         <h3>Who We Are</h3>
-         <hr>
+         <div class="hr_beside">
+           <div class="heading_title">Who We Are</div>
+         </div>
+        
        </div>
      </div> 
        
