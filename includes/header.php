@@ -32,7 +32,10 @@ function blocks_header($page){
       </div> 
       
       <div class="row">  
-      	<div class="twelve columns"> 
+        <div class="three columns" style="padding-top: 10px;">
+          <img src="<?php echo $root;?>/images/blocks-logo.png">
+        </div>
+      	<div class="nine columns"> 
           <div id="nav">
             <!-- begin menu -->
              <nav class="top-bar">
@@ -46,7 +49,7 @@ function blocks_header($page){
 	            </li>
               <li class="toggle-topbar"><a href="#"></a></li>
               </ul>
-              <section>
+              <section class="menu_wrap">
 				          <?php print theme('links__system_main_menu', array(
 				            'attributes' => array(
 				              'id' => 'main-menu-links',
@@ -181,7 +184,7 @@ function blocks_header($page){
    	 
    	$('.top-bar ul').removeClass('menu');
    	 
-   	$('.top-bar ul').addClass('left');
+   	$('.menu_wrap ul').addClass('right');
    	
   
 		

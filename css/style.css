@@ -484,6 +484,10 @@ header {
   margin: 0 auto;
 }
 
+.name {
+	display: none;
+}
+
 #slider_wrapper {
 	padding:20px 0px;
 	background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/tiny_grid.png);
