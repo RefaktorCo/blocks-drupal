@@ -70,8 +70,10 @@
 	margin-right: 10px;
 	font-size: 20px;
 	color: white;
-		
+}
 
+.header_icons img {
+	height: 26px;
 }
 
 .header_icons i {

@@ -10,8 +10,8 @@ function blocks_header($page){
       <div class="row">
         <div class="six columns">
           <ul class="header_icons left">
-            <li><i class="general foundicon-settings"></i> <a href="#" data-reveal-id="login_modal">Login</a></li>
-            <li><i class="general foundicon-mail"></i> <a href="#" data-reveal-id="contact_modal">Contact</a></li>
+            <li><a href="#" data-reveal-id="login_modal"><i class="general foundicon-settings"></i></a></li>
+            <li> <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-mail"></i></a></li>
           </ul>
         </div>
         <div class="six columns">
