@@ -1794,22 +1794,8 @@ span.accordion-head-image {
 
 }
 
-@media screen and (max-width: 980px) { 
-  #vert_nav {
-	margin-left: -40px;  
-  }
-  
-  #panels {
-    padding: 10px 30px;
-  }
-  
-  #portfolio {
-    padding: 10px 30px;
-  }
-  
-  #portfolio .span5 .mask {
-    padding-top: 5%;
-  }
+@media screen and (max-width: 940px) { 
+
   
   .name {
 	  display: block;
