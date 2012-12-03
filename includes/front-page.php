@@ -135,6 +135,7 @@ function blocks_front_page($page){
 
   
    <div id="slider_wrapper"> 
+    <div id="slider_wrapper_after">
    <div class="row">
      <div class="twelve columns">
      <div id="banner">  				
@@ -163,6 +164,8 @@ function blocks_front_page($page){
      </div>
    </div>  
   </div> 
+  
+ </div>
   
    
    <div id="about" class="row">
@@ -273,7 +276,7 @@ function blocks_front_page($page){
   <div class="row">
        <div class="twelve columns">
         
-         <h3 style="float: left;">Our Clients</h3>
+         <h3 style="float: left;">Recent Projects</h3>
        
          <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>

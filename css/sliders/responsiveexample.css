@@ -16,7 +16,7 @@ body{
 
 
 	margin: 0;
-	width: 1080px;
+	width: 1050px;
 	height: 420px;   
 
 	position: relative;
@@ -26,7 +26,7 @@ body{
 
 #banner .oneByOne_item{
 	position: absolute;
-	width: 1080px;
+	width: 1050px;
 	height: 420px;  
 	overflow: hidden;  
 	display: none;
@@ -78,7 +78,7 @@ body{
 /* change the width of the slider in your own responsive media query */
 @media only screen and (min-width: 960px) {
 	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
-		width: 1080px;
+		width: 1050px;
 	}
 }
 

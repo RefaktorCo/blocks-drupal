@@ -167,7 +167,7 @@ function blocks_header($page){
 			/* Please provide the width and height in the responsive 
 			version, for the slider will keep the ratio when resize 
 			depends on these size. */
-			width: 1080,
+			width: 1050,
 			height: 420,
 			easeType: 'random',
 			slideShow: true,
@@ -188,7 +188,7 @@ function blocks_header($page){
    	
   
 		
-		$(".carousel_item_wrapper .carousel_item_hover").click(function() {
+		$(".carousel_item_wrapper .carousel_item_hover").mouseenter(function() {
 			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
     });
     
