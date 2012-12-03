@@ -5,16 +5,16 @@
     </div>  
     <div class="recent_post_info">  
       <div class="recent_post_info_text">
-        <div class="recent_post_info_text_wrap">
+        
           <h1><?php print $title; ?></h1>
           <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
           <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
-        </div>  
+         
       </div>
       <div style="clear:both;"></div>
     </div>
     <div class="recent_post_links">
-    <p style="padding: 40%;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>
+    <p style="padding-top: 45%;"><a href="#" style="line-height: 12px" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>" style="line-height: 12px"><i class="general foundicon-paper-clip"></i></a></p>
     </div>
   </div>  
 </div>

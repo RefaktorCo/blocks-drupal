@@ -25,16 +25,19 @@
 	z-index: 1;
 	color: white;
 	top: 0;
+	padding-top: 15%;
 }
 
 .recent_post_info_text {
 	position: absolute;
-	color: white;
+	color: #222;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
 }
 
-.recent_post_info_text_wrap {
-  padding: 30px 0px 30px 30px;
-  font-size:22px;	
+.recent_post_info_text i {
+	color: white;
 }
 
 .recent_post_links {
@@ -46,14 +49,14 @@
 	left: 0;
 	top: 0;
 	color: white;
-	
+	text-align: center;
 	
 }
 
 .recent_post_links a {
 	color: white;
 	font-size: 24px;
-	margin: 5px;
+	margin-left: 10px;
 }
 
 
