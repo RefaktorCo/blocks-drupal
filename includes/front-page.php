@@ -182,7 +182,7 @@ function blocks_front_page($page){
          <div class="row">      
        
 				    <div class="twelve columns">     
-				       <div class="tile1 live-tile blue" data-mode="slide" data-stops="0" data-stack="true" style="height:390px;">   
+				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="height:390px; background-color: #666;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
@@ -263,32 +263,32 @@ function blocks_front_page($page){
 
   
          
-    <div class="row">
+    <div id="about" class="row">
        <div class="twelve columns">
-         <h3>Recent Posts</h3>
-         <hr>
+         <div class="hr_beside">
+           <div class="heading_title">Recent Posts</div>
+         </div>
        </div>
-     </div>    
+     </div> 
      
      <div class="row">
        <?php print render($page['front_blog']); ?>     
      </div>
      
      
-  <div class="row">
-       <div class="twelve columns">
         
-         <h3 style="float: left;">Recent Projects</h3>
-       
-         <div class="carousel_navigation">
+           <div id="about" class="row">
+       <div class="twelve columns">
+         <div class="hr_beside">
+           <div class="heading_title">Recent Posts</div>
+            <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
 					  <a id="next" class="next" href="#" style="line-height: 12px"><i class="general foundicon-right-arrow"></i></a>
 						
           </div>
-           <hr>
-       </div>  
-        
+         </div>
        </div>
+     </div> 
      
     
      <div class="row">
