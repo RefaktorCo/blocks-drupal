@@ -30,6 +30,9 @@ regions[content]        = Content
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
 
+regions[header_login] = Header Login
+regions[header_contact] = Header Contact
+
 regions[slider]         = Slider Full Width
 
 regions[front_blog]      = Front Page Blog

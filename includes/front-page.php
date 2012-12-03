@@ -629,8 +629,17 @@ function blocks_front_page($page){
 
   
   
+   <div id="login_modal" class="reveal-modal medium">
+     Test login
+   <a class="close-reveal-modal">&#215;</a>
+   </div>
 
 
+
+<div id="contact_modal" class="reveal-modal medium">
+     <?php print render($page['header_contact']); ?>  
+   <a class="close-reveal-modal">&#215;</a>
+   </div>
 
   
   
