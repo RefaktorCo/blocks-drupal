@@ -629,17 +629,21 @@ function blocks_front_page($page){
 
   
   
-   <div id="login_modal" class="reveal-modal medium">
-     Test login
-   <a class="close-reveal-modal">&#215;</a>
-   </div>
+    <div id="login_modal" class="reveal-modal medium">
+	    <?php if(!$page['header_login']) {?>
+        <h2>Add the user menu block here or your own custom code</h2>
+      <?php } else { print render($page['header_login']); }?>  
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
 
 
 
-<div id="contact_modal" class="reveal-modal medium">
-     <?php print render($page['header_contact']); ?>  
-   <a class="close-reveal-modal">&#215;</a>
-   </div>
+    <div id="contact_modal" class="reveal-modal medium">
+      <?php if(!$page['header_contact']) {?>
+        <h2>Add the contact block here or your own custom code</h2>
+      <?php } else { print render($page['header_contact']); }?> 
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
 
   
   
