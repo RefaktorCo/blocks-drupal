@@ -1497,15 +1497,23 @@ span.accordion-head-image {
   background: url('../images/plus.png');
 }
 
-.highlight_text {font-size: 20px;}
-
 #highlight {
 	background: #1BA1E2; 
 	padding: 20px 0px; color: 
 }
 
+.highlight_icon {
+	padding-top: 30px; 
+	font-size: 75px; 
+	color: white;
+}
+
 #highlight h1 {
 	color: #FFF;
+}
+
+.highlight_text {
+	padding: 0px 10px;
 }
 
 /*Panels*/
