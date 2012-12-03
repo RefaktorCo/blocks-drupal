@@ -70,11 +70,19 @@
 	margin-right: 10px;
 	font-size: 20px;
 	color: white;
-			 -moz-transition: all 0.3s ease-in-out;
+		
+
+}
+
+.header_icons i {
+		 -moz-transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
+}
 
+.header_icons li a {
+	color: #fff;
 }
 
 .header_icons li i:hover {

@@ -143,6 +143,167 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
           'visible' => array('#edit-branding-type' => array('value' => 'background')),
         ), 
       );
+      
+      // Social Icons
+    $form['options']['header']['social'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Social Icons</h3>',
+    );
+    
+      // Twitter Icon
+      $form['options']['header']['social']['twitter_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Twitter Icon',
+        '#default_value' => theme_get_setting('twitter_icon'),
+      );
+      
+      // Twitter Icon URL
+      $form['options']['header']['social']['twitter_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter URL',
+        '#default_value' => theme_get_setting('twitter_url'),
+        '#size' => 10,
+        '#maxlenght' => 10,
+        '#states' => array (
+          'invisible' => array(
+            'input[name="twitter_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Facebook Icon
+      $form['options']['header']['social']['facebook_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Facebook Icon',
+        '#default_value' => theme_get_setting('facebook_icon'),
+      );
+      
+      // Facebook Icon URL
+      $form['options']['header']['social']['facebook_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Facebook URL',
+        '#default_value' => theme_get_setting('facebook_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="facebook_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Flickr Icon
+      $form['options']['header']['social']['flickr_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Flickr Icon',
+        '#default_value' => theme_get_setting('flickr_icon'),
+      );
+      
+      // Flickr Icon URL
+      $form['options']['header']['social']['flickr_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Flickr URL',
+        '#default_value' => theme_get_setting('flickr_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="flickr_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Google Plus Icon
+      $form['options']['header']['social']['google_plus_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Google+ Icon',
+        '#default_value' => theme_get_setting('google_plus_icon'),
+      );
+      
+      // Google Plus URL
+      $form['options']['header']['social']['google_plus_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Google+ URL',
+        '#default_value' => theme_get_setting('google_plus_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="google_plus_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+       // Pinterest Icon
+      $form['options']['header']['social']['pinterest_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Pinterest Icon',
+        '#default_value' => theme_get_setting('pinterest_icon'),
+      );
+      
+      // Pinterest URL
+      $form['options']['header']['social']['pinterest_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Pinterest URL',
+        '#default_value' => theme_get_setting('pinterest_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="pinterest_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+       // LinkedIn Icon
+      $form['options']['header']['social']['linkedin_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'LinkedIn Icon',
+        '#default_value' => theme_get_setting('linkedin_icon'),
+      );
+      
+      // linkedin URL
+      $form['options']['header']['social']['linkedin_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'LinkedIn URL',
+        '#default_value' => theme_get_setting('linkedin_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="linkedin_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+
+      // Youtube Icon
+      $form['options']['header']['social']['youtube_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Youtube Icon',
+        '#default_value' => theme_get_setting('youtube_icon'),
+      );
+      
+      // Youtube URL
+      $form['options']['header']['social']['youtube_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Youtube URL',
+        '#default_value' => theme_get_setting('youtube_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="youtube_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+
+      // RSS Icon
+      $form['options']['header']['social']['rss_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'RSS Icon',
+        '#default_value' => theme_get_setting('rss_icon'),
+      );
+      
+      // Twitter URL
+      $form['options']['header']['social']['rss_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'RSS URL',
+        '#default_value' => theme_get_setting('rss_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="rss_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
+
 	
   // Front Page
   $form['options']['front_page'] = array(
@@ -578,166 +739,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#default_value' => theme_get_setting('enable_primary_footer'),
     );
       
-    // Social Icons
-    $form['options']['footer']['social'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Social Icons</h3>',
-    );
     
-      // Twitter Icon
-      $form['options']['footer']['social']['twitter_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Twitter Icon',
-        '#default_value' => theme_get_setting('twitter_icon'),
-      );
-      
-      // Twitter Icon URL
-      $form['options']['footer']['social']['twitter_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Twitter URL',
-        '#default_value' => theme_get_setting('twitter_url'),
-        '#size' => 10,
-        '#maxlenght' => 10,
-        '#states' => array (
-          'invisible' => array(
-            'input[name="twitter_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-      // Facebook Icon
-      $form['options']['footer']['social']['facebook_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Facebook Icon',
-        '#default_value' => theme_get_setting('facebook_icon'),
-      );
-      
-      // Facebook Icon URL
-      $form['options']['footer']['social']['facebook_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Facebook URL',
-        '#default_value' => theme_get_setting('facebook_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="facebook_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-      // Flickr Icon
-      $form['options']['footer']['social']['flickr_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Flickr Icon',
-        '#default_value' => theme_get_setting('flickr_icon'),
-      );
-      
-      // Flickr Icon URL
-      $form['options']['footer']['social']['flickr_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Flickr URL',
-        '#default_value' => theme_get_setting('flickr_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="flickr_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-      // Google Plus Icon
-      $form['options']['footer']['social']['google_plus_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Google+ Icon',
-        '#default_value' => theme_get_setting('google_plus_icon'),
-      );
-      
-      // Google Plus URL
-      $form['options']['footer']['social']['google_plus_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Google+ URL',
-        '#default_value' => theme_get_setting('google_plus_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="google_plus_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-       // Pinterest Icon
-      $form['options']['footer']['social']['pinterest_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Pinterest Icon',
-        '#default_value' => theme_get_setting('pinterest_icon'),
-      );
-      
-      // Pinterest URL
-      $form['options']['footer']['social']['pinterest_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Pinterest URL',
-        '#default_value' => theme_get_setting('pinterest_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="pinterest_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-       // LinkedIn Icon
-      $form['options']['footer']['social']['linkedin_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'LinkedIn Icon',
-        '#default_value' => theme_get_setting('linkedin_icon'),
-      );
-      
-      // linkedin URL
-      $form['options']['footer']['social']['linkedin_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'LinkedIn URL',
-        '#default_value' => theme_get_setting('linkedin_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="linkedin_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-
-      // Youtube Icon
-      $form['options']['footer']['social']['youtube_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Youtube Icon',
-        '#default_value' => theme_get_setting('youtube_icon'),
-      );
-      
-      // Youtube URL
-      $form['options']['footer']['social']['youtube_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Youtube URL',
-        '#default_value' => theme_get_setting('youtube_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="youtube_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-
-      // RSS Icon
-      $form['options']['footer']['social']['rss_icon'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'RSS Icon',
-        '#default_value' => theme_get_setting('rss_icon'),
-      );
-      
-      // Twitter URL
-      $form['options']['footer']['social']['rss_url'] = array(
-        '#type' => 'textfield',
-        '#title' => 'RSS URL',
-        '#default_value' => theme_get_setting('rss_url'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="rss_icon"]' => array('checked' => FALSE)
-          )
-        )
-      );
-
     // Secondary Footer
     $form['options']['footer']['secondary_footer'] = array(
       '#type' => 'fieldset',
