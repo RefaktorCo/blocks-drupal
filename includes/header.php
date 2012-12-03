@@ -32,7 +32,7 @@ function blocks_header($page){
       </div> 
       
       <div class="row">  
-        <div class="three columns" style="padding-top: 10px;">
+        <div class="three columns" style="padding-top: 15px;">
           <img src="<?php echo $root;?>/images/blocks-logo.png">
         </div>
       	<div class="nine columns"> 

@@ -167,7 +167,7 @@ function blocks_front_page($page){
    
    <div id="about" class="row">
        <div class="twelve columns">
-         <h3>Live Tiles Playground</h3>
+         <h3>Who We Are</h3>
          <hr>
        </div>
      </div> 
@@ -243,11 +243,37 @@ function blocks_front_page($page){
 		    </div>  
 			
       </div>
+      
+        
+    <div id="highlight">
+      <div class="row">
+        <div class="one columns highlight_icon">
+          <i class="general foundicon-idea"></i>
+        </div>
+        <div class="eleven columns">
+          <h1 class="highlight_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h1>
+        </div>
+      </div>
+    </div>
+
   
+         
+    <div class="row">
+       <div class="twelve columns">
+         <h3>Recent Posts</h3>
+         <hr>
+       </div>
+     </div>    
+     
      <div class="row">
+       <?php print render($page['front_blog']); ?>     
+     </div>
+     
+     
+  <div class="row">
        <div class="twelve columns">
         
-         <h3 style="float: left;">Carousel Playground</h3>
+         <h3 style="float: left;">Our Clients</h3>
        
          <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
@@ -435,29 +461,8 @@ function blocks_front_page($page){
        </div>      
       </div>
     </div>
-    
-    <div id="highlight">
-      <div class="row">
-        <div class="one columns highlight_icon">
-          <i class="general foundicon-idea"></i>
-        </div>
-        <div class="eleven columns">
-          <h1 class="highlight_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h1>
-        </div>
-      </div>
-    </div>
-    
-    
-    <div class="row">
-       <div class="twelve columns">
-         <h3>Recent Posts</h3>
-         <hr>
-       </div>
-     </div>    
-     
-     <div class="row">
-       <?php print render($page['front_blog']); ?>     
-     </div>
+      
+   
     
   <div class="row">
        <div class="twelve columns">
