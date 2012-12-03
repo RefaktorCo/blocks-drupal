@@ -450,7 +450,7 @@
 /* Body and Content */
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #555;
   background-color:  #ececec;
  
@@ -495,8 +495,8 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300; 
-  text-transform: uppercase; 
+  font-weight: 200; 
+  
 }
 
 input[type="text"] {
@@ -1040,7 +1040,7 @@ article hr {
 
 .content p {
   line-height: 1.7; 
-  font-size: 13px;
+  font-size: 18px;
   clear: both;
 }
 
@@ -1498,6 +1498,15 @@ span.accordion-head-image {
 }
 
 .highlight_text {font-size: 20px;}
+
+#highlight {
+	background: #1BA1E2; 
+	padding: 20px 0px; color: 
+}
+
+#highlight h1 {
+	color: #FFF;
+}
 
 /*Panels*/
 #panels {

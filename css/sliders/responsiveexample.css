@@ -14,11 +14,11 @@ body{
 
 .oneByOne1{
 
-	left: 36px;  
+
 	margin: 0;
 	width: 1080px;
 	height: 420px;   
-	background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/tiny_grid.png);
+
 	position: relative;
 	overflow: hidden;
 
@@ -78,7 +78,7 @@ body{
 /* change the width of the slider in your own responsive media query */
 @media only screen and (min-width: 960px) {
 	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
-		width: 960px;
+		width: 1080px;
 	}
 }
 

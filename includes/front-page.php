@@ -436,6 +436,17 @@ function blocks_front_page($page){
       </div>
     </div>
     
+    <div id="highlight">
+      <div class="row">
+        <div class="one columns" style="padding-top: 30px; font-size: 75px; color: white;ß">
+          <i class="general foundicon-idea"></i>
+        </div>
+        <div class="eleven columns">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h1>
+        </div>
+      </div>
+    </div>
+    
     
     <div class="row">
        <div class="twelve columns">
