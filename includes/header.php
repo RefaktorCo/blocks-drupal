@@ -214,29 +214,7 @@ function blocks_header($page){
 			$("#test").addClass(".expand-first-hover");
     });
    	
-   	 $(".live-tile").not(".exclude").liveTile();
-   	   	
-   	var $tiles = $("#tile1").liveTile({ repeatCount: 0, delay: 0 });
-   
-   	var isPeeking = false;
-   	$("#tile1").hover(function() {
-    if (!isPeeking) {
-        var tileData = $(this).data("LiveTile");
-        tileData.isReversed = false;
-        tileData.stops = ['50%'];
-        $(this).data("LiveTile", tileData).liveTile('play');
-        isPeeking = true;
-    }
-}, function() {
-    if (isPeeking) {
-        var tileData = $(this).data("LiveTile");
-        tileData.isReversed = false;
-        tileData.stops = ['0'];
-        $(this).data("LiveTile", tileData).liveTile('play');
-        isPeeking = false;
-    }
-}); 
-		
+   			
 	  $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
 	 
 	  jQuery("ul.accordion li").each(function(){
