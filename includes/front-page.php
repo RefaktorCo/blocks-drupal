@@ -180,11 +180,7 @@ function blocks_front_page($page){
      
      <div class="row">
        <div class="twelve columns">
-         <div class="ipad_test"></div>
-         <div class="ipad_test"></div>
-         <div class="ipad_test"></div>
-         <div class="ipad_test"></div>
-         
+         <div id="box1"></div>         
      </div>
      </div>  
        

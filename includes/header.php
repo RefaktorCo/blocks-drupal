@@ -77,13 +77,7 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
-  
-    $(".ipad_test").click(function() {
-    $(".ipad_test_click").removeClass("ipad_test_click");
-    $(this).addClass("ipad_test_click");  
-  });
-  
-
+ 
   $(".recent_posts_wrap").live({
 		mouseenter : function(){
 			$(this).children("div.recent_post_info").stop().animate({left: "50%"}, 300 );
@@ -139,9 +133,6 @@ function blocks_header($page){
   $('#recent_projects').carouFredSel({
     width: '100%',
     responsive: true,
-    
-    
-    
     circular : false,
     infinite : false,
     auto: false,
@@ -155,7 +146,7 @@ function blocks_header($page){
     },
     swipe: {
       onMouse: true,
-      onTouch: true
+      onTouch: false
     },
     items: {
       
@@ -192,12 +183,14 @@ function blocks_header($page){
    	$('.menu_wrap ul').addClass('right');
    	
   
-		 
-		$(".carousel_item_hover").mousedown(function() {
-		  $(".carousel_item_hover_click").removeClass("carousel_item_hover_click");
-			$(this).addClass("carousel_item_hover_click");
-    });
-     
+		$(function() { 
+	    $(".carousel_item_wrapper").hover(function() {
+	      $(this).children(".carousel_item_content").fadeTo(400, 0.25).end().children(".carousel_item_hover").fadeTo(400, 1).show();
+	    },
+	    function(){
+	      $(this).children(".carousel_item_content").fadeTo(400, 1).end().children(".carousel_item_hover").fadeTo(400, 0).hide();
+	    });  
+	  });        
     
     
     

@@ -103,26 +103,6 @@
 	color: #64ADB5;
 }
 
-
-.ipad_test {
-
-	border: 1px solid black;
-	width: 150px;
-	height: 150px;
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 20px;
-}
-
-.ipad_test_click {
-	background: yellow;
-}
-​
-.ipad_test:hover {
-	background: blue;
-	border: 1px solid pink;
-}
-
 .projects_carousel {
 	 margin-left: -20px !important;
 }
@@ -137,9 +117,7 @@
 	opacity: 1;
 }
 
-.carousel_item_content:hover{
-	opacity: 4;
-}
+
 
 .carousel_item_wrapper .carousel_item_hover {
 	display: block;
@@ -150,15 +128,12 @@
 	top: 0%;
 	position: absolute;
 	padding:15px;
-	 -moz-transition: all 0.4s ease-in-out;
-   -webkit-transition: all 0.4s ease-in-out;
-   -o-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out;
+
 }
 
-.carousel_item_wrapper .carousel_item_hover:hover, .carousel_item_wrapper .carousel_item_hover_click {
-  opacity: .9;
-}
+
+
+
 
 .carousel_navigation {
   margin-left: 20px;
