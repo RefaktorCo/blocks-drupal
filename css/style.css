@@ -116,7 +116,7 @@
 	opacity: 1;
 }
 
-.carousel_item_content:hover, .carousel_item_content_click {
+.carousel_item_content:hover{
 	opacity: 4;
 }
 
@@ -1842,7 +1842,13 @@ span.accordion-head-image {
 @media screen and (max-width: 768px) { 
 
  
-
+  .recent_post_info_text h1 {
+    font-size: 24px;
+  }
+  
+  .recent_post_info {
+    padding-top: 10%;
+  }
   
   #vert_nav {
 	position: relative;  

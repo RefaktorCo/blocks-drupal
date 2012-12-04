@@ -187,10 +187,13 @@ function blocks_header($page){
    	$('.menu_wrap ul').addClass('right');
    	
   
-		
-		$(".carousel_item_wrapper .carousel_item_hover").mouseenter(function() {
-			$(".carousel_item_wrapper .carousel_item_hover").addClass(".carousel_item_hover_click");
+		 
+		$(".carousel_item_hover").mousedown(function() {
+		  $(".carousel_item_hover_click").removeClass("carousel_item_hover_click");
+			$(this).addClass("carousel_item_hover_click");
     });
+     
+    
     
     
     $('#recent_projects').after('<div style="clear:both;"></div>');
