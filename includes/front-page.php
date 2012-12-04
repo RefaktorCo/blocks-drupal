@@ -183,41 +183,30 @@ function blocks_front_page($page){
        <div class="six columns">
          <div class="row">      
        
-				    <div class="six columns services">     
-				       <div style="background-color: #666;">   
-				   				<div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
-				            <p>Title goes here</p>
-				          </div>
-				       </div>
+				    <div class="six columns services">  
+				      <div class="services_content">   
+				        <img src="<?php echo $root;?>/images/team3.jpg"> 
+				      </div>        
 				    </div>
 				    
-				   <div class="six columns services">     
-				       <div style="background-color: #666;">   
-				   		   <div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
-				            <p>Title goes here</p>
-				          </div>
-				       </div>
+				    <div class="six columns services">  
+				      <div class="services_content">   
+				        <img src="<?php echo $root;?>/images/team2.jpg"> 
+				      </div>        
 				    </div>
 				    
-				    <div class="six columns services">     
-				       <div style="background-color: #666;">   
-				          <div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
-				            <p>Title goes here</p>
-				          </div>
-				       </div>
+				     <div class="six columns services">  
+				      <div class="services_content">   
+				        <img src="<?php echo $root;?>/images/team1.jpg"> 
+				      </div>        
 				    </div>
-				    
-				    <div class="six columns services">     
-				       <div style="background-color: #666;">   
-				        	<div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
-				            <p>Title goes here</p>
-				          </div>
-				       </div>
+
+				    <div class="six columns services">  
+				      <div class="services_content">   
+				        <img src="<?php echo $root;?>/images/team4.jpg"> 
+				      </div>        
 				    </div>
+
 				    
       </div>
     </div>    
