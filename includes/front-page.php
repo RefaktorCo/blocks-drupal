@@ -201,11 +201,15 @@ function blocks_front_page($page){
 				      </div>        
 				    </div>
 
-				    <div class="six columns services">  
-				      <div class="services_content">   
-				        <img src="<?php echo $root;?>/images/team4.jpg"> 
-				      </div>        
+				       <div class="six columns services">     
+				       <div style="background-color: #8FAD30;">   
+				          <div class="tile_contents">
+				            <i class="general foundicon-location"></i>
+				            <p>Find Us</p>
+				          </div>
+				       </div>
 				    </div>
+
 
 				    
       </div>
@@ -233,15 +237,13 @@ function blocks_front_page($page){
 				      </div>
 				    </div>
 				    
-				      <div class="six columns services">     
-				       <div style="background-color: #8FAD30;">   
-				          <div class="tile_contents">
-				            <i class="general foundicon-location"></i>
-				            <p>Find Us</p>
-				          </div>
-				       </div>
+				    <div class="six columns services">  
+				      <div class="services_content">   
+				        <img src="<?php echo $root;?>/images/team4.jpg"> 
+				      </div>        
 				    </div>
 				    
+				   				    
 				    <div class="six columns services">     
 				       <div style="background-color: #DB8916;">   
 				        	<div class="tile_contents">

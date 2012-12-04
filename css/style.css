@@ -44,7 +44,7 @@
 }
 
 .recent_post_photo img {
-
+height: 189px;
 }
 
 .recent_post_info {
@@ -55,7 +55,7 @@
 	z-index: 1;
 	color: white;
 	top: 0;
-	padding-top: 15%;
+	padding-top: 8%;
 }
 
 .recent_post_info_text {
