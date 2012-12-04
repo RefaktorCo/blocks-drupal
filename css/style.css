@@ -1,4 +1,6 @@
-
+.services {
+	margin-bottom: 20px;
+}
 
 .recent_posts_wrap {
 	height: 100%;
@@ -16,7 +18,7 @@
 }
 
 .recent_post_photo img {
-	
+
 }
 
 .recent_post_info {

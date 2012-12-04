@@ -178,119 +178,79 @@ function blocks_front_page($page){
      </div> 
      
      
-     <div class="row">
-       <div class="twelve columns">
-         <div id="box1"></div>         
-     </div>
-     </div>  
-       
+            
      <div class="row">   
-       <div  class="six columns">
+       <div class="six columns">
          <div class="row">      
        
-				    <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
+				    <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				   				<div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
-				        </div>
-				        <div class="clearfix"></div>
+				          </div>
 				       </div>
 				    </div>
 				    
-				    <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
+				   <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				   		   <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
-				        </div>
+				          </div>
 				       </div>
 				    </div>
-
-<div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
+				    
+				    <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				          <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
-				        </div>
+				          </div>
 				       </div>
 				    </div>
-
-
-<div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
+				    
+				    <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				        	<div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents" style="background: pink;">
-				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
-				        </div>
+				          </div>
 				       </div>
 				    </div>
-
 				    
       </div>
     </div>    
     
-    <div id="about" class="six columns">
+    <div class="six columns">
       <div class="row">    
 				     				    
-				     <div class="twelve columns">     
-				       <div class="live-tile red" data-mode="flip" data-initdelay="300">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
-				            <i class="general foundicon-smiley"></i>
+				     <div class="twelve columns services">     
+				       <div style="background: red;">   
+				         <div class="tile_contents">
+			            <i class="general foundicon-smiley"></i>
+			            <p>Title goes here</p>
+				        </div>
+				        				       </div>
+				    </div>
+				    
+				      <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				          <div class="tile_contents">
+				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents">
-				            <i class="general foundicon-phone"></i>
-				            <p>Other title</p>
-				        </div>
+				          </div>
 				       </div>
 				    </div>
 				    
-				      <div class="six columns">     
-				       <div class="live-tile orange" data-direction="horizontal" data-mode="flip" data-initdelay="400">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
-				            <i class="general foundicon-photo"></i>
+				    <div class="six columns services">     
+				       <div style="background-color: #666;">   
+				        	<div class="tile_contents">
+				            <i class="general foundicon-heart"></i>
 				            <p>Title goes here</p>
-				        </div>
-				        <div class="tile_contents">
-				            <i class="general foundicon-flag"></i>
-				            <p>Other title</p>
-				        </div>
+				          </div>
 				       </div>
-				    </div>
-				    
-				     <div class="six columns">     
-				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
-				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
-				        <div class="tile_contents">
-				            <i class="general foundicon-location"></i>
-				            <p><a href="#" style="line-height: 12px" data-reveal-id="map_modal">Find Us</a></p>
-				        </div>
-				        <div class="tile_contents">
-				            <i class="general foundicon-phone"></i>
-				            <p>Other title</p>
-				        </div>
-				       </div>
-				    </div>
-				    
+				    </div>				    
 				     
 				    
 		      </div>
