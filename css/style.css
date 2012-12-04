@@ -1,6 +1,4 @@
-.menucardmenu {background:red;border:1px solid black;width:200px;height:100px; float: left; margin-right: 10px; margin-bottom: 20px;}
-.backgroundmenucard {background:yellow}
-​
+
 
 .recent_posts_wrap {
 	height: 100%;
@@ -104,6 +102,22 @@
 .header_icons li i:hover {
 	color: #64ADB5;
 }
+
+
+.menucardmenu {
+	background: red;
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.backgroundmenucard {
+	background: yellow;
+}
+​
 
 
 .projects_carousel {
