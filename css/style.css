@@ -104,8 +104,8 @@
 }
 
 
-.menucardmenu {
-	background: red;
+.ipad_test {
+
 	border: 1px solid black;
 	width: 150px;
 	height: 150px;
@@ -114,11 +114,14 @@
 	margin-bottom: 20px;
 }
 
-.backgroundmenucard {
+.ipad_test_click {
 	background: yellow;
 }
 ​
-
+.ipad_test:hover {
+	background: blue;
+	border: 1px solid pink;
+}
 
 .projects_carousel {
 	 margin-left: -20px !important;

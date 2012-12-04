@@ -78,9 +78,9 @@ function blocks_header($page){
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
   
-    $(".menucardmenu").click(function() {
-    $(".backgroundmenucard").removeClass("backgroundmenucard");
-    $(this).addClass("backgroundmenucard");  
+    $(".ipad_test").click(function() {
+    $(".ipad_test_click").removeClass("ipad_test_click");
+    $(this).addClass("ipad_test_click");  
   });
   
 
