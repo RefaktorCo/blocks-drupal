@@ -184,8 +184,13 @@ function blocks_front_page($page){
          <div class="row">      
        
 				    <div class="six columns services">  
-				      <div class="services_content">   
-				        <img src="<?php echo $root;?>/images/team3.jpg"> 
+				      <div class="services_content">  
+				        <div class="team_image"> 
+				          <img src="<?php echo $root;?>/images/team3.jpg"> 
+				        </div>
+				        <div class="team_image_hover">
+				          Test
+				        </div>
 				      </div>        
 				    </div>
 				    
@@ -202,7 +207,7 @@ function blocks_front_page($page){
 				    </div>
 
 				       <div class="six columns services">     
-				       <div style="background-color: #8FAD30;">   
+				       <div style="background-color: #ddb909;">   
 				          <div class="tile_contents">
 				            <i class="general foundicon-location"></i>
 				            <p>Find Us</p>

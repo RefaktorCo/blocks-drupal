@@ -87,6 +87,13 @@ function blocks_header($page){
 		}
 	});
 	
+	 $(".services_content").hover(function() {
+	      $(this).children(".team_image").fadeTo(400, 0.25).end().children(".team_image_hover").fadeTo(400, .8).show();
+	    },
+	    function(){
+	      $(this).children(".team_image").fadeTo(400, .8).end().children(".team_image_hover").fadeTo(400, 0).hide();
+	    });  
+	
 	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
    $(window).load(function(){
@@ -183,14 +190,14 @@ function blocks_header($page){
    	$('.menu_wrap ul').addClass('right');
    	
   
-		$(function() { 
+
 	    $(".carousel_item_wrapper").hover(function() {
 	      $(this).children(".carousel_item_content").fadeTo(400, 0.25).end().children(".carousel_item_hover").fadeTo(400, 1).show();
 	    },
 	    function(){
 	      $(this).children(".carousel_item_content").fadeTo(400, 1).end().children(".carousel_item_hover").fadeTo(400, 0).hide();
 	    });  
-	  });        
+       
     
     
     

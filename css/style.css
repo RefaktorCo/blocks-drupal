@@ -1,6 +1,22 @@
 .services {
 	margin-bottom: 20px;
 	color: white;
+	position: relative;
+	overflow: auto;
+}
+
+.team_image {
+	opacity: 1;
+}
+
+.team_image_hover {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background: pink;
+	width: 100%;
+	opacity: 0;
+	
 }
 
 .services_content img {
@@ -48,7 +64,7 @@ height: 189px;
 }
 
 .recent_post_info {
-	background-color: #DB8916;
+	background-color: #8FAD30;
 	height: 100%;
 	width: 50%;
 	position: relative;
