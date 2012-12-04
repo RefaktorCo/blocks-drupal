@@ -189,7 +189,7 @@ function blocks_front_page($page){
          <div class="row">      
        
 				    <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="height:195px; background-color: #666;">   
+				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
@@ -198,11 +198,12 @@ function blocks_front_page($page){
 				        <div class="tile_contents" style="background: pink;">
 				            <p style="padding-top:55%; color: black;"><a href="#" class="button" data-reveal-id="myModal_15">Click to open</a></p>
 				        </div>
+				        <div class="clearfix"></div>
 				       </div>
 				    </div>
 				    
 				    <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="height:195px; background-color: #666;">   
+				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
@@ -215,7 +216,7 @@ function blocks_front_page($page){
 				    </div>
 
 <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="height:195px; background-color: #666;">   
+				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
@@ -229,7 +230,7 @@ function blocks_front_page($page){
 
 
 <div class="six columns">     
-				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="height:195px; background-color: #666;">   
+				       <div class="tile1 live-tile" data-mode="slide" data-stops="0" data-stack="true" style="background-color: #666;">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
 				            <i class="general foundicon-heart"></i>
