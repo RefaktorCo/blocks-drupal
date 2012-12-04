@@ -239,8 +239,8 @@ function blocks_front_page($page){
 				       <div class="live-tile green" data-mode="flip" data-initdelay="300">   
 				        <!-- adding the 'full' class to an 'img' or 'a' tag causes it to fill the entire tile -->
 				        <div class="tile_contents">
-				            <i class="general foundicon-smiley"></i>
-				            <p>Title goes here</p>
+				            <i class="general foundicon-location"></i>
+				            <p><a href="#" style="line-height: 12px" data-reveal-id="map_modal">Find Us</a></p>
 				        </div>
 				        <div class="tile_contents">
 				            <i class="general foundicon-phone"></i>
@@ -287,7 +287,7 @@ function blocks_front_page($page){
            <div id="about" class="row">
        <div class="twelve columns">
          <div class="hr_beside">
-           <div class="heading_title">Recent Posts</div>
+           <div class="heading_title">Recent Projects</div>
             <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
 					  <a id="next" class="next" href="#" style="line-height: 12px"><i class="general foundicon-right-arrow"></i></a>
@@ -645,7 +645,14 @@ function blocks_front_page($page){
   <!-- end main wrap -->     
 
   
-  
+    <div id="map_modal" class="reveal-modal large">
+      <div id="google_map">
+                <iframe width="1170" height="370" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=900+Bagby+St+Houston,+TX+77002&amp;sll=33.687,-117.774252&amp;sspn=0.324522,0.682526&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;ll=29.761779,-95.370008&amp;spn=0.003725,0.012864&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br />      
+              </div>
+
+     <a class="close-reveal-modal">&#215;</a>
+    </div>
+      
     <div id="login_modal" class="reveal-modal medium">
 	    <?php if(!$page['header_login']) {?>
         <h2>Add the user menu block here or your own custom code</h2>
