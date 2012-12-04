@@ -78,7 +78,12 @@ function blocks_header($page){
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
   
+    $(".menucardmenu").click(function() {
+    $(".backgroundmenucard").removeClass("backgroundmenucard");
+    $(this).addClass("backgroundmenucard");  
+  });
   
+
   $(".recent_posts_wrap").live({
 		mouseenter : function(){
 			$(this).children("div.recent_post_info").stop().animate({left: "50%"}, 300 );

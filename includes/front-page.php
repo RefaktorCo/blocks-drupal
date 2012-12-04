@@ -176,6 +176,17 @@ function blocks_front_page($page){
         
        </div>
      </div> 
+     
+     
+     <div class="row">
+       <div class="twelve columns">
+         <div class="menucardmenu"></div>
+<div class="menucardmenu"></div>
+<div class="menucardmenu"></div>
+<div class="menucardmenu"></div>
+<div class="menucardmenu"></div>
+     </div>
+     </div>  
        
      <div class="row">   
        <div  class="six columns">
