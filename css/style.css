@@ -3,6 +3,10 @@
 	color: white;
 }
 
+.services_content img {
+	height: 189px;
+}
+
 .services i {
 	color: white;
 }
@@ -11,11 +15,17 @@
 	padding: 7px;
 }
 
-#services_main li {
-	list-style: none;
-	float: left;
-	margin-left: 30px;
-	font-size: 30px;
+#main_services {
+	text-align: center;
+	padding: 25px 0px;
+}
+
+#main_services i {
+	font-size: 75px;
+}
+
+#main_services p {
+	font-size: 24px;
 }
 
 .recent_posts_wrap {
