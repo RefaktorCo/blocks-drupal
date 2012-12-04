@@ -216,17 +216,27 @@ function blocks_front_page($page){
 				     				    
 				     <div class="twelve columns services">     
 				       <div style="background: red;">   
-				         <div class="tile_contents">
-			            <i class="general foundicon-smiley"></i>
-			            <p>Title goes here</p>
-				        </div>
-				        				       </div>
+				         <div class="row">
+				           <div class="four columns">
+				           		<i class="general foundicon-globe"></i>
+			                 <p>Title goes here</p>
+				           </div>  
+				           <div class="four columns">
+			                 <i class="general foundicon-smiley"></i>
+			                 <p>Title goes here</p>
+				           </div>
+				           <div class="four columns">
+			                 <i class="general foundicon-compass"></i>
+			                 <p>Title goes here</p>
+				           </div>
+				         </div>  
+				      </div>
 				    </div>
 				    
 				      <div class="six columns services">     
 				       <div style="background-color: #666;">   
 				          <div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
+				            <i class="general foundicon-location"></i>
 				            <p>Title goes here</p>
 				          </div>
 				       </div>
@@ -235,7 +245,7 @@ function blocks_front_page($page){
 				    <div class="six columns services">     
 				       <div style="background-color: #666;">   
 				        	<div class="tile_contents">
-				            <i class="general foundicon-heart"></i>
+				            <i class="general foundicon-phone"></i>
 				            <p>Title goes here</p>
 				          </div>
 				       </div>

@@ -1,5 +1,21 @@
 .services {
 	margin-bottom: 20px;
+	color: white;
+}
+
+.services i {
+	color: white;
+}
+
+#services {
+	padding: 7px;
+}
+
+#services_main li {
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	font-size: 30px;
 }
 
 .recent_posts_wrap {
@@ -307,6 +323,7 @@
 
 .tile_contents {
 	padding: 25px;
+	overflow: auto;
 }
 
 .tile_contents i {
