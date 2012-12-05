@@ -13,18 +13,20 @@
   
   <div class="row">
     <div class="twelve columns">
+    
+      <!-- Begin Isotope filters -->
+      <section id="options" class="clearfix">
+	      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+	        <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
+	        <li><a href="#filter" data-option-value=".cat_1" class="small button">Cat. 1</a></li>
+	        <li><a href="#filter" data-option-value=".cat_2" class="small button">Cat. 2</a></li>
+	        <li><a href="#filter" data-option-value=".cat_3" class="small button">Cat. 3</a></li>
+	        <li><a href="#filter" data-option-value=".cat_4" class="small button">Cat. 4</a></li>
+	      </ul>
+      </section>
+      
       <div class="row">
-        <!-- Begin Isotope filters -->
-        <section id="options" class="clearfix">
-		      <ul id="filters" class="option-set clearfix" data-option-key="filter">
-		        <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
-		        <li><a href="#filter" data-option-value=".cat_1" class="small button">Cat. 1</a></li>
-		        <li><a href="#filter" data-option-value=".cat_2" class="small button">Cat. 2</a></li>
-		        <li><a href="#filter" data-option-value=".cat_3" class="small button">Cat. 3</a></li>
-		        <li><a href="#filter" data-option-value=".cat_4" class="small button">Cat. 4</a></li>
-		      </ul>
-        </section>
-
+        <!-- Begin Isotope content -->
         <div id="isotope_test" >
           <?php print render($title_prefix); ?>
           <?php print render($title_suffix); ?>
@@ -37,4 +39,3 @@
   </div>
    
 <?php blocks_footer($page);?>
-  
