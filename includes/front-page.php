@@ -134,8 +134,8 @@ function blocks_front_page($page){
 <!-- main span12 -->
 
   
-   <div id="slider_wrapper"> 
-    <div id="slider_wrapper_after">
+   <div id="heading_wrapper"> 
+    <div id="heading_wrapper_after">
    <div class="row">
      <div class="twelve columns">
      <div id="banner">  				
