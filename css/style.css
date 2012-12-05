@@ -126,6 +126,11 @@ height: 189px;
 	text-align: right;
 }
 
+.header_icons .has-tip {
+	cursor: pointer;
+	border-bottom: none;
+}
+
 .header_icons .left {
 	text-align: left;
 }
