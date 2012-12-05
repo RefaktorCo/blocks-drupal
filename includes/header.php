@@ -33,7 +33,14 @@ function blocks_header($page){
       
       <div class="row">  
         <div class="three columns" style="padding-top: 15px;">
-          <img src="<?php echo $root;?>/images/blocks-logo.png">
+          <?php if (theme_get_setting('branding_type') == 'logo'): ?>
+            <a href="<?php print base_path();?>"><img src="<?php print file_create_url(theme_get_setting('bg_path')); ?>" /></a>
+          <?php endif; ?>
+          <?php if (theme_get_setting('branding_type') == 'text'): ?>
+            <a href="<?php print base_path();?>">
+              <h1 id="main_title_text"><?php print variable_get('site_name'); ?></h1>
+            </a>
+          <?php endif; ?>
         </div>
       	<div class="nine columns"> 
           <div id="nav">

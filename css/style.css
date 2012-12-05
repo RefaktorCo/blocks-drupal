@@ -392,6 +392,7 @@ height: 189px;
 .tile_contents {
 	padding: 25px;
 	overflow: auto;
+	text-align: center;
 }
 
 .tile_contents i {
