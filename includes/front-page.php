@@ -522,7 +522,7 @@ function blocks_front_page($page){
     </div>
     
     <!-- Google Map Modal -->
-    <div id="team1_modal" class="reveal-modal medium">
+    <div id="team1_modal" class="reveal-modal large">
       <div class="team_bio_modal">
 	      <h1>Steve McQueen</h1>
 	      <img src="<?php echo $root;?>/images/team3.jpg"> 

@@ -24,6 +24,24 @@
 	opacity: 1;
 }
 
+.tile_contents {
+	padding: 25px;
+	overflow: auto;
+	text-align: center;
+}
+
+.tile_contents i {
+	font-size: 75px;
+}
+
+.tile_contents p {
+	font-size: 24px !important;
+}
+
+.tile_contents a:link {
+	text-decoration: none !important;
+}
+
 .team_image {
 
 }
@@ -77,8 +95,9 @@
 	font-size: 24px;
 }
 
+/* Front page recent posts */
 .recent_posts_wrap {
-	height: 100%;
+	height: 189px;
 	width: 100%;
 	overflow: auto;
 	position: relative;
@@ -382,30 +401,7 @@ height: 189px;
   font-size: 22px !important;
 }
 
-.live-tile {
-	text-align: center;
-	margin: 0px !important;
-	width: 100% !important;
-	margin-bottom: 30px !important;
-}
 
-.tile_contents {
-	padding: 25px;
-	overflow: auto;
-	text-align: center;
-}
-
-.tile_contents i {
-	font-size: 75px;
-}
-
-.tile_contents p {
-	font-size: 24px !important;
-}
-
-.tile_contents a:link {
-	text-decoration: none !important;
-}
 
 
 
