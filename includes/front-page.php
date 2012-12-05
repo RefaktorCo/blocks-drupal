@@ -212,10 +212,10 @@ function blocks_front_page($page){
 				    </div>
 
 				       <div class="six columns services">     
-				       <div style="background-color: #ddb909;">   
+				       <div style="background-color: #8FAD30;">   
 				          <div class="tile_contents">
 				            <i class="general foundicon-location"></i>
-				            <p>Find Us</p>
+				            <p><a href="#" style="line-height: 12px" data-reveal-id="map_modal">Find Us</a></p>
 				          </div>
 				       </div>
 				    </div>
@@ -258,7 +258,7 @@ function blocks_front_page($page){
 				       <div style="background-color: #DB8916;">   
 				        	<div class="tile_contents">
 				            <i class="general foundicon-phone"></i>
-				            <p>Contact Us</p>
+				            <p><a href="#" data-reveal-id="contact_modal">Contact Us</a></p>
 				          </div>
 				       </div>
 				    </div>				    
