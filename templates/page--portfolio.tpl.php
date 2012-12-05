@@ -14,9 +14,20 @@ blocks_header($page);
           </div> 
           
           <div class="row">
-            <div id ="portfolio_content_wrap" class="twelve columns">
+            <div class="twelve columns">
               <div class="row">
-              <div id="portfolio_main_content">
+              
+                <section id="options" class="clearfix">
+	      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+	        <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
+	        <li><a href="#filter" data-option-value=".cat_1" class="small button">Cat. 1</a></li>
+	        <li><a href="#filter" data-option-value=".cat_2" class="small button">Cat. 2</a></li>
+	        <li><a href="#filter" data-option-value=".cat_3" class="small button">Cat. 3</a></li>
+	        <li><a href="#filter" data-option-value=".cat_4" class="small button">Cat. 4</a></li>
+	      </ul>
+      </section>
+   
+              <div id="isotope_test" >
 	              <?php print render($title_prefix); ?>
 	              <?php print render($title_suffix); ?>
 	              <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
