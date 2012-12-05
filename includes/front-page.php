@@ -189,7 +189,8 @@ function blocks_front_page($page){
 				          <img src="<?php echo $root;?>/images/team3.jpg"> 
 				        </div>
 				        <div class="team_image_hover">
-				          <p>Test</p>
+				        <h2>Steve MqQueen - CEO</h2>
+				        <p><a href="#" style="line-height: 12px" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
 				        </div>
 				      </div>        
 				    </div>
@@ -492,17 +493,11 @@ function blocks_front_page($page){
     </div>
   
  
-  <!-- end main wrap -->     
-
+  <!-- end main wrap -->    
   
-    <div id="map_modal" class="reveal-modal large">
-      <div id="google_map">
-                <iframe width="1170" height="370" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=900+Bagby+St+Houston,+TX+77002&amp;sll=33.687,-117.774252&amp;sspn=0.324522,0.682526&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;ll=29.761779,-95.370008&amp;spn=0.003725,0.012864&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br />      
-              </div>
-
-     <a class="close-reveal-modal">&#215;</a>
-    </div>
+  <!-- Begin front page modal markup -->    
       
+    <!-- Header login modal (block region) -->    
     <div id="login_modal" class="reveal-modal medium">
 	    <?php if(!$page['header_login']) {?>
         <h2>Add the user menu block here or your own custom code</h2>
@@ -510,27 +505,35 @@ function blocks_front_page($page){
       <a class="close-reveal-modal">&#215;</a>
     </div>
 
-
-
+    <!-- Header contact modal (block region) -->  
     <div id="contact_modal" class="reveal-modal medium">
       <?php if(!$page['header_contact']) {?>
         <h2>Add the contact block here or your own custom code</h2>
       <?php } else { print render($page['header_contact']); }?> 
       <a class="close-reveal-modal">&#215;</a>
     </div>
-
-  
-  
     
-    <div id="myModal" class="reveal-modal large">
-  <h2>Awesome. I have it.</h2>
-  <p class="lead">Your couch.  It is mine.</p>
-  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
- 
-         
-             
-    <!-- end main body container -->  
+    <!-- Google Map Modal -->  
+  	<div id="map_modal" class="reveal-modal large">
+      <div id="google_map">
+        <iframe width="1170" height="370" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=900+Bagby+St+Houston,+TX+77002&amp;sll=33.687,-117.774252&amp;sspn=0.324522,0.682526&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;ll=29.761779,-95.370008&amp;spn=0.003725,0.012864&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br />      
+      </div>
+     <a class="close-reveal-modal">&#215;</a>
+    </div>
+    
+    <!-- Google Map Modal -->
+    <div id="team1_modal" class="reveal-modal medium">
+      <div class="team_bio_modal">
+	      <h1>Steve McQueen</h1>
+	      <img src="<?php echo $root;?>/images/team3.jpg"> 
+	      <h2>Bio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	      <h2>Connect</h2>
+	      <a href="http://facebook.com" target="_blank"><i class="social foundicon-facebook"></i></a> <a href="http://twitter.com" target="_blank"><i class="social foundicon-twitter"></i></a> <a href="http://linkedin.com" target="_blank"><i class="social foundicon-linkedin"></i></a>
+	      <a class="close-reveal-modal">&#215;</a>
+      </div>
+    </div>
+    
+    <!-- End front page modal markup -->  
 <?php }
 ?>
