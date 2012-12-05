@@ -2,19 +2,20 @@
 	margin-bottom: 20px;
 	color: white;
 	overflow: hidden;
-	position: relative;
-	display: block;
 }
 
 .services_content {
-	
-}
-
-.team_image {
+	position: relative;
+	width: 100%;
 	opacity: 1;
 }
 
+.team_image {
+
+}
+
 .team_image_hover {
+  display: block;
 	position: absolute;
 	top: 0;
 	height: 100%;

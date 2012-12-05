@@ -189,14 +189,19 @@ function blocks_front_page($page){
 				          <img src="<?php echo $root;?>/images/team3.jpg"> 
 				        </div>
 				        <div class="team_image_hover">
-				          Test
+				          <p>Test</p>
 				        </div>
 				      </div>        
 				    </div>
 				    
 				    <div class="six columns services">  
 				      <div class="services_content">   
-				        <img src="<?php echo $root;?>/images/team2.jpg"> 
+				       <div class="team_image"> 
+				          <img src="<?php echo $root;?>/images/team2.jpg"> 
+				        </div>
+				        <div class="team_image_hover">
+				          Test
+				        </div>				      
 				      </div>        
 				    </div>
 				    
