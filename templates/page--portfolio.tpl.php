@@ -4,10 +4,9 @@ blocks_header($page);
 
 ?>
       
-        
+         <div id="page_heading">
           <div class="row">
             <div class="twelve columns">
-              <div id="page_heading">
               <h2 class="page_heading_text"><?php print $title; ?></h2>
               <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
               </div>
