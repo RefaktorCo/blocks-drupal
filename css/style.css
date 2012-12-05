@@ -1,3 +1,7 @@
+.switch a {
+	line-height: 12px;
+}
+
 /* Team Bio Modal */
 
 .team_bio_modal p{
@@ -230,15 +234,12 @@ height: 189px;
 	color: #fff;
 	opacity: 0;
 	height: 100%;
+	width: 100%;
 	top: 0%;
 	position: absolute;
 	padding:15px;
 
 }
-
-
-
-
 
 .carousel_navigation {
   margin-left: 20px;

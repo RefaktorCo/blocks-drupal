@@ -17,9 +17,9 @@
       </div>
       
       <div class="carousel_item_hover">
-	      <p>Testing hover</p>
+	      <p><?php print $title; ?></p>
 	    
-	      <p><a href="<?php echo file_create_url($node->field_portfolio_image['und'][0]['uri']); ?>" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.</p>
+	      <p><a style="line-height: 12px;" href="<?php echo file_create_url($node->field_portfolio_image['und'][0]['uri']); ?>" rel="lightbox" title="<?php print $title; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url;?>" style="line-height: 12px;" > <i class="general foundicon-paper-clip"></i></a></p>
 	    </div>
 	    
     </div>  
