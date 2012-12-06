@@ -24,8 +24,12 @@ $share_url = $base_url.'/node/'.$node->nid;
      <?php if ($field_tags):?>
      <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
      <?php endif; ?>
-         <?php endif; ?>
-    <?php print render($content['field_image']); ?>
+         
+   <?php endif; ?>
+  <div id="featured">
+  <?php print render($content['field_image']); ?>
+  <?php print render($content['field_second_image']); ?>
+  </div>
   <?php endif; ?>
   
   <div class="article_content"<?php print $content_attributes; ?>>

@@ -1383,7 +1383,10 @@ margin-left: 80px;
 /* Sidebar */
 #sidebar_wrap {
   padding: 5px 0px 0px 18px;
-  
+}
+
+#sidebar_wrap .content p {
+	font-style: normal;
 }
 
 #sidebar_wrap h3 {

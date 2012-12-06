@@ -101,6 +101,8 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
+  
+  $("#featured").orbit({timer: false});
  
   $(".recent_posts_wrap").live({
 		mouseenter : function(){
