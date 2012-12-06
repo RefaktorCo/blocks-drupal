@@ -1,10 +1,11 @@
 <?php
-
 /* Define $root as a global variable */
 global $root;
 $root = base_path() . path_to_theme();
 
 include_once(drupal_get_path('theme', 'blocks').'/includes/init.php');
+
+
 
 
 function blocks_preprocess_page(&$vars, $hook) {
@@ -17,6 +18,15 @@ function blocks_preprocess_page(&$vars, $hook) {
   if($status == "404 Not Found") {      
     $vars['theme_hook_suggestions'][] = 'page__404';
   }
+  
+  if (isset($vars['node'])) {
+    if($vars['node']->type == 'portfolio') {      
+        $node = node_load($vars['node']->nid);
+        $output = field_get_items('node', $node, 'field_portfolio_description');        
+        $vars['description'] = $output;                
+    }
+  }
+  
 }
 
 /* Assign top level menu list items an ascending class of menu_$number  */

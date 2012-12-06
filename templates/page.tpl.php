@@ -1,6 +1,5 @@
 <?php blocks_header($page);?>
-  
-        
+           
           <div class="row">
             <div class="twelve columns">
               <div id="page_heading">
@@ -51,6 +50,6 @@
 		        <?php endif; ?>
 		      </div>
       
-
+<?php print $messages; ?>
   
 <?php blocks_footer($page);?>

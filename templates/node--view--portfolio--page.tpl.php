@@ -1,7 +1,10 @@
-<?php global $root, $base_url;
+<?php global $root, $base_url, $node;
+
+$type = $node->type;
 
 ?>
 
+<?php echo $type; ?>
 
   <div class="three columns switch <?php print render($content['field_portfolio_description']); ?>" data-category="<?php print render($content['field_portfolio_description']); ?>">
   
@@ -25,4 +28,5 @@
     </div>  
         
   </div>
+  
   
