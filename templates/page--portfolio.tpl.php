@@ -14,7 +14,7 @@
   <div class="row">
     <div class="twelve columns">
     
-    <?php var_dump($description); ?>
+
 
       <!-- Begin Isotope filters -->
       <section id="options" class="clearfix">

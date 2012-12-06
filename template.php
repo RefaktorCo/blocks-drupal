@@ -5,9 +5,6 @@ $root = base_path() . path_to_theme();
 
 include_once(drupal_get_path('theme', 'blocks').'/includes/init.php');
 
-
-
-
 function blocks_preprocess_page(&$vars, $hook) {
   if (isset($vars['node'])) {
     $suggest = "page__node__{$vars['node']->type}";
@@ -20,16 +17,14 @@ function blocks_preprocess_page(&$vars, $hook) {
   }
   
   $node = menu_get_object();
-  dpm($node);
-  if ($node->type == 'portfolio_item') {
-    $portfolios = field_get_items('node', $node, 'field_portfolio_description');
-    $items = array();
-    foreach ($portfolios as $folio) {
-      $items['data'] = $folio['value'];
-    }
-    $vars['description'] = theme('item_list', array('items' => $items));
-  }
-
+	if ($node->type == 'portfolio_item') {
+	  $portfolios = field_get_items('node', $node, 'field_portfolio_description');
+	  $vars['description'] = array(
+	    '#theme' => 'item_list',
+	    '#items' => $portfolios
+	  );
+	}
+  
 }
 
 /* Assign top level menu list items an ascending class of menu_$number  */
@@ -115,7 +110,7 @@ function blocks_field($variables) {
 
 
 /* Put Breadcrumbs in a ul li structure and add descending z-index style to each <a href> tag */
-function blocks_breadcrumb($variables, $page) {
+function blocks_breadcrumb($variables) {
   $count = '100';
   $breadcrumb = $variables['breadcrumb'];
 
@@ -127,7 +122,7 @@ function blocks_breadcrumb($variables, $page) {
       $pos = strpos( $value, ">"); 
       $temp1=substr($value,0,$pos);
       $temp2=substr($value,$pos,$pos);
-      $crumbs .= $value.'&#8592; ';
+      $crumbs = $value.'&#8592; ';
     }
   
   }
