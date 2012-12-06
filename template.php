@@ -23,10 +23,11 @@ function blocks_menu_link(array $variables) {
   unset($variables['element']['#attributes']['class']);
   $element = $variables['element'];
   static $item_id = 0;
+  $menu_name = $element['#original_link']['menu_name'];
   
-  if ($element['#original_link']['depth'] == 1) {
-    $element['#attributes']['class'][] = 'menu_' . (++$item_id);
-  }
+  if ($element['#original_link']['depth'] == 1 && $menu_name == variable_get('menu_main_links_source', 'main-menu')) {
+	  $element['#attributes']['class'][] = 'menu_' . (++$item_id);
+	}
   
   if ($element['#below']) {
     $element['#attributes']['class'][] = 'has-dropdown';
