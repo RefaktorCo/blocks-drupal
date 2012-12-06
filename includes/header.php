@@ -81,6 +81,23 @@ function blocks_header($page){
         <!-- end main span2 -->  
    
   </header> 
+  
+  <!-- Header login modal (block region) -->    
+    <div id="login_modal" class="reveal-modal medium">
+	    <?php if(!$page['header_login']) {?>
+        <h2>Add the user menu block here or your own custom code</h2>
+      <?php } else { print render($page['header_login']); }?>  
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+
+    <!-- Header contact modal (block region) -->  
+    <div id="contact_modal" class="reveal-modal medium">
+      <?php if(!$page['header_contact']) {?>
+        <h2>Add the contact block here or your own custom code</h2>
+      <?php } else { print render($page['header_contact']); }?> 
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {

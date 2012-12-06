@@ -1191,6 +1191,7 @@ article hr {
 
 .post_share li a {
 		color: #000;
+		margin-right: 5px;
 }
 
 .post_share li i:hover {
