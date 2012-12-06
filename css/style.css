@@ -1181,6 +1181,22 @@ article hr {
   float: left;	
 }
 
+.post_share i {
+	font-size: 20px;
+	 -moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+.post_share li a {
+		color: #000;
+}
+
+.post_share li i:hover {
+	color: #64ADB5
+}
+
 .ie8 .post_share_wrap {
   float: none;	
   margin-bottom: -25px;

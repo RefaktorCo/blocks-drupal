@@ -188,7 +188,7 @@ function blocks_header($page){
 		});  
 		
 	
-    $('input[type="submit"]').addClass('btn');
+    $('input[type="submit"]').addClass('small button');
        
    	$('.has-dropdown ul').addClass('dropdown');
    	 
