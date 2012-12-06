@@ -54,7 +54,7 @@ $share_url = $base_url.'/node/'.$node->nid;
 
   <div class="read_more"> 
   	<?php if($teaser): ?>
-  	<a href="<?php print $node_url;?>">read more &raquo;</a>
+  	<a class="small button" href="<?php print $node_url;?>">read more</a>
     <?php endif;?>
   </div>
   <hr>

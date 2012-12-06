@@ -15,6 +15,7 @@ function blocks_preprocess_page(&$vars, $hook) {
   if($status == "404 Not Found") {      
     $vars['theme_hook_suggestions'][] = 'page__404';
   }
+
   
 }
 
@@ -115,7 +116,7 @@ function blocks_breadcrumb($variables) {
       $pos = strpos( $value, ">"); 
       $temp1=substr($value,0,$pos);
       $temp2=substr($value,$pos,$pos);
-      $crumbs = $value.'&#8592; ';
+      $crumbs = $value.'/ ';
     }
   
   }

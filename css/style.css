@@ -1100,8 +1100,8 @@ article hr {
 
 /* Blog */
 .post_title {
-  margin-bottom: -4px;
-  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
 .page_title {
@@ -1146,8 +1146,6 @@ article hr {
 }
 
 .tags {
-	font-size: 11px;
-	margin-top: -2px;
 	float: left;
 }
 
@@ -1157,7 +1155,6 @@ article hr {
 
 .tags .icon-tags {
   margin-right: 4px;
-  margin-top: 3px;
   float: left;
 }
 
