@@ -16,7 +16,7 @@ $share_url = $base_url.'/node/'.$node->nid;
   
     <?php print render($title_prefix); ?>
 
-      <h3 class="post_title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
+      <h3 class="post_title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php echo $node->type; ?></a></h3>
 
     <?php print render($title_suffix); ?>
   

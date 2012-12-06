@@ -1,5 +1,7 @@
 <?php blocks_header($page);?>
-           
+  
+         <?php var_dump($page['description']); ?>
+         
           <div class="row">
             <div class="twelve columns">
               <div id="page_heading">

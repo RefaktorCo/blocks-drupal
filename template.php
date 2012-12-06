@@ -19,14 +19,17 @@ function blocks_preprocess_page(&$vars, $hook) {
     $vars['theme_hook_suggestions'][] = 'page__404';
   }
   
-  if (isset($vars['node'])) {
-    if($vars['node']->type == 'portfolio') {      
-        $node = node_load($vars['node']->nid);
-        $output = field_get_items('node', $node, 'field_portfolio_description');        
-        $vars['description'] = $output;                
+  $node = menu_get_object();
+  dpm($node);
+  if ($node->type == 'portfolio_item') {
+    $portfolios = field_get_items('node', $node, 'field_portfolio_description');
+    $items = array();
+    foreach ($portfolios as $folio) {
+      $items['data'] = $folio['value'];
     }
+    $vars['description'] = theme('item_list', array('items' => $items));
   }
-  
+
 }
 
 /* Assign top level menu list items an ascending class of menu_$number  */
