@@ -42,6 +42,7 @@ regions[panel_3]        = Panel 3
 regions[panel_full]     = Panel Full Width
 
 regions[portfolio]      = Front Page Portfolio
+regions[portfolio_filters]      = Portfolio Filter Buttons
 
 regions[contact_1]      = Contact 1
 regions[contact_2]      = Contact 2

@@ -6,7 +6,7 @@
 
 
 
-  <div class="three columns switch <?php print render($content['field_portfolio_description']); ?>" data-category="<?php print render($content['field_portfolio_description']); ?>">
+  <div class="three columns switch <?php print render($content['field_portfolio_tags']); ?>" data-category="<?php print render($content['field_portfolio_tags']); ?>">
   
     <div class="carousel_item_wrapper"> 
     
@@ -31,4 +31,3 @@
   
   
   
-  <?php global $portfolio_cat; $portfolio_cat = field_get_items('node', $node, 'field_portfolio_description'); print ($items[0]['value']); ?>
