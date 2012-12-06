@@ -19,7 +19,8 @@
       <!-- Begin Isotope filters -->
       <section id="options" class="clearfix">
 	      <ul id="filters" class="option-set clearfix" data-option-key="filter">
-	        <?php print render($page['portfolio_filters']); ?>    
+	        <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
+	        <li><a href="#filter" data-option-value=".photography" class="small button">Photography</a></li>
 	      </ul>
       </section>
       

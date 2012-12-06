@@ -15,7 +15,7 @@
 	        <?php print render($content['field_portfolio_image']); ?>
 	      </div>
 	      <div class="carousel_item_description">
-	        <h3>Test</h3>
+	        <h3><?php print $title; ?></h3>
 	      </div>
       </div>
       
