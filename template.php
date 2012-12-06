@@ -16,15 +16,6 @@ function blocks_preprocess_page(&$vars, $hook) {
     $vars['theme_hook_suggestions'][] = 'page__404';
   }
   
-  $node = menu_get_object();
-	if ($node->type == 'portfolio_item') {
-	  $portfolios = field_get_items('node', $node, 'field_portfolio_description');
-	  $vars['description'] = array(
-	    '#theme' => 'item_list',
-	    '#items' => $portfolios
-	  );
-	}
-  
 }
 
 /* Assign top level menu list items an ascending class of menu_$number  */
@@ -113,6 +104,7 @@ function blocks_field($variables) {
 function blocks_breadcrumb($variables) {
   $count = '100';
   $breadcrumb = $variables['breadcrumb'];
+  $crumbs = '';
 
   if (!empty($breadcrumb)) {
    
