@@ -42,14 +42,11 @@ regions[panel_3]        = Panel 3
 regions[panel_full]     = Panel Full Width
 
 regions[portfolio]      = Front Page Portfolio
-regions[portfolio_filters]      = Portfolio Filter Buttons
 
-regions[contact_1]      = Contact 1
-regions[contact_2]      = Contact 2
-regions[contact_3]      = Contact 3
-regions[contact_full]   = Contact Full Width
 
-regions[clients]   			= Clients
+
+
+regions[recent_projects] = Recent Projects
 
 regions[footer_1]       = Footer Box 1
 regions[footer_2]       = Footer Box 2

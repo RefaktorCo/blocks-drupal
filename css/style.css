@@ -851,7 +851,7 @@ thead {
 }
 
 thead a {
-	color: #FFF !important;
+	color: #000!important;
 }
 
 table {
@@ -872,7 +872,7 @@ th {
 }
 
 thead a {
-	color: white;
+	color: #000;
 }
 
 td.last-reply {
