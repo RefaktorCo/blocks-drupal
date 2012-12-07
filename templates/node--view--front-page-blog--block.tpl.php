@@ -31,7 +31,10 @@
     <a href="<?php print $node_url; ?>"><h3 class="blog_front_title"><?php print $title; ?></h3></a>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-    <div class="post_image"><?php print render($content['field_image']); ?></div>
+   <div class="featured">
+  <?php print render($content['field_image']); ?>
+  <?php print render($content['field_second_image']); ?>
+  </div>
     <?php if ($display_submitted): ?>
       <ul class="blog_front_meta">
         <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
