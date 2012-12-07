@@ -38,8 +38,24 @@ div.orbit-wrapper {
 	text-align: center;
 }
 
+.tile_contents a {
+	color: #FFF;
+	 -moz-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;	
+}
+
+.tile_contents:hover a, .tile_contents:hover i {
+	color: #333;
+}
+
 .tile_contents i {
 	font-size: 75px;
+	 -moz-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;	
 }
 
 .tile_contents p {

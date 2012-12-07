@@ -239,8 +239,8 @@ function blocks_front_page($page){
       <div class="six columns services">     
 				       <div style="background-color: #C95D3B;">   
 				        	<div class="tile_contents">
-				            <i class="general foundicon-globe"></i>
-			                 <p>Global Presence</p>
+				            <a href="#"><i class="general foundicon-globe"></i>
+			                 <p>Global Presence</p></a>
 				          </div>
 				       </div>
 				    </div>			
@@ -249,7 +249,7 @@ function blocks_front_page($page){
 				       <div style="background-color: #17954c;">   
 				        	<div class="tile_contents">
 				            <i class="general foundicon-compass"></i>
-			                 <p>Effective Solutions</p>
+			                 <p><a href="#">Effective Solutions</a></p>
 				          </div>
 				       </div>
 				    </div>			
