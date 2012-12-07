@@ -113,12 +113,16 @@ function blocks_header($page){
 		}
 	});
 	
-	 $(".services_content").hover(function() {
-	      $(this).children(".services_content").fadeTo(400, 0.25).end().children(".team_image_hover").fadeTo(400, .8).show();
-	    },
-	    function(){
-	      $(this).children(".services_content").fadeTo(400, .8).end().children(".team_image_hover").fadeTo(400, 0).hide();
-	    });  
+ 
+	    
+	  $(".services_content").hover(
+        function(){
+            $(this).children(".team_image_hover").fadeTo(400,.8).show();
+        },
+        function(){
+            $(this).children(".team_image_hover").fadeTo(400,0);
+        }
+    );
 	
 	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     

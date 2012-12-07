@@ -222,8 +222,8 @@ function blocks_front_page($page){
 				       <div class="six columns services">     
 				       <div style="background-color: #8FAD30;">   
 				          <div class="tile_contents">
-				            <i class="general foundicon-location"></i>
-				            <p><a href="#" style="line-height: 12px" data-reveal-id="map_modal">Find Us</a></p>
+				            <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
+				            <p>Find Us</p></a>
 				          </div>
 				       </div>
 				    </div>
@@ -248,8 +248,8 @@ function blocks_front_page($page){
 				    <div class="six columns services">     
 				       <div style="background-color: #17954c;">   
 				        	<div class="tile_contents">
-				            <i class="general foundicon-compass"></i>
-			                 <p><a href="#">Effective Solutions</a></p>
+				            <a href="#"><i class="general foundicon-compass"></i>
+			                 <p>Effective Solutions</p></a>
 				          </div>
 				       </div>
 				    </div>			
@@ -262,7 +262,7 @@ function blocks_front_page($page){
 				        </div>
 				        <div class="team_image_hover">
 				           <h2>Frank Douglas - Marketing </h2>
-				        <p><a href="#" style="line-height: 12px" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
+				        <p><a href="#" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
 				        </div>				      
 				      </div>        
 				    </div>
@@ -271,8 +271,8 @@ function blocks_front_page($page){
 				    <div class="six columns services">     
 				       <div style="background-color: #DB8916;">   
 				        	<div class="tile_contents">
-				            <i class="general foundicon-phone"></i>
-				            <p><a href="#" data-reveal-id="contact_modal">Contact Us</a></p>
+				            <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
+				            <p>Contact Us</p></a>
 				          </div>
 				       </div>
 				    </div>				    
