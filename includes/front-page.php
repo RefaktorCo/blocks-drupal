@@ -201,14 +201,21 @@ function blocks_front_page($page){
 				          <img src="<?php echo $root;?>/images/team2.jpg"> 
 				        </div>
 				        <div class="team_image_hover">
-				          Test
+				           <h2>Robyn Sullivan - VP </h2>
+				        <p><a href="#" style="line-height: 12px" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
 				        </div>				      
 				      </div>        
 				    </div>
 				    
-				     <div class="six columns services">  
+				    <div class="six columns services">  
 				      <div class="services_content">   
-				        <img src="<?php echo $root;?>/images/team1.jpg"> 
+				       <div class="team_image"> 
+				          <img src="<?php echo $root;?>/images/team1.jpg"> 
+				        </div>
+				        <div class="team_image_hover">
+				           <h2>Aiko Takahashi - Design </h2>
+				        <p><a href="#" style="line-height: 12px" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
+				        </div>				      
 				      </div>        
 				    </div>
 
@@ -250,7 +257,13 @@ function blocks_front_page($page){
 				    
 				    <div class="six columns services">  
 				      <div class="services_content">   
-				        <img src="<?php echo $root;?>/images/team4.jpg"> 
+				       <div class="team_image"> 
+				          <img src="<?php echo $root;?>/images/team4.jpg"> 
+				        </div>
+				        <div class="team_image_hover">
+				           <h2>Frank Douglas - Marketing </h2>
+				        <p><a href="#" style="line-height: 12px" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
+				        </div>				      
 				      </div>        
 				    </div>
 				    
@@ -348,11 +361,50 @@ function blocks_front_page($page){
      <a class="close-reveal-modal">&#215;</a>
     </div>
     
-    <!-- Google Map Modal -->
-    <div id="team1_modal" class="reveal-modal large">
+    <!-- Team Modal 1 -->
+    <div id="team1_modal" class="reveal-modal medium">
       <div class="team_bio_modal">
-	      <h1>Steve McQueen</h1>
+	      <h1>Steve McQueen - CEO</h1>
 	      <img src="<?php echo $root;?>/images/team3.jpg"> 
+	      <h2>Bio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	      <h2>Connect</h2>
+	      <a href="http://facebook.com" target="_blank"><i class="social foundicon-facebook"></i></a> <a href="http://twitter.com" target="_blank"><i class="social foundicon-twitter"></i></a> <a href="http://linkedin.com" target="_blank"><i class="social foundicon-linkedin"></i></a>
+	      <a class="close-reveal-modal">&#215;</a>
+      </div>
+    </div>
+    
+    <!-- Team Modal 2 -->
+    <div id="team2_modal" class="reveal-modal medium">
+      <div class="team_bio_modal">
+	      <h1>Robyn Sullivan - Vice President</h1>
+	      <img src="<?php echo $root;?>/images/team2.jpg"> 
+	      <h2>Bio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	      <h2>Connect</h2>
+	      <a href="http://facebook.com" target="_blank"><i class="social foundicon-facebook"></i></a> <a href="http://twitter.com" target="_blank"><i class="social foundicon-twitter"></i></a> <a href="http://linkedin.com" target="_blank"><i class="social foundicon-linkedin"></i></a>
+	      <a class="close-reveal-modal">&#215;</a>
+      </div>
+    </div>
+    
+    <!-- Team Modal 3 -->
+    <div id="team3_modal" class="reveal-modal medium">
+      <div class="team_bio_modal">
+	      <h1>Aiko Takahashi - Design</h1>
+	      <img src="<?php echo $root;?>/images/team1.jpg"> 
+	      <h2>Bio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	      <h2>Connect</h2>
+	      <a href="http://facebook.com" target="_blank"><i class="social foundicon-facebook"></i></a> <a href="http://twitter.com" target="_blank"><i class="social foundicon-twitter"></i></a> <a href="http://linkedin.com" target="_blank"><i class="social foundicon-linkedin"></i></a>
+	      <a class="close-reveal-modal">&#215;</a>
+      </div>
+    </div>
+    
+    <!-- Team Modal 3 -->
+    <div id="team4_modal" class="reveal-modal medium">
+      <div class="team_bio_modal">
+	      <h1>Frank Douglas - Marketing</h1>
+	      <img src="<?php echo $root;?>/images/team4.jpg"> 
 	      <h2>Bio</h2>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 	      <h2>Connect</h2>
