@@ -235,26 +235,26 @@ function blocks_front_page($page){
     
     <div class="six columns">
       <div class="row">    
-				     				    
-				     <div class="twelve columns services">     
-				       <div id="main_services" style="background: #C95D3B;">   
-				         <div class="row">
-				           <div class="four columns">
-				           		<i class="general foundicon-globe"></i>
+      
+      <div class="six columns services">     
+				       <div style="background-color: #C95D3B;">   
+				        	<div class="tile_contents">
+				            <i class="general foundicon-globe"></i>
 			                 <p>Global Presence</p>
-				           </div>  
-				           <div class="four columns">
-			                 <i class="general foundicon-smiley"></i>
-			                 <p>Friendly Support</p>
-				           </div>
-				           <div class="four columns">
-			                 <i class="general foundicon-compass"></i>
-			                 <p>Effective Solutions</p>
-				           </div>
-				         </div>  
-				      </div>
-				    </div>
+				          </div>
+				       </div>
+				    </div>			
 				    
+				    <div class="six columns services">     
+				       <div style="background-color: #17954c;">   
+				        	<div class="tile_contents">
+				            <i class="general foundicon-compass"></i>
+			                 <p>Effective Solutions</p>
+				          </div>
+				       </div>
+				    </div>			
+				     				    
+				     				    
 				    <div class="six columns services">  
 				      <div class="services_content">   
 				       <div class="team_image"> 
