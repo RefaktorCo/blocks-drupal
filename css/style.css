@@ -840,6 +840,11 @@ hr {
 	border-bottom: none;
 }
 
+#forum .name {
+  display: block !important;
+  background: transparent !important;
+}
+
 thead {
   color: #FFF !important;
   border-bottom: none;	
@@ -876,7 +881,7 @@ td.last-reply {
 }
 
 td.title, td.forum {
-	width: 71%;
+	width: 75%;
 }
 
 td.topics, td.posts {
