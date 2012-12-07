@@ -1288,6 +1288,10 @@ article hr {
 	margin-bottom: 15px;
 }
 
+.comment_content p {
+	clear: none;
+}
+
 .comment_meta {
 	margin: 0px 0px 5px 0px; 
 }
@@ -1322,7 +1326,7 @@ ul.links.inline {
 }
 
 .indented {
-margin-left: 80px;
+margin-left: 80px !important;
 }
 
 #comment-form-wrapper .form-actions, #sidebar_wrap .form-actions {
