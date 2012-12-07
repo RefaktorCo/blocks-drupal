@@ -225,6 +225,8 @@ height: 189px;
 	border-bottom: 1px solid #e8e8e8;
 	text-align: center;
 	position: relative;
+	clear: both;
+  margin-bottom: 20px;
 }
 
 .carousel_item_content {

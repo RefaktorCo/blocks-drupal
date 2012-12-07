@@ -21,6 +21,8 @@
 	      <ul id="filters" class="option-set clearfix" data-option-key="filter">
 	        <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
 	        <li><a href="#filter" data-option-value=".photography" class="small button">Photography</a></li>
+	        <li><a href="#filter" data-option-value=".design" class="small button">Design</a></li>
+	        <li><a href="#filter" data-option-value=".marketing" class="small button">Marketing</a></li>
 	      </ul>
       </section>
       
