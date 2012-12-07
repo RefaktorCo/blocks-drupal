@@ -102,7 +102,7 @@ function blocks_header($page){
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
   
-  $("#featured").orbit({timer: false});
+  $(".featured").orbit({timer: false});
  
   $(".recent_posts_wrap").live({
 		mouseenter : function(){
@@ -218,10 +218,10 @@ function blocks_header($page){
   
 
 	    $(".carousel_item_wrapper").hover(function() {
-	      $(this).children(".carousel_item_content").fadeTo(400, 0.25).end().children(".carousel_item_hover").fadeTo(400, 1).show();
+	      $(this).children(".carousel_item_content").fadeTo(400, 0.25).end().children(".carousel_item_hover").fadeTo(400, .9).show();
 	    },
 	    function(){
-	      $(this).children(".carousel_item_content").fadeTo(400, 1).end().children(".carousel_item_hover").fadeTo(400, 0).hide();
+	      $(this).children(".carousel_item_content").fadeTo(400, .9).end().children(".carousel_item_hover").fadeTo(400, 0).hide();
 	    });  
        
     

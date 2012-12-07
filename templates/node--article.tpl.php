@@ -11,7 +11,7 @@ $share_url = $base_url.'/node/'.$node->nid;
     <?php print render($title_prefix); ?>
 
       <h3 class="post_title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
-
+      
     <?php print render($title_suffix); ?>
   
     <?php if ($display_submitted): ?>
@@ -26,7 +26,7 @@ $share_url = $base_url.'/node/'.$node->nid;
      <?php endif; ?>
          
    <?php endif; ?>
-  <div id="featured">
+  <div class="featured">
   <?php print render($content['field_image']); ?>
   <?php print render($content['field_second_image']); ?>
   </div>
