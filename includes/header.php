@@ -112,8 +112,6 @@ function blocks_header($page){
 			$(this).children("div.recent_post_info").stop().animate({left: "0%"}, 300 );
 		}
 	});
-	
- 
 	    
 	  $(".services_content").hover(
         function(){
@@ -123,7 +121,20 @@ function blocks_header($page){
             $(this).children(".team_image_hover").fadeTo(400,0);
         }
     );
-	
+    
+    
+    $(".carousel_item_content").hover(
+        function(){
+            $(this).children(".carousel_item_hover").fadeTo(400,.8).show();
+        },
+        function(){
+            $(this).children(".carousel_item_hover").fadeTo(400,0);
+        }
+    );
+
+    
+    
+   	
 	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
    $(window).load(function(){
