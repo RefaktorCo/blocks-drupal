@@ -2047,6 +2047,23 @@ span.accordion-head-image {
 /* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
 
+  .top-bar ul > li.name h1 a {
+	  padding: 0px;
+  }
+
+  .team_image_hover h2 {
+    font-size: 16px;
+  }
+  
+  .team_image_hover i {
+    font-size: 24px;
+  } 
+
+  .highlight_icon {
+		padding-top: 0px;
+		font-size: 60px;
+  }
+
   .tile_contents i {
     font-size: 45px;
   }
@@ -2107,7 +2124,7 @@ span.accordion-head-image {
   }
   
   .highlight_text {
-    font-size: 16px;
+    font-size: 17px;
   }
   
   header, .icons {
