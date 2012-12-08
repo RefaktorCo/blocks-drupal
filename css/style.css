@@ -657,15 +657,18 @@ header {
 
 	background: url('../images/slider-backgrounds/shattered.png');
 	margin-bottom: 20px;
-	box-shadow: 0px 0px 9px -2px black ;
+	box-shadow: 0px 0px 10px -2px black ;
 	
 }
 
 #heading_wrapper_after {
 
-  padding:25px 0px;
+  padding:5px 0px;
 }
 
+.slider_wrap {
+	padding: 25px 0px;
+}
 
 #test_wrap {
 	padding: 0 15px;

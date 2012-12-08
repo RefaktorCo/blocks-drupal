@@ -215,12 +215,12 @@ function blocks_header($page){
 			width: 1050,
 			height: 420,
 			easeType: 'random',
-			slideShow: true,
+			slideShow: false,
 			enableDrag: false, 
 			responsive: true,
 			minWidth: 480,
 			pauseByHover: true, 
-			autoHideButton: true
+			autoHideButton: false
 		});  
 		
 	
@@ -243,15 +243,15 @@ function blocks_header($page){
    	  
    	$('.menu_1 a').prepend('<i class="general foundicon-heart"></i>');
    	
-   	$('.menu_2 a').prepend('<i class="general foundicon-website"></i>');
+   	$('.menu_2 a').prepend('<i class="general foundicon-smiley"></i>');
    	
    	$('.menu_3 a').prepend('<i class="general foundicon-mic"></i>');
    	
-   	$('.menu_4 a').prepend('<i class="general foundicon-smiley"></i>');
+   	$('.menu_4 a').prepend('<i class="general foundicon-website"></i>');
    	
    	$('.menu_5 a').prepend('<i class="general foundicon-phone"></i>');
    	
-   	$().UItoTop({ easingType: 'easeOutQuart' });
+   
    	
    	$("#test").click(function() {
 			$("#test").addClass(".expand-first-hover");
