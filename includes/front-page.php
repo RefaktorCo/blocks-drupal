@@ -297,7 +297,7 @@ function blocks_front_page($page){
 
   
          
-    <div id="about" class="row">
+    <div id="recent" class="row">
        <div class="twelve columns">
          <div class="hr_beside">
            <div class="heading_title">Recent Posts</div>

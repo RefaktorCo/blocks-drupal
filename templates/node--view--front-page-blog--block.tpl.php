@@ -25,29 +25,22 @@
 	    
 	       <div class="modal_post_title"><?php print $title; ?></div>
 	       <ul class="meta">
-        <li><i class="icon-user"></i> by <?php print $name; ?></li>
-        <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
-        <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>
-        
-     </ul>
-     <?php if ($field_tags):?>
-     <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
-
-	   
-	    <?php print render($title_suffix); ?>
+	        <li><i class="icon-user"></i> by <?php print $name; ?></li>
+	        <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
+	        <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>        
+		     </ul>
+		   <?php if ($field_tags):?>
+		     <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
+       <?php endif; ?>
+	     <?php print render($title_suffix); ?>
 	    
-	    <div class="featured">
+	      <div class="featured">
 				  <?php print render($content['field_image']); ?>
 				  <?php print render($content['field_second_image']); ?>
 		    </div>
-
-		   
-	    <?php if ($display_submitted): ?>
-	           <?php endif; ?>
+		    
 	    <?php endif; ?>
-	  <?php endif; ?>
-	  
-	   	  
+  
 	  <div class="blog_front_content"<?php print $content_attributes; ?>>
 	    <?php
 	      // Hide comments, tags, and links now so that we can render them later.

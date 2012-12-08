@@ -1,3 +1,7 @@
+#recent .twelve {
+	margin-bottom: -20px;
+}
+
 div.orbit-wrapper {
 	clear: both;
 }
@@ -294,7 +298,18 @@ height: 189px;
   float: right;
   background: white;
   padding: 10px 0px 10px 10px;
+}
 
+.carousel_navigation i {
+	color: #333;
+	 -moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+.carousel_navigation i:hover {
+	color: #64ADB5;
 }
 
 #recent_projects {
