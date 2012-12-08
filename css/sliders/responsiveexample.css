@@ -145,25 +145,25 @@ body{
 	position: absolute;
 	width: 80px;
 	top: 220px;
-	left: 420px;
+	left: 440px;
 }
 #banner img.slide2_2{
 	position: absolute;
 	width: 180px;
 	top: 150px;
-	left: 760px;
+	left: 780px;
 }              
 #banner img.slide2_3{
 	position: absolute;
 	top: 50px;
-	left: 440px;
+	left: 460px;
 }   
 
 #banner .oneByOne_item span.slide2_1{
 	clear: left;
 	position: relative;
 	float: left;
-	margin: 120px 12px 0 80px;    
+	margin: 120px 12px 0 100px;    
 	background: #db8916;     
 	padding: 8px;
 	color: #FFFFFF;
@@ -176,10 +176,10 @@ body{
 	clear: left;
 	position: relative;
 	float: left;
-	margin: 12px 12px 0 80px; 
+	margin: 12px 12px 0 100px; 
 	
 	color: #FFFFFF;  
-	background: #5f419b;
+	background: #8fad30;
 	padding: 8px;
 	font-size: 30px;
 }                  
