@@ -216,6 +216,7 @@ function blocks_header($page){
 			height: 420,
 			easeType: 'random',
 			slideShow: true,
+			enableDrag: false, 
 			responsive: true,
 			minWidth: 480,
 			pauseByHover: true, 

@@ -101,17 +101,17 @@ body{
                     
   
 
-#banner img.wp1_1{
+#banner img.slide1_1{
 	position: absolute;
 	top: 255px;
 	left: 512px;
 }
-#banner img.wp1_2{
+#banner img.slide1_2{
 	position: absolute;
 	top: 190px;
 	left: 360px;
 }              
-#banner img.wp1_3{
+#banner img.slide1_3{
 	position: absolute;
 	top: 64px;
 	left: 80px;
@@ -143,23 +143,23 @@ body{
     
 
  
-#banner img.wp1{
+#banner img.slide2_1{
 	position: absolute;
 	top: 240px;
 	left: 380px;
 }
-#banner img.wp2{
+#banner img.slide2_2{
 	position: absolute;
 	top: 200px;
 	left: 470px;
 }              
-#banner img.wp3{
+#banner img.slide2_3{
 	position: absolute;
 	top: 100px;
 	left: 600px;
 }   
 
-#banner .oneByOne_item span.wp1{
+#banner .oneByOne_item span.slide2_1{
 	clear: left;
 	position: relative;
 	float: left;
@@ -169,10 +169,10 @@ body{
 	color: #FFFFFF;
 	font-size: 40px;
 } 
-#banner .oneByOne_item span.wp1 a{
+#banner .oneByOne_item span.slide2_1 a{
 	color: #FFFFFF;
 }         
-#banner .oneByOne_item span.wp2{
+#banner .oneByOne_item span.slide2_2{
 	clear: left;
 	position: relative;
 	float: left;
