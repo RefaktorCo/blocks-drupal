@@ -12,7 +12,7 @@ function blocks_footer($page){
         
           <div class="three columns">
             <?php if(!$page['footer_1']) {?>
-            <h3>About Us</h3>
+            <h2>About Us</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
             <ul class="footer_icons">
            
@@ -30,19 +30,19 @@ function blocks_footer($page){
       
           <div class="three columns">
             <?php if(!$page['footer_2']) {?>
-            <h3>Footer 2</h3>
+            <h2>Footer 2</h2>
             <?php } else { print render($page['footer_2']); }?>  
           </div>
           
           <div class="three columns">
             <?php if(!$page['footer_3']) {?>
-            <h3>Footer 3</h3>
+            <h2>Footer 3</h2>
             <?php } else { print render($page['footer_3']); }?>  
           </div>
           
           <div class="three columns">
             <?php if(!$page['footer_4']) {?>
-            <h3>Latest Tweets</h3>
+            <h2>Latest Tweets</h2>
             <div class='tweet query'></div>
 							<script type="text/javascript">
 							                        
