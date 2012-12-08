@@ -123,14 +123,18 @@ function blocks_header($page){
     );
     
     
-    $(".carousel_item_content").hover(
+    $(".carousel_item_wrapper").hover(
         function(){
-            $(this).children(".carousel_item_hover").fadeTo(400,.75).show();
+            $(this).children(".carousel_item_hover").fadeTo(400,.85).show();
         },
         function(){
             $(this).children(".carousel_item_hover").fadeTo(400,0);
         }
     );
+    
+   
+       
+
    	
 	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
@@ -229,14 +233,7 @@ function blocks_header($page){
    	
   
 
-	    $(".carousel_item_wrapper").hover(function() {
-	      $(this).children(".carousel_item_content").fadeTo(400, 0.25).end().children(".carousel_item_hover").fadeTo(400, .9).show();
-	    },
-	    function(){
-	      $(this).children(".carousel_item_content").fadeTo(400, .9).end().children(".carousel_item_hover").fadeTo(400, 0).hide();
-	    });  
-       
-    
+	       
     
     
     $('#recent_projects').after('<div style="clear:both;"></div>');

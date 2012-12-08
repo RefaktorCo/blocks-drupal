@@ -259,7 +259,7 @@ height: 189px;
 	position: relative;
 }
 
-.carousel_item_wrapper .carousel_item_hover {
+.carousel_item_hover {
 	display: block;
 	background: #5f419b;
 	color: #fff;
