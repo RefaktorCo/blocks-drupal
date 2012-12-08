@@ -140,13 +140,13 @@ function blocks_front_page($page){
      <div class="twelve columns">
      <div id="banner">  				
 			<div class="oneByOne_item">
-			<img src="<?php echo $root;?>/images/slider/drupal.png" class="slide1_1" alt=""></img>			            
+			<img src="<?php echo $root;?>/images/slider/drupal.png" class="slide1_3" alt=""></img>			            
 			<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_2" alt=""></img>			    
-			<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_3" alt=""></img>  			
+			<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_1" alt=""></img>  			
 			<span class="txt1"><a href="http://themeforest.net/user/sike">I'm Drupal</a></span>
 			<span class="txt2">Above is a hyperlink ;)</span>												
 		</div>
-			
+		
 		
 		<div class="oneByOne_item">
 			<span class="slide2_1">Touch Screen</span>			
@@ -154,14 +154,14 @@ function blocks_front_page($page){
 			<img src="<?php echo $root;?>/images/example1/item2/wordpress-64x64.png" class="slide2_1" data-animate="lightSpeedIn" alt=""></img>
 			<img src="<?php echo $root;?>/images/example1/item2/wordpress-128x128.png" class="slide2_2" data-animate="lightSpeedIn" alt=""></img>			
 			<img src="<?php echo $root;?>/images/example1/item2/wordpress-256x256.png" class="slide2_3" data-animate="lightSpeedIn" alt=""></img>
-		</div>  
+		</div>   
 		
 		<div class="oneByOne_item">                                 	
 			<img src="<?php echo $root;?>/images/slider_1.jpg" class="bigImage" data-animate="bounceIn"></img>
 			<span class="slide2Txt1" data-animate="bounceIn">Hover to pause</span>								
 			<span class="slide2Txt2" data-animate="rollIn">I'm a rollIn animation</span>											
 			<span class="slide2Txt3">Now you can customize each element's animation</span>														
-		</div>               		
+		</div>	              		
 		</div>    
      </div>
    </div>  
