@@ -149,11 +149,11 @@ function blocks_front_page($page){
 		
 		
 		<div class="oneByOne_item">
-			<span class="slide2_1">Touch Screen</span>			
-			<span class="slide2_2">Please Wipe Left or Right</span>															
-			<img src="<?php echo $root;?>/images/example1/item2/wordpress-64x64.png" class="slide2_1" data-animate="lightSpeedIn" alt=""></img>
-			<img src="<?php echo $root;?>/images/example1/item2/wordpress-128x128.png" class="slide2_2" data-animate="lightSpeedIn" alt=""></img>			
-			<img src="<?php echo $root;?>/images/example1/item2/wordpress-256x256.png" class="slide2_3" data-animate="lightSpeedIn" alt=""></img>
+			<span class="slide2_1">Responsive Design</span>			
+			<span class="slide2_2">Touch-Ready Elements</span>	
+				<img src="<?php echo $root;?>/images/slider/blocks-imac.png" class="slide2_3" data-animate="lightSpeedIn" alt=""></img>			
+				<img src="<?php echo $root;?>/images/slider/blocks-iphone.png" class="slide2_1" data-animate="lightSpeedIn" alt=""></img>		
+				<img src="<?php echo $root;?>/images/slider/blocks-ipad.png" class="slide2_2" data-animate="lightSpeedIn" alt=""></img>	
 		</div>   
 		
 		<div class="oneByOne_item">                                 	
