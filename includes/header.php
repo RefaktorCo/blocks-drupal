@@ -125,7 +125,7 @@ function blocks_header($page){
     
     $(".carousel_item_wrapper").hover(
         function(){
-            $(this).children(".carousel_item_hover").fadeTo(400,.85).show();
+            $(this).children(".carousel_item_hover").fadeTo(400,.9).show();
         },
         function(){
             $(this).children(".carousel_item_hover").fadeTo(400,0);

@@ -44,6 +44,7 @@ div.orbit-wrapper {
    -webkit-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;	
+  display: block;
 }
 
 .tile_contents:hover a, .tile_contents:hover i {
@@ -187,6 +188,10 @@ height: 189px;
 	margin-left: 10px;
 }
 
+.modal_post_title {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
 
 #top_header {
 	background: #222;
@@ -268,8 +273,18 @@ height: 189px;
 	width: 100%;
 	top: 0%;
 	position: absolute;
-	padding:15px;
+	padding:45px 15px;
 
+}
+
+.carousel_item_hover i {
+	margin: 4px;
+	font-size: 22px;
+}
+
+.carousel_item_hover p {
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 
 .carousel_navigation {
