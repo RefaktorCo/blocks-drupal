@@ -238,18 +238,25 @@ height: 189px;
 	 margin-left: -20px !important;
 }
 .carousel_item_wrapper {
-	background: #f8f8f8;
-	border-bottom: 1px solid #e8e8e8;
+
 	text-align: center;
 	position: relative;
 	clear: both;
-  margin-bottom: 20px;
+
 }
 
 .carousel_item_content {
 	opacity: 1;
 }
 
+.carousel_item_description {
+	background: #F8F8F8;
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	text-align: center;
+	padding: 1px 0px;
+}
 
 
 .carousel_item_wrapper .carousel_item_hover {

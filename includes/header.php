@@ -125,15 +125,12 @@ function blocks_header($page){
     
     $(".carousel_item_content").hover(
         function(){
-            $(this).children(".carousel_item_hover").fadeTo(400,.8).show();
+            $(this).children(".carousel_item_hover").fadeTo(400,.75).show();
         },
         function(){
             $(this).children(".carousel_item_hover").fadeTo(400,0);
         }
     );
-
-    
-    
    	
 	$(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     

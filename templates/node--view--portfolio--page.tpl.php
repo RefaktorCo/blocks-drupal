@@ -14,10 +14,7 @@
 	      <div class="carousel_item_image">
 	        <?php print render($content['field_portfolio_image']); ?>
 	      </div>
-	      <div class="carousel_item_description">
-	        <h3><?php print $title; ?></h3>
-	      </div>
-      </div>
+	           </div>
       
       <div class="carousel_item_hover">
 	      <p><?php print $title; ?> </p>
@@ -26,7 +23,10 @@
 	    </div>
 	    
     </div>  
-        
+         <div class="carousel_item_description">
+	        <h3><?php print $title; ?></h3>
+	      </div>
+
   </div>
 
   
