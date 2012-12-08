@@ -2047,6 +2047,18 @@ span.accordion-head-image {
 /* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
 
+  .recent_post_photo img {
+	  height: 133px;
+	}
+	
+	.recent_post_info {
+		padding-top: 3%;
+	}
+	
+	.recent_posts_wrap {
+    height: 133px;
+  }
+
   .top-bar ul > li.name h1 a {
 	  padding: 0px;
   }
@@ -2079,11 +2091,7 @@ span.accordion-head-image {
   .recent_post_info_text h1 {
     font-size: 24px;
   }
-  
-  .recent_post_info {
-    padding-top: 10%;
-  }
-  
+    
   #vert_nav {
 	position: relative;  
 	margin-left: 0px;
