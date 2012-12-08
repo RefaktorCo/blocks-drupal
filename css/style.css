@@ -253,9 +253,10 @@ height: 189px;
 	background: #F8F8F8;
 	border-bottom: 1px solid #E8E8E8;
 	margin-bottom: 20px;
-	margin-top: 0px;
+	margin-top: -6px;
 	text-align: center;
 	padding: 1px 0px;
+	position: relative;
 }
 
 .carousel_item_wrapper .carousel_item_hover {
