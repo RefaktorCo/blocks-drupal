@@ -32,7 +32,7 @@ function blocks_header($page){
       </div> 
       
       <div class="row">  
-        <div class="three columns" style="padding-top: 15px;">
+        <div class="three columns branding" >
           <?php if (theme_get_setting('branding_type') == 'logo'): ?>
             <a href="<?php print base_path();?>"><img src="<?php print file_create_url(theme_get_setting('bg_path')); ?>" /></a>
           <?php endif; ?>
