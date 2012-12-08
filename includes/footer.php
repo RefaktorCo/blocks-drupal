@@ -12,38 +12,52 @@ function blocks_footer($page){
         
           <div class="three columns">
             <?php if(!$page['footer_1']) {?>
-            <div class="footer_icons">
-              <ul>
-              <?php if (theme_get_setting('twitter_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('twitter_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/twitter-black.png" alt="twitter"></a></li><?php endif ?>
-             <?php if (theme_get_setting('facebook_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('facebook_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/facebook-black.png" alt="facebook"></a></li><?php endif ?>
-               <?php if (theme_get_setting('google_plus_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('google_plus_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/gplus-black.png" alt="gplus"></a></li><?php endif ?>
-               <?php if (theme_get_setting('pinterest_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('pinterest_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/pinterest-black.png" alt="pinterest"></a></li><?php endif ?>
-               <?php if (theme_get_setting('linkedin_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('linkedin_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/linkedin-black.png" alt="linkedin"></a></li><?php endif ?>
-             <?php if (theme_get_setting('flickr_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('flickr_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/flickr-black.png" alt="flickr"></a></li><?php endif ?>
-             <?php if (theme_get_setting('youtube_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('youtube_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/youtube-black.png" alt="youtube"></a></li><?php endif ?>
-             <?php if (theme_get_setting('rss_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('rss_url'); ?>" target="_blank"><img class="social_icons" src="<?php echo $root;?>/images/social/rss-black.png" alt="rss"></a></li><?php endif ?>
-            </ul>  
-            </div>
-          <?php } else { print render($page['footer_1']); }?>   
+            <h3>About Us</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+            <ul class="footer_icons">
+           
+              <li><a href="#" target="_blank"><i class="social foundicon-twitter"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-facebook"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-linkedin"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-pinterest"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-google-plus"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-flickr"></i></a></li>
+              <li><a href="#" target="_blank"><i class="social foundicon-youtube"></i></a></li>     
+                     
+            </ul> 
+            <?php } else { print render($page['footer_1']); }?>   
           </div> 
       
-          <div class="two columns">
+          <div class="three columns">
             <?php if(!$page['footer_2']) {?>
-            <span> <i class="icon-envelope icon-white"></i>&nbsp;&nbsp;info@lorem-inc.com</span>
+            <h3>Footer 2</h3>
             <?php } else { print render($page['footer_2']); }?>  
           </div>
           
-          <div class="two columns">
+          <div class="three columns">
             <?php if(!$page['footer_3']) {?>
-            <span> <i class="icon-briefcase icon-white"></i>&nbsp;&nbsp;1-888-888-8888</span>
+            <h3>Footer 3</h3>
             <?php } else { print render($page['footer_3']); }?>  
           </div>
           
-          <div class="five columns">
+          <div class="three columns">
             <?php if(!$page['footer_4']) {?>
-            <ul id="footer_menu">
-              <li> <a href="<?php print base_path();?>">Home</a></li>
-            </ul>  
+            <h3>Latest Tweets</h3>
+            <div class='tweet query'></div>
+							<script type="text/javascript">
+							                        
+							    jQuery(document).ready(function ($) {
+							      
+							      $(".tweet").tweet({
+							        username: "envato",
+							        avatar_size: 34,
+							        count: 3,
+							        loading_text: "loading tweets..."
+							      });
+							    
+							    });
+							    
+							  </script>
           <?php } else { print render($page['footer_4']); }?>      
           </div>
           
