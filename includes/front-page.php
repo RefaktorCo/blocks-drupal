@@ -143,8 +143,8 @@ function blocks_front_page($page){
 			<img src="<?php echo $root;?>/images/slider/drupal.png" class="slide1_3" alt=""></img>			            
 			<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_2" alt=""></img>			    
 			<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_1" alt=""></img>  			
-			<span class="txt1"><a href="http://themeforest.net/user/sike">I'm Drupal</a></span>
-			<span class="txt2">Above is a hyperlink ;)</span>												
+			<span class="slide1_txt1">Built on Drupal 7</span>
+			<span class="slide1_txt2">Powered by HTML5 and CSS3</span>												
 		</div>
 		
 		
