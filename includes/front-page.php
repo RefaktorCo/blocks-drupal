@@ -144,7 +144,7 @@ function blocks_front_page($page){
 			<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_2" alt=""></img>			    
 			<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_1" alt=""></img>  			
 			<span class="slide1_txt1">Built on Drupal 7</span>
-			<span class="slide1_txt2">Powered by HTML5 and CSS3</span>												
+			<span class="slide1_txt2">Powered by ZURB Foundation 3</span>												
 		</div>
 		
 		
@@ -157,10 +157,10 @@ function blocks_front_page($page){
 		</div>   
 		
 		<div class="oneByOne_item">                                 	
-			<img src="<?php echo $root;?>/images/slider_1.jpg" class="bigImage" data-animate="bounceIn"></img>
+			<img src="<?php echo $root;?>/images/skyline.jpg" class="bigImage" data-animate="bounceIn"></img>
 			<span class="slide2Txt1" data-animate="bounceIn">Hover to pause</span>								
-			<span class="slide2Txt2" data-animate="rollIn">I'm a rollIn animation</span>											
-			<span class="slide2Txt3">Now you can customize each element's animation</span>														
+			<span class="slide2Txt2" data-animate="rollIn">This slider supports full images</span>											
+			<span class="slide2Txt3">Set up your slider with theme settings. <a href="#">Learn more</a></span>														
 		</div>	              		
 		</div>    
      </div>

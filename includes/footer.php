@@ -22,7 +22,6 @@ function blocks_footer($page){
               <li><a href="#" target="_blank"><i class="social foundicon-pinterest"></i></a></li>
               <li><a href="#" target="_blank"><i class="social foundicon-google-plus"></i></a></li>
               <li><a href="#" target="_blank"><i class="social foundicon-flickr"></i></a></li>
-              <li><a href="#" target="_blank"><i class="social foundicon-youtube"></i></a></li>     
                      
             </ul> 
             <?php } else { print render($page['footer_1']); }?>   

@@ -50,7 +50,7 @@ function blocks_header($page){
               <li class="name">
 	              <h1>
 	                <a href="#">
-	                  Blocks 
+	                  Select a page 
 	                </a>
 	              </h1>
 	            </li>
