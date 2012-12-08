@@ -2044,9 +2044,21 @@ span.accordion-head-image {
   }
 }
 
+/* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
 
+  .tile_contents i {
+    font-size: 45px;
+  }
+  
+  .tile_contents {
+	  padding: 18px 0px;
+  }
  
+  .tile_contents p {
+	  font-size: 18px !important;
+  }
+   
   .recent_post_info_text h1 {
     font-size: 24px;
   }
