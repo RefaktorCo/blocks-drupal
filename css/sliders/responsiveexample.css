@@ -287,5 +287,49 @@
 	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
 		width: 300px;
 	}
+	#banner img.slide1_1 {
+position: absolute;
+top: 40px;
+width: 30px;
+left: 20px;
+}
+
+#banner img.slide1_2 {
+position: absolute;
+width: 50px;
+top: 30px;
+left: 120px;
+}
+
+#banner img.slide1_3 {
+position: absolute;
+top: 4px;
+left: 60px;
+width: 50px;
+}
+
+#banner .oneByOne_item span.slide1_txt1 {
+clear: left;
+position: relative;
+float: left;
+margin: 20px 12px 0 180px;
+background: #64ADB5;
+padding: 8px;
+color: white;
+font-size: 15px;
+display: block !important;
+}
+
+#banner .oneByOne_item span.slide1_txt2 {
+clear: left;
+position: relative;
+float: left;
+margin: 10px 12px 0 163px;
+color: white;
+background: #C95D3B;
+padding: 8px;
+font-size: 10px;
+display: block !important;
+}
 	
 }
