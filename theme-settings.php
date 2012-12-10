@@ -311,32 +311,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => 'Front Page',
   );
   
-    // highlight
-    $form['options']['front_page']['highlight'] = array(
-      '#type' => 'fieldset', 
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Highlight</h3>',
-      
-    );
-    
-      // Enable highlight 
-      $form['options']['front_page']['highlight']['enable_highlight'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Highlight',
-        '#default_value' => theme_get_setting('enable_highlight'),
-      );
-      
-      // highlight Text
-      $form['options']['front_page']['highlight']['highlight_text'] = array(
-      	'#type' => 'textarea',
-      	'#title' => 'Highlight Text',
-      	'#default_value' => theme_get_setting('highlight_text'),
-      	'#states' => array (
-          'invisible' => array(
-            'input[name="enable_highlight"]' => array('checked' => FALSE)
-          )
-        )
-      );
-  
     // Slider
     $form['options']['front_page']['slider'] = array(
       '#type' => 'fieldset',
@@ -433,134 +407,110 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
 	    $i++;    
       }
       
-    // Panels
-    $form['options']['front_page']['panels'] = array(
+    // Services
+    $form['options']['front_page']['services'] = array(
       '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Panels</h3>',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Services</h3>',
       
     );
     
-      // Enable Panels
-      $form['options']['front_page']['panels']['enable_panels'] = array(
+      // Enable Services
+      $form['options']['front_page']['services']['enable_services'] = array(
         '#type' => 'checkbox',
-        '#title' => 'Enable Panels',
-        '#default_value' => theme_get_setting('enable_panels'),
+        '#title' => 'Enable Services Section',
+        '#default_value' => theme_get_setting('enable_services'),
       );
       
-      //Panel Title
-      $form['options']['front_page']['panels']['panels_title'] =array(
+      //Services Title
+      $form['options']['front_page']['services']['services_title'] =array(
         '#type' => 'textfield',
-        '#title' => 'Panels Title',
-        '#default_value' => theme_get_setting('panels_title'),
+        '#title' => 'Services Title',
+        '#default_value' => theme_get_setting('services_title'),
         '#states' => array (
           'invisible' => array(
-            'input[name="enable_panels"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-  // Panels
-    $form['options']['front_page']['portfolio'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Portfolio</h3>',
-      
-    );
-    
-      // Enable Panels
-      $form['options']['front_page']['portfolio']['enable_portfolio'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Portfolio',
-        '#default_value' => theme_get_setting('enable_portfolio'),
-      );
-      
-      //Panel Title
-      $form['options']['front_page']['portfolio']['portfolio_title'] =array(
-        '#type' => 'textfield',
-        '#title' => 'Portfolio Title',
-        '#default_value' => theme_get_setting('portfolio_title'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_portfolio"]' => array('checked' => FALSE)
-          )
-        )
-      ); 
-      
-    // Contact
-    $form['options']['front_page']['contact'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">contact</h3>',
-      
-    );
-    
-      // Enable Contact
-      $form['options']['front_page']['contact']['enable_contact'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Contact',
-        '#default_value' => theme_get_setting('enable_contact'),
-      );
-      
-      //Contact Title
-      $form['options']['front_page']['contact']['contact_title'] =array(
-        '#type' => 'textfield',
-        '#title' => 'Contact Title',
-        '#default_value' => theme_get_setting('contact_title'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_contact"]' => array('checked' => FALSE)
-          )
-        )
-      ); 
-      
-      // Enable Map
-      $form['options']['front_page']['contact']['enable_map'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Google Map',
-        '#default_value' => theme_get_setting('enable_map'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_contact"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-      //Map Address
-      $form['options']['front_page']['contact']['map_address'] =array(
-        '#type' => 'textarea',
-        '#title' => 'Google Map Embed Code',
-        '#default_value' => theme_get_setting('map_address'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_map"]' => array('checked' => FALSE)
-          )
-        )
-      ); 
-  
-  // Panels
-    $form['options']['front_page']['clients'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Clients</h3>',
-      
-    );
-    
-      // Enable clients
-      $form['options']['front_page']['clients']['enable_clients'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Clients',
-        '#default_value' => theme_get_setting('enable_clients'),
-      );
-      
-      //Panel Title
-      $form['options']['front_page']['clients']['clients_title'] =array(
-        '#type' => 'textfield',
-        '#title' => 'Clients Title',
-        '#default_value' => theme_get_setting('clients_title'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_clients"]' => array('checked' => FALSE)
+            'input[name="enable_services"]' => array('checked' => FALSE)
           )
         )
       );  
-        
+      
+    // Highlight
+    $form['options']['front_page']['highlight'] = array(
+      '#type' => 'fieldset', 
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Highlight</h3>',
+      
+    );
+    
+      // Enable highlight 
+      $form['options']['front_page']['highlight']['enable_highlight'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Highlight',
+        '#default_value' => theme_get_setting('enable_highlight'),
+      );
+      
+      // highlight Text
+      $form['options']['front_page']['highlight']['highlight_text'] = array(
+      	'#type' => 'textarea',
+      	'#title' => 'Highlight Text',
+      	'#default_value' => theme_get_setting('highlight_text'),
+      	'#states' => array (
+          'invisible' => array(
+            'input[name="enable_highlight"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+    // Recent Posts
+    $form['options']['front_page']['recent_posts'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Recent Posts</h3>',
+      
+    );
+    
+      // Enable Services
+      $form['options']['front_page']['recent_posts']['enable_recent_posts'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Recent Posts Section',
+        '#default_value' => theme_get_setting('enable_recent_posts'),
+      );
+      
+      //Services Title
+      $form['options']['front_page']['services']['recent_posts_title'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Recent Posts Title',
+        '#default_value' => theme_get_setting('recent_posts_title'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_recent_posts"]' => array('checked' => FALSE)
+          )
+        )
+      );  
+      
+    // Recent Projects
+    $form['options']['front_page']['recent_projects'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Recent Projects</h3>',
+      
+    );
+    
+      // Enable Services
+      $form['options']['front_page']['recent_projects']['enable_recent_projects'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Recent Projects Section',
+        '#default_value' => theme_get_setting('enable_recent_projects'),
+      );
+      
+      //Services Title
+      $form['options']['front_page']['recent_projects']['recent_projects_title'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Recent Projects Title',
+        '#default_value' => theme_get_setting('recent_projects_title'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_recent_projects"]' => array('checked' => FALSE)
+          )
+        )
+      );      
+     
   // Layout
   $form['options']['layout'] = array(
     '#type' => 'fieldset',

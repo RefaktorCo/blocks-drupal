@@ -36,11 +36,6 @@ regions[slider]         = Slider Full Width
 
 regions[front_blog]      = Front Page Blog
 
-regions[panel_1]        = Panel 1
-regions[panel_2]        = Panel 2
-regions[panel_3]        = Panel 3
-regions[panel_full]     = Panel Full Width
-
 regions[portfolio]      = Front Page Portfolio
 
 
@@ -76,8 +71,8 @@ settings[slide_caption_1] = 'This is slide caption 1'
 settings[slide_caption_2] = 'This is slide caption 2'
 settings[slide_caption_3] = 'This is slide caption 3'
 
-settings[enable_panels] = '1'
-settings[panels_title] = 'WHAT WE DO'
+settings[enable_services] = '1'
+settings[services_title] = 'WHAT WE DO'
 
 settings[enable_portfolio] = '0'
 settings[portfolio_title] = 'RECENT WORK'

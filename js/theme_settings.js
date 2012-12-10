@@ -42,18 +42,18 @@ jQuery(document).ready(function ($) {
 	$('#edit-slider .plus').toggleClass('minus');
   });
   
-  $("#edit-panels .fieldset-wrapper").hide();
-  $("#edit-panels .fieldset-legend").click(function(){
-	$("#edit-panels .fieldset-wrapper").slideToggle("slow");
+  $("#edit-services .fieldset-wrapper").hide();
+  $("#edit-services .fieldset-legend").click(function(){
+	$("#edit-services .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-panels .plus').toggleClass('minus');
+	$('#edit-services .plus').toggleClass('minus');
   });
   
-  $("#edit-portfolio .fieldset-wrapper").hide();
-  $("#edit-portfolio .fieldset-legend").click(function(){
-	$("#edit-portfolio .fieldset-wrapper").slideToggle("slow");
+  $("#edit-recent_posts .fieldset-wrapper").hide();
+  $("#edit-recent_posts .fieldset-legend").click(function(){
+	$("#edit-recent_posts .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-portfolio .plus').toggleClass('minus');
+	$('#edit-recent_posts .plus').toggleClass('minus');
   });
   
   $("#edit-contact .fieldset-wrapper").hide();
