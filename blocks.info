@@ -65,11 +65,8 @@ settings[enable_highlight] = '1'
 settings[highlight_text] = 'This is <span class="standout_text">blocks</span> a modern Drupal theme.<br> Turn your website into something beautiful.'
 
 settings[enable_slider] = '0'
-settings[slider_type] = 'default'
-settings[slides_number] = '3'
-settings[slide_caption_1] = 'This is slide caption 1'
-settings[slide_caption_2] = 'This is slide caption 2'
-settings[slide_caption_3] = 'This is slide caption 3'
+
+settings[slide1_img1] = '/images/slider/drupal.png'
 
 settings[enable_services] = '1'
 settings[services_title] = 'WHAT WE DO'

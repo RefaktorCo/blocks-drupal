@@ -140,7 +140,7 @@ function blocks_front_page($page){
 			    	<div id="banner">  		
      
 				      <div class="oneByOne_item">
-								<img src="<?php echo $root;?>/images/slider/drupal.png" class="slide1_img1" alt=""></img>			            
+								<img src="<?php echo $root;?><?php echo theme_get_setting('slide1_img1'); ?>" class="slide1_img1" alt=""></img>			            
 								<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_img2" alt=""></img>			    
 								<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_img3" alt=""></img>  			
 								<span class="slide1_txt1">Built on Drupal 7</span>

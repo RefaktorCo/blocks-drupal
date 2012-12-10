@@ -324,89 +324,51 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#title' => 'Enable Image Slider',
         '#default_value' => theme_get_setting('enable_slider'),
       );
-      
-      // Slider Type
-      $form['options']['front_page']['slider']['slider_type'] = array(
-        '#type' => 'select',
-        '#title' => 'Slider Type',
-        '#default_value' => theme_get_setting('slider_type'),
-        '#options' => array(
-          'default' => 'Elasic Image (default)',
-          'nivo' => 'Nivo Slider',
-          'bootstrap' => 'Twitter Bootstrap',
-        ),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_slider"]' => array('checked' => FALSE)
-          )
-        )
-      );
-      
-      // Enable Slider
-      $form['options']['front_page']['slider']['slides_number'] = array(
-        '#type' => 'select',
-        '#title' => 'Select the number of slides you wish to use:',
-        '#default_value' => theme_get_setting('slides_number'),
-        '#options' => array(
-          '1' => '1',
-          '2' => '2',
-          '3' => '3',
-          '4' => '4',
-          '5' => '5',
-          '6' => '6',
-          '7' => '7',
-          '8' => '8',
-          '9' => '9',
-          '10' => '10',
-        ),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_slider"]' => array('checked' => FALSE)
-          )
-        )
-      );
-
-      $i = 1;
-      while ($i <= $slide_number) {
-      
-        $form['options']['front_page']['slider']['slide_'.$i.''] = array(
+                  
+        $form['options']['front_page']['slider']['slide_1'] = array(
           '#type' => 'fieldset',
-          '#title' => '<h3 class="options_heading">Slide '.$i.'</h3>',
+          '#title' => '<h3>Slide 1</h3>',
           '#states' => array (
-          'invisible' => array(
-            'input[name="enable_slider"]' => array('checked' => FALSE)
+	          'invisible' => array(
+	            'input[name="enable_slider"]' => array('checked' => FALSE)
+	          )
           )
-        )
         );
 
-          $form['options']['front_page']['slider']['slide_'.$i.'']['slide_path_'.$i.''] = array(
+          $form['options']['front_page']['slider']['slide_1']['slide1_img1'] = array(
             '#type' => 'textfield',
-            '#title' => 'Path to Slide '.$i.'',
-            '#default_value' => ${'slide_path_' . $i},
-            '#disabled' => TRUE,
+            '#title' => 'Image path to slide 1, image 1',
+            '#default_value' => theme_get_setting('slide1_img1'),
           );
-	      
-	      $form['options']['front_page']['slider']['slide_'.$i.'']['slide_upload_'.$i.''] = array(
-            '#type' => 'file',
-            '#title' => 'Upload image for Slide '.$i.'',
-            '#description' => 'Upload a slide image.',
-          );
-          
-          $form['options']['front_page']['slider']['slide_'.$i.'']['slide_url_'.$i.''] = array(
+	                
+          $form['options']['front_page']['slider']['slide_1']['slide1_img2'] = array(
             '#type' => 'textfield',
-            '#title' => 'URL for Slide '.$i.'',
-            '#default_value' => theme_get_setting('slide_url_'.$i.''),
-          );
-          
-          $form['options']['front_page']['slider']['slide_'.$i.'']['slide_caption_'.$i.''] = array(
-            '#type' => 'textfield',
-            '#title' => 'Caption for Slide '.$i.'',
-            '#default_value' => theme_get_setting('slide_caption_'.$i.''),
+            '#title' => 'Image path to slide 1, image 2',
+            '#default_value' => theme_get_setting('slide1_img2'),
           );
 
-	    $i++;    
-      }
-      
+          $form['options']['front_page']['slider']['slide_1']['slide1_img3'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Image path to slide 1, image 3',
+            '#default_value' => theme_get_setting('slide1_img3'),
+          );
+          
+          $form['options']['front_page']['slider']['slide_1']['slide1_txt1'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 1, caption 1',
+            '#default_value' => theme_get_setting('slide1_txt1'),
+          );
+          
+          $form['options']['front_page']['slider']['slide_1']['slide1_txt2'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 1, caption 2',
+            '#default_value' => theme_get_setting('slide1_txt2'),
+          );
+
+
+          
+        
+	        
     // Services
     $form['options']['front_page']['services'] = array(
       '#type' => 'fieldset',
@@ -718,7 +680,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
   // Submit Button
   $form['#submit'][] = 'blocks_settings_submit';
   $form['#submit'][] = 'blocks_background_settings_submit';
-  $form['#submit'][] = 'blocks_slide_settings_submit';
   
 }
 
@@ -768,36 +729,6 @@ function blocks_background_settings_submit($form, &$form_state) {
     $_POST['background_path'] = $form_state['values']['background_path'] = $previous;
   }
   
-}
-
-// for background image//ntf
-function blocks_slide_settings_submit($form, &$form_state) {
-  global $slide_number;
-  $counter = '1';
-  
-  while ($counter <= $slide_number) {
-  // Get the previous value
-  $previous = 'public://' . $form['options']['front_page']['slider']['slide_'.$counter.'']['slide_path_'.$counter.'']['#default_value'] ;
-  
-  $file = file_save_upload('slide_upload_'.$counter.'');
-  if ($file) {
-    $parts = pathinfo($file->filename);
-    $destination = 'public://' . $parts['basename'];
-    $file->status = FILE_STATUS_PERMANENT;
-    
-    if(file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
-      $_POST['slide_path_'.$counter.''] = $form_state['values']['slide_path_'.$counter.''] = $destination;
-      if ($destination != $previous) {
-        return;
-      }
-    }
-  } else {
-    // Avoid error when the form is submitted without specifying a new image
-    $_POST['slide_path_'.$counter.''] = $form_state['values']['slide_path_'.$counter.''] = $previous;
-  }
-  
-  $counter++;
-  }
 }
 
 ?>
