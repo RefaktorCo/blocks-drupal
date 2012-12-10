@@ -140,9 +140,9 @@ function blocks_front_page($page){
 			    	<div id="banner">  		
      
 				      <div class="oneByOne_item">
-								<img src="<?php echo $root;?><?php echo theme_get_setting('slide1_img1'); ?>" class="slide1_img1" alt=""></img>			            
-								<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_img2" alt=""></img>			    
-								<img src="<?php echo $root;?>/images/slider/css3.png" class="slide1_img3" alt=""></img>  			
+								<img src="<?php echo theme_get_setting('slide1_img1');?>" class="slide1_img1" alt=""></img>			            
+								<img src="<?php echo theme_get_setting('slide1_img2');?>" class="slide1_img2" alt=""></img>			    
+								<img src="<?php echo theme_get_setting('slide1_img3');?>" class="slide1_img3" alt=""></img>  			
 								<span class="slide1_txt1">Built on Drupal 7</span>
 								<span class="slide1_txt2">Powered by ZURB Foundation 3</span>												
 							</div>
@@ -150,13 +150,13 @@ function blocks_front_page($page){
 					    <div class="oneByOne_item">
 								<span class="slide2_txt1">Responsive Design</span>			
 								<span class="slide2_txt2">Touch-Ready Elements</span>	
-								<img src="<?php echo $root;?>/images/slider/blocks-imac.png" class="slide2_img1" data-animate="lightSpeedIn" alt=""></img>			
-								<img src="<?php echo $root;?>/images/slider/blocks-iphone.png" class="slide2_img2" data-animate="lightSpeedIn" alt=""></img>		
-								<img src="<?php echo $root;?>/images/slider/blocks-ipad.png" class="slide2_img3" data-animate="lightSpeedIn" alt=""></img>	
+								<img src="<?php echo theme_get_setting('slide2_img1');?>" class="slide2_img1" data-animate="lightSpeedIn" alt=""></img>			
+								<img src="<?php echo theme_get_setting('slide2_img2');?>" class="slide2_img2" data-animate="lightSpeedIn" alt=""></img>		
+								<img src="<?php echo theme_get_setting('slide2_img3');?>" class="slide2_img3" data-animate="lightSpeedIn" alt=""></img>	
 							</div>   
 		
 							<div class="oneByOne_item">                                 	
-								<img src="<?php echo $root;?>/images/skyline.jpg" class="slide3_img1" data-animate="bounceIn"></img>
+								<img src="<?php echo theme_get_setting('slide3_img1');?>" class="slide3_img1" data-animate="bounceIn"></img>
 								<span class="slide3_txt1" data-animate="bounceIn">Hover to pause</span>								
 								<span class="slide3_txt2" data-animate="rollIn">This slider supports full images</span>											
 								<span class="slide3_txt3">Set up your slider with theme settings. <a href="#">Learn more</a></span>														

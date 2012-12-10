@@ -66,7 +66,11 @@ settings[highlight_text] = 'This is <span class="standout_text">blocks</span> a 
 
 settings[enable_slider] = '0'
 
-settings[slide1_img1] = '/images/slider/drupal.png'
+settings[slide1_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/drupal.png'
+settings[slide1_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/html5.png'
+settings[slide1_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/css3.png'
+settings[slide1_txt1] = 'Built on Drupal 7'
+settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
 
 settings[enable_services] = '1'
 settings[services_title] = 'WHAT WE DO'
