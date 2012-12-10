@@ -24,22 +24,24 @@
 }
 
 /* Slide 1 */   
-#banner img.slide1_1{
-  position: absolute;
-  top: 240px;
-  left: 475px;
-}
-#banner img.slide1_2{
-	position: absolute;
-  top: 210px;
-  left: 95px;
-}              
-#banner img.slide1_3{
+#banner img.slide1_img1{
 	position: absolute;
 	top: 60px;
 	left: 245px;
 	width: 200px;
 }   
+
+#banner img.slide1_img2{
+	position: absolute;
+  top: 210px;
+  left: 95px;
+}              
+
+#banner img.slide1_img3{
+  position: absolute;
+  top: 240px;
+  left: 475px;
+}
 
 #banner .oneByOne_item span.slide1_txt1{
 	clear: left;
@@ -67,26 +69,28 @@
 	font-size: 22px;
 }                   
 
-/* Slide 2 */       
-#banner img.slide2_1{
-	position: absolute;
-	width: 80px;
-	top: 220px;
-	left: 440px;
-}
-#banner img.slide2_2{
-	position: absolute;
-	width: 180px;
-	top: 150px;
-	left: 780px;
-}              
-#banner img.slide2_3{
+/* Slide 2 */        
+#banner img.slide2_img1{
 	position: absolute;
 	top: 50px;
 	left: 460px;
 }   
 
-#banner .oneByOne_item span.slide2_1{
+#banner img.slide2_img2{
+	position: absolute;
+	width: 80px;
+	top: 220px;
+	left: 440px;
+}
+
+#banner img.slide2_img3{
+	position: absolute;
+	width: 180px;
+	top: 150px;
+	left: 780px;
+}    
+ 
+#banner .oneByOne_item span.slide2_tx1{
 	clear: left;
 	position: relative;
 	float: left;
@@ -97,11 +101,11 @@
 	font-size: 50px;
 } 
 
-#banner .oneByOne_item span.slide2_1 a{
+#banner .oneByOne_item span.slide2_txt1 a{
 	color: #FFFFFF;
 }  
        
-#banner .oneByOne_item span.slide2_2{
+#banner .oneByOne_item span.slide2_txt2{
 	clear: left;
 	position: relative;
 	float: left;
@@ -146,7 +150,7 @@
 	padding: 8px;             
 }                 
 
-#banner .oneByOne_item img.bigImage{ 
+#banner .oneByOne_item img.slide3_img1{ 
 	position: absolute;
 	top: 0; 
 	left: 0;
@@ -163,24 +167,24 @@
 		width: 1000px;
 	}
 	
-	/* Slide 1 */
-	#banner img.slide1_1{
-    width: 70px;
-    top: 150px;
-    left: 350px;
-  }
-  
-	#banner img.slide1_2{
-		width: 100px;
-	  top: 120px;
-	  left: 60px;
-	}  
-	            
-	#banner img.slide1_3{
+	/* Slide 1 */           
+	#banner img.slide1_img1{
 		top: 40px;
 		left: 170px;
 		width: 150px;
 	}   
+	
+	#banner img.slide1_img2{
+		width: 100px;
+	  top: 120px;
+	  left: 60px;
+	}  
+	
+	#banner img.slide1_img3{
+    width: 70px;
+    top: 150px;
+    left: 350px;
+  }
 
 	#banner .oneByOne_item span.slide1_txt1{
 		margin: 100px 12px 0 440px;    
@@ -193,34 +197,34 @@
 	}      
 	
 	/* Slide 2 */          
-	#banner .oneByOne_item span.slide2_1{
+	#banner .oneByOne_item span.slide2_txt1{
 		margin: 100px 12px 0 80px;    
 		font-size: 30px;
 	} 
 	       
-	#banner .oneByOne_item span.slide2_2{
+	#banner .oneByOne_item span.slide2_txt2{
 		margin: 12px 12px 0 80px; 
 		font-size: 18px;
 	}   
 	
-	#banner img.slide2_1{
+	#banner img.slide2_img1{
+		width: 300px;
+		top: 30px;
+		left: 320px;
+	}   
+	
+	#banner img.slide2_img2{
 		width: 60px;
 		top: 160px;
 		left: 300px;
 	}
 	
-	#banner img.slide2_2{
+	#banner img.slide2_img3{
 		width: 120px;
 		top: 120px;
 		left: 560px;
 	}  
-	            
-	#banner img.slide2_3{
-		width: 300px;
-		top: 30px;
-		left: 320px;
-	}    
-	
+	            	
 	/* Slide 3 */             
 	#banner .oneByOne_item span.slide3_txt1{ 
 		margin: 120px 12px 0 80px;
@@ -244,23 +248,23 @@
 
 	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{ width: 748px; }
 	
-	#banner img.slide1_1{
-    width: 70px;
-    top: 150px;
-    left: 350px;
-  }
+	#banner img.slide1_img1{
+		top: 40px;
+		left: 170px;
+		width: 150px;
+	}   
   
-	#banner img.slide1_2{
+	#banner img.slide1_img2{
 		width: 100px;
 	  top: 120px;
 	  left: 60px;
 	}  
 	            
-	#banner img.slide1_3{
-		top: 40px;
-		left: 170px;
-		width: 150px;
-	}   
+	#banner img.slide1_img3{
+    width: 70px;
+    top: 150px;
+    left: 350px;
+  }
 
 	#banner .oneByOne_item span.slide1_txt1{
 		margin: 100px 12px 0 440px;    
@@ -272,33 +276,33 @@
 		font-size: 16px;
 	}      
 	          
-	#banner .oneByOne_item span.slide2_1{
+	#banner .oneByOne_item span.slide2_txt1{
 		margin: 100px 12px 0 80px;    
 		font-size: 30px;
 	} 
 	       
-	#banner .oneByOne_item span.slide2_2{
+	#banner .oneByOne_item span.slide2_txt2{
 		margin: 12px 12px 0 80px; 
 		font-size: 18px;
 	}   
 	
-	#banner img.slide2_1{
+	#banner img.slide2_img1{
+		width: 300px;
+		top: 30px;
+		left: 320px;
+	}  
+	
+	#banner img.slide2_img2{
 		width: 60px;
 		top: 160px;
 		left: 300px;
 	}
 	
-	#banner img.slide2_2{
+	#banner img.slide2_img3{
 		width: 120px;
 		top: 120px;
 		left: 560px;
-	}  
-	            
-	#banner img.slide2_3{
-		width: 300px;
-		top: 30px;
-		left: 320px;
-	}             
+	}                      
 }
 
 /* Mobile landscape mode  */
@@ -306,26 +310,26 @@
 	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
 		width: 460px;
 	}	
-	#banner img.slide1_1 {
-position: absolute;
-top: 40px;
-width: 30px;
-left: 20px;
-}
+	
+	#banner img.slide1_img1 {
+		top: 4px;
+		left: 60px;
+		width: 50px;
+	}
+	
 
-#banner img.slide1_2 {
-position: absolute;
-width: 50px;
-top: 30px;
-left: 120px;
-}
+	#banner img.slide1_img2 {
+		width: 50px;
+		top: 30px;
+		left: 120px;
+	}
 
-#banner img.slide1_3 {
-position: absolute;
-top: 4px;
-left: 60px;
-width: 50px;
-}
+	#banner img.slide1_img3 {
+		top: 40px;
+		width: 30px;
+		left: 20px;
+	}
+
 
 #banner .oneByOne_item span.slide1_txt1 {
 clear: left;
@@ -405,24 +409,26 @@ font-size: 10px;
 display: block !important;
 }
 
-#banner img.slide2_1{
-	position: absolute;
-	width: 30px;
-	top: 30px;
-	left: 20px;
-}
-#banner img.slide2_2{
-	position: absolute;
-	width: 50px;
-	top: 30px;
-	left: 130px;
-}              
-#banner img.slide2_3{
-	position: absolute;
-	width: 120px;
-	top: 0px;
-	left: 35px;
-}   
+	#banner img.slide2_img1{
+		position: absolute;
+		width: 120px;
+		top: 0px;
+		left: 35px;
+	}  
+	
+	#banner img.slide2_img3{
+		position: absolute;
+		width: 30px;
+		top: 30px;
+		left: 20px;
+	}
+	#banner img.slide2_img2{
+		position: absolute;
+		width: 50px;
+		top: 30px;
+		left: 130px;
+	}              
+ 
 
 #banner .oneByOne_item span.slide2_1{
 	clear: left;
