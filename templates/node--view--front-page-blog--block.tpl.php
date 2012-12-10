@@ -1,3 +1,8 @@
+<?php 
+global $root, $base_url;
+$share_url = $base_url.'/node/'.$node->nid;
+?>
+
 	<div class="six columns">
 	  <div class="recent_posts_wrap">
 	    <div class="recent_post_photo">

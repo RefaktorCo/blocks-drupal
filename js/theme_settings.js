@@ -49,18 +49,18 @@ jQuery(document).ready(function ($) {
 	$('#edit-services .plus').toggleClass('minus');
   });
   
-  $("#edit-recent_posts .fieldset-wrapper").hide();
-  $("#edit-recent_posts .fieldset-legend").click(function(){
-	$("#edit-recent_posts .fieldset-wrapper").slideToggle("slow");
+  $("#edit-recent-posts .fieldset-wrapper").hide();
+  $("#edit-recent-posts .fieldset-legend").click(function(){
+	$("#edit-recent-posts .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-recent_posts .plus').toggleClass('minus');
+	$('#edit-recent-posts .plus').toggleClass('minus');
   });
   
-  $("#edit-contact .fieldset-wrapper").hide();
-  $("#edit-contact .fieldset-legend").click(function(){
-	$("#edit-contact .fieldset-wrapper").slideToggle("slow");
+  $("#edit-recent-projects .fieldset-wrapper").hide();
+  $("#edit-recent-projects .fieldset-legend").click(function(){
+	$("#edit-recent-projects .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-contact .plus').toggleClass('minus');
+	$('#edit-recent-projects .plus').toggleClass('minus');
   });
   
   $("#edit-clients .fieldset-wrapper").hide();

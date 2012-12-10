@@ -474,7 +474,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       );
       
       //Services Title
-      $form['options']['front_page']['services']['recent_posts_title'] =array(
+      $form['options']['front_page']['recent_posts']['recent_posts_title'] =array(
         '#type' => 'textfield',
         '#title' => 'Recent Posts Title',
         '#default_value' => theme_get_setting('recent_posts_title'),
