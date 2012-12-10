@@ -364,11 +364,82 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
             '#title' => 'Text for slide 1, caption 2',
             '#default_value' => theme_get_setting('slide1_txt2'),
           );
-
-
           
+        $form['options']['front_page']['slider']['slide_2'] = array(
+          '#type' => 'fieldset',
+          '#title' => '<h3>Slide 2</h3>',
+          '#states' => array (
+	          'invisible' => array(
+	            'input[name="enable_slider"]' => array('checked' => FALSE)
+	          )
+          )
+        );
         
-	        
+        
+          $form['options']['front_page']['slider']['slide_2']['slide2_txt1'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 2, caption 1',
+            '#default_value' => theme_get_setting('slide2_txt1'),
+          );
+          
+          $form['options']['front_page']['slider']['slide_2']['slide2_txt2'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 2, caption 2',
+            '#default_value' => theme_get_setting('slide2_txt2'),
+          );
+
+          $form['options']['front_page']['slider']['slide_2']['slide2_img1'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Image path to slide 2, image 1',
+            '#default_value' => theme_get_setting('slide2_img1'),
+          );
+	                
+          $form['options']['front_page']['slider']['slide_2']['slide2_img2'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Image path to slide 2, image 2',
+            '#default_value' => theme_get_setting('slide2_img2'),
+          );
+
+          $form['options']['front_page']['slider']['slide_2']['slide2_img3'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Image path to slide 2, image 3',
+            '#default_value' => theme_get_setting('slide2_img3'),
+          );
+          
+        $form['options']['front_page']['slider']['slide_3'] = array(
+          '#type' => 'fieldset',
+          '#title' => '<h3>Slide 3</h3>',
+          '#states' => array (
+	          'invisible' => array(
+	            'input[name="enable_slider"]' => array('checked' => FALSE)
+	          )
+          )
+        );
+
+          $form['options']['front_page']['slider']['slide_3']['slide3_img1'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Image path to slide 3, image 1',
+            '#default_value' => theme_get_setting('slide3_img1'),
+          );
+	                
+          $form['options']['front_page']['slider']['slide_3']['slide3_txt1'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 3, caption 1',
+            '#default_value' => theme_get_setting('slide3_txt1'),
+          );
+          
+          $form['options']['front_page']['slider']['slide_3']['slide3_txt2'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 3, caption 2',
+            '#default_value' => theme_get_setting('slide3_txt2'),
+          );
+          
+          $form['options']['front_page']['slider']['slide_3']['slide3_txt3'] = array(
+            '#type' => 'textfield',
+            '#title' => 'Text for slide 3, caption 3',
+            '#default_value' => theme_get_setting('slide3_txt3'),
+          );
+    
     // Services
     $form['options']['front_page']['services'] = array(
       '#type' => 'fieldset',

@@ -72,6 +72,17 @@ settings[slide1_img3] = 'http://localhost:8888/development/blocks_demo/sites/all
 settings[slide1_txt1] = 'Built on Drupal 7'
 settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
 
+settings[slide2_txt1] = 'Responsive Design'
+settings[slide2_txt2] = 'Touch-Ready Elements'
+settings[slide2_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
+settings[slide2_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
+settings[slide2_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
+
+settings[slide3_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
+settings[slide3_txt1] = 'Hover to pause'
+settings[slide3_txt2] = 'This slider supports full images'
+settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
+
 settings[enable_services] = '1'
 settings[services_title] = 'WHAT WE DO'
 
