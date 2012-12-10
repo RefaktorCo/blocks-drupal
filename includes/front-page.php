@@ -138,7 +138,18 @@ function blocks_front_page($page){
     <div id="heading_wrapper_after">
    <div class="row">
      <div class="twelve columns">
-     <div id="banner">  				
+     <div id="banner">  		
+     <div class="oneByOne_item">
+			<span class="slide2_1">Responsive Design</span>			
+			<span class="slide2_2">Touch-Ready Elements</span>	
+				<img src="<?php echo $root;?>/images/slider/blocks-imac.png" class="slide2_3" data-animate="lightSpeedIn" alt=""></img>			
+				<img src="<?php echo $root;?>/images/slider/blocks-iphone.png" class="slide2_1" data-animate="lightSpeedIn" alt=""></img>		
+				<img src="<?php echo $root;?>/images/slider/blocks-ipad.png" class="slide2_2" data-animate="lightSpeedIn" alt=""></img>	
+		</div>   
+		
+
+     
+     		
 			<div class="oneByOne_item">
 			<img src="<?php echo $root;?>/images/slider/drupal.png" class="slide1_3" alt=""></img>			            
 			<img src="<?php echo $root;?>/images/slider/html5.png" class="slide1_2" alt=""></img>			    
@@ -148,15 +159,7 @@ function blocks_front_page($page){
 		</div>
 		
 		
-		<div class="oneByOne_item">
-			<span class="slide2_1">Responsive Design</span>			
-			<span class="slide2_2">Touch-Ready Elements</span>	
-				<img src="<?php echo $root;?>/images/slider/blocks-imac.png" class="slide2_3" data-animate="lightSpeedIn" alt=""></img>			
-				<img src="<?php echo $root;?>/images/slider/blocks-iphone.png" class="slide2_1" data-animate="lightSpeedIn" alt=""></img>		
-				<img src="<?php echo $root;?>/images/slider/blocks-ipad.png" class="slide2_2" data-animate="lightSpeedIn" alt=""></img>	
-		</div>   
-		
-		<div class="oneByOne_item">                                 	
+				<div class="oneByOne_item">                                 	
 			<img src="<?php echo $root;?>/images/skyline.jpg" class="bigImage" data-animate="bounceIn"></img>
 			<span class="slide2Txt1" data-animate="bounceIn">Hover to pause</span>								
 			<span class="slide2Txt2" data-animate="rollIn">This slider supports full images</span>											

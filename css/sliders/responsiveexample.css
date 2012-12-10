@@ -364,5 +364,47 @@ padding: 8px;
 font-size: 10px;
 display: block !important;
 }
+
+#banner img.slide2_1{
+	position: absolute;
+	width: 40px;
+	top: 20px;
+	left: 40px;
+}
+#banner img.slide2_2{
+	position: absolute;
+	width: 80px;
+	top: 50px;
+	left: 80px;
+}              
+#banner img.slide2_3{
+	position: absolute;
+	width: 120px;
+	top: 20px;
+	left: 80px;
+}   
+
+#banner .oneByOne_item span.slide2_1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 120px 12px 0 100px;    
+	background: #db8916;     
+	padding: 8px;
+	color: #FFFFFF;
+	font-size: 50px;
+} 
+        
+#banner .oneByOne_item span.slide2_2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 12px 12px 0 100px; 
+	
+	color: #FFFFFF;  
+	background: #8fad30;
+	padding: 8px;
+	font-size: 30px;
+}                  
 	
 }
