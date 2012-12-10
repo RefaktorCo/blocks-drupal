@@ -139,6 +139,17 @@ function blocks_front_page($page){
    <div class="row">
      <div class="twelve columns">
      <div id="banner">  		
+     
+     
+     <div class="oneByOne_item">                                 	
+			<img src="<?php echo $root;?>/images/skyline.jpg" class="bigImage" data-animate="bounceIn"></img>
+			<span class="slide3_txt1" data-animate="bounceIn">Hover to pause</span>								
+			<span class="slide3_txt2" data-animate="rollIn">This slider supports full images</span>											
+			<span class="slide3_txt3">Set up your slider with theme settings. <a href="#">Learn more</a></span>														
+		</div>	              		
+
+     
+     
      <div class="oneByOne_item">
 			<span class="slide2_1">Responsive Design</span>			
 			<span class="slide2_2">Touch-Ready Elements</span>	
@@ -159,13 +170,7 @@ function blocks_front_page($page){
 		</div>
 		
 		
-				<div class="oneByOne_item">                                 	
-			<img src="<?php echo $root;?>/images/skyline.jpg" class="bigImage" data-animate="bounceIn"></img>
-			<span class="slide2Txt1" data-animate="bounceIn">Hover to pause</span>								
-			<span class="slide2Txt2" data-animate="rollIn">This slider supports full images</span>											
-			<span class="slide2Txt3">Set up your slider with theme settings. <a href="#">Learn more</a></span>														
-		</div>	              		
-		</div>    
+						</div>    
      </div>
    </div>  
   </div> 
