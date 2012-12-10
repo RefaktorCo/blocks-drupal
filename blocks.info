@@ -29,17 +29,14 @@ regions[content]        = Content
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
 
-regions[header_login] = Header Login
+regions[header_login] 	= Header Login
 regions[header_contact] = Header Contact
 
-regions[slider]         = Slider Full Width
+regions[slider] 				= Slider Full Width
 
-regions[front_blog]      = Front Page Blog
+regions[services ]      = Front Page Services
 
-regions[portfolio]      = Front Page Portfolio
-
-
-
+regions[front_blog]     = Front Page Blog
 
 regions[recent_projects] = Recent Projects
 
@@ -62,7 +59,7 @@ settings[flickr_url] = 'http://flickr.com'
 settings[youtube_url] = 'http://youtube.com'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'This is <span class="standout_text">blocks</span> a modern Drupal theme.<br> Turn your website into something beautiful.'
+settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 
 settings[enable_slider] = '0'
 
@@ -86,14 +83,14 @@ settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Lea
 settings[enable_services] = '1'
 settings[services_title] = 'Who We Are'
 
-settings[enable_portfolio] = '0'
-settings[portfolio_title] = 'RECENT WORK'
+settings[enable_highlight] = '1'
+settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 
-settings[enable_contact] = '1'
-settings[contact_title] = 'GET IN TOUCH'
+settings[enable_recent_posts] = '0'
+settings[recent_posts_title] = 'Recent Posts'
 
-settings[enable_clients] = '1'
-settings[clients_title] = 'OUR CLIENTS'
+settings[enable_recent_projects] = '0'
+settings[recent_projects_title] = 'Recent Projects'
 
 settings[color_scheme] = 'light-blue'
 

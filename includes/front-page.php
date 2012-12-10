@@ -1,137 +1,7 @@
-<?php 
-
-function blocks_bootstrap_slider($page){
-  global $root; 
-  $slide_number = theme_get_setting('slides_number');
-?>
-					<div class="row">
-            <div class="span12">
-              <div id="myCarousel" class="carousel slide">
-              
-						   	<div class="carousel-inner">
-							    <?php $i = '1'; while ($i <= $slide_number) { ?>
-							    <div class="<?php if ($i == '1') {echo "active ";} ?>item">
-							      <a href="<?php echo theme_get_setting('slide_url_'.$i.''); ?>">
-							      	<img src="<?php print file_create_url(theme_get_setting('slide_path_'.$i.'')); ?>">
-							      </a>
-							      <?php if (theme_get_setting('slide_caption_'.$i.'') != '') : ?>
-							    	<div class="carousel-caption">
-								    	<p><?php echo theme_get_setting('slide_caption_'.$i.''); ?></p>
-								    </div><!-- end caption -->
-								    <?php endif; ?>
-							    </div><!-- end item -->
-							    <?php $i++; } ?>
-							  </div>
-							  <!-- end carousel-inner -->
-							
-							  <!-- Carousel nav -->
-							  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-							  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-						  
-						  </div>
-						  <!-- end myCarousel -->            
-						</div>
-				  </div>
-				  
-				  <script type="text/javascript">
-						jQuery(document).ready(function ($) {
-						  $('.carousel').carousel({
-						    interval: 5000
-						  })
-						})
-				  </script>
-          
-<?php }
-
-
-function blocks_nivo_slider($page){
-  global $root; 
-  $slide_number = theme_get_setting('slides_number');
-?>
-					<div class="row">
-            <div class="span12">
-              <div class="slider-wrapper theme-default">
-                
-                <div id="slider" class="nivoSlider">
-	                <?php $i = '1'; while ($i <= $slide_number) { ?>  
-	                	<a href="<?php echo theme_get_setting('slide_url_'.$i.''); ?>">
-	                  	<img src="<?php print file_create_url(theme_get_setting('slide_path_'.$i.'')); ?>" alt="slider" title="#htmlcaption<?php echo $i;?>">
-	                  </a>
-	                <?php $i++; } ?>              
-                </div>
-                
-                <?php $i = '1'; while ($i <= $slide_number) { ?> 
-		            <div id="htmlcaption<?php echo $i;?>" class="nivo-html-caption">
-                 <?php echo theme_get_setting('slide_caption_'.$i.''); ?>
-                </div>
-			          <?php $i++; } ?> 
-			          
-	            </div>
-            </div>
-          </div>
-          
-          <script type="text/javascript">
-	          jQuery(document).ready(function ($) {
-	          	$('#slider').nivoSlider();
-	          });
-	        </script>
-<?php }
-
-function blocks_elastic_image_slider($page){
-  global $root; 
-  $slide_number = theme_get_setting('slides_number');
-?>
-					<div class="row">
-            <div class="span12">
-              <div id="ei-slider" class="ei-slider">
-              
-                <ul class="ei-slider-large">
-	                <?php $i = '1'; while ($i <= $slide_number) { ?>
-	                <li>
-	                	<a href="<?php echo theme_get_setting('slide_url_'.$i.''); ?>">
-	                  	<img src="<?php print file_create_url(theme_get_setting('slide_path_'.$i.'')); ?>" alt="slider">
-	                  </a>
-	                  <?php if (theme_get_setting('slide_caption_'.$i.'') != '') : ?>
-	                  <div class="ei-title">
-	                  	<?php echo theme_get_setting('slide_caption_'.$i.''); ?>
-	                  </div>
-	                  <?php endif; ?>
-	                </li>
-	                <?php $i++; } ?>        
-                </ul>
-                <!-- ei-slider-large -->
-                
-		            <ul class="ei-slider-thumbs">
-		            	<li class="ei-slider-element">Current</li>
-		              <?php $i = '1'; while ($i <= $slide_number) { ?>
-				          <li><a href="#">Slide <?php echo $i; ?></a><img src="<?php print file_create_url(theme_get_setting('slide_path_'.$i.'')); ?>" alt="thumb" height="60" width="150" /></li>
-				          <?php $i++; } ?>
-			          </ul>
-			          <!-- ei-slider-thumbs -->
-	            </div>
-	            <!-- ei-slider -->
-            </div>
-          </div>
-          
-          <script type="text/javascript">
-	          jQuery(document).ready(function ($) {
-	          	$('#ei-slider').eislideshow({
-								animation			: 'center',
-								autoplay			: true,
-								slideshow_interval	: 3000,
-								titlesFactor		: 0
-						  });
-						  
-						  
-	          });
-	        </script>
-<?php }
-
-function blocks_front_page($page){
+<?php
+  function blocks_front_page($page){
   global $root; 
 ?>
-
-<!-- main span12 -->
 
     <?php if (theme_get_setting('enable_slider') == '1') : ?>
 		<div id="heading_wrapper" class="slider_wrap"> 
@@ -174,184 +44,168 @@ function blocks_front_page($page){
 		<div class="row">
       <div class="twelve columns">
         <div class="hr_beside">
-          <div class="heading_title">Who We Are</div>
+          <div class="heading_title"><?php echo theme_get_setting('services_title');?></div>
         </div>
       </div>
     </div> 
      
-     <div class="row">   
-       <div class="six columns">
-         <div class="row">      
+    <div class="row">   
+     
+      <div class="six columns">
+        <div class="row">      
        
-				    <div class="six columns services">  
-				      <div class="services_content">  
-				        <div class="team_image"> 
-				          <img src="<?php echo $root;?>/images/team3.jpg"> 
-				        </div>
-				        <div class="team_image_hover">
-				        <h2>Steve MqQueen - CEO</h2>
-				        <p><a href="#" style="line-height: 12px" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
-				        </div>
-				      </div>        
-				    </div>
-				    
-				    <div class="six columns services">  
-				      <div class="services_content">   
+				   <div class="six columns services">  
+				     <div class="services_content">  
 				       <div class="team_image"> 
-				          <img src="<?php echo $root;?>/images/team2.jpg"> 
-				        </div>
-				        <div class="team_image_hover">
-				           <h2>Robyn Sullivan - VP </h2>
-				        <p><a href="#" style="line-height: 12px" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
-				        </div>				      
-				      </div>        
-				    </div>
+				         <img src="<?php echo $root;?>/images/team3.jpg"> 
+				       </div>
+				       <div class="team_image_hover">
+				       <h2>Steve MqQueen - CEO</h2>
+				       <p><a href="#" style="line-height: 12px" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
+				       </div>
+				     </div>        
+				   </div>
 				    
-				    <div class="six columns services">  
-				      <div class="services_content">   
-				       <div class="team_image"> 
-				          <img src="<?php echo $root;?>/images/team1.jpg"> 
-				        </div>
-				        <div class="team_image_hover">
-				           <h2>Aiko Takahashi - Design </h2>
-				        <p><a href="#" style="line-height: 12px" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
-				        </div>				      
-				      </div>        
-				    </div>
+				   <div class="six columns services">  
+				     <div class="services_content">   
+				      <div class="team_image"> 
+				         <img src="<?php echo $root;?>/images/team2.jpg"> 
+				       </div>
+				       <div class="team_image_hover">
+				          <h2>Robyn Sullivan - VP </h2>
+				       <p><a href="#" style="line-height: 12px" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
+				       </div>				      
+				     </div>        
+				   </div>
+				    
+				   <div class="six columns services">  
+				     <div class="services_content">   
+				      <div class="team_image"> 
+				         <img src="<?php echo $root;?>/images/team1.jpg"> 
+				       </div>
+				       <div class="team_image_hover">
+				          <h2>Aiko Takahashi - Design </h2>
+				       <p><a href="#" style="line-height: 12px" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
+				       </div>				      
+				     </div>        
+				   </div>
 
-				       <div class="six columns services">     
-				       <div style="background-color: #8FAD30;">   
-				          <div class="tile_contents">
-				            <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
-				            <p>Find Us</p></a>
-				          </div>
+				   <div class="six columns services">     
+				     <div style="background-color: #8FAD30;">   
+				       <div class="tile_contents">
+				         <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
+				         <p>Find Us</p></a>
 				       </div>
-				    </div>   
-      </div>
-    </div>    
+				     </div>
+				   </div>   
+				    
+         </div>
+      </div>    
     
-    <div class="six columns">
-      <div class="row">    
+ 	    <div class="six columns">
+	      <div class="row">    
       
-      <div class="six columns services">     
-				       <div style="background-color: #C95D3B;">   
-				        	<div class="tile_contents">
-				            <a href="#"><i class="general foundicon-globe"></i>
-			                 <p>Global Presence</p></a>
-				          </div>
-				       </div>
-				    </div>			
+          <div class="six columns services">     
+			      <div style="background-color: #C95D3B;">   
+				      <div class="tile_contents">
+				        <a href="#"><i class="general foundicon-globe"></i>
+			          <p>Global Presence</p></a>
+			        </div>
+		 	      </div>
+				  </div>			
 				    
-				    <div class="six columns services">     
-				       <div style="background-color: #17954c;">   
-				        	<div class="tile_contents">
-				            <a href="#"><i class="general foundicon-compass"></i>
-			                 <p>Effective Solutions</p></a>
-				          </div>
-				       </div>
-				    </div>			
-				     				    
-				     				    
-				    <div class="six columns services">  
-				      <div class="services_content">   
-				       <div class="team_image"> 
-				          <img src="<?php echo $root;?>/images/team4.jpg"> 
-				        </div>
-				        <div class="team_image_hover">
-				           <h2>Frank Douglas - Marketing </h2>
-				        <p><a href="#" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
-				        </div>				      
-				      </div>        
+				  <div class="six columns services">     
+				    <div style="background-color: #17954c;">   
+				      <div class="tile_contents">
+				        <a href="#"><i class="general foundicon-compass"></i>
+			          <p>Effective Solutions</p></a>
+				      </div>
 				    </div>
-				    
-				   				    
-				    <div class="six columns services">     
-				       <div style="background-color: #DB8916;">   
-				        	<div class="tile_contents">
-				            <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
-				            <p>Contact Us</p></a>
-				          </div>
-				       </div>
-				    </div>				    
+				  </div>					    
+				     				    
+				  <div class="six columns services">  
+				    <div class="services_content">   
+				      <div class="team_image"> 
+				        <img src="<?php echo $root;?>/images/team4.jpg"> 
+				      </div>
+				      <div class="team_image_hover">
+				        <h2>Frank Douglas - Marketing </h2>
+				        <p><a href="#" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
+				      </div>				      
+				    </div>        
+				  </div>
+				    			    
+				  <div class="six columns services">     
+				    <div style="background-color: #DB8916;">   
+				      <div class="tile_contents">
+				        <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
+				        <p>Contact Us</p></a>
+				      </div>
+		  	    </div>
+			    </div>				    
 				     
-				    
-		      </div>
-		    </div>  
-			
+		    </div>
+		  </div> 
     </div>
       
     <?php endif; ?>
     
-          
+    <?php if (theme_get_setting('enable_highlight') == '1') : ?>       
     <div id="highlight">
       <div class="row">
         <div class="one columns highlight_icon">
           <i class="general foundicon-idea"></i>
         </div>
         <div class="eleven columns">
-          <h1 class="highlight_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h1>
+          <h1 class="highlight_text"><?php echo theme_get_setting('highlight_text');?></h1>
         </div>
       </div>
     </div>
-
+    <?php endif; ?>
   
-         
-    <div id="recent" class="row">
-       <div class="twelve columns">
-         <div class="hr_beside">
-           <div class="heading_title">Recent Posts</div>
-         </div>
-       </div>
-     </div> 
+    <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
+    <div class="row">
+      <div class="twelve columns">
+        <div class="hr_beside">
+          <div class="heading_title"><?php echo theme_get_setting('recent_posts_title');?></div>
+        </div>
+      </div>
+    </div> 
      
-     <div class="row">
-       <?php print render($page['front_blog']); ?>     
-     </div>
+    <div class="row">
+      <?php print render($page['front_blog']); ?>     
+    </div>
+    <?php endif; ?> 
      
-     
-        
-           <div id="about" class="row">
-       <div class="twelve columns">
-         <div class="hr_beside">
-           <div class="heading_title">Recent Projects</div>
-            <div class="carousel_navigation">
+    <?php if (theme_get_setting('enable_recent_projects') == '1') : ?>             
+    <div class="row">
+      <div class="twelve columns">
+        <div class="hr_beside">
+          <div class="heading_title"><?php echo theme_get_setting('recent_projects_title');?></div>
+          <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
 					  <a id="next" class="next" href="#" style="line-height: 12px"><i class="general foundicon-right-arrow"></i></a>
-						
           </div>
-         </div>
-       </div>
-     </div> 
+        </div>
+      </div>
+    </div> 
      
-    
-     <div class="row">
+    <div class="row">
       <div class="twelve columns">
-        <div class="projects_carousel">
-          
-          
-        <ul id="recent_projects">
-        
-               <?php print render($page['recent_projects']); ?>       
-         
-        
-        </ul>
-      
-        
+        <div class="projects_carousel">  
+          <ul id="recent_projects">
+            <?php print render($page['recent_projects']); ?>       
+          </ul>
        </div>      
       </div>
     </div>
-      
+    <?php endif ?>  
 
-
-    
-    </div>
+  </div>
+  <!-- end main wrapper -->    
   
- 
-  <!-- end main wrap -->    
-  
-  <!-- Begin front page modal markup -->    
-      
-        
+    <!-- Begin front page modal markup -->    
+       
     <!-- Google Map Modal -->  
   	<div id="map_modal" class="reveal-modal large">
       <div id="google_map">
