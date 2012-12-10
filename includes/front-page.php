@@ -148,7 +148,7 @@ function blocks_front_page($page){
 							</div>
      
 					    <div class="oneByOne_item">
-								<span class="slide2_tx1">Responsive Design</span>			
+								<span class="slide2_txt1">Responsive Design</span>			
 								<span class="slide2_txt2">Touch-Ready Elements</span>	
 								<img src="<?php echo $root;?>/images/slider/blocks-imac.png" class="slide2_img1" data-animate="lightSpeedIn" alt=""></img>			
 								<img src="<?php echo $root;?>/images/slider/blocks-iphone.png" class="slide2_img2" data-animate="lightSpeedIn" alt=""></img>		
