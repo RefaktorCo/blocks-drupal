@@ -84,7 +84,7 @@ settings[slide3_txt2] = 'This slider supports full images'
 settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
 
 settings[enable_services] = '1'
-settings[services_title] = 'WHAT WE DO'
+settings[services_title] = 'Who We Are'
 
 settings[enable_portfolio] = '0'
 settings[portfolio_title] = 'RECENT WORK'

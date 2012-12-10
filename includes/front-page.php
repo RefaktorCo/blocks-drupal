@@ -133,6 +133,7 @@ function blocks_front_page($page){
 
 <!-- main span12 -->
 
+    <?php if (theme_get_setting('enable_slider') == '1') : ?>
 		<div id="heading_wrapper" class="slider_wrap"> 
     	<div id="heading_wrapper_after">
 	    	<div class="row">
@@ -167,19 +168,17 @@ function blocks_front_page($page){
 				</div>  
 			</div> 
 		</div>
+		<?php endif; ?>
   
-   
-   <div id="about" class="row">
-       <div class="twelve columns">
-         <div class="hr_beside">
-           <div class="heading_title">Who We Are</div>
-         </div>
-        
-       </div>
-     </div> 
+   <?php if (theme_get_setting('enable_services') == '1') : ?>
+		<div class="row">
+      <div class="twelve columns">
+        <div class="hr_beside">
+          <div class="heading_title">Who We Are</div>
+        </div>
+      </div>
+    </div> 
      
-     
-            
      <div class="row">   
        <div class="six columns">
          <div class="row">      
@@ -227,10 +226,7 @@ function blocks_front_page($page){
 				            <p>Find Us</p></a>
 				          </div>
 				       </div>
-				    </div>
-
-
-				    
+				    </div>   
       </div>
     </div>    
     
@@ -282,9 +278,11 @@ function blocks_front_page($page){
 		      </div>
 		    </div>  
 			
-      </div>
+    </div>
       
-        
+    <?php endif; ?>
+    
+          
     <div id="highlight">
       <div class="row">
         <div class="one columns highlight_icon">
