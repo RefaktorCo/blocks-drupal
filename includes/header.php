@@ -84,43 +84,43 @@ function blocks_header($page){
         <div id="slideout">
 	      <div id="slidecontent">
 	      
-	      <h6 class="switch_heading">Colors</h6>
-	        <div class="color_switch_wrap">
-				    <ul id="color-nav">
-				      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile blue"></div></li>
-				      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></li>
-				      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></li>
-				      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></li>
-				      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></li>
-				      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></li>
-				      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></li>
-				 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></li>
+		      <h6 class="switch_heading">Colors</h6>
+		        <div class="color_switch_wrap">
+					    <ul id="color-nav">
+					      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile blue"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></li>
+					      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></li>
+					      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></li>
+					      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></li>
+					      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></li>
+					      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></li>
+					 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></li>
+					    </ul>
+			      </div>
+			      
+			      <h6 class="switch_heading">Heading Patterns</h6>  
+			        <ul id="heading-bg-nav">
+			          <li class="shattered-bg"><div class="switch_tile shattered"></div></li>
+			          <li class="tile-bg"><div class="switch_tile tile_bg"></div></li>
+			          <li class="checkered-bg"><div class="switch_tile checkered"></div></li>  
+			        </ul>
+			      
+			    <h6 class="switch_heading">Layout</h6>  
+			      <ul id="layout-nav">
+			        <li class="switch_wide"><a class="tiny secondary button">Wide</a></li>
+			        <li class="switch_boxed"><a class="tiny secondary button">Boxed</a></li>
+			      </ul>  
+	  
+			    <div class="bg_patterns_wrap">
+				    <h6 class="switch_heading">Background Patterns</h6>
+				    <ul id="bg-nav">
+				      <li class="grey-bg"><div class="switch_tile grey-bg"></li>
+				      <li class="grid-bg"><div class="switch_tile grid-bg"></li>
+				      <li class="cream-bg"><div class="switch_tile cream-bg"></li>
+				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></li>
 				    </ul>
-		      </div>
-		      
-		      <div class="heading_bg_wrap">		      
-		      <h6 class="switch_heading">Heading Pattern</h6>  
-		        <ul id="heading-bg-nav">
-		          <li class="shattered-bg"><div class="switch_tile shattered"></div></li>
-		          <li class="tile-bg"><div class="switch_tile tile_bg"></div></li>
-		          <li class="checkered-bg"><div class="switch_tile checkered"></div></li>  
-		        </ul>
-		      </div>  
-		      
-		    <h6 class="switch_heading">Layout</h6>  
-		      <ul id="layout-nav">
-		        <li class="switch_wide"><a class="tiny secondary button">Wide</a></li>
-		        <li class="switch_boxed"><a class="tiny secondary button">Boxed</a></li>
-		      </ul>  
-  
-		    
-		    <h6 class="switch_heading">Backgrounds</h6>
-		    <ul id="bg-nav">
-		      <li class="grey-bg"><img src="<?php echo $root;?>/images/switch/grey-bg.png" alt="switch"></li>
-		      <li class="grid-bg"><img src="<?php echo $root;?>/images/switch/grid-bg.png" alt="switch"></li>
-		      <li class="cream-bg"><img src="<?php echo $root;?>/images/switch/cream-bg.png" alt="switch"></li>
-		      <li class="gplay-bg"><img src="<?php echo $root;?>/images/switch/gplay-bg.png" alt="switch"></li>
-		      </ul>
+			    </div>
+			    
 	      </div>
       
 	      <div id="clickme">
@@ -203,11 +203,13 @@ function blocks_header($page){
       $(".switch_wide").click(function() {
         $('#main_wrapper').css({ 'max-width': '100%', 'margin': '0 auto' });
         $('header').css({ 'max-width': '100%'});
+        $('.bg_patterns_wrap').css({ 'display': 'none'});
       });
 
       $(".switch_boxed").click(function() {
         $('#main_wrapper').css({ 'max-width': '1120px', 'margin': '0 auto' });
         $('header').css({ 'max-width': '1120px'});
+        $('.bg_patterns_wrap').css({ 'display': 'block'});
 
       });
       

@@ -1,3 +1,7 @@
+.bg_patterns_wrap {
+	display: none;
+}
+
 .button.secondary {
   background-color: #E9E9E9 !important;
 }
@@ -63,6 +67,22 @@
 .checkered {
 	background-image: url('../images/heading-backgrounds/checkered.png');
 	background: whitesmoke;
+}
+
+.gplay-bg {
+	background-image: url('../images/backgrounds/gplaypattern.png');
+}
+
+.grey-bg {
+	background-image: url('../images/backgrounds/grey.png');
+}
+
+.cream-bg {
+	background-image: url('../images/backgrounds/cream_dust.png');
+}
+
+.grid-bg {
+	background-image: url('../images/backgrounds/noisy_grid.png');
 }
 
 #slideout {
