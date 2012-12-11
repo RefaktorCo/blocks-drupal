@@ -588,7 +588,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
    // Colors
     $form['options']['design']['colors'] = array(
       '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Colors</h3>',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Color Scheme</h3>',
     );
   
       // Color Scheme
@@ -636,7 +636,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       // Background
     $form['options']['design']['background']['background_select'] = array(
       '#type' => 'radios',
-      '#title' => 'Select a background image:',
+      '#title' => 'Select a background pattern:',
       '#default_value' => theme_get_setting('background_select'),
       '#options' => array(
         'gplaypattern' => 'item',
@@ -652,6 +652,47 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         )
 
     );  
+    
+    // Background
+    $form['options']['design']['page_heading'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Page Heading</h3>',
+    );
+    
+      // Background Color
+      $form['options']['design']['page_heading']['heading_background'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Page/slider heading background color',
+        '#default_value' => theme_get_setting('heading_background'),
+      );    
+      
+     // Enable background pattern
+      $form['options']['design']['page_heading']['enable_heading_pattern'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable heading pattern',
+        '#default_value' => theme_get_setting('enable_heading_pattern'),
+      );
+    
+      // Background
+    $form['options']['design']['page_heading']['heading_background_select'] = array(
+      '#type' => 'radios',
+      '#title' => 'Select a heading background pattern:',
+      '#default_value' => theme_get_setting('heading_background_select'),
+      '#options' => array(
+        'gplaypattern' => 'item',
+        'cream_dust' => 'item',
+        'grey' => 'item',
+        'noisy_grid' => 'item',
+      ),
+      '#default_value' => theme_get_setting('recent_projects_title'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_heading_pattern"]' => array('checked' => FALSE)
+          )
+        )
+
+    );  
+
       
     // CSS
     $form['options']['design']['css'] = array(

@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
   $("#edit-colors .fieldset-legend").click(function(){
 	$("#edit-colors .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-colors .plus').toggleClass('minus');
+	$('#edit-color-scheme .plus').toggleClass('minus');
   });
   
   $("#edit-background .fieldset-wrapper").hide();
