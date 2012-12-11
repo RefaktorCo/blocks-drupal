@@ -12,17 +12,8 @@ thead {
   background-color: #2f88f0 !important; 
 }
 
-.view-popular-tags a:hover {
-  background-color: #00abff; 
-}
-
 .header_icons li i:hover {
 	color: #00abff;
-}
-
-/* Panel */
-.panel_icon {
-  background: #2f88f0; 	
 }
 
 #main_title_text {
@@ -45,48 +36,17 @@ thead {
 	background: #00abff !important;
 }
 
-/*Menu*/
-.menu ul {
-  border-top: 2px solid #2f88f0!important;
-}
-
-#main-menu li a.active {
-	color: #2f88f0;
-}
-
-.menu ul ul {
-	border-top: 2px solid #2f88f0;
-}
-
-#main-menu li a:hover, #main-menu .menu ul li a:hover  {
-	color: #2f88f0;
-}
-
-/*Portfolio*/
-.portfolio-item-first .mask {
-  background-color: rgba(0, 136, 204, 0.7);
-}
-
-/* Pricing Table */
-.pricehover:hover .price {
-  background:#2f88f0; 
-}
-
-.pricehover:hover .price {
-  border-color: #2f88f0;
-}
 
 /* Widgets */
-.popular_tags a:hover, .ad_block a:hover, .tabs a.active {
-  background: #2f88f0;
+.ad_block a:hover, .tabs a.active {
+  background: #00abff;
+}
+
+.view-popular-tags a:hover {
+  background-color: #00abff; 
 }
 
 /*Highlight*/
 #highlight {
   background: #2f88f0; 
-}
-
-/*Elastic Slider*/
-.ei-slider-thumbs li a {
-  background: #2f88f0;
 }
