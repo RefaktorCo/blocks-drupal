@@ -322,9 +322,7 @@ height: 189px;
 	color: #fff;
 }
 
-.header_icons li i:hover {
-	color: #64ADB5;
-}
+
 
 .projects_carousel {
 	 margin-left: -20px !important;
@@ -885,7 +883,6 @@ hr {
 }
 
 #main_title_text {
-  color: #01BDE3; 
   font-size: 52px; 	
 }
 
@@ -1789,7 +1786,6 @@ span.faq-head-image {
 }
 
 #highlight {
-	background: #01bde3 !important; 
 	padding: 25px 0px; 
 	box-shadow: 0px 0px 9px -2px black ;
 }

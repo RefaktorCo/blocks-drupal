@@ -1,6 +1,6 @@
 /* Body and Content */
 a {
-  color: #08C ;
+  color: #2f88f0;
 }
 
 a:hover {
@@ -8,42 +8,42 @@ a:hover {
   text-decoration: none;
 }
 
-#main_title {
-  background: #08C; 
-}
-
-.standout_text {
-  background-color: #08C; 
-}
-
 thead {
-  background-color: #08C; 
+  background-color: #2f88f0; 
 }
 
 .view-popular-tags a:hover {
-  background-color: #08c; 
+  background-color: #2f88f0; 
+}
+
+.header_icons li i:hover {
+	color: #2f88f0;
 }
 
 /* Panel */
 .panel_icon {
-  background: #08C; 	
+  background: #2f88f0; 	
 }
+
+#main_title_text {
+  color: #2f88f0; 
+}  
 
 /*Menu*/
 .menu ul {
-  border-top: 2px solid #08c !important;
+  border-top: 2px solid #2f88f0!important;
 }
 
 #main-menu li a.active {
-	color: #08c;
+	color: #2f88f0;
 }
 
 .menu ul ul {
-	border-top: 2px solid #08C;
+	border-top: 2px solid #2f88f0;
 }
 
 #main-menu li a:hover, #main-menu .menu ul li a:hover  {
-	color: #08c;
+	color: #2f88f0;
 }
 
 /*Portfolio*/
@@ -53,24 +53,24 @@ thead {
 
 /* Pricing Table */
 .pricehover:hover .price {
-  background:#08C; 
+  background:#2f88f0; 
 }
 
 .pricehover:hover .price {
-  border-color: #08C;
+  border-color: #2f88f0;
 }
 
 /* Widgets */
 .popular_tags a:hover, .ad_block a:hover, .tabs a.active {
-  background: #08C;
+  background: #2f88f0;
 }
 
 /*Highlight*/
 #highlight {
-  background: #08c; 
+  background: #2f88f0; 
 }
 
 /*Elastic Slider*/
 .ei-slider-thumbs li a {
-  background: #08C ;
+  background: #2f88f0;
 }
