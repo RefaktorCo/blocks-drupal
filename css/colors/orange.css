@@ -33,7 +33,11 @@ thead {
 }
 
 .carousel_item_hover i:hover {
-	color: #666;
+	color: #ffb520;
+}
+
+.team_image_hover i:hover {
+  color: #ffb520 !important;
 }
 
 

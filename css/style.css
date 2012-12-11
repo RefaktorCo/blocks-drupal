@@ -194,6 +194,10 @@ div.orbit-wrapper {
 
 .team_image_hover i {
 	font-size: 30px;
+	-moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .services_content img {
