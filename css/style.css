@@ -1,3 +1,11 @@
+ul {
+	margin-left: 20px;
+}
+
+#drupal_tabs .tabs {
+	border-bottom: none;
+}
+
 /* Elements Demo */
 #elements_demo .tabs {
 	border-bottom: none;

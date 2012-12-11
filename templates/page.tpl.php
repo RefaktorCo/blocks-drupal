@@ -21,7 +21,7 @@
 	              <?php print render($title_suffix); ?>
 	             	 
 	             	 <?php if ($tabs = render($tabs)): ?>
-							    <div class="tabs">
+							    <div id="drupal_tabs" class="tabs">
 							    <?php print render($tabs); ?>
 							    </div>
 							  <?php endif; ?>
