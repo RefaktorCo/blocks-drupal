@@ -233,7 +233,7 @@ function blocks_preprocess_html(&$vars){
     '#tag' => 'link', 
     '#weight' => 9,
     '#attributes' => array( 
-      'href' => ''.$root.'/css/colors/yellow.css', 
+      'href' => ''.$root.'/css/colors/'.theme_get_setting('color_scheme').'.css', 
       'rel' => 'stylesheet',
       'type' => 'text/css',
       'media' => 'screen',
