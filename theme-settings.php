@@ -644,8 +644,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         'grey' => 'item',
         'noisy_grid' => 'item',
       ),
-      '#default_value' => theme_get_setting('recent_projects_title'),
-        '#states' => array (
+      '#states' => array (
           'invisible' => array(
             'input[name="enable_background_pattern"]' => array('checked' => FALSE)
           )
