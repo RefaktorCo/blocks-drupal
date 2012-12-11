@@ -652,10 +652,10 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#title' => 'Select a font family',
         '#default_value' => theme_get_setting('font_family'),
         '#options' => array(
+          'Open Sans Condensed, serif' => '"Open Sans Condensed", serif (default)',
           'Arial, Helvetica, sans-serif' => 'Arial, Helvetica, sans-serif',
           'Georgia, serif' => 'Georgia, serif',
           '"Helvetica Neue", Helvetica, Arial, sans-serif' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
-          'Open Sans, serif' => '"Open Sans", serif (default)',
           '"Times New Roman", Times, serif' => '"Times New Roman", Times, serif',
           'Verdana, Arial, Helvetica, sans-serif' => 'Verdana, Arial, Helvetica, sans-serif',
         ),
