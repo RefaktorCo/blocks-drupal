@@ -590,10 +590,8 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('color_scheme'),
         '#options' => array(
           'black' => 'Black',
-          'light-grey' => 'Light Grey',
-          'dark-grey' => 'Dark Grey',
-          'light-blue' => 'Light Blue (default)',
-          'dark-blue' => 'Dark Blue',
+          'blue' => 'Blue (default)',
+          'teal' => 'Teal',
           'green' => 'Green',
           'yellow' => 'Yellow',
           'purple' => 'Purple',

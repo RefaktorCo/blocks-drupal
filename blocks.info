@@ -92,7 +92,7 @@ settings[recent_posts_title] = 'Recent Posts'
 settings[enable_recent_projects] = '0'
 settings[recent_projects_title] = 'Recent Projects'
 
-settings[color_scheme] = 'light-blue'
+settings[color_scheme] = 'blue'
 
 settings[background_select] = 'gplaypattern'
 

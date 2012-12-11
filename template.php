@@ -233,7 +233,7 @@ function blocks_preprocess_html(&$vars){
     '#tag' => 'link', 
     '#weight' => 9,
     '#attributes' => array( 
-      'href' => ''.$root.'/css/colors/purple.css', 
+      'href' => ''.$root.'/css/colors/green.css', 
       'rel' => 'stylesheet',
       'type' => 'text/css',
       'media' => 'screen',
