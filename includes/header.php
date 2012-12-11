@@ -39,7 +39,7 @@ function blocks_header($page){
           <?php if (theme_get_setting('branding_type') == 'text'): ?>
             <a href="<?php print base_path();?>">
               <h1 id="main_title_text"><?php print variable_get('site_name'); ?></h1>
-              <h2><?php print variable_get('site_slogan'); ?></h2>
+              <h2 id="main_title_slogan"><?php print variable_get('site_slogan'); ?></h2>
             </a>
           <?php endif; ?>
         </div>

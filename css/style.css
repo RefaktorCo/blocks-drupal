@@ -874,8 +874,6 @@ hr {
 }
 
 #main_title {
- 
-
   margin: auto;
   margin-top: 20px;
   margin-bottom: 22px;
@@ -887,9 +885,17 @@ hr {
 }
 
 #main_title_text {
-  color: #ececec; 
-  padding: 16px;
-  font-size: 26px; 	
+  color: black; 
+  font-size: 52px; 	
+}
+
+#main_title_text {
+	margin: -2px 0px 2px 0px;
+}
+
+#main_title_slogan {
+	font-size: 20px;
+	margin: 0px 0px 8px 15px;
 }
 
 .standout_text {
