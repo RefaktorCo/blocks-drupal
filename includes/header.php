@@ -85,16 +85,16 @@ function blocks_header($page){
 	      <div id="slidecontent">
 	      <h6 class="switch_heading">COLORS</h6>
 		    <ul id="color-nav">
-		      <li class="<?php echo $root;?>/css/colors/default.css"><img src="<?php echo $root;?>/images/switch/blue.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/black.css"><img src="<?php echo $root;?>/images/switch/black.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/green.css"><img src="<?php echo $root;?>/images/switch/green.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/orange.css"><img src="<?php echo $root;?>/images/switch/orange.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/red.css"><img src="<?php echo $root;?>/images/switch/red.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/dark-blue.css"><img src="<?php echo $root;?>/images/switch/dark-blue.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/dark-grey.css"><img src="<?php echo $root;?>/images/switch/dark-grey.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/purple.css"><img src="<?php echo $root;?>/images/switch/purple.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/light-grey.css"><img src="<?php echo $root;?>/images/switch/light-grey.png" alt="switch"></li>
-		      <li class="<?php echo $root;?>/css/colors/yellow.css"><img src="<?php echo $root;?>/images/switch/yellow.png" alt="switch"></li>
+		      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_blue"></div></li>
+		      <li class="<?php echo $root;?>/css/colors/black.css"><img src="<?php echo $root;?>/images/switch/black.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/green.css"><img src="<?php echo $root;?>/images/switch/green.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/orange.css"><img src="<?php echo $root;?>/images/switch/orange.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/red.css"><img src="<?php echo $root;?>/images/switch/red.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/dark-blue.css"><img src="<?php echo $root;?>/images/switch/dark-blue.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/dark-grey.css"><img src="<?php echo $root;?>/images/switch/dark-grey.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/purple.css"><img src="<?php echo $root;?>/images/switch/purple.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/light-grey.css"><img src="<?php echo $root;?>/images/switch/light-grey.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/yellow.css"><img src="<?php echo $root;?>/images/switch/yellow.png" ></li>
 		    </ul>
 		    <h6 class="switch_heading">BACKGROUNDS</h6>
 		    <ul id="bg-nav">
@@ -135,7 +135,7 @@ function blocks_header($page){
   
   
     jQuery(document).ready(function ($) {
-      $("#color-nav li a").click(function() { 
+      $("#color-nav li ").click(function() { 
         $("link.switch").attr("href",$(this).attr('rel'));
       });
     });
@@ -145,7 +145,7 @@ function blocks_header($page){
 	    $(this).animate({left:'0px'}, {queue:false, duration: 500});
 	  }, 
 	  function() {
-	    $(this).animate({left:'-115px'}, {queue:false, duration: 500});
+	    $(this).animate({left:'-150px'}, {queue:false, duration: 500});
 	  });
 	}); 
 	

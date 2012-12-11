@@ -1,10 +1,17 @@
+.switch_blue {
+	background: #2f88f0;
+	height: 30px;
+	width: 30px;
+}
+
+
 #slideout {
   background: url('../images/switch/dark.png');
   position:fixed;
-  width:115px;
-  height:380px;
-  top:20%;
-  left: -115px;
+  width:150px;
+  height:420px;
+  top:15%;
+  left: -150px;
   z-index: 40000;
   
 }
@@ -13,7 +20,7 @@
   height:40px;
   width:40px;
   background:#000;
-  margin-left:115px;
+  margin-left:150px;
   margin-top: 20px;
   opacity: .8;
 }
