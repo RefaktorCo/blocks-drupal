@@ -1,3 +1,17 @@
+
+.carousel_item_hover {
+	background: #999;
+}	
+
+.team_image_hover {
+  background: #999;
+}
+
+.recent_post_links {
+	background-color: #999;
+}
+
+
 ul {
 	margin-left: 20px;
 }
@@ -163,7 +177,6 @@ div.orbit-wrapper {
 	position: absolute;
 	top: 0;
 	height: 100%;
-	background: #5F419B;
 	width: 100%;
 	opacity: 0;
 	padding: 30px 15px 15px 15px;
@@ -257,7 +270,6 @@ height: 189px;
 }
 
 .recent_post_links {
-	background-color: #5F419B;
 	height: 100%;
 	width: 50%;
 	float: left;
