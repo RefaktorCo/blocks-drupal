@@ -96,6 +96,7 @@ settings[color_scheme] = 'blue'
 
 settings[background_select] = 'gplaypattern'
 
+settings[site_layout] = 'wide'
 settings[page_layout] = 'full_width'
 settings[blog_layout] = 'sidebar_right'
 

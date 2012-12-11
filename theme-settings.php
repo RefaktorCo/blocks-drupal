@@ -549,6 +549,18 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type' => 'fieldset',
     '#title' => 'Layout',
   );
+  
+     // Site layout
+      $form['options']['layout']['site_layout'] = array(
+        '#type' => 'select',
+        '#title' => 'Site Layout',
+        '#default_value' => theme_get_setting('branding_type'),
+        '#options' => array(
+          'wide' => 'Wide (default)',
+          'boxed' => 'boxed',
+        ),
+      );
+    
     // Page Layout
     $form['options']['layout']['page_layout'] = array(
       '#type' => 'radios',
