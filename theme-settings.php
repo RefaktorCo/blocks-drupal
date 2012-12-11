@@ -678,12 +678,10 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => 'Select a heading background pattern:',
       '#default_value' => theme_get_setting('heading_background_select'),
       '#options' => array(
-        'gplaypattern' => 'item',
-        'cream_dust' => 'item',
-        'grey' => 'item',
-        'noisy_grid' => 'item',
+        'shattered' => 'item',
+        'tile' => 'item',
+        'checkered' => 'item',
       ),
-      '#default_value' => theme_get_setting('recent_projects_title'),
         '#states' => array (
           'invisible' => array(
             'input[name="enable_heading_pattern"]' => array('checked' => FALSE)

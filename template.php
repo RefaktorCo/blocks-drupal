@@ -268,7 +268,7 @@ function blocks_preprocess_html(&$vars){
   $background_color = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background:".theme_get_setting('body_background').";}</style> ",
-    '#weight' => 13,
+    '#weight' => 14,
   );
 
   
@@ -276,6 +276,12 @@ function blocks_preprocess_html(&$vars){
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
     '#weight' => 15,
+  );
+  
+   $heading_background_image = array(
+    '#type' => 'markup',
+    '#markup' => "<style type='text/css'>#heading_wrapper {background-image:url(".$root."/images/heading-backgrounds/".theme_get_setting('heading_background_select').".png);}</style> ",
+    '#weight' => 16,
   );
 
     
@@ -306,6 +312,10 @@ function blocks_preprocess_html(&$vars){
   
   if (theme_get_setting('enable_background_pattern') == "1") {
     drupal_add_html_head( $background_image, 'background_image');
+  }  
+  
+  if (theme_get_setting('enable_heading_pattern') == "1") {
+    drupal_add_html_head( $heading_background_image, 'heading_background_image');
   }  
 }
 

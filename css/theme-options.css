@@ -30,22 +30,17 @@ label[for=edit-background-select-noisy-grid] {
 	background-image: url('../images/backgrounds/noisy_grid.png');
 }
 
-label[for=edit-heading-background-select-gplaypattern] {
-	background-image: url('../images/backgrounds/gplaypattern.png');
+label[for=edit-heading-background-select-shattered] {
+	background-image: url('../images/heading-backgrounds/shattered.png');
 }
 
-label[for=edit-heading-background-select-cream-dust] {
-	background-image: url('../images/backgrounds/cream_dust.png');
+label[for=edit-heading-background-select-tile] {
+	background-image: url('../images/heading-backgrounds/tile.png');
 }
 
-label[for=edit-heading-background-select-grey] {
-	background-image: url('../images/backgrounds/grey.png');
+label[for=edit-heading-background-select-checkered] {
+	background-image: url('../images/heading-backgrounds/checkered.png');
 }
-
-label[for=edit-heading-background-select-noisy-grid] {
-	background-image: url('../images/backgrounds/noisy_grid.png');
-}
-
 
 
 .form-wrapper {min-height: 20px;}
