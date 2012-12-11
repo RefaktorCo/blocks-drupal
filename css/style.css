@@ -1707,37 +1707,37 @@ input.search-query {
   margin-bottom: 15px;
 }
 
-/* Accordion */
-ul.accordion { 
+/* faq */
+ul.faq { 
   list-style: none; 
   margin-left: 0px; 
   margin-top: 20px;
   margin-bottom: 20px; 
 }
 
-ul.accordion li { 
+ul.faq li { 
   list-style: none; 
   border-bottom: 1px solid #ECECEC; 
   margin-bottom: 15px; 
 }
 
-h2.accordion-head { 
+h2.faq-head { 
   padding: 0px 0px 0px 0px; 
   line-height: 21px; 
   font-size: 16px; 
   cursor: pointer; 
 }
 
-div.accordion-content { 
+div.faq-content { 
   padding: 0px 0px 20px 37px; 
   overflow: hidden; 
 }
 
-div.accordion-head p { 
+div.faq-head p { 
   margin-bottom: 0px; 
 }
 
-span.accordion-head-image{ 
+span.faq-head-image{ 
   width: 24px; 
   height: 24px; 
   float: left; 
@@ -1746,11 +1746,11 @@ span.accordion-head-image{
   display: block; 
 }
 
-span.accordion-head-image.active {
+span.faq-head-image.active {
   background: url('../images/minus.png');
 }
 
-span.accordion-head-image {
+span.faq-head-image {
   background: url('../images/plus.png');
 }
 

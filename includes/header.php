@@ -260,21 +260,21 @@ function blocks_header($page){
    			
 	  $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
 	 
-	  jQuery("ul.accordion li").each(function(){
+	  jQuery("ul.faq li").each(function(){
 	    if(jQuery(this).index() > 0){
-	    jQuery(this).children(".accordion-content").css('display','none');
+	    jQuery(this).children(".faq-content").css('display','none');
 	    }
 	    else{
-	    jQuery(this).find(".accordion-head-image").addClass('active');
+	    jQuery(this).find(".faq-head-image").addClass('active');
 	    }
 	
-	    jQuery(this).children(".accordion-head").bind("click", function(){
+	    jQuery(this).children(".faq-head").bind("click", function(){
 	    jQuery(this).children().addClass(function(){
 	    if(jQuery(this).hasClass("active")) return "";
 	      return "active";
 	    });
-	    jQuery(this).siblings(".accordion-content").slideDown();
-	    jQuery(this).parent().siblings("li").children(".accordion-content").slideUp();
+	    jQuery(this).siblings(".faq-content").slideDown();
+	    jQuery(this).parent().siblings("li").children(".faq-content").slideUp();
 	    jQuery(this).parent().siblings("li").find(".active").removeClass("active");
 	    });
 	  });
