@@ -84,18 +84,19 @@ function blocks_header($page){
         <div id="slideout">
 	      <div id="slidecontent">
 	      <h6 class="switch_heading">COLORS</h6>
+	      <div class="color_switch_wrap">
 		    <ul id="color-nav">
-		      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_blue"></div></li>
-		      <li class="<?php echo $root;?>/css/colors/black.css"><img src="<?php echo $root;?>/images/switch/black.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/green.css"><img src="<?php echo $root;?>/images/switch/green.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/orange.css"><img src="<?php echo $root;?>/images/switch/orange.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/red.css"><img src="<?php echo $root;?>/images/switch/red.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/dark-blue.css"><img src="<?php echo $root;?>/images/switch/dark-blue.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/dark-grey.css"><img src="<?php echo $root;?>/images/switch/dark-grey.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/purple.css"><img src="<?php echo $root;?>/images/switch/purple.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/light-grey.css"><img src="<?php echo $root;?>/images/switch/light-grey.png" ></li>
-		      <li class="<?php echo $root;?>/css/colors/yellow.css"><img src="<?php echo $root;?>/images/switch/yellow.png" ></li>
+		      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile blue"></div></li>
+		      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></li>
+		      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></li>
+		      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></li>
+		      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></li>
+		      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></li>
+		      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></li>
+		 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></li>
 		    </ul>
+		    </div>
+		    <div class="clearflix"></div>
 		    <h6 class="switch_heading">BACKGROUNDS</h6>
 		    <ul id="bg-nav">
 		      <li class="grey-bg"><img src="<?php echo $root;?>/images/switch/grey-bg.png" alt="switch"></li>

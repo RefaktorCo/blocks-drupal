@@ -1,7 +1,48 @@
-.switch_blue {
+.color_switch_wrap {
+	clear: both;
+	overflow: auto;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.switch_tile {
+  height: 18px;
+	width: 18px;
+	float: left;
+	margin: 5px;
+}
+
+.blue {
 	background: #2f88f0;
-	height: 30px;
-	width: 30px;
+}
+
+.black {
+	background: #000;
+}
+
+.teal {
+	background: #64ADB5;
+}
+
+.green {
+	background: #8fad30;
+}
+
+.orange {
+	background: #DB8916;
+}
+
+.purple {
+	background: #5f419b;
+}
+
+.red {
+	background: #c95d3b;
+}
+
+.yellow {
+	background: #dab800;
 }
 
 
@@ -28,10 +69,15 @@
 .switch_heading {
   text-align: center; 
   color: #fff;	
+  clear: both;
 }
 
 #slidecontent {
   float:left;
+}
+
+#slidecontent h6 {
+	margin: 10px 0px 0px 0px;
 }
 
 #bg-nav, #color-nav {
