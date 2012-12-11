@@ -1001,8 +1001,12 @@ thead {
   border-bottom: none;	
 }
 
+thead th {
+	color: #FFF !important;
+}
+
 thead a {
-	color: #000!important;
+	color: #FFF!important;
 }
 
 table {
@@ -1023,7 +1027,7 @@ th {
 }
 
 thead a {
-	color: #000;
+	color: #FFF !important;
 }
 
 td.last-reply {
@@ -1267,10 +1271,6 @@ article hr {
 	color: #fff;
 }
 
-.footer_icons li i:hover {
-	color: #64ADB5;
-}
-
 #footer_menu {
   margin: 0px;	
   text-align: right;
@@ -1385,9 +1385,7 @@ article hr {
 		margin-right: 5px;
 }
 
-.post_share li i:hover {
-	color: #64ADB5
-}
+
 
 .ie8 .post_share_wrap {
   float: none;	

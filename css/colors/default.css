@@ -9,15 +9,15 @@ a:hover {
 }
 
 thead {
-  background-color: #2f88f0; 
+  background-color: #2f88f0 !important; 
 }
 
 .view-popular-tags a:hover {
-  background-color: #2f88f0; 
+  background-color: #00abff; 
 }
 
 .header_icons li i:hover {
-	color: #2f88f0;
+	color: #00abff;
 }
 
 /* Panel */
@@ -28,6 +28,22 @@ thead {
 #main_title_text {
   color: #2f88f0; 
 }  
+
+.footer_icons li i:hover {
+	color: #00abff;
+}
+
+.post_share li i:hover {
+	color: #00abff;
+}
+
+.button {
+	background: #2f88f0 !important;
+}
+
+.button:hover{
+	background: #00abff !important;
+}
 
 /*Menu*/
 .menu ul {
