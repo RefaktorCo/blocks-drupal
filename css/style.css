@@ -735,9 +735,7 @@ height: 189px;
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
-  color: #555;
-  background-color:  #ececec;
- 
+  color: #555; 
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   padding: 0px;

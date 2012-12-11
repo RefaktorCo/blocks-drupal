@@ -550,12 +550,24 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => 'Layout',
   );
   
-     // Enable Services
+     // Enable boxed layout
       $form['options']['layout']['enable_boxed_layout'] = array(
         '#type' => 'checkbox',
         '#title' => 'Enable boxed layout',
         '#default_value' => theme_get_setting('enable_boxed_layout'),
       );
+      
+     // Background Color
+      $form['options']['layout']['body_background'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Body background color',
+        '#default_value' => theme_get_setting('body_background'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_boxed_layout"]' => array('checked' => FALSE)
+          )
+        )
+      );    
     
     // Page Layout
     $form['options']['layout']['page_layout'] = array(
