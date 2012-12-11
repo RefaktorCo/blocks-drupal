@@ -365,6 +365,11 @@ height: 189px;
 .carousel_item_hover i {
 	margin: 4px;
 	font-size: 22px;
+	color: #fff;
+	-moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
 }
 
 .carousel_item_hover p {

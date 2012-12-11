@@ -28,6 +28,10 @@ thead {
 	color: #00abff;
 }
 
+.carousel_item_hover i:hover {
+	color: #00abff;
+}
+
 .button {
 	background: #2f88f0 !important;
 }
