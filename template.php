@@ -259,10 +259,17 @@ function blocks_preprocess_html(&$vars){
     '#weight' => 12,
   );
   
+  $box_layout = array(
+    '#type' => 'markup',
+    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;}</style> ",
+    '#weight' => 13,
+  );
+
+  
   $background = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
-    '#weight' => 13,
+    '#weight' => 14,
   );
 
     
@@ -275,6 +282,11 @@ function blocks_preprocess_html(&$vars){
   if (theme_get_setting('seo_keywords') != "") {
     drupal_add_html_head( $meta_keywords, 'meta_keywords' );
   }
+  
+  if (theme_get_setting('site_layout') == "boxed") {
+    drupal_add_html_head( $box_layout, 'box_layout' );
+  }
+
   drupal_add_html_head( $font, 'google_font_open_sans' );
   drupal_add_html_head( $rale, 'google_font_raleway' );
   drupal_add_html_head( $foundation, 'foundation_style' );
