@@ -83,6 +83,7 @@ function blocks_header($page){
         
         <div id="slideout">
 	      <div id="slidecontent">
+	      
 	      <h6 class="switch_heading">Colors</h6>
 	        <div class="color_switch_wrap">
 				    <ul id="color-nav">
@@ -97,11 +98,21 @@ function blocks_header($page){
 				    </ul>
 		      </div>
 		      
+		      <div class="heading_bg_wrap">		      
+		      <h6 class="switch_heading">Heading Pattern</h6>  
+		        <ul id="heading-bg-nav">
+		          <li class="shattered-bg"><div class="switch_tile shattered"></div></li>
+		          <li class="tile-bg"><div class="switch_tile tile_bg"></div></li>
+		          <li class="checkered-bg"><div class="switch_tile checkered"></div></li>  
+		        </ul>
+		      </div>  
+		      
 		    <h6 class="switch_heading">Layout</h6>  
 		      <ul id="layout-nav">
 		        <li class="switch_wide"><a class="tiny secondary button">Wide</a></li>
 		        <li class="switch_boxed"><a class="tiny secondary button">Boxed</a></li>
-		      </ul>
+		      </ul>  
+  
 		    
 		    <h6 class="switch_heading">Backgrounds</h6>
 		    <ul id="bg-nav">
@@ -175,6 +186,18 @@ function blocks_header($page){
       
       $(".gplay-bg").click(function() {
         $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/gplaypattern.png)");
+      });
+      
+      $(".shattered-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/shattered.png)");
+      });
+      
+       $(".tile-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/tile.png)");
+      });
+      
+       $(".checkered-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/checkered.png)");
       });
       
       $(".switch_wide").click(function() {
