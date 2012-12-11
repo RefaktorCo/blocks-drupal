@@ -119,6 +119,14 @@ function blocks_header($page){
 				      <li class="cream-bg"><div class="switch_tile cream-bg"></li>
 				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></li>
 				    </ul>
+				    
+				    <h6 class="switch_heading">Background Colors</h6>
+				    <ul id="bg-nav">
+				      <li class="blue-bg"><div class="switch_tile blue"></li>
+				      <li class="black-bg"><div class="switch_tile black"></li>
+				      <li class="green-bg"><div class="switch_tile green"></li>
+				      <li class="orange-bg"><div class="switch_tile orange"></li>
+				    </ul>
 			    </div>
 			    
 	      </div>
@@ -198,6 +206,10 @@ function blocks_header($page){
       
        $(".checkered-bg").click(function() {
         $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/checkered.png)");
+      });
+      
+      $(".blue-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#2f88f0'});
       });
       
       $(".switch_wide").click(function() {
