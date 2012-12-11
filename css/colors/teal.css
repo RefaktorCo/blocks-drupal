@@ -20,6 +20,10 @@ thead {
   color: #64ADB5; 
 }  
 
+#main_title_text:hover {
+  color: #7fe5f0; 
+}  
+
 .footer_icons li i:hover {
 	color: #7fe5f0;
 }

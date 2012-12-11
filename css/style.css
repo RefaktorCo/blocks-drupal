@@ -893,6 +893,11 @@ hr {
 
 #main_title_text {
   font-size: 52px; 	
+  -moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+
 }
 
 #main_title_text {
