@@ -23,6 +23,7 @@ scripts[] = js/jquery.carouFredSel-6.1.0.js
 scripts[] = js/mobile-map.js
 scripts[] = js/jquery.ui.totop.js
 scripts[] = js/easing.js
+scripts[] = js/jquery.cookie.js
 scripts[] = js/smoothscroll.js
 
 regions[content]        = Content

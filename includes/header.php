@@ -119,7 +119,9 @@ function blocks_header($page){
 				      <li class="cream-bg"><div class="switch_tile cream-bg"></li>
 				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></li>
 				    </ul>
-				    
+				   </div>
+				   
+				   <div class="bg_patterns_wrap">
 				    <h6 class="switch_heading">Background Colors</h6>
 				    <ul id="bg-nav">
 				      <li class="blue-bg"><div class="switch_tile blue"></li>
@@ -158,8 +160,7 @@ function blocks_header($page){
           
 <script type="text/javascript">
   jQuery(document).ready(function ($) {
-  
-  
+    
     jQuery(document).ready(function ($) {
       $("#color-nav li ").click(function() { 
         $("link.switch").attr("href",$(this).attr('rel'));
@@ -212,14 +213,28 @@ function blocks_header($page){
         $('body').css({'background-image': 'none', 'background': '#2f88f0'});
       });
       
+      $(".black-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#000'});
+      });
+      
+      $(".green-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#8fad30'});
+      });
+      
+      $(".orange-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#DB8916'});
+      });
+      
       $(".switch_wide").click(function() {
         $('#main_wrapper').css({ 'max-width': '100%', 'margin': '0 auto' });
         $('header').css({ 'max-width': '100%'});
+        $('#heading_wrapper').css({'box-shadow': '0px 0px 3px 0px black'});
         $('.bg_patterns_wrap').css({ 'display': 'none'});
       });
 
       $(".switch_boxed").click(function() {
-        $('#main_wrapper').css({ 'max-width': '1120px', 'margin': '0 auto' });
+        $('#main_wrapper').css({ 'max-width': '1120px', 'margin': '0 auto'});
+        $('#heading_wrapper').css({'box-shadow': 'none'});
         $('header').css({ 'max-width': '1120px'});
         $('.bg_patterns_wrap').css({ 'display': 'block'});
 

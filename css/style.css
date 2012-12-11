@@ -1,5 +1,6 @@
 .bg_patterns_wrap {
 	display: none;
+	margin-bottom: 15px;
 }
 
 .button.secondary {
@@ -123,7 +124,8 @@
 #bg-nav, #color-nav, #layout-nav, #heading-bg-nav {
   list-style: none;
   margin-left: 20px;
-  margin-top: 10px;
+
+  overflow: auto;
 }
 
 #bg-nav img, #color-nav img {
