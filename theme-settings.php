@@ -557,7 +557,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('branding_type'),
         '#options' => array(
           'wide' => 'Wide (default)',
-          'boxed' => 'boxed',
+          'boxed' => 'Boxed',
         ),
       );
     
