@@ -94,11 +94,16 @@ settings[recent_projects_title] = 'Recent Projects'
 
 settings[color_scheme] = 'blue'
 
+settings[body_background] ='#ECECEC'
 settings[enable_background_pattern] = '0'
 settings[background_select] = 'gplaypattern'
 
+settings[heading_background] ='#ECECEC'
+settings[enable_heading_pattern] = '1'
+settings[background_select] = 'shattered'
+
 settings[enable_boxed_layout] = '0'
-settings[body_background] ='#ECECEC'
+
 
 settings[page_layout] = 'full_width'
 settings[blog_layout] = 'sidebar_right'
