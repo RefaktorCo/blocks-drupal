@@ -32,8 +32,12 @@ thead {
 	color: #ffb520;
 }
 
+.carousel_item_hover {
+	background: #DB8916;
+}	
+
 .carousel_item_hover i:hover {
-	color: #ffb520;
+	color: #666;
 }
 
 
