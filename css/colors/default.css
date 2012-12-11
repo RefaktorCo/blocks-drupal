@@ -36,6 +36,9 @@ thead {
 	color: #00abff;
 }
 
+.team_image_hover i:hover {
+  color: #00abff !important;
+}
 
 .button {
 	background: #2f88f0 !important;

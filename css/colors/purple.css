@@ -1,64 +1,63 @@
 /* Body and Content */
 a {
-  color: #64ADB5;
+  color: #5f419b;
 }
 
 a:hover {
-  color: #7fe5f0;
+  color: #8757e6;
   text-decoration: none;
 }
 
 thead {
-  background-color: #64ADB5 !important; 
+  background-color: #5f419b !important; 
 }
 
 .header_icons li i:hover {
-	color: #7fe5f0;
+	color: #8757e6;
 }
 
 #main_title_text {
-  color: #64ADB5; 
+  color: #5f419b; 
 }  
 
 #main_title_text:hover {
-  color: #7fe5f0; 
-}  
+  color: #8757e6; 
+}
 
 .footer_icons li i:hover {
-	color: #7fe5f0;
+	color: #8757e6;
 }
 
 .post_share li i:hover {
-	color: #7fe5f0;
+	color: #8757e6;
 }
 
 .carousel_item_hover i:hover {
-	color: #7fe5f0;
+	color: #8757e6;
 }
 
 .team_image_hover i:hover {
-  color: #7fe5f0 !important;
+  color: #8757e6 !important;
 }
 
-
 .button {
-	background: #64ADB5 !important;
+	background: #5f419b !important;
 }
 
 .button:hover{
-	background: #7fe5f0 !important;
+	background: #8757e6 !important;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #7fe5f0;
+  background: #8757e6;
 }
 
 .view-popular-tags a:hover {
-  background-color: #7fe5f0; 
+  background-color: #8757e6; 
 }
 
 /*Highlight*/
 #highlight {
-  background: #64ADB5; 
+  background: #5f419b; 
 }
