@@ -303,8 +303,10 @@ function blocks_preprocess_html(&$vars){
   //drupal_add_html_head( $font_family, 'font_family');
   drupal_add_html_head( $headings, 'headings');
   drupal_add_html_head( $background_color, 'background_color');
-  //drupal_add_html_head( $background_image, 'background_image');
-    
+  
+  if (theme_get_setting('enable_background_pattern') == "1") {
+    drupal_add_html_head( $background_image, 'background_image');
+  }  
 }
 
 /* Separate from blocks_preprocess_html so function can be called directly before </head> tag. */

@@ -94,6 +94,7 @@ settings[recent_projects_title] = 'Recent Projects'
 
 settings[color_scheme] = 'blue'
 
+settings[enable_background_pattern] = '0'
 settings[background_select] = 'gplaypattern'
 
 settings[enable_boxed_layout] = '0'

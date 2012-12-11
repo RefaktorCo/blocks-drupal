@@ -556,19 +556,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#title' => 'Enable boxed layout',
         '#default_value' => theme_get_setting('enable_boxed_layout'),
       );
-      
-     // Background Color
-      $form['options']['layout']['body_background'] =array(
-        '#type' => 'textfield',
-        '#title' => 'Body background color',
-        '#default_value' => theme_get_setting('body_background'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_boxed_layout"]' => array('checked' => FALSE)
-          )
-        )
-      );    
-    
+          
     // Page Layout
     $form['options']['layout']['page_layout'] = array(
       '#type' => 'radios',
@@ -626,6 +614,25 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => '<div class="plus"></div><h3 class="options_heading">Background</h3>',
     );
     
+      // Background Color
+      $form['options']['design']['background']['body_background'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Body background color',
+        '#default_value' => theme_get_setting('body_background'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_boxed_layout"]' => array('checked' => FALSE)
+          )
+        )
+      );    
+      
+     // Enable background pattern
+      $form['options']['design']['background']['enable_background_pattern'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable background pattern',
+        '#default_value' => theme_get_setting('enable_background_pattern'),
+      );
+    
       // Background
     $form['options']['design']['background']['background_select'] = array(
       '#type' => 'radios',
@@ -637,6 +644,13 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         'grey' => 'item',
         'noisy_grid' => 'item',
       ),
+      '#default_value' => theme_get_setting('recent_projects_title'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_background_pattern"]' => array('checked' => FALSE)
+          )
+        )
+
     );  
       
     // CSS
