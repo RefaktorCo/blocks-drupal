@@ -1,3 +1,55 @@
+#slideout {
+  background: url('../images/switch/dark.png');
+  position:fixed;
+  width:115px;
+  height:380px;
+  top:20%;
+  left: -115px;
+  z-index: 40000;
+  
+}
+
+#clickme {
+  height:40px;
+  width:40px;
+  background:#000;
+  margin-left:115px;
+  margin-top: 20px;
+  opacity: .8;
+}
+
+.switch_heading {
+  text-align: center; 
+  color: #fff;	
+}
+
+#slidecontent {
+  float:left;
+}
+
+#bg-nav, #color-nav {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#bg-nav img, #color-nav img {
+  margin-top: 5px;
+  margin-bottom: 5px;	
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  
+}
+
+#bg-nav li, #color-nav li {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  display: inline;
+  margin-right: 8px;
+}
+
+
 
 .carousel_item_hover {
 	background: #999;
