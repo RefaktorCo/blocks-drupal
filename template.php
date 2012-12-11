@@ -283,7 +283,7 @@ function blocks_preprocess_html(&$vars){
     drupal_add_html_head( $meta_keywords, 'meta_keywords' );
   }
   
-  if (theme_get_setting('site_layout') == "boxed") {
+  if (theme_get_setting('enable_boxed_layout') == "1") {
     drupal_add_html_head( $box_layout, 'box_layout' );
   }
 

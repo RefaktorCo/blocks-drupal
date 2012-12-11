@@ -550,15 +550,11 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => 'Layout',
   );
   
-     // Site layout
-      $form['options']['layout']['site_layout'] = array(
-        '#type' => 'select',
-        '#title' => 'Site Layout',
-        '#default_value' => theme_get_setting('branding_type'),
-        '#options' => array(
-          'wide' => 'Wide (default)',
-          'boxed' => 'Boxed',
-        ),
+     // Enable Services
+      $form['options']['layout']['enable_boxed_layout'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable boxed layout',
+        '#default_value' => theme_get_setting('enable_boxed_layout'),
       );
     
     // Page Layout
