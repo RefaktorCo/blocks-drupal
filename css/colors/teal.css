@@ -1,56 +1,55 @@
 /* Body and Content */
 a {
-  color: #2f88f0;
+  color: #64ADB5;
 }
 
 a:hover {
-  color: #00abff;
+  color: #7fe5f0;
   text-decoration: none;
 }
 
 thead {
-  background-color: #2f88f0 !important; 
+  background-color: #64ADB5 !important; 
 }
 
 .header_icons li i:hover {
-	color: #00abff;
+	color: #7fe5f0;
 }
 
 #main_title_text {
-  color: #2f88f0; 
+  color: #64ADB5; 
 }  
 
 .footer_icons li i:hover {
-	color: #00abff;
+	color: #7fe5f0;
 }
 
 .post_share li i:hover {
-	color: #00abff;
+	color: #7fe5f0;
 }
 
 .carousel_item_hover i:hover {
-	color: #00abff;
+	color: #7fe5f0;
 }
 
-
 .button {
-	background: #2f88f0 !important;
+	background: #64ADB5 !important;
 }
 
 .button:hover{
-	background: #00abff !important;
+	background: #7fe5f0 !important;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #00abff;
+  background: #7fe5f0;
 }
 
 .view-popular-tags a:hover {
-  background-color: #00abff; 
+  background-color: #7fe5f0; 
 }
 
 /*Highlight*/
 #highlight {
-  background: #2f88f0; 
+  background: #64ADB5; 
 }
