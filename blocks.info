@@ -39,6 +39,8 @@ regions[services ]      = Front Page Services
 
 regions[front_blog]     = Front Page Blog
 
+regions[contact_template]  = Contact Template
+
 regions[recent_projects] = Recent Projects
 
 regions[footer_1]       = Footer Box 1
