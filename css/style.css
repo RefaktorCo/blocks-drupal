@@ -2108,9 +2108,7 @@ span.faq-head-image {
   #panels .span4 {
     margin-bottom: 60px;	
   }
-  
- 
- 
+
   #clients .span2 {
     text-align: center;
     margin-bottom: 20px;
@@ -2118,35 +2116,6 @@ span.faq-head-image {
   
   .highlight_text {
     font-size: 17px;
-  }
-  
-  header, .icons {
-	text-align: center;  
-  }
-  
-  .mobile-menu {
-	display: block;  
-  }
-  
-  
-  .meta-full {
-	display: none;  
-  }
-  
-  .meta-mobile {
-    display: block;
-  }
-  
-  #page_header, .breadcrumbs {
-    text-align: center;	  
-  }
-  
-  #price .span2 {
-    margin: 40px 0px;
-  }
-  
-  #footer .span2, #footer .span3, #footer .span5 {
-    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 480px) { 
