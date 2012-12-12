@@ -1,3 +1,28 @@
+.member_icons {
+	margin: 5px 0px;
+	text-align: left;
+}
+
+.member_icons li {
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+	font-size: 20px;
+	color: white;
+}
+
+.member_icons i {
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.member_icons li a {
+	color: #222;
+}
+
+
 /* Switcher styles */
 .bg_patterns_wrap {
 	display: none;
@@ -1339,7 +1364,6 @@ article hr {
 	font-size: 20px;
 	color: white;
 }
-
 
 .footer_icons i {
   -moz-transition: all 0.3s ease-in-out;
