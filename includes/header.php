@@ -2,7 +2,7 @@
 function blocks_header($page){
   global $root; 
 ?>
-<div id="main_wrapper">
+  <div id="main_wrapper">
   <header>
     <div class="container">
        

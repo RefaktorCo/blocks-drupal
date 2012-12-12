@@ -309,7 +309,7 @@ function blocks_preprocess_html(&$vars){
   drupal_add_html_head( $style, 'main_style' );
   drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
-  //drupal_add_html_head( $font_family, 'font_family');
+  drupal_add_html_head( $font_family, 'font_family');
   drupal_add_html_head( $headings, 'headings');
   drupal_add_html_head( $background_color, 'background_color');
   
