@@ -61,7 +61,7 @@
 				       </div>
 				       <div class="team_image_hover">
 				       <h2>Steve MqQueen - CEO</h2>
-				       <p><a href="#" style="line-height: 12px" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
+				       <p><a href="#" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
 				       </div>
 				     </div>        
 				   </div>
@@ -73,7 +73,7 @@
 				       </div>
 				       <div class="team_image_hover">
 				          <h2>Robyn Sullivan - VP </h2>
-				       <p><a href="#" style="line-height: 12px" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
+				       <p><a href="#" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
 				       </div>				      
 				     </div>        
 				   </div>
@@ -85,18 +85,16 @@
 				       </div>
 				       <div class="team_image_hover">
 				          <h2>Aiko Takahashi - Design </h2>
-				       <p><a href="#" style="line-height: 12px" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
+				       <p><a href="#" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
 				       </div>				      
 				     </div>        
 				   </div>
 
-				   <div class="six columns services">     
-				     <div style="background-color: #8FAD30;">   
-				       <div class="tile_contents">
-				         <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
-				         <p>Find Us</p></a>
-				       </div>
-				     </div>
+				   <div class="six columns services">      
+			       <div class="tile_contents tile-green">
+			         <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
+			         <p>Find Us</p></a>
+			       </div>
 				   </div>   
 				    
          </div>
@@ -106,21 +104,17 @@
 	      <div class="row">    
       
           <div class="six columns services">     
-			      <div style="background-color: #C95D3B;">   
-				      <div class="tile_contents">
-				        <a href="#"><i class="general foundicon-globe"></i>
-			          <p>Global Presence</p></a>
-			        </div>
-		 	      </div>
+			      <div class="tile_contents tile-red">
+			        <a href="#"><i class="general foundicon-globe"></i>
+		          <p>Global Presence</p></a>
+		        </div>
 				  </div>			
 				    
 				  <div class="six columns services">     
-				    <div style="background-color: #17954c;">   
-				      <div class="tile_contents">
-				        <a href="#"><i class="general foundicon-compass"></i>
-			          <p>Effective Solutions</p></a>
-				      </div>
-				    </div>
+				  	 <div class="tile_contents tile-dark-green">
+				       <a href="#"><i class="general foundicon-compass"></i>
+			         <p>Effective Solutions</p></a>
+				     </div>
 				  </div>					    
 				     				    
 				  <div class="six columns services">  
@@ -135,13 +129,11 @@
 				    </div>        
 				  </div>
 				    			    
-				  <div class="six columns services">     
-				    <div style="background-color: #DB8916;">   
-				      <div class="tile_contents">
-				        <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
-				        <p>Contact Us</p></a>
-				      </div>
-		  	    </div>
+				  <div class="six columns services">       
+			      <div class="tile_contents tile-orange">
+			        <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
+			        <p>Contact Us</p></a>
+			      </div>
 			    </div>				    
 				     
 		    </div>

@@ -472,6 +472,22 @@ hr {
 	font-size: 24px;
 }
 
+.tile-red {
+	background: #C95D3B;
+}
+
+.tile-green {
+	background: #8FAD30;
+}
+
+.tile-dark-green {
+	background: #17954c;
+}
+
+.tile-orange {
+	background: #DB8916;
+}
+
 /* Front page recent posts */
 .recent_posts_wrap {
 	height: 189px;
