@@ -16,67 +16,67 @@
     });
     
     $(".grey-bg").click(function() {
-      $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/grey.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/grey.png)");
     });
     
     $(".grid-bg").click(function() {
-      $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/noisy_grid.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/noisy_grid.png)");
     });
     
     $(".wood-bg").click(function() {
-      $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/retina_wood.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/retina_wood.png)");
     });
     
     $(".gplay-bg").click(function() {
-      $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/gplaypattern.png)");
+      $('body').css("background-image", "urlhttp://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/gplaypattern.png)");
     });
     
     $(".nistri-bg").click(function() {
-      $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/nistri.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/nistri.png)");
     });
     
     $(".bedge-bg").click(function() {
-      $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/bedge.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/bedge.png)");
     });
     
     $(".cartographer-bg").click(function() {
-      $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/cartographer.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/cartographer.png)");
     });
     
     $(".illusion-bg").click(function() {
-      $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/illusion.png)");
+      $('body').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/backgrounds/illusion.png)");
     });
     
     $(".shattered-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/shattered.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/shattered.png)");
     });
     
     $(".tile-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/tile.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/tile.png)");
     });
     
     $(".checkered-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/checkered.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/checkered.png)");
     });
     
     $(".gplay-head").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/gplaypattern.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/gplaypattern.png)");
     });
     
     $(".bullseyes-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/bullseyes.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/bullseyes.png)");
     });
     
     $(".cartographer-head").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/cartographer.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/cartographer.png)");
     });
     
     $(".linen-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/linen.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/linen.png)");
     });
     
     $(".dark-wood-bg").click(function() {
-      $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/dark_wood.png)");
+      $('#heading_wrapper').css("background-image", "url(http://refaktor.co/blocks-demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/dark_wood.png)");
     });
     
     $(".blue-bg").click(function() {
