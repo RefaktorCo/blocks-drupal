@@ -39,7 +39,6 @@ http://www.flickr.com/photos/christopher_barson/2641715996/
 http://www.flickr.com/photos/uggboy/4044716786/
 http://www.flickr.com/photos/svenjajan/3030821516/
 
-
 The above images are released under a commercial-friendly Creative Commons license. All other files by Refaktor(http://refaktor.co) and released under the GNU(3) license.
 
 ==License URLS==
