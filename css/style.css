@@ -23,10 +23,6 @@
 }
 
 
-
-
-
-
 /* Carousel, team member and recent post overlay colors  */
 .carousel_item_hover {
 	background: #999;
@@ -1285,7 +1281,8 @@ article hr {
 }
 
 .read_more {
-  text-align: right	
+  text-align: right	;
+  margin-top: -8px;
 }
 
 .post_share img {

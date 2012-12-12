@@ -116,7 +116,6 @@ function blocks_field($variables) {
   return $output;
 }
 
-
 /* Put Breadcrumbs in a ul li structure and add descending z-index style to each <a href> tag */
 function blocks_breadcrumb($variables) {
   $count = '100';
