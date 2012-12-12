@@ -207,6 +207,13 @@ ul {
 }
 
 /* Elements Demo */
+
+blockquote {
+	margin: 0 0 17px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid #DDD;
+}
+
 #elements_demo .tabs {
 	border-bottom: none;
 }
