@@ -681,6 +681,11 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         'shattered' => 'item',
         'tile' => 'item',
         'checkered' => 'item',
+        'bullseyes' => 'item',
+        'gplaypattern' => 'item',
+        'cartographer' => 'item',
+        'linen' => 'item',
+        'dark_wood' => 'item',
       ),
         '#states' => array (
           'invisible' => array(
