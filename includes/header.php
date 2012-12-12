@@ -103,6 +103,11 @@ function blocks_header($page){
 			          <li class="shattered-bg"><div class="switch_tile shattered"></div></li>
 			          <li class="tile-bg"><div class="switch_tile tile_bg"></div></li>
 			          <li class="checkered-bg"><div class="switch_tile checkered"></div></li>  
+			          <li class="bullseyes-bg"><div class="switch_tile bullseyes-bg"></div></li>  
+			          <li class="gplay-head"><div class="switch_tile gplay-head"></div></li>  
+			          <li class="cartographer-head"><div class="switch_tile cartographer-head"></div></li>  
+			          <li class="linen-bg"><div class="switch_tile linen-bg"></div></li>  
+			          <li class="dark-wood-bg"><div class="switch_tile dark-wood-bg"></div></li>  
 			        </ul>
 			      
 			    <h6 class="switch_heading">Layout</h6>  
@@ -231,6 +236,26 @@ function blocks_header($page){
       
        $(".checkered-bg").click(function() {
         $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/checkered.png)");
+      });
+      
+       $(".gplay-head").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/gplaypattern.png)");
+      });
+      
+       $(".bullseyes-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/bullseyes.png)");
+      });
+      
+       $(".cartographer-head").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/cartographer.png)");
+      });
+      
+       $(".linen-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/linen.png)");
+      });
+      
+       $(".dark-wood-bg").click(function() {
+        $('#heading_wrapper').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/heading-backgrounds/dark_wood.png)");
       });
       
       $(".blue-bg").click(function() {

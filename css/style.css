@@ -75,6 +75,26 @@
 	background-image: url('../images/backgrounds/gplaypattern.png');
 }
 
+.bullseyes-bg {
+	background-image: url('../images/heading-backgrounds/bullseyes.png');
+}
+
+.gplay-head {
+	background-image: url('../images/heading-backgrounds/gplaypattern.png');
+}
+
+.cartographer-head {
+	background-image: url('../images/heading-backgrounds/cartographer.png');
+}
+
+.linen-bg {
+	background-image: url('../images/heading-backgrounds/linen.png');
+}
+
+.dark-wood-bg {
+	background-image: url('../images/heading-backgrounds/dark_wood.png');
+}
+
 .grey-bg {
 	background-image: url('../images/backgrounds/grey.png');
 }
@@ -107,7 +127,7 @@
   background: url('../images/switch/dark.png');
   position:fixed;
   width:150px;
-  height:420px;
+  height:440px;
   top:15%;
   left: -150px;
   z-index: 40000;
