@@ -128,6 +128,10 @@ function blocks_header($page){
 				      <li class="black-bg"><div class="switch_tile black"></li>
 				      <li class="green-bg"><div class="switch_tile green"></li>
 				      <li class="orange-bg"><div class="switch_tile orange"></li>
+				      <li class="red-bg"><div class="switch_tile red"></li>
+				      <li class="teal-bg"><div class="switch_tile teal"></li>
+				      <li class="purple-bg"><div class="switch_tile purple"></li>
+				      <li class="yellow-bg"><div class="switch_tile yellow"></li>
 				    </ul>
 			    </div>
 			    
@@ -223,6 +227,22 @@ function blocks_header($page){
       
       $(".orange-bg").click(function() {
         $('body').css({'background-image': 'none', 'background': '#DB8916'});
+      });
+      
+      $(".red-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#c95d3b'});
+      });
+      
+      $(".teal-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#64ADB5'});
+      });
+      
+      $(".purple-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#5f419b'});
+      });
+      
+      $(".yellow-bg").click(function() {
+        $('body').css({'background-image': 'none', 'background': '#dab800'});
       });
       
       $(".switch_wide").click(function() {
