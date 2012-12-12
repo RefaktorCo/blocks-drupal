@@ -175,8 +175,8 @@
         <div class="hr_beside">
           <div class="heading_title"><?php echo theme_get_setting('recent_projects_title');?></div>
           <div class="carousel_navigation">
-		        <a id="prev" class="prev" href="#" style="line-height: 12px"><i class="general foundicon-left-arrow"></i></a>
-					  <a id="next" class="next" href="#" style="line-height: 12px"><i class="general foundicon-right-arrow"></i></a>
+		        <a id="prev" class="prev" href="#"><i class="general foundicon-left-arrow"></i></a>
+					  <a id="next" class="next" href="#"><i class="general foundicon-right-arrow"></i></a>
           </div>
         </div>
       </div>

@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: white;
 }
 
+.clearfix {
+	clear: both;
+}
+
 header {
   left: 0;
   right: 0;
@@ -531,6 +535,10 @@ height: 189px;
 
 .recent_post_info_text i {
 	color: white;
+}
+
+.recent_post_links p {
+	padding-top: 28% !important;
 }
 
 .recent_post_links {

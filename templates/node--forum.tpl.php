@@ -21,35 +21,24 @@
         <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>
         </ul>
       <?php endif; ?>
-
-   
- 
-
 	
   <?php endif; ?>
- 
-    
 
- 
   <div class="content"<?php print $content_attributes; ?>>
     <?php
     
-  
       // Hide comments, tags, and links now so that we can render them later.
       hide($content['taxonomy_forums']);
       hide($content['comments']);
       hide($content['links']);
       hide($content['field_tags']);
       
-      
       print render($content);
     ?>
   </div>
-  
-
+ 
   	  Forum category:<?php print render($content['taxonomy_forums']); ?>
  
-  	
     <?php if ($field_tags):?>
       <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
     <?php endif; ?>
@@ -68,18 +57,3 @@
 <?php if (!$page): ?>
   </article> <!-- /.node -->
 <?php endif; ?>
-
-<script type="text/javascript">
-        jQuery(document).ready(function ($) {
-
-            $('.field-items img').each(function() {
-                $(this).hover(
-                    function() {
-                        $(this).stop().animate({ opacity: 0.8 }, 300);
-                    },
-                   function() {
-                       $(this).stop().animate({ opacity: 1.0 }, 300);
-                   })
-                });
-        });
-    </script>
