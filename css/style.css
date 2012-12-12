@@ -1575,9 +1575,12 @@ span.faq-head-image {
   #slideout {
 	  display: none;
   }
+  
+  .tile_contents {
+    padding: 21px;
+  }
+
 }
-
-
 @media screen and (max-width: 940px) { 
 
   .name {
