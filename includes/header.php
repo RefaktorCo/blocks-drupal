@@ -116,8 +116,12 @@ function blocks_header($page){
 				    <ul id="bg-nav">
 				      <li class="grey-bg"><div class="switch_tile grey-bg"></li>
 				      <li class="grid-bg"><div class="switch_tile grid-bg"></li>
-				      <li class="cream-bg"><div class="switch_tile cream-bg"></li>
+				      <li class="wood-bg"><div class="switch_tile wood-bg"></li>
 				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></li>
+				      <li class="cartographer-bg"><div class="switch_tile cartographer-bg"></li>
+				      <li class="bedge-bg"><div class="switch_tile bedge-bg"></li>
+				      <li class="illusion-bg"><div class="switch_tile illusion-bg"></li>
+				      <li class="nistri-bg"><div class="switch_tile nistri-bg"></li>
 				    </ul>
 				   </div>
 				   
@@ -193,12 +197,28 @@ function blocks_header($page){
         $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/noisy_grid.png)");
       });
       
-      $(".cream-bg").click(function() {
-        $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/cream_dust.png)");
+      $(".wood-bg").click(function() {
+        $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/retina_wood.png)");
       });
       
       $(".gplay-bg").click(function() {
         $('body').css("background-image", "url(http://refaktor.co/kalypso-html/images/backgrounds/gplaypattern.png)");
+      });
+      
+      $(".nistri-bg").click(function() {
+        $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/nistri.png)");
+      });
+      
+      $(".bedge-bg").click(function() {
+        $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/bedge.png)");
+      });
+      
+      $(".cartographer-bg").click(function() {
+        $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/cartographer.png)");
+      });
+      
+      $(".illusion-bg").click(function() {
+        $('body').css("background-image", "url(http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/backgrounds/illusion.png)");
       });
       
       $(".shattered-bg").click(function() {

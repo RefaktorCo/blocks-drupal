@@ -79,12 +79,28 @@
 	background-image: url('../images/backgrounds/grey.png');
 }
 
-.cream-bg {
-	background-image: url('../images/backgrounds/cream_dust.png');
+.wood-bg {
+	background-image: url('../images/backgrounds/retina_wood.png');
 }
 
 .grid-bg {
 	background-image: url('../images/backgrounds/noisy_grid.png');
+}
+
+.nistri-bg {
+	background-image: url('../images/backgrounds/nistri.png');
+}
+
+.cartographer-bg {
+	background-image: url('../images/backgrounds/cartographer.png');
+}
+
+.illusion-bg {
+	background-image: url('../images/backgrounds/illusion.png');
+}
+
+.bedge-bg {
+	background-image: url('../images/backgrounds/bedge.png');
 }
 
 #slideout {
