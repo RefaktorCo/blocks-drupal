@@ -1,32 +1,40 @@
-===Kalypso=== 
+===Blocks=== 
 
 Theme by Refaktor - http://refaktor.co 
-Demo - http://refaktor.co/kalypso-demo
+Demo - http://refaktor.co/blocks-demo
 
-A responsive Drupal theme powered by Twitter Bootstrap. Kalypso features a fully responsive design, feature-rich home page and beautiful typography. For full instructions, please refer to the documentation folder in the root directory of the theme. 
+A Metro-inspired, responsive Drupal 7 theme powered by Zurb Foundation 3. 
 
 ==Libraries and Resources==
 
-Twitter Bootstrap(https://github.com/twitter/bootstrap) released under the Apache License(1).
+Foundation(http://foundation.zurb.com) released under the Apache License(1) and MIT(2) license.
 jQuery(http://jquery.com) and jQueryUI(http://jqueryui.com) are released under the MIT(2) license.
 jQuery EasIng(http://gsgd.co.uk/sandbox/jquery.easIng.php) by George Smith and released under the MIT license(2)
-jMenu(https://github.com/alpixel/jMenu) by ALPIXEL (licenses/jMenu.txt).
-MobileMenu (https://github.com/mambows/mobilemenu).
-NivoSlider(http://nivo.dev7studios.com/) by Dev7Studios (licenses/Nivo.txt).
-CSS3 Paralax Slider(http://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/)
-Elastic Image Slider (http://tympanus.net/codrops/2011/11/21/elastic-image-slideshow-with-thumbnail-preview/).
 UItoTop jQuery Plugin(https://github.com/sksmatt/UItoTop-jQuery-Plugin/) by Matt Varone and released under the GNU(3).
 Fit Maps(https://c9.io/hermanvandermaas/fitmaps) by Herman Vandermaas. 
-Quote Rotator(https://github.com/coryschires/quote-rotator) by Cory Schires.
 Twitter Plugin(https://github.com/seaofclouds/tweet) by Sea Of Clouds (licenses/Tweet.txt).
 
 ==Image Files==
-Social Icons(http://medialoot.com/item/round-social-media-icons/) by Tony Thomas.
-Sharing Icons(http://webtreats.mysitemyway.com/1540-infocus-social-media-icon-mega-set/).
-Panel Icons(http://www.pixeden.com) by Pixel Den.
-Footer and page header background by http://subtlepatterns.com.
+http://www.flickr.com/photos/rayphua/190100151/
+http://www.flickr.com/photos/br1dotcom/5612164272/
+http://www.flickr.com/photos/burningredstudio/5080751535/
+http://www.flickr.com/photos/br1dotcom/5611571733/
+http://www.flickr.com/photos/eschipul/2888255770/
+http://www.flickr.com/photos/br1dotcom/4034902679/
+http://www.flickr.com/photos/rogueinteriordesigns/4843838252/
+http://www.flickr.com/photos/clab4design/4187539425/
+http://www.flickr.com/photos/vancouverfilmschool/4286580044/
+http://www.flickr.com/photos/origamiancy/6204436803/
+http://www.flickr.com/photos/ideonexus/3241947915/
+http://www.flickr.com/photos/nasawebbtelescope/5553132277/
+http://www.flickr.com/photos/juhansonin/6813135130/
+http://www.flickr.com/photos/martinrp/2734509861/
+http://www.flickr.com/photos/christopher_barson/2641715996/
+http://www.flickr.com/photos/uggboy/4044716786/
+http://www.flickr.com/photos/svenjajan/3030821516/
 
-All other files by Refaktor(http://refaktor.co) and released under the GNU(3) license.
+
+The above images are released under a commercial-friendly Creative Commons license. All other files by Refaktor(http://refaktor.co) and released under the GNU(3) license.
 
 ==License URLS==
 
