@@ -24,6 +24,7 @@ scripts[] = js/jquery.ui.totop.js
 scripts[] = js/easing.js
 scripts[] = js/jquery.cookie.js
 scripts[] = js/smoothscroll.js
+scripts[] = js/blocks.js
 
 scripts[] = js/style_switch.js
 

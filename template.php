@@ -15,8 +15,6 @@ function blocks_preprocess_page(&$vars, $hook) {
   if($status == "404 Not Found") {      
     $vars['theme_hook_suggestions'][] = 'page__404';
   }
-
-  
 }
 
 /* Assign top level menu list items an ascending class of menu_$number  */
@@ -190,11 +188,11 @@ function blocks_preprocess_html(&$vars){
       'type' => 'text/css',
     ),
   );
-  $rale = array(
+  $condensed= array(
     '#tag' => 'link', 
     '#weight' => 5,
     '#attributes' => array( 
-      'href' => 'http://fonts.googleapis.com/css?family=Raleway', 
+      'href' => 'http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300', 
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
@@ -305,11 +303,11 @@ function blocks_preprocess_html(&$vars){
   }
 
   drupal_add_html_head( $font, 'google_font_open_sans' );
-  drupal_add_html_head( $rale, 'google_font_raleway' );
+  drupal_add_html_head( $condensed, 'google_font_condensed' );
   drupal_add_html_head( $foundation, 'foundation_style' );
   drupal_add_html_head( $foundation_app, 'foundation_app_style' );
   drupal_add_html_head( $style, 'main_style' );
-  //drupal_add_html_head( $color, 'color_style' );
+  drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
   //drupal_add_html_head( $font_family, 'font_family');
   drupal_add_html_head( $headings, 'headings');
