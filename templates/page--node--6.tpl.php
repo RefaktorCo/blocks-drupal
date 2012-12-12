@@ -1,44 +1,26 @@
-<?php blocks_header($page);?>
+<?php blocks_header($page); global $root;?>
 
-      <div id="heading_wrapper">
-	    <div id="heading_wrapper_after">
-	   	  <div class="row">
-	        <div class="twelve columns">
-	          <h2 class="page_heading_text"><?php print $title; ?></h2>
-	          <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
-	        </div>
-	      </div>
-	    </div> 
-    </div>   
-    
-      <div class="row">
-			  <div class="twelve columns">
-			    <div id="google_map">
-			      <iframe width="1080" height="370" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=900+Bagby+St+Houston,+TX+77002&amp;sll=33.687,-117.774252&amp;sspn=0.324522,0.682526&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;ll=29.761779,-95.370008&amp;spn=0.003725,0.012864&amp;z=17&amp;iwloc=A&amp;output=embed"></iframe><br />      
-			    </div>
-			  </div>
-			</div> 
-       
-      <div class="row">
-        <div class="twelve columns">
-          <div class="hr_beside">
-            <div class="heading_title">Get In Touch</div>
+    <div id="heading_wrapper">
+      <div id="heading_wrapper_after">
+   	    <div class="row">
+          <div class="twelve columns">
+            <h2 class="page_heading_text"><?php print $title; ?></h2>
+            <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
           </div>
         </div>
       </div> 
-      <div class="row">
-        <div class="four columns">
-          <blockquote>
-            <strong>Lorem Ipsum, Inc.</strong><br>
-						900 Bagby St<br>
-						Houston, TX, 77002<br>
-						P: (123) 456-7890<br>
-          </blockquote>
-        </div>
-        
-        <div class="eight columns">
-      
-          <?php print render($page['contact_template']); ?>
-        </div> 
+    </div>   
+    
+    <div class="row">
+      <div class="three columns">
+        <h2>Steve McQueen - CEO</h2>
+	      <img src="<?php echo $root;?>/images/team3.jpg"> 
+	      <h2>Bio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	      <h2>Connect</h2>
+	      <a href="http://facebook.com" target="_blank"><i class="social foundicon-facebook"></i></a> <a href="http://twitter.com" target="_blank"><i class="social foundicon-twitter"></i></a> <a href="http://linkedin.com" target="_blank"><i class="social foundicon-linkedin"></i></a>
       </div>
+    
+    </div>    
+    
 <?php blocks_footer($page);?>
