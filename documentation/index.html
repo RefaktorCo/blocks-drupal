@@ -18,6 +18,8 @@
 <p>A Metro-inspired Drupal 7 theme powered by Zurb Foundation 3. Blocks features a fully responsive design, easy to use theme settings and follows Drupal coding standards. For theme support that cannot be found in this documentation, please contact me via the <a href="http://themeforest.net/user/refaktor" target="_blank">ThemeForest author page</a>.</p>
 <p>Updated: 11/08/12<br>Author: <a href="http://refaktor.co" target="_blank">Refaktor</a><br>Email: <a href="mailto:refaktor.co@gmail.com">refaktor.co@gmail.com</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
 <h2>Installation</h2>
+<p>There are several ways Blocks can be installed. For existing sites that already have content, the first method will only involve the installation and activation of the theme. The second option includes a full Drupal 7 install with the same SQL database file used to create the theme demo. Please choose which installation method works best for you and follow the instructions.
+<h3>Theme Only</h3>
 Option 1:
 <ul>
   <li>Visit yourdomain.com/admin/appearance/install</li>
@@ -30,7 +32,14 @@ Option 2:
   <li>Visit yourdomain.com/admin/appearance/</li>
   <li>Scroll down to "DISABLED THEMES" and set and enable Blocks</li>
 </ul>
-  
+<h3>Full Drupal Install</h3>
+<p><strong>NOTE</strong> this option is for a completely new Drupal install. Do not import the provided SQL file into an existing Drupal database or you will lose all of your data!</p>
+<ol>
+<li>Create a database for this installation of Drupal and import the SQL file that came with the theme.</li>
+<li>Follow <a href="http://drupal.org/documentation/install/settings-file" target="_blank"> these directions</a> to create the settings.php file. Save this file somewhere so you can copy it over to the Drupal installation we have provided.
+<li>Copy the entire contents of the Drupal_7 folder to the location on your web server where you want your site to be accessed. If you want your primary domain to point to your install of Blocks, copy it to the root folder. If you want your site to be accessed as a subsection of your domain (for example: yourdomain.com/drupal) then simply rename the Drupal_7 folder to the desired name and upload to the root of your server. Also be sure to copy over the settings.php file mentioned in the previous step</li>
+    
+</ol>  
 <h2>Menu</h2>
 <p>To edit your menu visit yourdomain.com/admin/structure/menu (pictured below)</p>
 <img src="images/menu-1.png">
