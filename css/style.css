@@ -419,6 +419,10 @@ hr {
 	text-decoration: none !important;
 }
 
+.team_image {
+	background: #333;
+}
+
 .team_image_hover {
   display: block;
 	position: absolute;
@@ -1665,9 +1669,14 @@ span.faq-head-image {
     font-size: 17px;
   }
 }
+
 @media screen and (max-width: 480px) { 
   .page_heading_text {
     font-size: 24px;
+  }
+  
+  #highlight {
+    text-align: center;
   }
 }
 
