@@ -124,7 +124,7 @@
 }
 
 #slideout {
-  background: url('../images/switch/dark.png');
+  background: #666;
   position:fixed;
   width:150px;
   height:440px;
