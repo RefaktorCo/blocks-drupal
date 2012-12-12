@@ -619,11 +619,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#type' => 'textfield',
         '#title' => 'Body background color',
         '#default_value' => theme_get_setting('body_background'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_boxed_layout"]' => array('checked' => FALSE)
-          )
-        )
       );    
       
      // Enable background pattern
@@ -631,11 +626,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#type' => 'checkbox',
         '#title' => 'Enable background pattern',
         '#default_value' => theme_get_setting('enable_background_pattern'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_boxed_layout"]' => array('checked' => FALSE)
-          )
-        )
       );
     
       // Background
@@ -645,9 +635,13 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#default_value' => theme_get_setting('background_select'),
       '#options' => array(
         'gplaypattern' => 'item',
-        'cream_dust' => 'item',
         'grey' => 'item',
+        'retina_wood' => 'item',
         'noisy_grid' => 'item',
+        'cartographer' => 'item',
+        'bedge' => 'item',
+        'illusion' => 'item',
+        'nistri' => 'item',
       ),
       
       '#states' => array (

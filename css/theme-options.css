@@ -18,8 +18,8 @@ label[for=edit-background-select-gplaypattern] {
 	background-image: url('../images/backgrounds/gplaypattern.png');
 }
 
-label[for=edit-background-select-cream-dust] {
-	background-image: url('../images/backgrounds/cream_dust.png');
+label[for=edit-background-select-retina-wood] {
+	background-image: url('../images/backgrounds/retina_wood.png');
 }
 
 label[for=edit-background-select-grey] {
@@ -28,6 +28,22 @@ label[for=edit-background-select-grey] {
 
 label[for=edit-background-select-noisy-grid] {
 	background-image: url('../images/backgrounds/noisy_grid.png');
+}
+
+label[for=edit-background-select-cartographer] {
+	background-image: url('../images/backgrounds/cartographer.png');
+}
+
+label[for=edit-background-select-bedge] {
+	background-image: url('../images/backgrounds/bedge.png');
+}
+
+label[for=edit-background-select-illusion] {
+	background-image: url('../images/backgrounds/illusion.png');
+}
+
+label[for=edit-background-select-nistri] {
+	background-image: url('../images/backgrounds/nistri.png');
 }
 
 label[for=edit-heading-background-select-shattered] {
