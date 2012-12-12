@@ -384,7 +384,7 @@ hr {
 }
 
 .tile_contents {
-	padding: 25px;
+	padding: 26px 25px 26px 25px;
 	overflow: auto;
 	text-align: center;
 }
@@ -405,10 +405,10 @@ hr {
 
 .tile_contents i {
 	font-size: 75px;
-	 -moz-transition: all 0.4s ease-in-out;
-   -webkit-transition: all 0.4s ease-in-out;
-   -o-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out;	
+	-moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;	
 }
 
 .tile_contents p {
@@ -417,10 +417,6 @@ hr {
 
 .tile_contents a:link {
 	text-decoration: none !important;
-}
-
-.team_image {
-	background: #333;
 }
 
 .team_image_hover {
@@ -449,6 +445,7 @@ hr {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  line-height: 12px;
 }
 
 .services i {
@@ -1693,6 +1690,10 @@ span.faq-head-image {
   
   #highlight {
     text-align: center;
+  }
+  
+  .team_image {
+	  background: #333;
   }
 }
 
