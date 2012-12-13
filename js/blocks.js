@@ -29,6 +29,8 @@
       }
     );
     
+    $().UItoTop({ easingType: 'easeOutQuart' });
+    
     $(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
     $(window).load(function(){
@@ -106,12 +108,12 @@
 			width: 1050,
 			height: 420,
 			easeType: 'random',
-			slideShow: false,
+			slideShow: true,
 			enableDrag: false, 
 			responsive: true,
 			minWidth: 480,
 			pauseByHover: true, 
-			autoHideButton: false
+			autoHideButton: true
 		});  
 		
     $('input[type="submit"]').addClass('small button');
