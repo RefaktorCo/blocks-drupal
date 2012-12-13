@@ -7,13 +7,13 @@
 		        <div class="color_switch_wrap">
 					    <ul id="color-nav">
 					      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile blue"></div></li>
-					      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></li>
-					      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></li>
-					      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></li>
-					      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></li>
-					      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></li>
-					      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></li>
-					 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></li>
+					      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></div></li>
+					 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></div></li>
 					    </ul>
 			      </div>
 			      
@@ -37,29 +37,29 @@
 	  
 			    <div class="bg_patterns_wrap">
 				    <h6 class="switch_heading">Background Patterns</h6>
-				    <ul id="bg-nav">
-				      <li class="grey-bg"><div class="switch_tile grey-bg"></li>
-				      <li class="grid-bg"><div class="switch_tile grid-bg"></li>
-				      <li class="wood-bg"><div class="switch_tile wood-bg"></li>
-				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></li>
-				      <li class="cartographer-bg"><div class="switch_tile cartographer-bg"></li>
-				      <li class="bedge-bg"><div class="switch_tile bedge-bg"></li>
-				      <li class="illusion-bg"><div class="switch_tile illusion-bg"></li>
-				      <li class="nistri-bg"><div class="switch_tile nistri-bg"></li>
+				    <ul class="bg-nav">
+				      <li class="grey-bg"><div class="switch_tile grey-bg"></div></li>
+				      <li class="grid-bg"><div class="switch_tile grid-bg"></div></li>
+				      <li class="wood-bg"><div class="switch_tile wood-bg"></div></li>
+				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></div></li>
+				      <li class="cartographer-bg"><div class="switch_tile cartographer-bg"></div></li>
+				      <li class="bedge-bg"><div class="switch_tile bedge-bg"></div></li>
+				      <li class="illusion-bg"><div class="switch_tile illusion-bg"></div></li>
+				      <li class="nistri-bg"><div class="switch_tile nistri-bg"></div></li>
 				    </ul>
 				   </div>
 				   
 				   <div class="bg_patterns_wrap">
 				    <h6 class="switch_heading">Background Colors</h6>
-				    <ul id="bg-nav">
-				      <li class="blue-bg"><div class="switch_tile blue"></li>
-				      <li class="black-bg"><div class="switch_tile black"></li>
-				      <li class="green-bg"><div class="switch_tile green"></li>
-				      <li class="orange-bg"><div class="switch_tile orange"></li>
-				      <li class="red-bg"><div class="switch_tile red"></li>
-				      <li class="teal-bg"><div class="switch_tile teal"></li>
-				      <li class="purple-bg"><div class="switch_tile purple"></li>
-				      <li class="yellow-bg"><div class="switch_tile yellow"></li>
+				    <ul class="bg-nav">
+				      <li class="blue-bg"><div class="switch_tile blue"></div></li>
+				      <li class="black-bg"><div class="switch_tile black"></div></li>
+				      <li class="green-bg"><div class="switch_tile green"></div></li>
+				      <li class="orange-bg"><div class="switch_tile orange"></div></li>
+				      <li class="red-bg"><div class="switch_tile red"></div></li>
+				      <li class="teal-bg"><div class="switch_tile teal"></div></li>
+				      <li class="purple-bg"><div class="switch_tile purple"></div></li>
+				      <li class="yellow-bg"><div class="switch_tile yellow"></div></li>
 				    </ul>
 			    </div>
 			    
