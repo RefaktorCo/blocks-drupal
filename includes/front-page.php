@@ -216,7 +216,7 @@
     <div id="team1_modal" class="reveal-modal medium">
       <div class="team_bio_modal">
 	      <h1>Steve McQueen - CEO</h1>
-	      <img src="<?php echo $root;?>/images/team3.jpg"> 
+	      <img src="<?php echo $root;?>/images/team3.jpg" alt="team"> 
 	      <h2>Bio</h2>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 	      <h2>Connect</h2>
@@ -229,7 +229,7 @@
     <div id="team2_modal" class="reveal-modal medium">
       <div class="team_bio_modal">
 	      <h1>Robyn Sullivan - Vice President</h1>
-	      <img src="<?php echo $root;?>/images/team2.jpg"> 
+	      <img src="<?php echo $root;?>/images/team2.jpg" alt="team"> 
 	      <h2>Bio</h2>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 	      <h2>Connect</h2>
@@ -242,7 +242,7 @@
     <div id="team3_modal" class="reveal-modal medium">
       <div class="team_bio_modal">
 	      <h1>Aiko Takahashi - Design</h1>
-	      <img src="<?php echo $root;?>/images/team1.jpg"> 
+	      <img src="<?php echo $root;?>/images/team1.jpg" alt="team"> 
 	      <h2>Bio</h2>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 	      <h2>Connect</h2>
@@ -255,7 +255,7 @@
     <div id="team4_modal" class="reveal-modal medium">
       <div class="team_bio_modal">
 	      <h1>Frank Douglas - Marketing</h1>
-	      <img src="<?php echo $root;?>/images/team4.jpg"> 
+	      <img src="<?php echo $root;?>/images/team4.jpg" alt="team"> 
 	      <h2>Bio</h2>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 	      <h2>Connect</h2>
