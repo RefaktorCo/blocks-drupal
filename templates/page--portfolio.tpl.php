@@ -13,8 +13,6 @@
   
   <div class="row">
     <div class="twelve columns">
-    
-
 
       <!-- Begin Isotope filters -->
       <section id="options" class="clearfix">
