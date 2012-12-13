@@ -70,8 +70,15 @@ This is a full-width portion on the front page designed to showcase site service
 
 <p>The Highlight section allows you to advertise a specific page or aspect of your site. The settings for the Highlight section are in the Front Page tab of the theme settings. You can enter your own text and even include HTML.</p>
 
+<h3>Recent Posts</h3>
+<p>The recent posts section is a block region designed to showcase your site's most recent blog/article posts. Blocks uses a custom view template called node--view--front-page-blog--block.tpl to achieve the look and feel of this section seen on the demo. To properly use this section, either create a new view called Front Page Blog (machine name must be front_page_blog) with the desired number of blog/article teasers, or use the view export code found in /includes/view_exports/front-page-blog.txt</p>
+
+<h3>Recent Projects</h3>
+<p>The recent projects section is designed to showcase recent portfolio items in a carousel (see the Portfolio section of these docs for instructions on how to set up your portfolio items). This section utilizes a custom view template called node--view--recent-projects--block.tpl to achieve the look and feel seen on the demo. To properly use this section, make sure you have set up some portfolio items as described in the "Portfolio" section of the documentation. Once you have some portfolio items, either create a new view called Recent Projects (machine name must be recent_projects) with the number of portfolio items desired. To import the view used on the demo use the export code found in /includes/views_exports/recent-projects.txt</p>
+
+
 <h2>Widgets</h2>
-<p>Blocks includes styling and code for several widgets such as the accordion, Twitter feed and quote rotator. See below for the necessary markup to use each kind of widget in a block or page</p>
+<p>Blocks includes styling and code for several widgets such as the faq, Twitter feed and quote rotator. See below for the necessary markup to use each kind of widget in a block or page</p>
 <h4>Twitter</h4>
 <pre>&lt;div class='tweet query'&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
@@ -88,16 +95,16 @@ This is a full-width portion on the front page designed to showcase site service
     });
     
   &lt;/script&gt;</pre>
-<h4>Accordion</h4>
-<pre>&lt;ul class=&quot;accordion&quot;&gt;
-  &lt;li class=&quot;divider&quot;&gt;&lt;h2 class=&quot;accordion-head title-color gdl-title&quot;&gt;&lt;span class=&quot;accordion-head-image active&quot;&gt;&lt;/span&gt;Title&lt;/h2&gt;
-    &lt;div class=&quot;accordion-content&quot;&gt;
-      Accordion Text
+<h4>FAQ</h4>
+<pre>&lt;ul class=&quot;faq&quot;&gt;
+  &lt;li class=&quot;divider&quot;&gt;&lt;h2 class=&quot;faq-head title-color gdl-title&quot;&gt;&lt;span class=&quot;faq-head-image active&quot;&gt;&lt;/span&gt;Title&lt;/h2&gt;
+    &lt;div class=&quot;faq-content&quot;&gt;
+      faq Text
     &lt;/div&gt;
   &lt;/li&gt;
-    &lt;li class=&quot;divider&quot;&gt;&lt;h2 class=&quot;accordion-head title-color gdl-title&quot;&gt;&lt;span class=&quot;accordion-head-image active&quot;&gt;&lt;/span&gt;Title&lt;/h2&gt;
-    &lt;div class=&quot;accordion-content&quot;&gt;
-      Accordion Text
+    &lt;li class=&quot;divider&quot;&gt;&lt;h2 class=&quot;faq-head title-color gdl-title&quot;&gt;&lt;span class=&quot;faq-head-image active&quot;&gt;&lt;/span&gt;Title&lt;/h2&gt;
+    &lt;div class=&quot;faq-content&quot;&gt;
+      faq Text
     &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</pre>
@@ -105,19 +112,6 @@ This is a full-width portion on the front page designed to showcase site service
 <pre>&lt;div class=&quot;ad_block&quot;&gt;
   &lt;a href=&quot;#&quot;&gt;125 by 125&lt;/a&gt;&lt;a href=&quot;#&quot;&gt;125 by 125&lt;/a&gt;&lt;a href=&quot;#&quot;&gt;125 by 125&lt;/a&gt;&lt;a href=&quot;#&quot;&gt;125 by 125&lt;/a&gt;
 &lt;/div&gt;</pre>
-<h4>Quote Rotator</h4>
-<pre>
-&lt;ul id=&quot;quotes&quot;&gt;
-  &lt;li&gt;
-    &lt;p&gt;Quote text goes here&lt;/p&gt;
-    - John Doe
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Here's another quote&lt;/p&gt;
-    - John Doe
-  &lt;/li&gt;
-&lt;/ul&gt;
-</pre>
 <h4>Pricing</h4>
 <p>Blocks supports 2, 3 and 5 columns of pricing tables. Just change the span class to span5 for 2 columns, span3 for 3 columns and span2 for 5 columns.</p>
 <pre>&lt;div class=&quot;span5 pricehover&quot;&gt;

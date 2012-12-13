@@ -243,6 +243,10 @@ hr {
   display: none;	
 }
 
+.region-front-blog .content {
+	margin-bottom: 0px;
+}
+
 .contact_us {
   width: 97%; 
   height: 100px;	
