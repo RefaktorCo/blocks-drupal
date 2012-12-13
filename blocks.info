@@ -34,7 +34,7 @@ regions[sidebar_second] = Second Sidebar
 regions[header_login] 	= Header Login
 regions[header_contact] = Header Contact
 
-regions[services ]      = Front Page Services
+regions[services]      = Front Page Services
 
 regions[front_blog]     = Front Page Blog
 
