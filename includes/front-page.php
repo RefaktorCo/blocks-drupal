@@ -11,9 +11,9 @@
 			    	<div id="banner">  		
      
 				      <div class="oneByOne_item">
-								<img src="<?php echo theme_get_setting('slide1_img1');?>" class="slide1_img1" alt=""></img>			            
-								<img src="<?php echo theme_get_setting('slide1_img2');?>" class="slide1_img2" alt=""></img>			    
-								<img src="<?php echo theme_get_setting('slide1_img3');?>" class="slide1_img3" alt=""></img>  			
+								<img src="<?php echo theme_get_setting('slide1_img1');?>" class="slide1_img1" alt="slider">	            
+								<img src="<?php echo theme_get_setting('slide1_img2');?>" class="slide1_img2" alt="slider">		    
+								<img src="<?php echo theme_get_setting('slide1_img3');?>" class="slide1_img3" alt="slider">			
 								<span class="slide1_txt1"><?php echo theme_get_setting('slide1_txt1');?></span>
 								<span class="slide1_txt2"><?php echo theme_get_setting('slide1_txt2');?></span>												
 							</div>
@@ -21,13 +21,13 @@
 					    <div class="oneByOne_item">
 								<span class="slide2_txt1"><?php echo theme_get_setting('slide2_txt1');?></span>			
 								<span class="slide2_txt2"><?php echo theme_get_setting('slide2_txt2');?></span>	
-								<img src="<?php echo theme_get_setting('slide2_img1');?>" class="slide2_img1" data-animate="lightSpeedIn" alt=""></img>			
-								<img src="<?php echo theme_get_setting('slide2_img2');?>" class="slide2_img2" data-animate="lightSpeedIn" alt=""></img>		
-								<img src="<?php echo theme_get_setting('slide2_img3');?>" class="slide2_img3" data-animate="lightSpeedIn" alt=""></img>	
+								<img src="<?php echo theme_get_setting('slide2_img1');?>" class="slide2_img1" data-animate="lightSpeedIn" alt="slider">		
+								<img src="<?php echo theme_get_setting('slide2_img2');?>" class="slide2_img2" data-animate="lightSpeedIn" alt="slider">	
+								<img src="<?php echo theme_get_setting('slide2_img3');?>" class="slide2_img3" data-animate="lightSpeedIn" alt="slider">
 							</div>   
 		
 							<div class="oneByOne_item">                                 	
-								<img src="<?php echo theme_get_setting('slide3_img1');?>" class="slide3_img1" data-animate="bounceIn"></img>
+								<img src="<?php echo theme_get_setting('slide3_img1');?>" class="slide3_img1" data-animate="bounceIn" alt="slider">
 								<span class="slide3_txt1" data-animate="bounceIn"><?php echo theme_get_setting('slide3_txt1');?></span>								
 								<span class="slide3_txt2" data-animate="rollIn"><?php echo theme_get_setting('slide3_txt2');?></span>											
 								<span class="slide3_txt3"><?php echo theme_get_setting('slide3_txt3');?></span>														
@@ -60,7 +60,7 @@
 						   <div class="six columns services">  
 						     <div class="services_content">  
 						       <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team3.jpg"> 
+						         <img src="<?php echo $root;?>/images/team3.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
 						       <h2>Steve MqQueen - CEO</h2>
@@ -72,7 +72,7 @@
 						   <div class="six columns services">  
 						     <div class="services_content">   
 						      <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team2.jpg"> 
+						         <img src="<?php echo $root;?>/images/team2.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
 						          <h2>Robyn Sullivan - VP </h2>
@@ -84,7 +84,7 @@
 						   <div class="six columns services">  
 						     <div class="services_content">   
 						      <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team1.jpg"> 
+						         <img src="<?php echo $root;?>/images/team1.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
 						          <h2>Aiko Takahashi - Design </h2>
@@ -123,7 +123,7 @@
 						  <div class="six columns services">  
 						    <div class="services_content">   
 						      <div class="team_image"> 
-						        <img src="<?php echo $root;?>/images/team4.jpg"> 
+						        <img src="<?php echo $root;?>/images/team4.jpg" alt="team"> 
 						      </div>
 						      <div class="team_image_hover">
 						        <h2>Frank Douglas - Marketing </h2>
