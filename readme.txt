@@ -38,6 +38,11 @@ http://www.flickr.com/photos/martinrp/2734509861/
 http://www.flickr.com/photos/christopher_barson/2641715996/
 http://www.flickr.com/photos/uggboy/4044716786/
 http://www.flickr.com/photos/svenjajan/3030821516/
+http://www.flickr.com/photos/pevelpetros/8179954008/
+http://www.flickr.com/photos/andreasoverland/7041947627/
+http://www.flickr.com/photos/ammgramm/7031236847/
+http://www.flickr.com/photos/stevenfernandez/3060519360/
+
 
 Patterns by http://subtlepatterns.com
 
