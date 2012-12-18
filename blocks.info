@@ -101,7 +101,7 @@ settings[background_select] = 'gplaypattern'
 
 settings[heading_background] ='#ECECEC'
 settings[enable_heading_pattern] = '1'
-settings[background_select] = 'shattered'
+settings[heading_background_select] = 'shattered'
 
 settings[enable_boxed_layout] = '0'
 

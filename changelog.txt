@@ -1,4 +1,7 @@
 ===Blocks Changelog===
 
+1.0.1 (12/14/12)
+  *Updated a few default images.
+
 1.0 (12/13/12)
   *Initial release.
