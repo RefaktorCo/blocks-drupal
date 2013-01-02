@@ -2,8 +2,9 @@
 
 1.0.2 (01/02/12)
   *Added custom template for "blog" content type.
-  *Added option for two, three and four columns on Portfolio template.
+  *Added theme setting for two, three and four columns on Portfolio template.
   *Updated full Drupal install to 7.18.
+  *General maintenance and code cleanup.
 
 1.0.1 (12/19/12)
   *Updated a few default images.
