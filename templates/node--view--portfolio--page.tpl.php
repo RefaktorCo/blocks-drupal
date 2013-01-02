@@ -4,7 +4,7 @@
   $tags = str_replace(' ', '/',$tags);
 ?>
 
-  <div class="three columns switch <?php print render($content['field_portfolio_tags']); ?>" data-category="<?php print render($content['field_portfolio_tags']); ?>">
+  <div class="<?php echo theme_get_setting('portfolio_columns');?> columns switch <?php print render($content['field_portfolio_tags']); ?>" data-category="<?php print render($content['field_portfolio_tags']); ?>">
     <div class="carousel_item_wrapper"> 
       <div class="carousel_item_content">
 	      <div class="carousel_item_image">

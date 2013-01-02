@@ -1,7 +1,13 @@
 ===Blocks Changelog===
 
-1.0.1 (12/14/12)
+1.0.2 (01/02/12)
+  *Added custom template for "blog" content type.
+  *Added option for two, three and four columns on Portfolio template.
+  *Updated full Drupal install to 7.18.
+
+1.0.1 (12/19/12)
   *Updated a few default images.
+  *Fixed "illegal option" bug with theme settings.
 
 1.0 (12/13/12)
   *Initial release.

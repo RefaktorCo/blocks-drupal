@@ -578,6 +578,19 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         'full_width' => 'Full Width',
       ),
     );
+    
+    // Portfolio Columns
+      $form['options']['layout']['portfolio_columns'] = array(
+        '#type' => 'select',
+        '#title' => 'Portfolio Columns',
+        '#default_value' => theme_get_setting('portfolio_columns'),
+        '#options' => array(
+          'six' => 'Two',
+          'four' => 'Three',
+          'three' => 'Four (default)',
+        ),
+      );
+
    
   // Design
   $form['options']['design'] = array(

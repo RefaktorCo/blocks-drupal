@@ -106,7 +106,10 @@ settings[heading_background_select] = 'shattered'
 settings[enable_boxed_layout] = '0'
 
 settings[page_layout] = 'full_width'
+
 settings[blog_layout] = 'sidebar_right'
+
+settings[portfolio_columns] = 'three'
 
 settings['font_family'] = 'Open Sans, serif'
 
