@@ -603,6 +603,14 @@ height: 189px;
 
 }
 
+.six .carousel_item_hover {
+  padding: 150px 15px;
+}
+
+ .four .carousel_item_hover {
+    padding: 80px 15px;
+  }
+
 .carousel_item_hover i {
 	margin: 4px;
 	font-size: 22px;
@@ -1696,6 +1704,10 @@ span.faq-head-image {
   .highlight_text {
     font-size: 17px;
   }
+  
+  .six .carousel_item_hover {
+    padding: 100px 15px;
+  }
 }
 
 @media screen and (max-width: 480px) { 
@@ -1709,6 +1721,14 @@ span.faq-head-image {
   
   .team_image {
 	  background: #333;
+  }
+  
+  .four .carousel_item_hover {
+    padding: 100px 15px;
+  }
+  
+  .six .carousel_item_hover {
+    padding: 100px 15px;
   }
 }
 
