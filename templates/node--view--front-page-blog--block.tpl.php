@@ -34,7 +34,7 @@ $share_url = $base_url.'/node/'.$node->nid;
 	        <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
 	        <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>        
 		     </ul>
-		   <?php if ($field_tags):?>
+		   <?php if (render($content['field_tags'])): ?>  
 		     <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
        <?php endif; ?>
 	     <?php print render($title_suffix); ?>
