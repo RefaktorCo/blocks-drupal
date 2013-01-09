@@ -1,7 +1,8 @@
 ===Blocks Changelog===
 
-1.0.3 (01/07/13)
+1.0.3 (01/10/13)
   *Fix for undefined index error related to $field_tags in node templates.
+  *Improvements to demo content.
 
 1.0.2 (01/02/13)
   *Added custom template for "blog" content type.
