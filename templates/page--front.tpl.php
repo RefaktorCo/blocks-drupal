@@ -63,8 +63,8 @@
 						         <img src="<?php echo $root;?>/images/team3.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
-						       <h2>Steve MqQueen - CEO</h2>
-						       <p><a href="#" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
+						         <h2>Steve MqQueen - CEO</h2>
+						         <p><a href="#" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
 						       </div>
 						     </div>        
 						   </div>
@@ -75,8 +75,8 @@
 						         <img src="<?php echo $root;?>/images/team2.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
-						          <h2>Robyn Sullivan - VP </h2>
-						       <p><a href="#" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
+						         <h2>Robyn Sullivan - VP </h2>
+						         <p><a href="#" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
 						       </div>				      
 						     </div>        
 						   </div>
@@ -87,8 +87,8 @@
 						         <img src="<?php echo $root;?>/images/team1.jpg" alt="team"> 
 						       </div>
 						       <div class="team_image_hover">
-						          <h2>Aiko Takahashi - Design </h2>
-						       <p><a href="#" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
+						         <h2>Aiko Takahashi - Design </h2>
+						         <p><a href="#" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
 						       </div>				      
 						     </div>        
 						   </div>
