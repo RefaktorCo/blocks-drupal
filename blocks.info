@@ -45,6 +45,8 @@ regions[footer_3]       = Footer Box 3
 regions[footer_4]       = Footer Box 4
 regions[footer_full]    = Footer Full Width
 
+regions[modal_markup] = Theme Modal Markup
+
 settings[breadcrumbs] = '1'
 
 settings[branding_type] = 'text'
