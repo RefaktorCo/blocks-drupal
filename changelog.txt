@@ -2,6 +2,7 @@
 
 1.0.3 (01/10/13)
   *Fix for undefined index error related to $field_tags in node templates.
+  *Removed unessessary /includes/front-page.php template, moved code to /tempates/page--front.tpl.
   *Improvements to demo content.
 
 1.0.2 (01/02/13)
