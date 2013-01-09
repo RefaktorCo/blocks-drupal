@@ -5,6 +5,7 @@
   *Moved code from /includes/front-page.php (left for reference only) to /tempates/page--front.tpl.
   *Added block region to use for front page modal markup.
   *Improvements to demo content (all content moved to node content, Views and blocks).
+  *Updated documentation.
 
 1.0.2 (01/02/13)
   *Added custom template for "blog" content type.
