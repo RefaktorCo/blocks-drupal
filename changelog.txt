@@ -2,6 +2,7 @@
 
 1.0.4 (01/14/13)
   *Fixed bug with share icons in node.tpl template.
+  *Fixed bug with modal windows when logged in.
 
 1.0.3 (01/10/13)
   *Fix for undefined index error related to $field_tags in node templates.

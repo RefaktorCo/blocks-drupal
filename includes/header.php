@@ -3,8 +3,8 @@ function blocks_header($page){
   global $root; 
 ?>
 
-  <!-- Begin front page modal markup -->    
-    <?php print render($page['modal_markup']); ?>       
+  <!-- Begin front page modal markup (content will only render for front page) -->    
+    <?php if (drupal_is_front_page()) { print render($page['modal_markup']); } ?>       
   <!-- End front page modal markup --> 
   
   <div id="main_wrapper">
