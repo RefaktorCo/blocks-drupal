@@ -58,6 +58,7 @@
     </div>
       
     <?php endif; ?>
+
     
     <?php if (theme_get_setting('enable_highlight') == '1') : ?>       
     <div id="highlight">
@@ -111,10 +112,6 @@
     <?php endif ?>  
 
   </div>
-  <!-- end main wrapper -->    
-  
-  <!-- Begin front page modal markup -->    
-    <?php print render($page['modal_markup']); ?>       
-  <!-- End front page modal markup -->  
+  <!-- end main wrapper -->     
 
 <?php blocks_footer($page); // Call Footer ?>

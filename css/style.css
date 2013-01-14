@@ -264,6 +264,10 @@ hr {
   margin-top: 20px	
 }
 
+.front_blog_modal_user {
+	top: 100% !important;
+}
+
 /* Menu */
 .top-bar{
 	margin: 20px 0px;

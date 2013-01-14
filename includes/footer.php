@@ -49,5 +49,6 @@ function blocks_footer($page){
       </div> 
     </div>
     <!-- end footer --> 
+    
 <?php }
 ?>

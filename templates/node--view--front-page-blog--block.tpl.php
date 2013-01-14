@@ -22,7 +22,7 @@ $share_url = $base_url.'/node/'.$node->nid;
 	  </div>  
 	</div>
 
-  <div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns">
+  <div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns <?php if ( $user->uid ) { echo "front_blog_modal_user"; } ?>">
     <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 	  <?php if ($user_picture || $display_submitted || !$page): ?>

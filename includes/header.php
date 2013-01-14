@@ -2,6 +2,11 @@
 function blocks_header($page){
   global $root; 
 ?>
+
+  <!-- Begin front page modal markup -->    
+    <?php print render($page['modal_markup']); ?>       
+  <!-- End front page modal markup --> 
+  
   <div id="main_wrapper">
   <header>
     <div class="container">
