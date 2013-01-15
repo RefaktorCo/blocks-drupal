@@ -258,7 +258,7 @@ function blocks_preprocess_html(&$vars){
   
   $box_layout = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper, #footer { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
     '#weight' => 13,
   );
 
