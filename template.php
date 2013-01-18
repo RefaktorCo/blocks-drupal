@@ -331,5 +331,4 @@ function blocks_user_css() {
   echo "</style>";
   echo "<!-- End user defined CSS -->";	
 }
-
 ?>

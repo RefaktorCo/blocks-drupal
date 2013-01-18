@@ -1,9 +1,9 @@
-<?php 
+<?php
 function blocks_header($page){
   global $root; 
 ?>
-
-  <!-- Begin front page modal markup (content will only render for front page) -->    
+ 
+  <!-- Begin front pge modal markup (content will only render for front page) -->    
     <?php if (drupal_is_front_page()) { print render($page['modal_markup']); } ?>       
   <!-- End front page modal markup --> 
   

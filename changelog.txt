@@ -1,5 +1,8 @@
 ===Blocks Changelog===
 
+1.0.5 (01/21/13)
+  *Fixed XML validation bug caused by whitespace in template files.
+
 1.0.4 (01/15/13)
   *Fixed bug with share icons in node.tpl template.
   *Fixed bug with modal windows when logged in.

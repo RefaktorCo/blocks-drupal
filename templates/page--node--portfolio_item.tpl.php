@@ -33,4 +33,3 @@ blocks_header($page);
 blocks_footer($page);
 
 ?>
-  
