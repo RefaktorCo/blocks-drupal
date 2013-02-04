@@ -16,7 +16,7 @@
 <div id="wrapper">
 <h2>Overview</h2>
 <p>A Metro-inspired Drupal 7 theme powered by <a href="http://foundation.zurb.com/" target="_blank">Zurb Foundation 3</a>. Blocks features a fully responsive design, easy to use theme settings and follows Drupal coding standards. For theme support that cannot be found in this documentation, please visit our <a href="http://refaktor.co/support"> support forum</a>. Once you have registered please contact us via the <a href="http://themeforest.net/user/refaktor" target="_blank">ThemeForest author page</a> with your forum username so you can be granted posting rights.</p>
-<p>Updated: 01/10/13<br>Author: <a href="http://refaktor.co" target="_blank">Refaktor</a><br>Email: <a href="mailto:refaktor.co@gmail.com">refaktor.co@gmail.com</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
+<p>Updated: 02/04/13<br>Author: <a href="http://refaktor.co" target="_blank">Refaktor</a><br>Email: <a href="mailto:refaktor.co@gmail.com">refaktor.co@gmail.com</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
 <h2>Installation</h2>
 <p>There are several ways Blocks can be installed. For existing sites that already have content, the first method will only involve the installation and activation of the theme. The second option includes a full Drupal 7 install with the same SQL database file used to create the theme demo. Please choose which installation method works best for you and follow the instructions.
 <h3>Theme Only</h3>
@@ -50,6 +50,21 @@ Option 2:
 <img src="images/menu-2.png">
 <p>To customize the styling of the menu you can edit the /css/style.css file and the /js/blocks.js file. The colors for the menu are controlled by the .menu_1 to .menu_6 classes, and more can be added by simply creating additional .menu_x classes. The <a href="http://www.zurb.com/playground/foundation-icons" target="_blank">icons</a> are controlled by Javascript starting at line 129 of the blocks.js file. </p>
 
+<h2>Modules</h2>
+
+<h3>Recommended Modules</h3>
+<p>You can find all of the recommended modules in the full Drupal install that comes with the download files (drupal_7/sites/all/modules) but below is the full list and their URLS:</p>
+<ul>
+<li><a href="http://drupal.org/project/contact_form_blocks">Contact Form Blocks</a></li>
+<li><a href="http://drupal.org/project/ctools">ctools</a></li>
+<li><a href="http://drupal.org/project/devel">Devel</a></li>
+<li><a href="http://drupal.org/project/features">Features</a></li>
+<li><a href="http://drupal.org/project/views">Views</a></li>
+<li><a href="http://drupal.org/project/multiblock">Multiblock</a></li>
+</ul>
+
+<h3>Blocks Content Data</h3>
+<p>If you used option 1 to install the theme on an existing install that already has content we recommend you use our Blocks Content Data module to create the additional content types, fields and Views needed to fully utilize the theme. You will find it in the root of the directory that contains the download files. This module is a custom <a href="http://drupal.org/project/features" target="_blank">Features</a> module and will not run without it. We recommend copying all of the modules from the /drupal_7/sites/all/modules folder into your install if you do not already have them. After you have all the modules simply upload and activate the Blocks Content Data module and the content types, fields and Views will automatically be created.</p>
 
 <h2>Theme Settings</h2>
 <p>Blocks includes a powerful set of theme settings that allow you to configure many aspects of your site. They are organized in a series of tabbed menu items each with their own set of options. Simply click on the option heading to expand the full set of options. The Blocks theme options can be accessed by visiting yourdomain.com/admin/appearance/settings/blocks. All options have default values set, but you should go through each one and adjust them to your liking.</p>
@@ -57,23 +72,23 @@ Option 2:
 <h2>Front Page</h2>
 <p>By default Blocks uses a custom front page template that features several custom sections including the image slider. All of these sections are fully customizable and can also be disabled. You can use the theme settings to enable/disable any of these sections and set any necessary options. For full control of the front page template you can manually edit /includes/front-page.php</p>
 
-<h3>Image Slider</h3>
+<h4>Image Slider</h4>
 
 <p>
 Blocks uses the <a href="http://codecanyon.net/item/jquery-onebyone-slider-plugin/684613">jQuery OneByOne Slider Plugin</a> for the main image slider. We have provided some simple theme settings to control the slider, or you can manually edit /includes/front-page.php to fully customize the slider. The CSS for the slider is found in the /css/sliders folder.
 </p>
 
-<h3>Services</h3>
-This is a full-width portion on the front page designed to showcase site services and team members that utilizes the "Front Page Services" block (and the Front Page Modal Markup if utilizing the demo content) region. If you would like to use the default content seen on the demo please refer to /examples/services.php. 
+<h4>Services</h4>
+<p>This is a full-width portion on the front page designed to showcase site services and team members that utilizes the "Front Page Services" block (and the Front Page Modal Markup if utilizing the demo content) region. If you would like to use the default content seen on the demo please refer to /examples/services.php.</p>
 
-<h3>Highlight</h3>
+<h4>Highlight</h4>
 
 <p>The Highlight section allows you to advertise a specific page or aspect of your site. The settings for the Highlight section are in the Front Page tab of the theme settings. You can enter your own text and even include HTML.</p>
 
-<h3>Recent Posts</h3>
+<h4>Recent Posts</h4>
 <p>The recent posts section is a block region designed to showcase your site's most recent blog/article posts. Blocks uses a custom view template called node--view--front-page-blog--block.tpl to achieve the look and feel of this section seen on the demo. To properly use this section, either create a new view called Front Page Blog (machine name must be front_page_blog) with the desired number of blog/article teasers, or use the view export code found in /includes/view_exports/front-page-blog.txt</p>
 
-<h3>Recent Projects</h3>
+<h4>Recent Projects</h4>
 <p>The recent projects section is designed to showcase recent portfolio items in a carousel (see the Portfolio section of these docs for instructions on how to set up your portfolio items). This section utilizes a custom view template called node--view--recent-projects--block.tpl to achieve the look and feel seen on the demo. To properly use this section, make sure you have set up some portfolio items as described in the "Portfolio" section of the documentation. Once you have some portfolio items, either create a new view called Recent Projects (machine name must be recent_projects) with the number of portfolio items desired. To import the view used on the demo use the export code found in /includes/views_exports/recent-projects.txt</p>
 
 
@@ -114,22 +129,31 @@ This is a full-width portion on the front page designed to showcase site service
 &lt;/div&gt;</pre>
 <h4>Popular Tags</h4>
 Use the <a href="http://drupal.org/project/views" target="_blank">Views module</a> to create a block view titled "Popular Tags" that is an HTML list of the taxonomy term "Tags". You can set the number limit to whatever you like, just make sure to name it "Popular Tags" and to make it an HTML list.
+<h4>Google Maps</h4>
+<p>Below is the proper markup for using the Google Maps plugin (visit maps.google.com to get the value for the src attribute) </p>
+<pre>
+&lt;div class=&quot;twelve columns&quot;&gt;
+     &lt;div id=&quot;google_map&quot;&gt;
+       &lt;iframe width=&quot;1080&quot; height=&quot;370&quot; src=&quot;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=900+Bagby+St+Houston,+TX+77002&amp;amp;sll=33.687,-117.774252&amp;amp;sspn=0.324522,0.682526&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;amp;ll=29.761779,-95.370008&amp;amp;spn=0.003725,0.012864&amp;amp;z=17&amp;amp;iwloc=A&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;      
+     &lt;/div&gt;
+   &lt;/div&gt;
+</pre>
 <h2>Portfolio</h2>
-<p>This portion of the docs will explain how to set up the portfolio page seen on the theme demo. The only module you will need is the <a href="http://drupal.org/project/views" target="_blank">Views module</a> which is needed to create the list of portfolio items.</p>
+<p>This portion of the docs will explain how to set up the portfolio page seen on the theme demo. The only module you will need is the <a href="http://drupal.org/project/views" target="_blank">Views module</a> which is needed to create the list of portfolio items. We recommend you use the Blocks Custom Content module described earlier in the documentation to set up the views, custom content types and fields needed to use the portfolio. You can also set them up manually by following the instructions below:</p>
 <h3>Custom content type</h3>
 <p>The first step is to create a new content type called <b>Portfolio Item</b>. To create a new content type visit /admin/structure/types and click "add content type". Title the new content type "Portfolio Item" (this is important), enter a brief description and save.</p>
 <p> Next you have to add two custom fields to this content type for the portfolio image and description tags. Press the "manage fields" link under Portfolio Item in the content type overview page and use the "Add new field" option. Enter "Portfolio image" in the label field and select "Image" as the field type. Press save when you are done, and you will now have an image uploader when creating a Portfolio item.  Do the same thing again, only this time use "Portfolio tags" as the label and "Text" as the field type. This field lets you add short tag words like "design" and "branding" to your portfolio items which are used to group sets of items together for use with the filter buttons seen on the demo. Here is what the fields for the "Portfolio Items" content type should look like when you are done:</p>
 <img src="images/portfolio-fields.png">
 <p>Creating a portfolio item is as simple as creating any other content type. Visit /admin/content, click "Add content" and select the new Portfolio Item type you just created. Enter the title, text, upload your image and add your tag or tags (only put a space between each tag, no commas) and press save.</p>
 <h3>Portfolio View</h3>
-<p>To create a Portfolio page to display all of your portfolio items as seen on our demo, you will need to use the <a href="http://drupal.org/project/views" target="_blank">Views module</a>. Once you have installed the module, visit /admin/structure/views and click "Add new view". Enter "Portfolio" into the view name text field, select Portfolio Item as the content type to pull from, make sure "create page" is checked off to make this a page view and tell it to pull an unformated list of full posts. You should also have it create a Menu link, but you can also do this later using the Menu options. You can also use the code found in /includes/views_exports/portfolio.txt to import the view. Below is what your view should look like when you're done:
+<p>To create a Portfolio page to display all of your portfolio items as seen on our demo, you will need to use the <a href="http://drupal.org/project/views" target="_blank">Views module</a>. You can either import the /includes/views_exports/portfolio.txt or follow these instructions: Once you have installed the module, visit /admin/structure/views and click "Add new view". Enter "Portfolio" into the view name text field, select Portfolio Item as the content type to pull from, make sure "create page" is checked off to make this a page view and tell it to pull an unformated list of full posts. You should also have it create a Menu link, but you can also do this later using the Menu options. You can also use the code found in /includes/views_exports/portfolio.txt to import the view. Below is what your view should look like when you're done:
 </p>
 <img src="images/portfolio-view.png">
 <p>The final step to completing your portfolio page is to open /templates/page--portfolio.tpl and edit the Isotope filters. Isotope is the jQuery library which easily allows you to group and switch between those groups of portfolio items as seen on the demo. The filters are a simple unordered list of HTML links with a data-option-value for each portfolio tag. You can see from the default values in the template that this will filter the portfolio items by all, photography, design and marketing. Just add a filter item for each of the tags you use for your portfolio items for optimum use. <strong>Note</strong> a future update to the theme will dynamically generate the portfolio item filters. For more information about what you can do with Isotope visit the official page <a href="http://isotope.metafizzy.co/">here</a>.</p>
 <h2>Blog</h2>
-<p>If you plan to have a blog on your site, be sure to read through this portion of the documentation which outlines a couple things to keep in mind. The theme uses a custom page template called page--blog.tpl which is designed to be used with a page titled Blog. If you plan on using a blog with Blocks, it is recommended that your blog page be called "blog" or that you rename this template file accordingly. There is a theme setting which allows you to have a sidebar on the right-hand side of the blog page, or to have it be full width with no sidebar. </p>
+<p>If you plan to have a blog on your site, be sure to read through this portion of the documentation which outlines a couple things to keep in mind. The theme uses a custom Views template called page--blog.tpl which is designed to be used with a Views page titled Blog (the machine name of the View has to be blog for the template to work properly). Either import /includes/views_export/blog.txt or use the Blocks Custom Content module described earlier in the documentation to create this page. There is a theme setting which allows you to have a sidebar on the right-hand side of the blog page, or to have it be full width with no sidebar. </p>
 <p>
-Blocks also comes equipped with the functionality to use a simple image slider within the post (as seen on our demo). To make use of this feature, simply add a new image field to the article content type called second image (machine name: field_second_image). Then simply add a second image to the posts where you want to use the image slider and the theme will take care of the rest. If you want to use more than two images, simply add more image fields and update the /templates/node--article.tpl file in between the div class "featured" starting at line 29. If you look at the template you will see that it calls field_image and field_second_image between the div. Just add the necessary calls to each extra image field you've created.
+Blocks also comes equipped with the functionality to use a simple image slider within the post (as seen on our demo). To make use of this feature, simply visit admin/structure/types/manage/article/fields/field_image (if you're using the blog content type simply change article to blog in that path) and scroll down to the Image Field Settings. Change the "number of values" setting to unlimited to allow you to upload as many images as you want. The theme will automatically place multiple images into a slider.
 </p>
 <h2>Footer</h2>
 <p>Blocks's footer is split up into two parts so we will discuss each one separately. The main footer is split up into 4 block regions which can be used to display any information you want. There is also an optional social icons section in the area where the first block region is placed. If you would like to display the social icons, use the icons heading in the Footer options to select the ones you want to display and enter the necessary URLS. Or you can place a block into the Footer 1 block region to remove the icons and use your own content. </p>
