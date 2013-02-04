@@ -1,7 +1,8 @@
 ===Blocks Changelog===
 
-1.0.5 (01/21/13)
-  *Fixed XML validation bug caused by whitespace in template files.
+1.0.6 (02/04/13)
+  *Fixed RSS validation bug caused by whitespace in template files.
+  *Updated full Drupal install to 7.19.
 
 1.0.4 (01/15/13)
   *Fixed bug with share icons in node.tpl template.

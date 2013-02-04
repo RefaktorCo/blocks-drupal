@@ -20,16 +20,24 @@ $share_url = $base_url.'/node/'.$node->nid;
         <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
         <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>
         
-     </ul>
-     <?php if (render($content['field_tags'])): ?>  
-     <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
-     <?php endif; ?>
+      </ul>
+      <?php if (render($content['field_tags'])): ?>  
+        <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
+      <?php endif; ?>
          
-   <?php endif; ?>
-  <div class="featured">
-  <?php print render($content['field_image']); ?>
-  <?php print render($content['field_second_image']); ?>
-  </div>
+    <?php endif; ?>
+   
+	  <?php if (render($content['field_image'])) : ?> 
+		  <div class="featured">
+			  <?php if (render($content['field_image'])) : ?>
+			    <?php print render($content['field_image']); ?>
+			  <?php endif; ?>
+			  <?php if (render($content['field_second_image'])) : // legacy support ?>
+			    <?php print render($content['field_second_image']); ?>
+			  <?php endif; ?>    
+			</div>
+		<?php endif; ?>
+	
   <?php endif; ?>
   
   <div class="article_content"<?php print $content_attributes; ?>>
@@ -44,7 +52,6 @@ $share_url = $base_url.'/node/'.$node->nid;
     ?>
   </div>
   
-
   <div class="post_share_wrap">
     <ul class="post_share">
       <li><a href="http://twitter.com/home?status=<?php print $share_url; ?>"><i class="social foundicon-twitter"></i></a></li>
@@ -62,8 +69,6 @@ $share_url = $base_url.'/node/'.$node->nid;
     <?php endif;?>
   </div>
   <hr>
-
-
 
   <?php print render($content['comments']); ?>
 
