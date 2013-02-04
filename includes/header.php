@@ -29,6 +29,7 @@ function blocks_header($page){
                <?php if (theme_get_setting('linkedin_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('linkedin_url'); ?>" target="_blank"><i class="social foundicon-linkedin"></i></a></li><?php endif ?>
              <?php if (theme_get_setting('flickr_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('flickr_url'); ?>" target="_blank"><i class="social foundicon-flickr"></i></a></li><?php endif ?>
              <?php if (theme_get_setting('youtube_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('youtube_url'); ?>" target="_blank"><i class="social foundicon-youtube"></i></a></li><?php endif ?>
+             <?php if (theme_get_setting('vimeo_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('vimeo_url'); ?>" target="_blank"><i class="social foundicon-vimeo"></i></a></li><?php endif ?>
              <?php if (theme_get_setting('rss_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('rss_url'); ?>" target="_blank"><i class="social foundicon-rss"></i></a></li><?php endif ?>
 
           </ul>  

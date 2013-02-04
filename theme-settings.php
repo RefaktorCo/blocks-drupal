@@ -284,6 +284,25 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
           )
         )
       );
+      
+      // Vimeo Icon
+      $form['options']['header']['social']['vimeo_icon'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Vimeo Icon',
+        '#default_value' => theme_get_setting('vimeo_icon'),
+      );
+      
+      // Youtube URL
+      $form['options']['header']['social']['vimeo_url'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Vimeo URL',
+        '#default_value' => theme_get_setting('vimeo_url'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="vimeo_icon"]' => array('checked' => FALSE)
+          )
+        )
+      );
 
       // RSS Icon
       $form['options']['header']['social']['rss_icon'] = array(

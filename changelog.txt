@@ -3,6 +3,9 @@
 1.0.6 (02/04/13)
   *Fixed RSS validation bug caused by whitespace in template files.
   *Updated full Drupal install to 7.19.
+  *Added conditional for blog slider dependent on whether or not an image is uploaded.
+  *Added Vimeo social icon to header icons.
+  *Fixed missing Drupal edit tabs in two templates.
 
 1.0.4 (01/15/13)
   *Fixed bug with share icons in node.tpl template.

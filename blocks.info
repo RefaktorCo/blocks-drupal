@@ -130,6 +130,7 @@ settings[pinterest_icon] = '0'
 settings[linkedin_icon] = '0'
 settings[flickr_icon] = '0'
 settings[youtube_icon] = '0'
+settings[vimeo_icon] = '0'
 
 settings[enable_secondary_footer] = '1'
 settings[secondary_footer_text] = 'Design by <a href="http://refaktor.co" target="_blank">Refaktor</a>'
