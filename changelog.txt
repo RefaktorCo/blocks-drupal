@@ -2,6 +2,7 @@
 
 1.0.7 (02/07/13)
   *Updated some broken image paths.
+  *Changed all site and support links to new domain (refaktorthemes.com).
   *Created new demo SQL file to reflect changes. 
 
 1.0.6 (02/04/13)

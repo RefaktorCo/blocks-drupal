@@ -1,7 +1,7 @@
 ===Blocks=== 
 
-Theme by Refaktor - http://refaktor.co 
-Demo - http://refaktor.co/blocks-demo
+Theme by Refaktor - http://refaktorthemes.com
+Demo - http://refaktorthemes.com/blocks-demo
 
 A Metro-inspired, responsive Drupal 7 theme powered by Zurb Foundation 3. 
 
