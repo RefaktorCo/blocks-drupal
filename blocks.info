@@ -64,19 +64,19 @@ settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing 
 
 settings[enable_slider] = '1'
 
-settings[slide1_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/drupal.png'
-settings[slide1_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/html5.png'
-settings[slide1_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/css3.png'
+settings[slide1_img1] = '/sites/all/themes/blocks-drupal/images/slider/drupal.png'
+settings[slide1_img2] = '/sites/all/themes/blocks-drupal/images/slider/html5.png'
+settings[slide1_img3] = '/sites/all/themes/blocks-drupal/images/slider/css3.png'
 settings[slide1_txt1] = 'Built on Drupal 7'
 settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
 
 settings[slide2_txt1] = 'Responsive Design'
 settings[slide2_txt2] = 'Touch-Ready Elements'
-settings[slide2_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
-settings[slide2_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
-settings[slide2_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
+settings[slide2_img1] = '/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
+settings[slide2_img2] = '/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
+settings[slide2_img3] = '/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
 
-settings[slide3_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
+settings[slide3_img1] = '/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
 settings[slide3_txt1] = 'Hover to pause'
 settings[slide3_txt2] = 'This slider supports full images'
 settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
@@ -133,4 +133,4 @@ settings[youtube_icon] = '0'
 settings[vimeo_icon] = '0'
 
 settings[enable_secondary_footer] = '1'
-settings[secondary_footer_text] = 'Design by <a href="http://refaktor.co" target="_blank">Refaktor</a>'
+settings[secondary_footer_text] = 'Design by <a href="http://refaktorthemes.com" target="_blank">Refaktor</a>'
