@@ -442,6 +442,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
+	filter: alpha(opacity=0);
 	padding: 30px 15px 15px 15px;
 	text-align: center;	
 }
@@ -603,6 +604,7 @@ height: 189px;
 	display: block;
 	color: #fff;
 	opacity: 0;
+	filter: alpha(opacity=0);
 	height: 100%;
 	width: 100%;
 	top: 0%;

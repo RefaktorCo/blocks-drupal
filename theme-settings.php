@@ -3,7 +3,6 @@
 global $slide_number;
 $slide_number = theme_get_setting('slides_number');
 
-drupal_add_js(drupal_get_path('theme', 'blocks') .'/js/jquery.cookies.js');  
 drupal_add_js(drupal_get_path('theme', 'blocks') .'/js/theme_settings.js'); 
  
 function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
