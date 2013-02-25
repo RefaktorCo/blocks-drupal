@@ -42,6 +42,12 @@ Option 2:
 <li>Go through the Drupal configuration found in /admin/config options and update all the necessary information to reflect your website. Also be sure to visit /admin/config/media/file-system and change the Temporary Directory.</li>
     
 </ol>  
+
+<h2>Bricks Sub-Theme</h2>
+<p>Blocks comes with a shell sub-theme called Bricks that you can use to make customizations to the style and template structure of the parent theme without having to modify the parent theme itself. This is useful if you plan on updating the parent theme as we release updates on ThemeForest. If you performed the full install you will already see Bricks in the list of themes available. If you did the standalone install you can find the Bricks.zip file in the root of the download files and you can install it like any other theme. </p>
+<p>There is an empty stylesheet already defined which is /css/custom.css (inside the Bricks folder). Use this file to add all of the custom CSS that you plan on using. You can also copy any template file from the /blocks/templates folder into the /bricks/templates folder and it will listen to the sub-themes template file first. This will allow you to update the parent theme as we make updates without losing your customizations. Just pay attention to the changelog and compare the parent theme files with yours and make any adjustments as needed.</p>
+<p>You will need to configure the sub-themes theme settings separately from the parent theme's, so visit /admin/appearance/settings/bricks to configure the theme settings for the sub-theme.</p>
+
 <h2>Menu</h2>
 <p>To edit your menu visit yourdomain.com/admin/structure/menu (pictured below)</p>
 <img src="images/menu-1.png">

@@ -31,27 +31,5 @@
       </div>
     </div>
   </div>
-          
-  <div class="row">
-    <div class="twelve columns">
-      <div class="hr_beside">
-        <div class="heading_title"><?php echo theme_get_setting('recent_projects_title');?></div>
-        <div class="carousel_navigation">
-          <a id="prev" class="prev" href="#"><i class="general foundicon-left-arrow"></i></a>
-			    <a id="next" class="next" href="#"><i class="general foundicon-right-arrow"></i></a>
-        </div>
-      </div>
-    </div>
-  </div> 
- 
-	<div class="row">
-	  <div class="twelve columns">
-	    <div class="projects_carousel">  
-	      <ul id="recent_projects">
-	        <?php print render($page['recent_projects']); ?>       
-	      </ul>
-	   </div>      
-	  </div>
-	</div>
- 
+           
 <?php blocks_footer($page); ?>

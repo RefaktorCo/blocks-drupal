@@ -36,5 +36,7 @@
       </div>
   	</div>
   </div>
+  
+  <?php print $messages;  ?>
    
 <?php blocks_footer($page);?>
