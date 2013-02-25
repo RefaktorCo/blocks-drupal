@@ -29,10 +29,11 @@ $share_url = $base_url.'/node/'.$node->nid;
       hide($content['links']);
       
       hide($content['field_portfolio_image']);
+      hide($content['field_portfolio_tags']);
       print render($content);
     ?>
   </div>
- 
+  
 <?php if (!$page): ?>
   </article> <!-- /.node -->
 <?php endif; ?>

@@ -49,7 +49,7 @@ thead {
 }
 
 /* Widgets */
-.ad_block a:hover, .tabs a.active {
+.tabs a.active {
   background: #ff7045;
 }
 

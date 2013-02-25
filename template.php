@@ -1,10 +1,31 @@
 <?php
-/* Define $root as a global variable */
+/**
+ * Define $root global variable.
+ */
 global $root;
 $root = base_path() . path_to_theme();
 
 include_once(drupal_get_path('theme', 'blocks').'/includes/init.php');
 
+/**
+ * Preprocess variables for the username.
+ */
+function blocks_preprocess_username(&$vars) {
+  global $theme_key;
+  $theme_name = $theme_key;
+  
+  // Add rel=author for SEO and supporting search engines
+  if (isset($vars['link_path'])) {
+    $vars['link_attributes']['rel'][] = 'author';
+  }
+  else {
+    $vars['attributes_array']['rel'][] = 'author';
+  }
+}
+
+/**
+ * Assign theme hook suggestions for custom templates.
+ */  
 function blocks_preprocess_page(&$vars, $hook) {
   if (isset($vars['node'])) {
     $suggest = "page__node__{$vars['node']->type}";
@@ -17,7 +38,9 @@ function blocks_preprocess_page(&$vars, $hook) {
   }
 }
 
-/* Assign top level menu list items an ascending class of menu_$number  */
+/**
+ * Assign top level menu list items an ascending class of menu_$number.
+ */
 function blocks_menu_link(array $variables) {
   unset($variables['element']['#attributes']['class']);
   $element = $variables['element'];
@@ -38,7 +61,9 @@ function blocks_menu_link(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
 }
 
-/* Allow sub-menu items to be displayed */
+/**
+ * Allow sub-menu items to be displayed.
+ */
 function blocks_links($variables) {
   if (array_key_exists('id', $variables['attributes']) && $variables['attributes']['id'] == 'main-menu-links') {
   	$pid = variable_get('menu_main_links_source', 'main-menu');
@@ -48,19 +73,19 @@ function blocks_links($variables) {
   return theme_links($variables);
 }
 
-/* Add a comma delimiter between field tags*/
+/**
+ * Add a comma delimiter between several field types.
+ */
 function blocks_field($variables) {
  
   $output = '';
  
   // Render the label, if it's not hidden.
   if (!$variables['label_hidden']) {
-    
+    $output .= '<div class="field-label"' . $variables['title_attributes'] . '>' . $variables['label'] . ':&nbsp;</div>';  
   }
  
   // Render the items.
- 
-
   if ($variables['element']['#field_name'] == 'field_tags') {
     // For tags, concatenate into a single, comma-delimitated string.
     foreach ($variables['items'] as $delta => $item) {
@@ -85,7 +110,6 @@ function blocks_field($variables) {
     $output .= implode(', ', $rendered_tags);
   }
 
-  
   elseif ($variables['element']['#field_name'] == 'field_portfolio_tags') {
     // For tags, concatenate into a single, comma-delimitated string.
     foreach ($variables['items'] as $delta => $item) {
@@ -112,11 +136,12 @@ function blocks_field($variables) {
   }
   
   // Render the top-level DIV.
-   
   return $output;
 }
 
-/* Put Breadcrumbs in a ul li structure and add descending z-index style to each <a href> tag */
+/**
+ * Put Breadcrumbs in a ul li structure and add descending z-index style to each <a href> tag.
+ */
 function blocks_breadcrumb($variables) {
   $count = '100';
   $breadcrumb = $variables['breadcrumb'];
@@ -137,7 +162,9 @@ function blocks_breadcrumb($variables) {
   return $crumbs;
 }
 
-/* Add various META tags to HTML head. */
+/**
+ * Add various META tags to HTML head..
+ */
 function blocks_preprocess_html(&$vars){
   global $root;
   $meta_title = array(
@@ -323,7 +350,9 @@ function blocks_preprocess_html(&$vars){
   }  
 }
 
-/* Separate from blocks_preprocess_html so function can be called directly before </head> tag. */
+/**
+ * User CSS function. Separate from blocks_preprocess_html so function can be called directly before </head> tag.
+ */
 function blocks_user_css() {
   echo "<!-- User defined CSS -->";
   echo "<style type='text/css'>";
