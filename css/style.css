@@ -386,6 +386,18 @@ hr {
 	background: #222;
 }
 
+.menu_wrap ul ul {
+  display: none;
+}
+
+.expanded .menu_wrap ul ul {
+  display: block;
+}
+
+ul.dropdown.right {
+  height: auto !important;
+}
+
 /* Front page blocks */
 .services {
 	margin-bottom: 20px;
@@ -617,9 +629,9 @@ height: 189px;
   padding: 150px 15px;
 }
 
- .four .carousel_item_hover {
-    padding: 80px 15px;
-  }
+.four .carousel_item_hover {
+  padding: 80px 15px;
+}
 
 .carousel_item_hover i {
 	margin: 4px;

@@ -1,3 +1,7 @@
+  $(window).load(function() {
+    $('.menu_wrap ul ul').css('display','block');
+  });
+  
   jQuery(document).ready(function ($) {
      
 	  $(".featured").orbit({timer: false});
@@ -126,7 +130,7 @@
 
     $('#recent_projects').after('<div style="clear:both;"></div>');
    
-   	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
+   	$('.menu_wrap .dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	  
    	$('.menu_1 a').prepend('<i class="general foundicon-heart"></i>');
    	
