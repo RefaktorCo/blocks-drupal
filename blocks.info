@@ -111,7 +111,7 @@ settings[blog_layout] = 'sidebar_right'
 
 settings[portfolio_columns] = 'three'
 
-settings['font_family'] = 'Open Sans, serif'
+settings['font_family'] = 'Open Sans Condensed, serif'
 settings['headings_font_family'] = 'Open Sans Condensed, serif'
 
 settings[h1] = '36px'
