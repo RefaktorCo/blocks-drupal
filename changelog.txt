@@ -4,6 +4,7 @@
   *Updated Drupal Core to 7.21.
   *Fixed some bugs related to the main navigation.
   *Fixed theme setting definition causing a bug in WAMP installs.
+  *Updated Typography settings with separate font selector for headings.
 
 1.0.7 (02/25/13)
   *Updated Drupal Core in full install to 7.20.
