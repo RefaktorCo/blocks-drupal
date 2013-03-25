@@ -749,7 +749,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
     // Font
     $form['options']['typography']['font'] = array(
       '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Font</h3>',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Body Font</h3>',
     );
     
       // Font Family
@@ -759,6 +759,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('font_family'),
         '#options' => array(
           'Open Sans Condensed, serif' => '"Open Sans Condensed", serif (default)',
+          'Open Sans, serif' => '"Open Sans", serif',
           'Arial, Helvetica, sans-serif' => 'Arial, Helvetica, sans-serif',
           'Georgia, serif' => 'Georgia, serif',
           '"Helvetica Neue", Helvetica, Arial, sans-serif' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
@@ -772,6 +773,22 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#type' => 'fieldset',
       '#title' => '<div class="plus"></div><h3 class="options_heading">Headings</h3>',
     );
+    
+      // Font Family
+      $form['options']['typography']['headings']['headings_font_family'] = array(
+        '#type' => 'select',
+        '#title' => 'Select a font family',
+        '#default_value' => theme_get_setting('headings_font_family'),
+        '#options' => array(
+          'Open Sans Condensed, serif' => '"Open Sans Condensed", serif (default)',
+          'Open Sans, serif' => '"Open Sans", serif',
+          'Arial, Helvetica, sans-serif' => 'Arial, Helvetica, sans-serif',
+          'Georgia, serif' => 'Georgia, serif',
+          '"Helvetica Neue", Helvetica, Arial, sans-serif' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
+          '"Times New Roman", Times, serif' => '"Times New Roman", Times, serif',
+          'Verdana, Arial, Helvetica, sans-serif' => 'Verdana, Arial, Helvetica, sans-serif',
+        ),
+      );
     
       //H1
       $form['options']['typography']['headings']['h1'] =array(

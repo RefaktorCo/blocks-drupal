@@ -52,6 +52,7 @@ $share_url = $base_url.'/node/'.$node->nid;
     ?>
   </div>
   
+  <?php if (!$page): ?>
   <div class="post_share_wrap">
     <ul class="post_share">
       <li><a href="http://twitter.com/home?status=<?php print $share_url; ?>"><i class="social foundicon-twitter"></i></a></li>
@@ -62,6 +63,7 @@ $share_url = $base_url.'/node/'.$node->nid;
       <li><a href="mailto:user@domain.com?subject=Check%20out%20this%20great%20post&amp;body=<?php print $share_url; ?>"><i class="general foundicon-mail"></i></a></li>
     </ul>  
   </div>
+  <?php endif; ?>
 
   <div class="read_more"> 
   	<?php if($teaser): ?>
@@ -69,6 +71,7 @@ $share_url = $base_url.'/node/'.$node->nid;
     <?php endif;?>
   </div>
   <hr>
+  
 
   <?php print render($content['comments']); ?>
 

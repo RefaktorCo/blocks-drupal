@@ -277,40 +277,45 @@ function blocks_preprocess_html(&$vars){
     '#markup' => "<style type='text/css'>body {font-family:".theme_get_setting('font_family')." !important;}</style> ",
     '#weight' => 11,
   );
+  $headings_font_family = array(
+    '#type' => 'markup',
+    '#markup' => "<style type='text/css'>h1, h2, h3, h4, h5, h6 {font-family:".theme_get_setting('headings_font_family')." !important;}</style> ",
+    '#weight' => 12,
+  );
   $headings = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>h1 {font-size:".theme_get_setting('h1').";} h2 {font-size:".theme_get_setting('h2').";} h3 {font-size:".theme_get_setting('h3').";} h4 {font-size:".theme_get_setting('h4').";} h5 {font-size:".theme_get_setting('h5').";} h6 {font-size:".theme_get_setting('h6').";}</style> ",
-    '#weight' => 12,
+    '#weight' => 13,
   );
   
   $box_layout = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#main_wrapper, #footer { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
-    '#weight' => 13,
+    '#weight' => 14,
   );
 
   $background_color = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background:".theme_get_setting('body_background').";}</style> ",
-    '#weight' => 14,
+    '#weight' => 15,
   );
 
   $background_image = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
-    '#weight' => 15,
+    '#weight' => 16,
   );
   
   $heading_background_color = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#heading_wrapper {background:".theme_get_setting('heading_background').";}</style> ",
-    '#weight' => 16,
+    '#weight' => 17,
   );
 
    $heading_background_image = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#heading_wrapper {background-image:url(".$root."/images/heading-backgrounds/".theme_get_setting('heading_background_select').".png);}</style> ",
-    '#weight' => 17,
+    '#weight' => 18,
   );
 
     
@@ -336,6 +341,7 @@ function blocks_preprocess_html(&$vars){
   drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
   drupal_add_html_head( $font_family, 'font_family');
+  drupal_add_html_head( $headings_font_family, 'headings_font_family');
   drupal_add_html_head( $headings, 'headings');
   drupal_add_html_head( $background_color, 'background_color');
   

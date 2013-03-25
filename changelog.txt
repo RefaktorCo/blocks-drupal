@@ -1,7 +1,9 @@
 ===Blocks Changelog===
 
-1.0.8 (03/05/13)
+1.0.8 (03/25/13)
+  *Updated Drupal Core to 7.21.
   *Fixed some bugs related to the main navigation.
+  *Fixed theme setting definition causing a bug in WAMP installs.
 
 1.0.7 (02/25/13)
   *Updated Drupal Core in full install to 7.20.

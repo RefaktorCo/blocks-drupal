@@ -60,7 +60,7 @@ settings[flickr_url] = 'http://flickr.com'
 settings[youtube_url] = 'http://youtube.com'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+settings[highlight_text] = 'Highlight Text.'
 
 settings[enable_slider] = '1'
 
@@ -112,6 +112,7 @@ settings[blog_layout] = 'sidebar_right'
 settings[portfolio_columns] = 'three'
 
 settings['font_family'] = 'Open Sans, serif'
+settings['headings_font_family'] = 'Open Sans Condensed, serif'
 
 settings[h1] = '36px'
 settings[h2] = '30px'
