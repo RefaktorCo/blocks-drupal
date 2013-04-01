@@ -398,6 +398,12 @@ ul.dropdown.right {
   height: auto !important;
 }
 
+.top-bar ul.menu {
+  float: right !important;
+  width: auto;
+  margin-bottom: 0;
+}
+
 /* Front page blocks */
 .services {
 	margin-bottom: 20px;
