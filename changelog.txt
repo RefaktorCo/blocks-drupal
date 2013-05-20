@@ -5,6 +5,7 @@
   *Changed branding link to "url('<front>')".
   *Removed theme jQuery library in favor of utilizing jQuery Update module.
   *Bricks sub-theme no longer requires parent CSS and JS files in sub-theme folder.
+  *Removed theme SEO settings as modules offer superior functionality.
 
 1.0.8 (03/25/13)
   *Updated Drupal Core to 7.21.

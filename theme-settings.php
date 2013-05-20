@@ -52,33 +52,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#default_value' => theme_get_setting('breadcrumbs'),
     );
         
-    // SEO
-    $form['options']['general']['seo'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">SEO</h3>',
-    );
-    
-      // SEO Title
-      $form['options']['general']['seo']['seo_title'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Title',
-        '#default_value' => theme_get_setting('seo_title'),
-      );
-      
-       // SEO Description
-      $form['options']['general']['seo']['seo_description'] = array(
-        '#type' => 'textarea',
-        '#title' => 'Description',
-        '#default_value' => theme_get_setting('seo_description'),
-      );
-      
-       // SEO Keywords
-      $form['options']['general']['seo']['seo_keywords'] = array(
-        '#type' => 'textarea',
-        '#title' => 'Keywords',
-        '#default_value' => theme_get_setting('seo_keywords'),
-      );
-        
   // Header Options
   $form['options']['header'] = array(
     '#type' => 'fieldset',
