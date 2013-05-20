@@ -6,6 +6,9 @@
   *Removed theme jQuery library in favor of utilizing jQuery Update module.
   *Bricks sub-theme no longer requires parent CSS and JS files in sub-theme folder.
   *Removed theme SEO settings as modules offer superior functionality.
+  *Removed unecessary Layout and Footer theme settings in favor of using block visibility settings
+  *Updated documentation to reflect new changes.
+  *Minor style fixes.
 
 1.0.8 (03/25/13)
   *Updated Drupal Core to 7.21.
