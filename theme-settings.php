@@ -782,46 +782,7 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         '#title' => 'h6 Size',
         '#default_value' => theme_get_setting('h6'),
       );
-      
-  // Footer
-  $form['options']['footer'] = array(
-    '#type' => 'fieldset',
-    '#title' => 'Footer',
-  );
-      
-    // Enable Primary Footer
-    $form['options']['footer']['enable_primary_footer'] = array(
-      '#type' => 'checkbox',
-      '#title' => 'Enable Primary Footer',
-      '#default_value' => theme_get_setting('enable_primary_footer'),
-    );
-      
-    
-    // Secondary Footer
-    $form['options']['footer']['secondary_footer'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Secondary Footer</h3>',
-    ); 
-    
-      // Enable Secondary Footer
-      $form['options']['footer']['secondary_footer']['enable_secondary_footer'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Secondary Footer',
-        '#default_value' => theme_get_setting('enable_secondary_footer'),
-      );
-      
-      // Secondary Footer Left
-      $form['options']['footer']['secondary_footer']['secondary_footer_text'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Secondary Footer Text',
-        '#default_value' => theme_get_setting('secondary_footer_text'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_secondary_footer"]' => array('checked' => FALSE)
-          )
-        )
-      );
-        
+              
   // Submit Button
   $form['#submit'][] = 'blocks_settings_submit';
   $form['#submit'][] = 'blocks_background_settings_submit';
