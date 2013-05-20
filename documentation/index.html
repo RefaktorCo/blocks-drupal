@@ -16,7 +16,7 @@
 <div id="wrapper">
 <h2>Overview</h2>
 <p>A Metro-inspired Drupal 7 theme powered by <a href="http://foundation.zurb.com/" target="_blank">Zurb Foundation 3</a>. Blocks features a fully responsive design, easy to use theme settings and follows Drupal coding standards. For theme support that cannot be found in this documentation, please visit our <a href="http://refaktorthemes.com/support"> support forum</a>. Once you have registered please contact us via the <a href="http://themeforest.net/user/refaktor" target="_blank">ThemeForest author page</a> with your forum username so you can be granted posting rights.</p>
-<p>Updated: 02/04/13<br>Author: <a href="http://refaktorthemes.com" target="_blank">Refaktor</a><br>Email: <a href="mailto:refaktorthemes.com@gmail.com">refaktorthemes.com@gmail.com</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
+<p>Updated: 05/20/13<br>Author: <a href="http://refaktorthemes.com" target="_blank">Refaktor</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
 <h2>Installation</h2>
 <p>There are several ways Blocks can be installed. For existing sites that already have content, the first method will only involve the installation and activation of the theme. The second option includes a full Drupal 7 install with the same SQL database file used to create the theme demo. Please choose which installation method works best for you and follow the instructions.
 <h3>Theme Only</h3>
@@ -57,15 +57,16 @@ Option 2:
 <p>To customize the styling of the menu you can edit the /css/style.css file and the /js/blocks.js file. The colors for the menu are controlled by the .menu_1 to .menu_6 classes, and more can be added by simply creating additional .menu_x classes. The <a href="http://www.zurb.com/playground/foundation-icons" target="_blank">icons</a> are controlled by Javascript starting at line 129 of the blocks.js file. </p>
 
 <h2>Modules</h2>
+<p>You can find all of the modules in the full Drupal install that comes with the download files (drupal_7/sites/all/modules).</p>
+
+<h3>Required Modules</h3>
+<li><a href="http://drupal.org/project/jquery_update">jQuery update (dev version)</a></li>
+<li><a href="http://drupal.org/project/ctools">ctools</a></li>
+<li><a href="http://drupal.org/project/views">Views</a></li>
 
 <h3>Recommended Modules</h3>
-<p>You can find all of the recommended modules in the full Drupal install that comes with the download files (drupal_7/sites/all/modules) but below is the full list and their URLS:</p>
 <ul>
 <li><a href="http://drupal.org/project/contact_form_blocks">Contact Form Blocks</a></li>
-<li><a href="http://drupal.org/project/ctools">ctools</a></li>
-<li><a href="http://drupal.org/project/devel">Devel</a></li>
-<li><a href="http://drupal.org/project/features">Features</a></li>
-<li><a href="http://drupal.org/project/views">Views</a></li>
 <li><a href="http://drupal.org/project/navigation404">404 Navigation</a>
 <li><a href="http://drupal.org/project/multiblock">Multiblock</a></li>
 </ul>
@@ -163,9 +164,8 @@ Use the <a href="http://drupal.org/project/views" target="_blank">Views module</
 Blocks also comes equipped with the functionality to use a simple image slider within the post (as seen on our demo). To make use of this feature, simply visit admin/structure/types/manage/article/fields/field_image (if you're using the blog content type simply change article to blog in that path) and scroll down to the Image Field Settings. Change the "number of values" setting to unlimited to allow you to upload as many images as you want. The theme will automatically place multiple images into a slider.
 </p>
 <h2>Footer</h2>
-<p>Blocks's footer is split up into two parts so we will discuss each one separately. The main footer is split up into 4 block regions which can be used to display any information you want. There is also an optional social icons section in the area where the first block region is placed. If you would like to display the social icons, use the icons heading in the Footer options to select the ones you want to display and enter the necessary URLS. Or you can place a block into the Footer 1 block region to remove the icons and use your own content. </p>
-<p>The secondary footer has a full width block region that can be used, or you can use the text option in the theme settings. By default it displays a credit link but you can change this to whatever you like by either using the option or by using the Footer Full Width block region.</p>
-<p>You can also hide either of the footer regions by using the theme settings.</p>
+<p>Blocks's footer is split up into two parts. The main footer is split up into 4 block regions which can be used to display any information you want. The secondary footer has a full width block region that can be used.</p>
+
 <h2>Block Regions</h2>
 <p>Blocks features 14 block regions where you can add your own custom content. Visit yourdomain.com/admin/structure/block to add your own content to the defined block regions. Press "Add Block" to create a new custom blog, or select an existing block from the Disabled list below the defined block regions.</p>
 <h2>Thank You</h2>
