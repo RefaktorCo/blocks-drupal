@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   padding: 0px;
+  margin-top: -20px;
 }
 
 .row {
@@ -121,10 +122,6 @@ ul {
 
 input[type="text"] {
   color: #666;	
-}
-
-.region-modal-markup {
-	margin-top: -20px;
 }
 
 hr {

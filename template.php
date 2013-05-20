@@ -2,8 +2,8 @@
 /**
  * Define $root global variable.
  */
-global $root;
-$root = base_path() . path_to_theme();
+global $root, $theme_path;
+$root = base_path() . drupal_get_path('theme', 'blocks');
 
 include_once(drupal_get_path('theme', 'blocks').'/includes/init.php');
 

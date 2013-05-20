@@ -3,13 +3,13 @@ description = A Metro-Inspired Responsive Drupal 7 Theme.
 core = 7.x
 engine = phptemplate
 
-stylesheets[all][] = /css/sliders/animate.css
-stylesheets[all][] = /css/sliders/jquery.onebyone.css
-stylesheets[all][] = /css/sliders/slider.css
-stylesheets[all][] = /css/ie.css
-stylesheets[all][] = /foundation/stylesheets/social_foundicons.css
-stylesheets[all][] = /foundation/stylesheets/general_foundicons.css
-scripts[] = js/jquery.js
+stylesheets[all][] = css/sliders/animate.css
+stylesheets[all][] = css/sliders/jquery.onebyone.css
+stylesheets[all][] = css/sliders/slider.css
+stylesheets[all][] = css/ie.css
+stylesheets[all][] = foundation/stylesheets/social_foundicons.css
+stylesheets[all][] = foundation/stylesheets/general_foundicons.css
+
 scripts[] = foundation/javascripts/foundation.min.js
 scripts[] = foundation/javascripts/app.js
 scripts[] = js/jquery.isotope.js
@@ -85,7 +85,7 @@ settings[enable_services] = '1'
 settings[services_title] = 'Who We Are'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+settings[highlight_text] = 'This is sample highlight text'
 
 settings[enable_recent_posts] = '0'
 settings[recent_posts_title] = 'Recent Posts'

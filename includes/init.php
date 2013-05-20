@@ -1,8 +1,9 @@
 <?php 
 
-require_once(drupal_get_path('theme', 'blocks').'/includes/header.php');
-require_once(drupal_get_path('theme', 'blocks').'/includes/footer.php');
+global $theme_path;
 
-require_once(drupal_get_path('theme', 'blocks').'/includes/switch.php');
+include_once($theme_path.'/includes/header.php');
+include_once($theme_path.'/includes/footer.php');
+include_once($theme_path.'/includes/switch.php');
 	
 ?>

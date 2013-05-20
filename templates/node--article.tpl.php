@@ -1,6 +1,17 @@
 <?php 
 global $root, $base_url;
 $share_url = $base_url.'/node/'.$node->nid;
+
+
+if ($items = field_get_items('node', $node, 'field_image')) {
+  if (count($items) == 1) {
+    $image_slide = 'false';
+  }
+  elseif (count($items) > 1) {
+    $image_slide = 'true';
+  }
+}
+
 ?>
 
 <?php if (!$page): ?>
@@ -28,6 +39,9 @@ $share_url = $base_url.'/node/'.$node->nid;
     <?php endif; ?>
    
 	  <?php if (render($content['field_image'])) : ?> 
+	  
+	    <?php if ($image_slide == 'true'): ?>
+	     
 		  <div class="featured">
 			  <?php if (render($content['field_image'])) : ?>
 			    <?php print render($content['field_image']); ?>
@@ -36,6 +50,13 @@ $share_url = $base_url.'/node/'.$node->nid;
 			    <?php print render($content['field_second_image']); ?>
 			  <?php endif; ?>    
 			</div>
+			
+			<?php endif; ?>
+			
+			<?php if ($image_slide == 'false'): ?>
+			  <?php print render($content['field_image']); ?>
+			<?php endif; ?>
+			
 		<?php endif; ?>
 	
   <?php endif; ?>

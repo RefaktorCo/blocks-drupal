@@ -1,5 +1,11 @@
 ===Blocks Changelog===
 
+1.1 (05/20/13)
+  *Updated Drupal Core to 7.22.
+  *Changed branding link to "url('<front>')".
+  *Removed theme jQuery library in favor of utilizing jQuery Update module.
+  *Bricks sub-theme no longer requires parent CSS and JS files in sub-theme folder.
+
 1.0.8 (03/25/13)
   *Updated Drupal Core to 7.21.
   *Fixed some bugs related to the main navigation.
