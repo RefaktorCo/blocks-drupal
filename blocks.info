@@ -51,6 +51,16 @@ settings[breadcrumbs] = '1'
 
 settings[branding_type] = 'text'
 
+settings[twitter_icon] = '1'
+settings[facebook_icon] = '1'
+settings[rss_icon] = '1'
+settings[google_plus_icon] = '1'
+settings[pinterest_icon] = '0'
+settings[linkedin_icon] = '0'
+settings[flickr_icon] = '0'
+settings[youtube_icon] = '0'
+settings[vimeo_icon] = '0'
+
 settings[twitter_url] = 'http://twitter.com'
 settings[facebook_url] = 'http://facebook.com'
 settings[google_plus_url] = 'http://plus.google.com'
@@ -58,9 +68,6 @@ settings[pinterest_url] = 'http://pinterest.com'
 settings[linkedin_url] = 'http://linkedin.com'
 settings[flickr_url] = 'http://flickr.com'
 settings[youtube_url] = 'http://youtube.com'
-
-settings[enable_highlight] = '1'
-settings[highlight_text] = 'Highlight Text.'
 
 settings[enable_slider] = '1'
 
@@ -105,10 +112,6 @@ settings[heading_background_select] = 'shattered'
 
 settings[enable_boxed_layout] = '0'
 
-settings[page_layout] = 'full_width'
-
-settings[blog_layout] = 'sidebar_right'
-
 settings[portfolio_columns] = 'three'
 
 settings['font_family'] = 'Open Sans Condensed, serif'
@@ -120,18 +123,3 @@ settings[h3] = '24px'
 settings[h4] = '18px'
 settings[h5] = '14px'
 settings[h6] = '12px'
-
-settings[enable_primary_footer] = '1'
-
-settings[twitter_icon] = '1'
-settings[facebook_icon] = '1'
-settings[rss_icon] = '1'
-settings[google_plus_icon] = '1'
-settings[pinterest_icon] = '0'
-settings[linkedin_icon] = '0'
-settings[flickr_icon] = '0'
-settings[youtube_icon] = '0'
-settings[vimeo_icon] = '0'
-
-settings[enable_secondary_footer] = '1'
-settings[secondary_footer_text] = 'Design by <a href="http://refaktorthemes.com" target="_blank">Refaktor</a>'
