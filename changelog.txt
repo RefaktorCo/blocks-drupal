@@ -1,5 +1,8 @@
 ===Blocks Changelog===
 
+2.0-APLHA 
+  *New "Tiles" content type and View block region.
+
 1.1 (05/20/13)
   *Updated Drupal Core to 7.22.
   *Changed branding link to "url('<front>')".

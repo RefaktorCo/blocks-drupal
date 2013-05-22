@@ -13,7 +13,7 @@
           
 <div class="row">
 
-  <div class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "eight columns";} else { echo "twelve columns"; } ?>">
+  <div id="main_content_wrap" class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "eight columns";} else { echo "twelve columns"; } ?>">
     <div id="main_content">
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>

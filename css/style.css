@@ -1,3 +1,26 @@
+.tile {
+	padding: 50px 30px;
+	text-align: center;
+}
+
+.tile-title {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.tile-photo {
+	padding: 0px;
+	margin-bottom: -2px;
+}
+
+.tile i {
+	font-size: 100px;
+}
+
+.tile-modal {
+	top: 100% !important;
+}
+
 /* Body and Content */
 body {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -1486,6 +1509,7 @@ span.faq-head-image {
 #highlight {
 	padding: 25px 0px; 
 	box-shadow: 0px 0px 9px -2px black ;
+	margin: 25px 0px;
 }
 
 .highlight_icon {
