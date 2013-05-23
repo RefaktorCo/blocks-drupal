@@ -1,11 +1,22 @@
 .tile {
-	padding: 50px 30px;
+	padding: 55px 30px;
 	text-align: center;
 }
 
+.tile a, {
+	  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;	
+}
+
+.tile:hover a {
+	color: #333 !important;
+}
+
 .tile-title {
-	font-size: 24px;
-	margin-bottom: 50px;
+	font-size: 30px;
+  margin-bottom: 80px;
 }
 
 .tile-photo {
@@ -14,11 +25,15 @@
 }
 
 .tile i {
-	font-size: 100px;
+	font-size: 110px;
 }
 
 .tile-modal {
 	top: 100% !important;
+}
+
+.image-tile-title {
+	margin-top: 60px;
 }
 
 /* Body and Content */
@@ -1509,7 +1524,7 @@ span.faq-head-image {
 #highlight {
 	padding: 25px 0px; 
 	box-shadow: 0px 0px 9px -2px black ;
-	margin: 25px 0px;
+	margin: 50px 0px;
 }
 
 .highlight_icon {

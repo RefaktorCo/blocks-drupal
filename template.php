@@ -110,7 +110,23 @@ function blocks_field($variables) {
     $output .= implode(', ', $rendered_tags);
   }
   
-   elseif ($variables['element']['#field_name'] == 'field_text_color') {
+  elseif ($variables['element']['#field_name'] == 'field_text_color') {
+    // For tags, concatenate into a single, comma-delimitated string.
+    foreach ($variables['items'] as $delta => $item) {
+      $rendered_tags[] = drupal_render($item);
+    }
+    $output .= implode(', ', $rendered_tags);
+  }
+  
+  elseif ($variables['element']['#field_name'] == 'field_tile_url') {
+    // For tags, concatenate into a single, comma-delimitated string.
+    foreach ($variables['items'] as $delta => $item) {
+      $rendered_tags[] = drupal_render($item);
+    }
+    $output .= implode(', ', $rendered_tags);
+  }
+  
+  elseif ($variables['element']['#field_name'] == 'field_tile_size') {
     // For tags, concatenate into a single, comma-delimitated string.
     foreach ($variables['items'] as $delta => $item) {
       $rendered_tags[] = drupal_render($item);
