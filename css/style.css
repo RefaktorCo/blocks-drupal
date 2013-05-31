@@ -1,3 +1,5 @@
+
+
 .tile {
 	padding: 55px 30px;
 	text-align: center;
@@ -39,11 +41,15 @@
 /* Body and Content */
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 14px;
+  font-size: 100%;
   color: #555; 
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   padding: 0px;
+}
+
+p {
+	font-size: 100%;
 }
 
 .row {
@@ -1158,8 +1164,8 @@ article hr {
 }
 
 .content p {
-  line-height: 1.7; 
-  font-size: 18px;
+
+
   clear: both;
 }
 

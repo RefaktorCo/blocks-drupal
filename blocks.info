@@ -4,12 +4,15 @@ core = 7.x
 engine = phptemplate
 version = 2.0-ALPHA 
 
+stylesheets[all][] = foundation/stylesheets/foundation.css
+stylesheets[all][] = foundation/stylesheets/app.css
+stylesheets[all][] = foundation/stylesheets/social_foundicons.css
+stylesheets[all][] = foundation/stylesheets/general_foundicons.css
 stylesheets[all][] = css/sliders/animate.css
 stylesheets[all][] = css/sliders/jquery.onebyone.css
 stylesheets[all][] = css/sliders/slider.css
 stylesheets[all][] = css/ie.css
-stylesheets[all][] = foundation/stylesheets/social_foundicons.css
-stylesheets[all][] = foundation/stylesheets/general_foundicons.css
+stylesheets[all][] = css/style.css
 
 scripts[] = foundation/javascripts/foundation.min.js
 scripts[] = foundation/javascripts/app.js

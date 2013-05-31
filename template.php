@@ -228,39 +228,6 @@ function blocks_preprocess_html(&$vars){
     ),
   );
   
-  $foundation = array(
-    '#tag' => 'link', 
-    '#weight' => 3,
-    '#attributes' => array( 
-      'href' => ''.$root.'/foundation/stylesheets/foundation.css', 
-      'rel' => 'stylesheet',
-      'type' => 'text/css',
-      'media' => 'screen',
-    ),
-  );
-  
-  $foundation_app = array(
-    '#tag' => 'link', 
-    '#weight' => 4,
-    '#attributes' => array( 
-      'href' => ''.$root.'/foundation/stylesheets/app.css', 
-      'rel' => 'stylesheet',
-      'type' => 'text/css',
-      'media' => 'screen',
-    ),
-  );
-  
-  $style = array(
-    '#tag' => 'link', 
-    '#weight' => 5,
-    '#attributes' => array( 
-      'href' => ''.$root.'/css/style.css', 
-      'rel' => 'stylesheet',
-      'type' => 'text/css',
-      'media' => 'screen',
-    ),
-  );
-  
   $color = array(
     '#tag' => 'link', 
     '#weight' => 6,
@@ -336,9 +303,6 @@ function blocks_preprocess_html(&$vars){
 
   drupal_add_html_head( $font, 'google_font_open_sans' );
   drupal_add_html_head( $condensed, 'google_font_condensed' );
-  drupal_add_html_head( $foundation, 'foundation_style' );
-  drupal_add_html_head( $foundation_app, 'foundation_app_style' );
-  drupal_add_html_head( $style, 'main_style' );
   drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
   drupal_add_html_head( $font_family, 'font_family');
