@@ -26,6 +26,13 @@
 	margin-bottom: -2px;
 }
 
+.md-object, .md-object:before, .md-object:after
+{
+    -webkit-box-sizing: content-box !important; 
+       -moz-box-sizing: content-box !important; 
+            box-sizing: content-box !important;  
+}
+
 .tile i {
 	font-size: 110px;
 }
