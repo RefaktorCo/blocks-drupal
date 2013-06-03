@@ -8,6 +8,7 @@ stylesheets[all][] = foundation/stylesheets/foundation.css
 stylesheets[all][] = foundation/stylesheets/app.css
 stylesheets[all][] = foundation/stylesheets/social_foundicons.css
 stylesheets[all][] = foundation/stylesheets/general_foundicons.css
+stylesheets[all][] = css/font-awesome.css
 stylesheets[all][] = css/sliders/animate.css
 stylesheets[all][] = css/sliders/jquery.onebyone.css
 stylesheets[all][] = css/sliders/slider.css
@@ -36,6 +37,8 @@ regions[sidebar_second] = Second Sidebar
 
 regions[header_login] 	= Header Login
 regions[header_contact] = Header Contact
+
+regions[page_heading] = Page Heading
 
 regions[services]      = Front Page Services
 
