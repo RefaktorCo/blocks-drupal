@@ -41,7 +41,7 @@
 }
 
 .tile-modal {
-	top: 100% !important;
+	top: 5% !important;
 }
 
 .image-tile-title {
@@ -50,7 +50,7 @@
 
 /* Body and Content */
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   color: #555; 
   -webkit-font-smoothing: antialiased;
@@ -327,7 +327,7 @@ hr {
 }
 
 .front_blog_modal_user {
-	top: 100% !important;
+	top: 5% !important;
 }
 
 /* Menu */
