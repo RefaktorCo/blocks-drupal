@@ -11,7 +11,6 @@
   </div>
   <?php endif;?>
 </div>
- 
           
 <div class="row">
       

@@ -13,6 +13,7 @@ jQuery EasIng(http://gsgd.co.uk/sandbox/jquery.easIng.php) by George Smith and r
 UItoTop jQuery Plugin(https://github.com/sksmatt/UItoTop-jQuery-Plugin/) by Matt Varone and released under the GNU(3).
 Fit Maps(https://c9.io/hermanvandermaas/fitmaps) by Herman Vandermaas. 
 Twitter Plugin(https://github.com/seaofclouds/tweet) by Sea Of Clouds (licenses/Tweet.txt).
+Drupal Mega Slider (http://codecanyon.net/item/mega-slider/4313171) released under Envato extended licese (6).
 jQuery OneByOne Slider Plugin(http://codecanyon.net/item/jquery-onebyone-slider-plugin/684613) released under Envato extended license (4).
 Isotope(http://isotope.metafizzy.co) by David DeSandro released under proprietary commercial license(5).
 carouFredSel(http://caroufredsel.dev7studios.com) by dev7studios released upder the Apache license(1) and MIT(2) license.
@@ -55,5 +56,6 @@ The above images are released under a commercial-friendly Creative Commons licen
 (3)GNU General Public License - http://www.gnu.org/licenses/gpl.html
 (4)See /licenses/jquery-onebyone-slider-plugin-licence.txt
 (5)See /licenses/isotope-commercial-license.txt 
+(6)See /licenses/mega-slider-license.txt
 
 A copy of each of these licenses can also be found in the /licenses folder in the root directory of the theme. All other necessary licenses can be found in the same folder.
