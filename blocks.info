@@ -23,6 +23,7 @@ scripts[] = js/jquery.onebyone.min.js
 scripts[] = js/jquery.touchwipe.min.js
 scripts[] = js/jquery.tweet.js
 scripts[] = js/slimbox2.js
+scripts[] = js/jflickrfeed.min.js
 scripts[] = js/jquery.carouFredSel-6.1.0.js
 scripts[] = js/mobile-map.js
 scripts[] = js/jquery.ui.totop.js
