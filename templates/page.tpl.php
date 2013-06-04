@@ -9,7 +9,7 @@
 <div class="row">
       
   <div id="main_content_wrap" class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "eight columns";} else { echo "twelve columns"; } ?>">           
-    <div id="main_content">
+    <div id="main_content" class="clearfix">
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
      	 
