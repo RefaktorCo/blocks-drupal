@@ -52,9 +52,17 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-   
+  <div class="carousel_navigation">
+    <a id="prev" class="prev" href="#"><i class="icon-chevron-left"></i></a>
+	  <a id="next" class="next" href="#"><i class="icon-chevron-right"></i></a>
+  </div>
+  
+  <div class="projects_carousel">  
+    <ul id="recent_projects">
       <?php print $rows; ?>
-   
+    </ul>
+  </div>
+
   <?php elseif ($empty): ?>
     <div class="view-empty">
       <?php print $empty; ?>

@@ -1168,6 +1168,7 @@ article hr {
 
 .content {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .content p {
