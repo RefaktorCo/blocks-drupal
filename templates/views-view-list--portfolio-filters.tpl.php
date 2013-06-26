@@ -12,7 +12,7 @@
 
 <section id="options" class="clearfix">
   <ul id="filters" class="option-set clearfix" data-option-key="filter">
-	  <li><a href="#filter" data-option-value="*" class="selected small btn">All</a></li>
+	  <li><a href="#filter" data-option-value="*" class="selected small button">All</a></li>
     <?php foreach ($rows as $id => $row): ?>
       <?php print $row; ?>
     <?php endforeach; ?>
