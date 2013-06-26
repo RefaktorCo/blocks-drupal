@@ -24,5 +24,7 @@
 ?>
 
   <?php foreach ($fields as $id => $field): ?>
-    <li><a href="#filter" data-option-value=".<?php print $field->content; ?> " class="small button"><?php print $field->content; ?></a></li>
+    <li><a href="#filter" data-option-value=".<?php print $field->content; ?> " class="small button"><?php print str_replace('-', '  ', $field->content); ?></a></li>
   <?php endforeach; ?>
+  
+ 

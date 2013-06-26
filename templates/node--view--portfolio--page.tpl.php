@@ -5,7 +5,7 @@
   $cat = str_replace(' ', ' - ', $cat);
 ?>
 
-  <div class="<?php echo theme_get_setting('portfolio_columns');?> columns switch <?php print $cat; ?>" data-category="<?php print $cat; ?>">
+  <div class="<?php echo theme_get_setting('portfolio_columns');?> columns switch <?php print strip_tags(render($content['field_portfolio_category'])); ?>" data-category="<?php print strip_tags(render($content['field_portfolio_category'])); ?>">
     <div class="carousel_item_wrapper"> 
       <div class="carousel_item_content">
 	      <div class="carousel_item_image">

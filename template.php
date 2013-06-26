@@ -94,6 +94,14 @@ function blocks_field($variables) {
     $output .= implode(', ', $rendered_tags);
   }
   
+  elseif ($variables['element']['#field_name'] == 'field_portfolio_category') {
+    // For tags, concatenate into a single, comma-delimitated string.
+    foreach ($variables['items'] as $delta => $item) {
+      $rendered_tags[] = drupal_render($item);
+    }
+    $output .= implode(' ',$rendered_tags);
+  }
+  
   elseif ($variables['element']['#field_name'] == 'field_color') {
     // For tags, concatenate into a single, comma-delimitated string.
     foreach ($variables['items'] as $delta => $item) {
