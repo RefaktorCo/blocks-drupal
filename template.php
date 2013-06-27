@@ -5,7 +5,7 @@
 global $root, $theme_path;
 $root = base_path() . drupal_get_path('theme', 'blocks');
 
-include_once(drupal_get_path('theme', 'blocks').'/includes/init.php');
+include_once($theme_path.'/includes/switch.php');
 
 /**
  * Preprocess variables for the username.

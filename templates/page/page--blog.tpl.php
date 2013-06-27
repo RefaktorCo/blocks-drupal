@@ -133,8 +133,9 @@
 	    </div>        
 	  </div>
 	  <?php endif; ?>
-	  
 	</div>
+	<?php print $messages; ?>  
+</div>	
 <!-- begin footer -->        
 <div id="footer"> 
   <div class="container">
