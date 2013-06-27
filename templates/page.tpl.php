@@ -1,5 +1,4 @@
-
-  <div id="main_wrapper">
+<div id="main_wrapper">
   <header>
     <div class="container">
        
@@ -40,9 +39,9 @@
 	        <?php endif; ?>
 	
 	        <?php if ($site_slogan): ?>
-	          <div id="main_title_slogan"<?php if ($disable_site_slogan) { print ' class="hidden"'; } ?>>
+	          <h2 id="main_title_slogan"<?php if ($disable_site_slogan) { print ' class="hidden"'; } ?>>
 	            <?php print $site_slogan; ?>
-	          </div>
+	          </h2>
 	        <?php endif; ?>
 
 	      </div>  
