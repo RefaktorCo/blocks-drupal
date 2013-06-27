@@ -37,6 +37,7 @@ regions[header_login] 	= Header Login
 regions[header_contact] = Header Contact
 
 regions[header_top_left] = Header Top Left
+regions[header_top_right] = Header Top Right
 
 regions[page_heading] = Page Heading
 
