@@ -23,15 +23,34 @@ function blocks_header($page){
       
       <div class="row">  
         <div class="three columns branding" >
-          <?php if (theme_get_setting('branding_type') == 'logo'): ?>
-            <a href="<?php print url('<front>');?>"><img src="<?php print file_create_url(theme_get_setting('bg_path')); ?>" /></a>
-          <?php endif; ?>
-          <?php if (theme_get_setting('branding_type') == 'text'): ?>
-            <a href="<?php print url('<front>');?>">
-              <h1 id="main_title_text"><?php print variable_get('site_name'); ?></h1>
-              <h2 id="main_title_slogan"><?php print variable_get('site_slogan'); ?></h2>
-            </a>
-          <?php endif; ?>
+         
+        <?php if ($logo): ?>
+        <div class="four columns smalltoppadding">
+		      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+		        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+		      </a>
+        </div>
+	    <?php endif; ?>
+			<!--END LOGO -->   
+			<!-- NAME AND SLOGAN --> 
+	    <?php if ($site_name || $site_slogan): ?>
+	 
+	      <div id="name-and-slogan"<?php if ($disable_site_name && $disable_site_slogan) { print ' class="hidden"'; } ?>>
+	
+	        <?php if ($site_name): ?>
+	          <h1 id="main_title_text"<?php if ($disable_site_name) { print ' class="hidden"'; } ?>>
+	            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+	          </h1>
+	        <?php endif; ?>
+	
+	        <?php if ($site_slogan): ?>
+	          <div id="main_title_slogan"<?php if ($disable_site_slogan) { print ' class="hidden"'; } ?>>
+	            <?php print $site_slogan; ?>
+	          </div>
+	        <?php endif; ?>
+
+	      </div>  
+	    <?php endif; ?>
         </div>
       	<div class="nine columns"> 
           <div id="nav">

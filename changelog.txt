@@ -7,6 +7,7 @@
   *Dynamically generated portfolio filters powered by taxonomy terms.
   *Added retina.js library.
   *Added Font Awesome icon font library.
+  *Removed social icon settings in favor of using a block region.
   *Removed typography options in favor of module use.
   *Updated Twitter widget to work with API v1.1.
 

@@ -39,6 +39,23 @@ function blocks_preprocess_page(&$vars, $hook) {
 }
 
 /**
+ * Define some variables for use in theme templates.
+ */
+function blocks_process_page(&$variables) {	
+  // Assign site name and slogan toggle theme settings to variables.
+  $variables['disable_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
+  $variables['disable_site_slogan'] = theme_get_setting('toggle_slogan') ? FALSE : TRUE;
+   // Assign site name/slogan defaults if there is no value.
+  if ($variables['disable_site_name']) {
+    $variables['site_name'] = filter_xss_admin(variable_get('site_name', 'Drupal'));
+  }
+  if ($variables['disable_site_slogan']) {
+    $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
+  }
+}	
+
+
+/**
  * Assign top level menu list items an ascending class of menu_$number.
  */
 function blocks_menu_link(array $variables) {
