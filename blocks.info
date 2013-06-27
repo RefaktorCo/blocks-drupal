@@ -21,6 +21,7 @@ scripts[] = js/jquery.isotope.js
 scripts[] = js/jquery.touchSwipe.js
 scripts[] = js/jquery.onebyone.min.js
 scripts[] = js/jquery.touchwipe.min.js
+scripts[] = js/retina.js
 scripts[] = includes/twitter/jquery.tweet.js
 scripts[] = js/slimbox2.js
 scripts[] = js/jflickrfeed.min.js
@@ -35,6 +36,8 @@ scripts[] = js/style_switch.js
 regions[header_login] 	= Header Login
 regions[header_contact] = Header Contact
 
+regions[header_top_left] = Header Top Left
+
 regions[page_heading] = Page Heading
 
 regions[content]        = Content
@@ -48,57 +51,6 @@ regions[footer_4]       = Footer Box 4
 regions[footer_full]    = Footer Full Width
 
 settings[breadcrumbs] = '1'
-
-settings[branding_type] = 'text'
-
-settings[twitter_icon] = '1'
-settings[facebook_icon] = '1'
-settings[rss_icon] = '1'
-settings[google_plus_icon] = '1'
-settings[pinterest_icon] = '0'
-settings[linkedin_icon] = '0'
-settings[flickr_icon] = '0'
-settings[youtube_icon] = '0'
-settings[vimeo_icon] = '0'
-
-settings[twitter_url] = 'http://twitter.com'
-settings[facebook_url] = 'http://facebook.com'
-settings[google_plus_url] = 'http://plus.google.com'
-settings[pinterest_url] = 'http://pinterest.com'
-settings[linkedin_url] = 'http://linkedin.com'
-settings[flickr_url] = 'http://flickr.com'
-settings[youtube_url] = 'http://youtube.com'
-
-settings[enable_slider] = '1'
-
-settings[slide1_img1] = '/sites/all/themes/blocks-drupal/images/slider/drupal.png'
-settings[slide1_img2] = '/sites/all/themes/blocks-drupal/images/slider/html5.png'
-settings[slide1_img3] = '/sites/all/themes/blocks-drupal/images/slider/css3.png'
-settings[slide1_txt1] = 'Built on Drupal 7'
-settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
-
-settings[slide2_txt1] = 'Responsive Design'
-settings[slide2_txt2] = 'Touch-Ready Elements'
-settings[slide2_img1] = '/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
-settings[slide2_img2] = '/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
-settings[slide2_img3] = '/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
-
-settings[slide3_img1] = '/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
-settings[slide3_txt1] = 'Hover to pause'
-settings[slide3_txt2] = 'This slider supports full images'
-settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
-
-settings[enable_services] = '1'
-settings[services_title] = 'Who We Are'
-
-settings[enable_highlight] = '1'
-settings[highlight_text] = 'This is sample highlight text'
-
-settings[enable_recent_posts] = '0'
-settings[recent_posts_title] = 'Recent Posts'
-
-settings[enable_recent_projects] = '0'
-settings[recent_projects_title] = 'Recent Projects'
 
 settings[color_scheme] = 'blue'
 

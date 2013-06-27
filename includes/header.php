@@ -2,11 +2,7 @@
 function blocks_header($page){
   global $root; 
 ?>
- 
-  <!-- Begin front pge modal markup (content will only render for front page) -->    
-    <?php if (drupal_is_front_page()) { print render($page['modal_markup']); } ?>       
-  <!-- End front page modal markup --> 
-  
+   
   <div id="main_wrapper">
   <header>
     <div class="container">
@@ -20,19 +16,7 @@ function blocks_header($page){
           </ul>
         </div>
         <div class="six columns">
-          <ul class="header_icons">
-           
-            <?php if (theme_get_setting('twitter_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('twitter_url'); ?>" target="_blank"><i class="social foundicon-twitter"></i></a></li><?php endif ?>
-             <?php if (theme_get_setting('facebook_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('facebook_url'); ?>" target="_blank"><i class="social foundicon-facebook"></i></a></li><?php endif ?>
-               <?php if (theme_get_setting('google_plus_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('google_plus_url'); ?>" target="_blank"><i class="social foundicon-google-plus"></i></a></li><?php endif ?>
-               <?php if (theme_get_setting('pinterest_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('pinterest_url'); ?>" target="_blank"><i class="social foundicon-pinterest"></i></a></li><?php endif ?>
-               <?php if (theme_get_setting('linkedin_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('linkedin_url'); ?>" target="_blank"><i class="social foundicon-linkedin"></i></a></li><?php endif ?>
-             <?php if (theme_get_setting('flickr_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('flickr_url'); ?>" target="_blank"><i class="social foundicon-flickr"></i></a></li><?php endif ?>
-             <?php if (theme_get_setting('youtube_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('youtube_url'); ?>" target="_blank"><i class="social foundicon-youtube"></i></a></li><?php endif ?>
-             <?php if (theme_get_setting('vimeo_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('vimeo_url'); ?>" target="_blank"><i class="social foundicon-vimeo"></i></a></li><?php endif ?>
-             <?php if (theme_get_setting('rss_icon') == '1' ): ?><li><a href="<?php echo theme_get_setting('rss_url'); ?>" target="_blank"><i class="social foundicon-rss"></i></a></li><?php endif ?>
-
-          </ul>  
+          <?php if($page['header_top_left']) { print render($page['header_top_left']); } ?>
         </div>
       </div> 
       </div> 

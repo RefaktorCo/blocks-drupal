@@ -4,6 +4,15 @@ jQuery(document).ready(function ($) {
     $('.menu_wrap ul ul').css('display','block');
   });
   
+  $(".has-dropdown").hover(
+	  function () {
+	    $('.has-dropdown ul').css('display','block');
+	  }, 
+	  function () {
+	    $('.has-dropdown ul').css('display','none');
+	  }
+  );
+  
   $(".featured").orbit({timer: false});
  
   $(".recent_posts_wrap").live({
