@@ -10,6 +10,8 @@
   *Removed social icon settings in favor of using a block region.
   *Removed typography options in favor of module use.
   *Updated Twitter widget to work with API v1.1.
+  *New Header block regions.
+  *Menu now a block region instead of called programatically.
 
 1.1 (05/20/13)
   *Updated Drupal Core to 7.22.

@@ -66,18 +66,7 @@
               <li class="toggle-topbar"><a href="#"></a></li>
               </ul>
               <section class="menu_wrap">
-				          <?php print theme('links__system_main_menu', array(
-				            'attributes' => array(
-				              'id' => 'main-menu-links',
-				              'class' => array('links', 'clearfix'),
-				            ),
-				            'heading' => array(
-				              'text' => t('Main menu'),
-				              'level' => 'h2',
-				              'class' => array('element-invisible'),
-				            ),
-				          )); 
-				          ?>
+				        <?php if($page['header_menu']) { print render($page['header_menu']); } ?>
               </section>
              </nav>
 				      </div> 
@@ -94,30 +83,30 @@
   </header> 
   
   <!-- Header login modal (block region) -->    
-    <div id="login_modal" class="reveal-modal medium">
-	    <?php print render($page['header_login']); ?>  
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
-
-    <!-- Header contact modal (block region) -->  
-    <div id="contact_modal" class="reveal-modal medium">
-      <?php print render($page['header_contact']); ?> 
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
-
-<div id="heading_wrapper">
-   <?php print render($page['page_heading']); ?>  
-   <?php if (!drupal_is_front_page()): ?>
-   <div class="row">
-    <div class="twelve columns">
-      <h2 class="page_heading_text"><?php print $title; ?></h2>
-      <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
-    </div>
+  <div id="login_modal" class="reveal-modal medium">
+    <?php print render($page['header_login']); ?>  
+    <a class="close-reveal-modal">&#215;</a>
   </div>
-  <?php endif;?>
-</div>
+
+  <!-- Header contact modal (block region) -->  
+  <div id="contact_modal" class="reveal-modal medium">
+    <?php print render($page['header_contact']); ?> 
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="heading_wrapper">
+    <?php print render($page['page_heading']); ?>  
+    <?php if (!drupal_is_front_page()): ?>
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="page_heading_text"><?php print $title; ?></h2>
+        <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
+      </div>
+    </div>
+    <?php endif;?>
+  </div>
           
-<div class="row">
+  <div class="row">
       
   <div id="main_content_wrap" class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "eight columns";} else { echo "twelve columns"; } ?>">           
     <div id="main_content" class="clearfix">

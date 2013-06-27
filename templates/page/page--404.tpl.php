@@ -5,13 +5,16 @@
       <div id="top_header" > 
 	      <div class="row">
 	        <div class="six columns">
+	          <?php if( ($page['header_login']) OR ($page['header_contact']) ) { ?>
 	          <ul class="header_icons left">
-	            <li><a href="#" data-reveal-id="login_modal"><i class="general foundicon-settings"></i></a></li>
-	            <li> <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-mail"></i></a></li>
+	            <?php if($page['header_login']) { ?><li><a href="#" data-reveal-id="login_modal"><i class="general foundicon-settings"></i></a></li> <?php } ?>
+	            <?php if($page['header_contact']) {?><li><a href="#" data-reveal-id="contact_modal"><i class="general foundicon-mail"></i></a></li> <?php } ?>
 	          </ul>
+	          <?php } ?>
+	          <?php if($page['header_top_left']) { print render($page['header_top_left']); } ?>
 	        </div>
 	        <div class="six columns">
-	          <?php if($page['header_top_left']) { print render($page['header_top_left']); } ?>
+	          <?php if($page['header_top_right']) { print render($page['header_top_right']); } ?>
 	        </div>
 	      </div> 
       </div> 
@@ -63,18 +66,7 @@
               <li class="toggle-topbar"><a href="#"></a></li>
               </ul>
               <section class="menu_wrap">
-				          <?php print theme('links__system_main_menu', array(
-				            'attributes' => array(
-				              'id' => 'main-menu-links',
-				              'class' => array('links', 'clearfix'),
-				            ),
-				            'heading' => array(
-				              'text' => t('Main menu'),
-				              'level' => 'h2',
-				              'class' => array('element-invisible'),
-				            ),
-				          )); 
-				          ?>
+				        <?php if($page['header_menu']) { print render($page['header_menu']); } ?>
               </section>
              </nav>
 				      </div> 
@@ -91,56 +83,51 @@
   </header> 
   
   <!-- Header login modal (block region) -->    
-    <div id="login_modal" class="reveal-modal medium">
-	    <?php if(!$page['header_login']) {?>
-        <h2>Add the user menu block here or your own custom code</h2>
-      <?php } else { print render($page['header_login']); }?>  
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
+  <div id="login_modal" class="reveal-modal medium">
+    <?php print render($page['header_login']); ?>  
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 
-    <!-- Header contact modal (block region) -->  
-    <div id="contact_modal" class="reveal-modal medium">
-      <?php if(!$page['header_contact']) {?>
-        <h2>Add the contact block here or your own custom code</h2>
-      <?php } else { print render($page['header_contact']); }?> 
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
+  <!-- Header contact modal (block region) -->  
+  <div id="contact_modal" class="reveal-modal medium">
+    <?php print render($page['header_contact']); ?> 
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 
-    <div id="heading_wrapper">
-	    <div id="heading_wrapper_after">
-	   	  <div class="row">
-	        <div class="twelve columns">
-	          <h2 class="page_heading_text"><?php print $title; ?></h2>
-	          <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
-	        </div>
-	      </div>
-	    </div> 
-    </div>      
+  <div id="heading_wrapper">
+    <div id="heading_wrapper_after">
+   	  <div class="row">
+        <div class="twelve columns">
+          <h2 class="page_heading_text"><?php print $title; ?></h2>
+          <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
+        </div>
+      </div>
+    </div> 
+  </div>      
         
-	  <div class="row">
-	    <div id ="main_content_wrap" class="twelve columns">
-	      <div id="main_content">
-	        <div class="error_wrap">
-	          <div class="error_img">
-	            <img src="<?php global $root; echo $root;?>/images/404.png" alt="404">
-	          </div>
-	         
-	          <div class="error_text">
-	            <h2>Page not found</h2>
-	            <p>We're sorry, but the page you are looking for cannot be found. Try one of the following instead:</p>
-	            <br>
-	            <p><a class="button" href="<?php print base_path();?>"> Home</a></p>
-	          </div>    
-	        </div>
-	          </div>
-	          <!--end error wrap-->
-	      </div>
-	    </div>
-	
-	  </div>
-	</div>    
-	</div>
- 
+  <div class="row">
+    <div id ="main_content_wrap" class="twelve columns">
+      <div id="main_content">
+        <div class="error_wrap">
+          <div class="error_img">
+            <img src="<?php global $root; echo $root;?>/images/404.png" alt="404">
+          </div>
+         
+          <div class="error_text">
+            <h2>Page not found</h2>
+            <p>We're sorry, but the page you are looking for cannot be found. Try one of the following instead:</p>
+            <br>
+            <p><a class="button" href="<?php print base_path();?>"> Home</a></p>
+          </div>    
+        </div>
+          </div>
+          <!--end error wrap-->
+      </div>
+    </div>
+
+  </div>
+</div>    
+
   
 <!-- begin footer -->        
 <div id="footer"> 
