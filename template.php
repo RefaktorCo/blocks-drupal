@@ -63,6 +63,7 @@ function blocks_menu_link(array $variables) {
   $element = $variables['element'];
   static $item_id = 0;
   $menu_name = $element['#original_link']['menu_name'];
+  $element['#localized_options']['html'] = TRUE;
   
   if ($element['#original_link']['depth'] == 1 && $menu_name == variable_get('menu_main_links_source', 'main-menu')) {
 	  $element['#attributes']['class'][] = 'menu_' . (++$item_id);
@@ -73,7 +74,7 @@ function blocks_menu_link(array $variables) {
   }
   
    if ($element['#original_link']['menu_name'] == "main-menu" && isset($element['#localized_options']['attributes']['title'])){
-    $element['#title'] .= $element['#localized_options']['attributes']['title'];
+    $element['#title'] .= $element['#localized_options']['attributes']['title'] ;
   }
   
   $sub_menu = $element['#below'] ? drupal_render($element['#below']) : '';
@@ -81,6 +82,8 @@ function blocks_menu_link(array $variables) {
 
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
 }
+
+
 
 /**
  * Allow sub-menu items to be displayed.
