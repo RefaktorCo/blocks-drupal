@@ -141,16 +141,7 @@ jQuery(document).ready(function ($) {
  
  	$('.menu_wrap .dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
  	  
- 	$('.menu_1 a').prepend('<i class="general foundicon-heart"></i>');
- 	
- 	$('.menu_2 a').prepend('<i class="general foundicon-smiley"></i>');
- 	
- 	$('.menu_3 a').prepend('<i class="general foundicon-mic"></i>');
- 	
- 	$('.menu_4 a').prepend('<i class="general foundicon-website"></i>');
- 	
- 	$('.menu_5 a').prepend('<i class="general foundicon-phone"></i>');
- 	
+ 	 	
   $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
  
   jQuery("ul.faq li").each(function(){
