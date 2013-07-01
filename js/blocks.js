@@ -2,6 +2,8 @@ jQuery(document).ready(function ($) {
   
   $(window).load(function() {
     $('.menu_wrap ul ul').css('display','block');
+    
+    $('#page_load').fadeOut(500);
   });
   
   $(".has-dropdown").hover(
@@ -130,6 +132,7 @@ jQuery(document).ready(function ($) {
 	});  
 	
   $('input[type="submit"]').addClass('small button');
+  
      
  	$('.has-dropdown ul').addClass('dropdown');
  	 
@@ -140,8 +143,21 @@ jQuery(document).ready(function ($) {
   $('#recent_projects').after('<div style="clear:both;"></div>');
  
  	$('.menu_wrap .dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
+ 	
+ 	/* 
  	  
- 	 	
+ 	$('.menu_1 a').prepend('<i class="general foundicon-heart"></i>');
+ 	
+ 	$('.menu_2 a').prepend('<i class="general foundicon-smiley"></i>');
+ 	
+ 	$('.menu_3 a').prepend('<i class="general foundicon-mic"></i>');
+ 	
+ 	$('.menu_4 a').prepend('<i class="general foundicon-website"></i>');
+ 	
+ 	$('.menu_5 a').prepend('<i class="general foundicon-phone"></i>');
+ 	
+ 	*/
+ 	
   $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
  
   jQuery("ul.faq li").each(function(){

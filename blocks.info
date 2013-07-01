@@ -46,6 +46,7 @@ regions[page_heading] = Page Heading
 regions[content]        = Content
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
+regions[after_content]  = After Content
 
 regions[footer_1]       = Footer Box 1
 regions[footer_2]       = Footer Box 2

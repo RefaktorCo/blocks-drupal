@@ -1,3 +1,11 @@
+<?php if (drupal_is_front_page()): ?>
+<div id="page_load">
+	<div class="page_load_image">
+	  <img src="<?php global $root; echo $root; ?>/images/load.gif">
+	</div>
+</div>
+<?php endif; ?>
+
 <div id="main_wrapper">
   <header>
     <div class="container">
@@ -150,6 +158,7 @@
  
   </div>
 </div>
+<?php print render($page['after_content']); ?>
 <!-- end main wrapper -->           
 <!-- begin footer -->        
 <div id="footer"> 

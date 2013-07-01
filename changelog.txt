@@ -13,6 +13,7 @@
   *New Header block regions.
   *Menu now a block region instead of called programatically.
   *Moved code from /includes/header.php and /includes/footer.php into page template files.
+  *Menu icons now controlled by menu descriptions, old JS will be left but commented out for legacy support.
 
 1.1 (05/20/13)
   *Updated Drupal Core to 7.22.
