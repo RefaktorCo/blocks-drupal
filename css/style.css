@@ -1728,7 +1728,14 @@ span.faq-head-image {
     padding: 21px;
   }
   
-
+  .tile-title {
+    font-size: 35px;
+    margin-bottom: 73px;
+   }
+  
+  .tile i {
+    font-size: 95px;
+  }
 
 }
 @media screen and (max-width: 940px) { 

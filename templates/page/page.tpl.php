@@ -1,4 +1,4 @@
-<?php if (drupal_is_front_page()): ?>
+<?php if ( (drupal_is_front_page() ) AND (theme_get_setting('loader') == '1') ): ?>
 <div id="page_load">
 	<div class="page_load_image">
 	  <img src="<?php global $root; echo $root; ?>/images/load.gif">

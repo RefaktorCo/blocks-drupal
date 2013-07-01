@@ -30,6 +30,13 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => 'Breadcrumbs',
       '#default_value' => theme_get_setting('breadcrumbs'),
     );
+    
+    // Breadcrumbs
+    $form['options']['general']['loader'] = array(
+      '#type' => 'checkbox',
+      '#title' => 'Loading Screen (front page)',
+      '#default_value' => theme_get_setting('loader'),
+    );
         
       // Layout
   $form['options']['layout'] = array(

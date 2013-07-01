@@ -55,6 +55,7 @@ regions[footer_4]       = Footer Box 4
 regions[footer_full]    = Footer Full Width
 
 settings[breadcrumbs] = '1'
+settings[loader] = '0'
 
 settings[color_scheme] = 'blue'
 
