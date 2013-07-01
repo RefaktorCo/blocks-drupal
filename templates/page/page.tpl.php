@@ -200,3 +200,4 @@
   </div> 
 </div>
 <!-- end footer --> 
+<?php print render($page['modal_markup']); ?>
