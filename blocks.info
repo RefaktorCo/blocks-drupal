@@ -54,6 +54,8 @@ regions[footer_3]       = Footer Box 3
 regions[footer_4]       = Footer Box 4
 regions[footer_full]    = Footer Full Width
 
+regions[modal_markup]    = Modal Markup (legacy support)
+
 settings[breadcrumbs] = '1'
 settings[loader] = '0'
 
