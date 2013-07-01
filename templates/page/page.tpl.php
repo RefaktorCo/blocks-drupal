@@ -158,10 +158,11 @@
  
   </div>
 </div>
-<?php print render($page['after_content']); ?>
+
 <!-- end main wrapper -->           
 <!-- begin footer -->        
 <div id="footer"> 
+<?php print render($page['after_content']); ?>
   <div class="container">
     
     <?php if( (render($page['footer_1'])) OR (render($page['footer_2'])) OR (render($page['footer_3'])) OR (render($page['footer_4'])) ) { ?>

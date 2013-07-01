@@ -305,7 +305,7 @@ function blocks_preprocess_html(&$vars){
   
   $box_layout = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper, #footer { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper, #footer { max-width: 1120px !important; margin: 0 auto !important; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
     '#weight' => 11,
   );
 
@@ -317,7 +317,7 @@ function blocks_preprocess_html(&$vars){
 
   $background_image = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
+    '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png) !important;}</style> ",
     '#weight' => 13,
   );
   
