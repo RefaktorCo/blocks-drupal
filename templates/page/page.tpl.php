@@ -86,7 +86,7 @@
         </div>
         <!-- end main span2 -->  
        
-       <?php //blocks_style_switch(); ?>
+       <?php blocks_style_switch(); ?>
           
   </header> 
   
