@@ -136,6 +136,7 @@
 	</div>
 	<?php print $messages; ?>  
 </div>	
+<?php print render($page['after_content']); ?>
 <!-- begin footer -->        
 <div id="footer"> 
   <div class="container">

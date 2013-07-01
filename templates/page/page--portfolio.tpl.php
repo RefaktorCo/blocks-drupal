@@ -122,7 +122,8 @@
   
   <?php print $messages;  ?>
 </div>   
-<!-- end main wrapper -->           
+<!-- end main wrapper -->    
+<?php print render($page['after_content']); ?>       
 <!-- begin footer -->        
 <div id="footer"> 
   <div class="container">
