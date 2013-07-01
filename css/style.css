@@ -1727,6 +1727,8 @@ span.faq-head-image {
   .tile_contents {
     padding: 21px;
   }
+  
+
 
 }
 @media screen and (max-width: 940px) { 
@@ -1739,6 +1741,15 @@ span.faq-head-image {
 
 /* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
+
+  .tile-title {
+    font-size: 28px;
+    margin-bottom: 35px;
+   }
+
+  .tile i {
+    font-size: 45px;
+  }
 
   .tweet_list img {
 		margin-right: 10px;
