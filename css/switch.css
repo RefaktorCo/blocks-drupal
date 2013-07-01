@@ -23,7 +23,7 @@
   height: 18px;
 	width: 18px;
 	float: left;
-	margin: 5px;
+
 }
 
 .blue {
@@ -127,9 +127,9 @@
   background: #666;
   position:fixed;
   width:150px;
-  height:440px;
+  height:500px;
   top:15%;
-
+  left: -150px;
   z-index: 40000;
   
 }
@@ -176,6 +176,6 @@
 .bg-nav li, #color-nav li, #layout-nav li, #heading-bg-nav li {
   margin-top: 5px; 
   margin-bottom: 5px;
-  display: inline;
+  display: inline-block;
   margin-right: 8px;
 }

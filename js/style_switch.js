@@ -4,7 +4,12 @@
       $("link.switch").attr("href",$(this).attr('rel'));
     });
    
-	
+	  $('#slideout').hover(function() {
+	    $(this).animate({left:'0px'}, {queue:false, duration: 500});
+	  }, 
+	  function() {
+	    $(this).animate({left:'-150px'}, {queue:false, duration: 500});
+	  });
 	  
     $("#color-nav li").click(function() { 
       $("link.switch").attr("href",$(this).attr('class'));

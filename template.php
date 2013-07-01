@@ -317,7 +317,7 @@ function blocks_preprocess_html(&$vars){
 
   $background_image = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png) !important;}</style> ",
+    '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
     '#weight' => 13,
   );
   

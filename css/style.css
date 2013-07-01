@@ -93,6 +93,7 @@
 /* Body and Content */
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url('../images/backgrounds/retina_wood.png');
   font-size: 100%;
   color: #555; 
   -webkit-font-smoothing: antialiased;
