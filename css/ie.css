@@ -6,8 +6,20 @@
 	width: 250px;
 }
 
-.ie8 .menu_wrap a {
-	font-size: 22px;
+.ie8 .region-header-menu .content a {
+	font-size: 18px;
 	color: white;
 	padding: 5px 15px 55px 15px;
+}
+
+.ie8 .region-header-menu .content li {
+	padding: 15px 0px;
+}
+
+.ie8 .region-header-menu .content i {
+	margin-right: 15px;
+}
+
+.ie8 .team_image img {
+	height: 253px;
 }

@@ -1,6 +1,6 @@
 ===Blocks Changelog===
 
-2.0-APLHA 
+2.0 (06/01/13)
   *New "Tiles" content type and View block region.
   *Mega Slider Drupal module included ($20 value).
   *Removed page--front.tpl and all front page theme settings in favor of fully utilizing block regions and visibility settings.

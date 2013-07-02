@@ -2,7 +2,7 @@
   global $root, $base_url; 
   $cat = render($content['field_portfolio_category']);
   $cat = strip_tags($cat);
-  $cat = str_replace(' ', ' - ', $cat);
+  $cat = str_replace(' ', ' / ', $cat);
 ?>
 
   <div class="<?php echo theme_get_setting('portfolio_columns');?> columns switch <?php print strip_tags(render($content['field_portfolio_category'])); ?>" data-category="<?php print strip_tags(render($content['field_portfolio_category'])); ?>">

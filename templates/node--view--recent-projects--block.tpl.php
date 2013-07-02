@@ -1,7 +1,8 @@
 <?php 
 	global $root, $base_url;
-	$tags = render($content['field_portfolio_tags']);
-	$tags = str_replace(' ', '/',$tags);
+	$cat = render($content['field_portfolio_category']);
+  $cat = strip_tags($cat);
+  $cat = str_replace(' ', ' / ', $cat);
 ?>
 
 	<li>
@@ -12,7 +13,7 @@
 	      </div>
 	    </div>
       <div class="carousel_item_hover">
-	      <p><?php echo $tags;?></p>
+	      <p><?php echo $cat;?></p>
 	      <p><a href="<?php echo file_create_url($node->field_portfolio_image['und'][0]['uri']); ?>" rel="lightbox" title="<?php print $title; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url;?>" > <i class="general foundicon-paper-clip"></i></a></p>
 	    </div> 
     </div>  

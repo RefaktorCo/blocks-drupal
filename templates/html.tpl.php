@@ -15,7 +15,7 @@
 <?php blocks_user_css(); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php global $root; echo $root;?>/css/switch.css">
-<link rel="stylesheet" class="switch" type="text/css" href="<?php global $root; echo $root;?>/css/colors/default.css">
+<!-- <link rel="stylesheet" class="switch" type="text/css" href="<?php global $root; echo $root;?>/css/colors/default.css"> -->
 
 </head>
 
