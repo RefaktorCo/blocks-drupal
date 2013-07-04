@@ -12,7 +12,6 @@ stylesheets[all][] = css/font-awesome.css
 stylesheets[all][] = css/sliders/animate.css
 stylesheets[all][] = css/sliders/jquery.onebyone.css
 stylesheets[all][] = css/sliders/slider.css
-stylesheets[all][] = css/ie.css
 stylesheets[all][] = css/style.css
 
 scripts[] = foundation/javascripts/foundation.min.js

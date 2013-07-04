@@ -1,6 +1,11 @@
 ===Blocks Changelog===
 
-2.0 (06/01/13)
+2.0.1 (07/04/13)
+  *Fixed major bug related to the Branding section.
+  *Added several missing translation wrappers around text strings.
+  *General style and bug fixes.
+
+2.0 (07/01/13)
   *New "Tiles" content type and View block region.
   *Mega Slider Drupal module included ($20 value).
   *Removed page--front.tpl and all front page theme settings in favor of fully utilizing block regions and visibility settings.

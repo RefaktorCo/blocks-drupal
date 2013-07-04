@@ -1,4 +1,7 @@
-/*IE 8 + 9*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
 #sidebar_wrap .form-actions {padding: 0px 0px 0px 0px \0/IE9;}
 
 .ie8 .carousel_item_image img {
@@ -20,6 +23,12 @@
 	margin-right: 15px;
 }
 
-.ie8 .team_image img {
+.team_image img {
 	height: 253px;
+}
+
+@media screen and (max-width: 1024px) { 
+  .team_image img {
+	height: auto;
+}
 }

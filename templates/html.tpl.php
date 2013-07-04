@@ -17,6 +17,10 @@
 <link rel="stylesheet" type="text/css" href="<?php global $root; echo $root;?>/css/switch.css">
 <!-- <link rel="stylesheet" class="switch" type="text/css" href="<?php global $root; echo $root;?>/css/colors/default.css"> -->
 
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="<?php global $root; echo $root;?>/css/ie.css">
+<![endif]-->
+
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>

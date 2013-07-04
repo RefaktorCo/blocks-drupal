@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+.hidden {
+  display: none; 
+}
+
 .content:after {
   content: ".";
   display: block;
@@ -490,6 +494,8 @@ ul.dropdown.right {
 	padding: 30px 15px 15px 15px;
 	text-align: center;	
 }
+
+
 
 .team_image_hover h2 {
 	color: #fff;

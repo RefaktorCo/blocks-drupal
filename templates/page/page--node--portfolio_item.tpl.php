@@ -23,11 +23,9 @@
         <div class="three columns branding">
          
 	        <?php if ($logo): ?>
-	        <div class="four columns smalltoppadding">
 			      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
 			        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-			      </a>
-	        </div>
+			      </a> 
 		      <?php endif; ?>
 				  <!--END LOGO -->   
 				  
