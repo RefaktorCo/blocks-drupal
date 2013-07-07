@@ -4,6 +4,7 @@
   *Fixed link color bug in color scheme style sheets.
   *Removed obsolete Portfolio page template.
   *Organized template files into sub-folders.
+  *Added options for menu descriptions and post "share icons".
 
 2.0.1 (07/04/13)
   *Fixed major bug related to the Branding section.

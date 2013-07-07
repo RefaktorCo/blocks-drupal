@@ -1,12 +1,8 @@
 <?php
 
-global $slide_number;
-
-
 drupal_add_js(drupal_get_path('theme', 'blocks') .'/js/theme_settings.js'); 
  
 function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
-  global $slide_number;
 
   // Container
   $form['options'] = array(
@@ -31,25 +27,39 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       '#default_value' => theme_get_setting('breadcrumbs'),
     );
     
-    // Breadcrumbs
+    // Load Screen
     $form['options']['general']['loader'] = array(
       '#type' => 'checkbox',
       '#title' => 'Loading Screen (front page)',
       '#default_value' => theme_get_setting('loader'),
     );
+    
+    // Menu Description
+    $form['options']['general']['menu_description'] = array(
+      '#type' => 'checkbox',
+      '#title' => 'Check to display menu descriptions',
+      '#default_value' => theme_get_setting('menu_description'),
+    );
+    
+    // Share Icons
+    $form['options']['general']['share_icons'] = array(
+      '#type' => 'checkbox',
+      '#title' => 'Check to display post "share icons"',
+      '#default_value' => theme_get_setting('share_icons'),
+    );
         
-      // Layout
+  // Layout
   $form['options']['layout'] = array(
     '#type' => 'fieldset',
     '#title' => 'Layout',
   );
   
-     // Enable boxed layout
-      $form['options']['layout']['enable_boxed_layout'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable boxed layout',
-        '#default_value' => theme_get_setting('enable_boxed_layout'),
-      );
+    // Enable boxed layout
+    $form['options']['layout']['enable_boxed_layout'] = array(
+      '#type' => 'checkbox',
+      '#title' => 'Enable boxed layout',
+      '#default_value' => theme_get_setting('enable_boxed_layout'),
+    );
               
     // Portfolio Columns
       $form['options']['layout']['portfolio_columns'] = array(

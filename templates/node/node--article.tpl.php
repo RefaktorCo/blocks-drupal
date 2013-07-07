@@ -2,7 +2,6 @@
 global $root, $base_url;
 $share_url = $base_url.'/node/'.$node->nid;
 
-
 if ($items = field_get_items('node', $node, 'field_image')) {
   if (count($items) == 1) {
     $image_slide = 'false';

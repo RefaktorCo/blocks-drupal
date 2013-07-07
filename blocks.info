@@ -57,6 +57,8 @@ regions[modal_markup]    = Modal Markup (legacy support)
 
 settings[breadcrumbs] = '1'
 settings[loader] = '0'
+settings[menu_description] = '1'
+settings[share_icons] = '1'
 
 settings[color_scheme] = 'blue'
 

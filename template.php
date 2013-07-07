@@ -73,7 +73,7 @@ function blocks_menu_link(array $variables) {
     $element['#attributes']['class'][] = 'has-dropdown';
   }
   
-   if ($element['#original_link']['menu_name'] == "main-menu" && isset($element['#localized_options']['attributes']['title'])){
+  if (theme_get_setting('menu_description') == '1' && $element['#original_link']['menu_name'] == "main-menu" && isset($element['#localized_options']['attributes']['title'])){
     $element['#title'] .= $element['#localized_options']['attributes']['title'] ;
   }
   

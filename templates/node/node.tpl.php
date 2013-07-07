@@ -1,19 +1,24 @@
 <?php 
 global $root, $base_url;
 $share_url = $base_url.'/node/'.$node->nid;
+
+if ($items = field_get_items('node', $node, 'field_image')) {
+  if (count($items) == 1) {
+    $image_slide = 'false';
+  }
+  elseif (count($items) > 1) {
+    $image_slide = 'true';
+  }
+}
+
 ?>
 
-<?php if (!$page): ?>
-  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<?php endif; ?>
+<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($user_picture || $display_submitted || !$page): ?>
     <?php print render($title_prefix); ?>
-
-      <h3 class="post_title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
-      
+    <h3 class="post_title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
     <?php print render($title_suffix); ?>
-  
     <?php if ($display_submitted): ?>
       <ul class="meta">
         <li><i class="icon-user"></i> by <?php print $name; ?></li>
@@ -75,6 +80,5 @@ $share_url = $base_url.'/node/'.$node->nid;
 
   <?php print render($content['comments']); ?>
 
-<?php if (!$page): ?>
-  </article> <!-- /.node -->
-<?php endif; ?>
+</article>
+<!-- /node -->
