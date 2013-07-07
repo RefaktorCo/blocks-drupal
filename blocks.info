@@ -2,7 +2,7 @@ name = Blocks
 description = A Metro-Inspired Responsive Drupal 7 Theme. 
 core = 7.x
 engine = phptemplate
-version = 2.0
+version = 2.0.2
 
 stylesheets[all][] = foundation/stylesheets/foundation.css
 stylesheets[all][] = foundation/stylesheets/app.css

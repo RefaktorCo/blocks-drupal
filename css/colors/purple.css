@@ -1,9 +1,9 @@
 /* Body and Content */
-a {
+body a {
   color: #5f419b;
 }
 
-a:hover {
+body a:hover {
   color: #8757e6;
   text-decoration: none;
 }

@@ -1,5 +1,10 @@
 ===Blocks Changelog===
 
+2.0.2 (07/08/13)
+  *Fixed link color bug in color scheme style sheets.
+  *Removed obsolete Portfolio page template.
+  *Organized template files into sub-folders.
+
 2.0.1 (07/04/13)
   *Fixed major bug related to the Branding section.
   *Added several missing translation wrappers around text strings.
