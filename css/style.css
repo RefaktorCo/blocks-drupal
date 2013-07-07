@@ -1059,15 +1059,12 @@ thead th {
   float: left;
 }
 
-.read_more {
-	float: right; 
-}
 
 .node-article {
 	margin-bottom: 15px;
 }
 
-article hr {
+.article-break {
   margin-bottom: -5px;	
 }
 
@@ -1183,12 +1180,16 @@ article hr {
 }
 
 .post_share {
-  margin: 0px 0px 15px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .read_more {
   text-align: right	;
   margin-top: -8px;
+	float: right; 
+	margin-bottom: 15px;
+}
+
 }
 
 .post_share img {

@@ -2,7 +2,7 @@
 
 2.0.2 (07/08/13)
   *Fixed link color bug in color scheme style sheets.
-  *Removed obsolete Portfolio page template.
+  *Removed obsolete Portfolio page template and article/blog node tempaltes.
   *Organized template files into sub-folders.
   *Added options for menu descriptions and post "share icons".
 

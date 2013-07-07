@@ -73,7 +73,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
         ),
       );
 
-   
   // Design
   $form['options']['design'] = array(
     '#type' => 'fieldset',
@@ -190,7 +189,6 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
 
     );  
 
-      
     // CSS
     $form['options']['design']['css'] = array(
       '#type' => 'fieldset',
@@ -259,9 +257,5 @@ function blocks_form_system_theme_settings_alter(&$form, &$form_state) {
       )
     );
 
-              
-    
 }
-
-
 ?>
